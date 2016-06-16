@@ -13,6 +13,8 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+html, body { height: 100%; width: 100%; margin: 0;}
+#map { height: 100%; width: 100%;}
 
 /*
  * Remove text-shadow in selection highlight:
