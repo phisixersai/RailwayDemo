@@ -1,4 +1,5 @@
 var rosen;
+var selectedSections = [];
 function init() {
 	rosen = new Rosen('map', {
 		apiKey: "4wnydu6huaentetjfypvvqah",
@@ -17,6 +18,8 @@ function setLineSelector() {
 	rosen.on('selectLine', function(data) {
 		var msg = '';
 		data.lines.forEach(function(line) {
+			if (selectedSections)
+			selectedSections.push(line);
 			msg += line.name + "\n";
 			console.log(line);
 			rosen.highlightLine(line.code);
@@ -28,12 +31,24 @@ function setLineSelector() {
 function setSectionSelector() {
 	rosen.on('selectSection', function(data) {
 		var msg = '';
+        console.log(data);
 		data.sections.forEach(function (section) {
-			msg += "Section code: " + section.code + "\n";
-			console.log(section);
-			rosen.highlightSections([section.code]);
+			if (selectedSections.includes(section)) {
+                rosen.unhighlightSections([section.code]);
+                while (selectedSections.indexOf(section) !== -1) {
+                    selectedSections.splice(selectedSections.indexOf(section), 1);
+                }
+			}
+			else {
+                selectedSections.push(section)
+				msg += "Section code: " + section.code + "\n";
+				console.log(section);
+				rosen.highlightSections([section.code]);
+			}
 		});
 		$('#map_message').text(msg);
+        console.log(selectedSections);
 	});
 }
+
 window.addEventListener('load', init);
