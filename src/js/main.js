@@ -18,7 +18,7 @@ function init() {
     });*/
     //fetchFullRateData();
 }
-function renderFullRate() {
+function renderFullRate() { //Should be deprecated
     dummy_data[0].sections.forEach(function (section) {
         var fcolor = rate2color(section.fullrate);
         rosen.highlightSections([section.code], {color: fcolor});
@@ -48,49 +48,75 @@ function mapSetter(mode) {
 }
 
 function setFullRateMap(){
-    var timeInterval = "7-8";
-    var chosenLine = {};
     //renderFullRate();
-
-    rosen.on('selectSection', function(data) {  //set popup window
-        console.log(data);
-        rosen.clearAll();
-        //rosen.clearHighlights();
-        var station1 = "";
-        var station2 = "";
-        var rate = 0;
-		data.sections.forEach(function (section) {
-            var lineCode = Rosen.getLineCodeBySectionCode(section.code);
-            console.log(fullrate_data[lineCode]);
-            fullrate_data[lineCode].sections.forEach(function (sect, idx) {
-                if (sect.code === section.code) {
-                    console.log(sect);
-                    station1 = sect.station1_name;
-                    station2 = sect.station2_name;
-                    rate = sect.full_rate[timeInterval];
-                }
-                var fcolor = rate2color(sect.full_rate[timeInterval], 0, 200);
-                rosen.highlightSections([sect.code], {color: fcolor});
-                if (idx === fullrate_data[lineCode].sections.length-1) {
-                    /*var popup = Rosen.textPopup().setComment(""
-                        + fullrate_data[lineCode].name + ":\n"
-                        + station1 + "と" + station2 + "の駅間\n"
-                        +　timeInterval + "時の混雑率：" + rate + "%\n");*/
-                    var popup = Rosen.htmlPopup({
-                            closeButton: true,   // ☓ボタン非表示
-                            className: "popup_fullrate", // ポップアップにつけるCSSクラス名
-                        }).setHTML('<h3>'+fullrate_data[lineCode].name+':</h3>'+
-                                   '<p>'+ station1 + 'と' + station2 + 'の駅間</p>'+
-                                   '<p>'+ timeInterval + '時の混雑率：' + rate + '%</p>');
-
-                    rosen.setSectionPopup(section.code, popup, true);
-                    rosen.highlightSections([section.code], {color: rate2color(rate, 0, 200)});
-                }
-            });
-		});
-	});
+    rosen.on('selectSection', function(data) {
+        onSectionSelected(data, 0);
+    });
 }
+function onSectionSelected(data, dir) { // dir=0 上り(Default)
+    window.sec_data = data;
+    console.log(data);
+    console.log("dir = " + dir);
+    var direction = "up";
+    var timeInterval = "7-8";
+    if (dir === 0) {
+        direction = "up";
+    }
+    else {
+        direction = "down";
+    }
+    rosen.clearAll();
+    //rosen.clearHighlights();
+    var station1 = "";
+    var station2 = "";
+    var rate = 0;
+    data.sections.forEach(function (section) {
+        var lineCode = Rosen.getLineCodeBySectionCode(section.code);
+        console.log(fullrate_data[lineCode]);
+        fullrate_data[lineCode].sections.forEach(function (sect, idx) {
+            if (sect.code === section.code) {
+                console.log(sect);
+                station1 = sect.station1_name;
+                station2 = sect.station2_name;
+                rate = sect.full_rate[timeInterval][direction];
+            }
+            var fcolor = rate2color(sect.full_rate[timeInterval][direction], 0, 200);
+            rosen.highlightSections([sect.code], {color: fcolor});
+            if (idx === fullrate_data[lineCode].sections.length-1) {
+                /*var popup = Rosen.textPopup().setComment(""
+                    + fullrate_data[lineCode].name + ":\n"
+                    + station1 + "と" + station2 + "の駅間\n"
+                    +　timeInterval + "時の混雑率：" + rate + "%\n");*/
+                var popup_content = "";
+                if (dir === 0) {
+                    var opposite = 1;
+                    popup_content = '<h3>'+fullrate_data[lineCode].name+':</h3>'+
+                    '<p>'+ station1 + 'から' + station2 + 'までの駅間</p>'+
+                    '<p>'+ timeInterval + '時の混雑率：' + rate + '%</p>'+
+                    '<a id="chdir" href="javascript:switchDir(window.sec_data,'+ opposite +')">下り表示</a>'
+                }
+                else {
+                    var opposite = 0;
+                    popup_content = '<h3>'+fullrate_data[lineCode].name+':</h3>'+
+                    '<p>'+ station2 + 'から' + station1 + 'までの駅間</p>'+
+                    '<p>'+ timeInterval + '時の混雑率：' + rate + '%</p>'+
+                    '<a id="chdir" href="javascript:switchDir(window.sec_data,'+ opposite +')">上り表示</a>'
+                }
+                var popup = Rosen.htmlPopup({
+                        closeButton: true,   // ☓ボタン非表示
+                        className: "popup_fullrate", // ポップアップにつけるCSSクラス名
+                    }).setHTML(popup_content);
+                rosen.setSectionPopup(section.code, popup, true);
+                rosen.highlightSections([section.code], {color: rate2color(rate, 0, 200)});
+            }
+        });
+    });
+}
+function switchDir(data,dir) {
+    console.log("switch");
+    onSectionSelected(data, dir);
 
+}
 function setLateRateMap() {
     var chosenLine = {};
     renderLateRate();
@@ -298,8 +324,12 @@ function fetchFullRateData() { //to set late rates
                         sectionData.station2_code = stations[1].code;
                         sectionData.station2_name = stations[1].name;
                         sectionData.full_rate = {};
-                        sectionData.full_rate["7-8"] = genFakeRate();
-                        sectionData.full_rate["8-9"] = genFakeRate();
+                        sectionData.full_rate["7-8"] = {};
+                        sectionData.full_rate["7-8"].up = genFakeRate();
+                        sectionData.full_rate["7-8"].down = genFakeRate();
+                        sectionData.full_rate["8-9"] = {};
+                        sectionData.full_rate["8-9"].up = genFakeRate();
+                        sectionData.full_rate["8-9"].down = genFakeRate();
                         lineData[line.code].sections.push(JSON.parse(JSON.stringify(sectionData)));
                     });
                 });

@@ -3,80 +3,37 @@ var fullrate_data = {
         "name":"ＪＲ東北新幹線",
         "sections":[
             {
-                "code":230100,
-                "station1_code":22528,
-                "station1_name":"上野",
-                "station2_code":22828,
-                "station2_name":"東京",
-                "full_rate":{
-                    "7-8":73,
-                    "8-9":18
-                }
-            },
-            {
                 "code":230110,
                 "station1_code":22528,
                 "station1_name":"上野",
                 "station2_code":21987,
                 "station2_name":"大宮(埼玉県)",
                 "full_rate":{
-                    "7-8":140,
-                    "8-9":82
+                    "7-8":{
+                        "up":189,
+                        "down":110
+                    },
+                    "8-9":{
+                        "up":91,
+                        "down":140
+                    }
                 }
             },
             {
-                "code":230130,
-                "station1_code":21736,
-                "station1_name":"宇都宮",
-                "station2_code":21746,
-                "station2_name":"小山",
+                "code":230100,
+                "station1_code":22528,
+                "station1_name":"上野",
+                "station2_code":22828,
+                "station2_name":"東京",
                 "full_rate":{
-                    "7-8":52,
-                    "8-9":101
-                }
-            },
-            {
-                "code":230150,
-                "station1_code":21494,
-                "station1_name":"新白河",
-                "station2_code":21804,
-                "station2_name":"那須塩原",
-                "full_rate":{
-                    "7-8":149,
-                    "8-9":168
-                }
-            },
-            {
-                "code":230140,
-                "station1_code":21736,
-                "station1_name":"宇都宮",
-                "station2_code":21804,
-                "station2_name":"那須塩原",
-                "full_rate":{
-                    "7-8":116,
-                    "8-9":122
-                }
-            },
-            {
-                "code":230160,
-                "station1_code":21483,
-                "station1_name":"郡山(福島県)",
-                "station2_code":21494,
-                "station2_name":"新白河",
-                "full_rate":{
-                    "7-8":159,
-                    "8-9":101
-                }
-            },
-            {
-                "code":230170,
-                "station1_code":21483,
-                "station1_name":"郡山(福島県)",
-                "station2_code":21551,
-                "station2_name":"福島(福島県)",
-                "full_rate":{
-                    "7-8":110,
-                    "8-9":189
+                    "7-8":{
+                        "up":105,
+                        "down":9
+                    },
+                    "8-9":{
+                        "up":137,
+                        "down":194
+                    }
                 }
             },
             {
@@ -86,30 +43,99 @@ var fullrate_data = {
                 "station2_code":21746,
                 "station2_name":"小山",
                 "full_rate":{
-                    "7-8":30,
-                    "8-9":138
+                    "7-8":{
+                        "up":3,
+                        "down":65
+                    },
+                    "8-9":{
+                        "up":4,
+                        "down":110
+                    }
                 }
             },
             {
-                "code":230190,
-                "station1_code":21040,
-                "station1_name":"白石蔵王",
-                "station2_code":21044,
-                "station2_name":"仙台",
+                "code":230130,
+                "station1_code":21736,
+                "station1_name":"宇都宮",
+                "station2_code":21746,
+                "station2_name":"小山",
                 "full_rate":{
-                    "7-8":65,
-                    "8-9":125
+                    "7-8":{
+                        "up":196,
+                        "down":80
+                    },
+                    "8-9":{
+                        "up":29,
+                        "down":121
+                    }
                 }
             },
             {
-                "code":230200,
-                "station1_code":21044,
-                "station1_name":"仙台",
-                "station2_code":21087,
-                "station2_name":"古川",
+                "code":230150,
+                "station1_code":21494,
+                "station1_name":"新白河",
+                "station2_code":21804,
+                "station2_name":"那須塩原",
                 "full_rate":{
-                    "7-8":181,
-                    "8-9":39
+                    "7-8":{
+                        "up":138,
+                        "down":28
+                    },
+                    "8-9":{
+                        "up":135,
+                        "down":131
+                    }
+                }
+            },
+            {
+                "code":230140,
+                "station1_code":21736,
+                "station1_name":"宇都宮",
+                "station2_code":21804,
+                "station2_name":"那須塩原",
+                "full_rate":{
+                    "7-8":{
+                        "up":160,
+                        "down":28
+                    },
+                    "8-9":{
+                        "up":173,
+                        "down":31
+                    }
+                }
+            },
+            {
+                "code":230160,
+                "station1_code":21483,
+                "station1_name":"郡山(福島県)",
+                "station2_code":21494,
+                "station2_name":"新白河",
+                "full_rate":{
+                    "7-8":{
+                        "up":140,
+                        "down":157
+                    },
+                    "8-9":{
+                        "up":102,
+                        "down":55
+                    }
+                }
+            },
+            {
+                "code":230170,
+                "station1_code":21483,
+                "station1_name":"郡山(福島県)",
+                "station2_code":21551,
+                "station2_name":"福島(福島県)",
+                "full_rate":{
+                    "7-8":{
+                        "up":131,
+                        "down":42
+                    },
+                    "8-9":{
+                        "up":143,
+                        "down":119
+                    }
                 }
             },
             {
@@ -119,8 +145,48 @@ var fullrate_data = {
                 "station2_code":21551,
                 "station2_name":"福島(福島県)",
                 "full_rate":{
-                    "7-8":69,
-                    "8-9":121
+                    "7-8":{
+                        "up":67,
+                        "down":51
+                    },
+                    "8-9":{
+                        "up":48,
+                        "down":40
+                    }
+                }
+            },
+            {
+                "code":230190,
+                "station1_code":21040,
+                "station1_name":"白石蔵王",
+                "station2_code":21044,
+                "station2_name":"仙台",
+                "full_rate":{
+                    "7-8":{
+                        "up":47,
+                        "down":182
+                    },
+                    "8-9":{
+                        "up":130,
+                        "down":91
+                    }
+                }
+            },
+            {
+                "code":230200,
+                "station1_code":21044,
+                "station1_name":"仙台",
+                "station2_code":21087,
+                "station2_name":"古川",
+                "full_rate":{
+                    "7-8":{
+                        "up":185,
+                        "down":83
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":1
+                    }
                 }
             },
             {
@@ -130,8 +196,14 @@ var fullrate_data = {
                 "station2_code":21087,
                 "station2_name":"古川",
                 "full_rate":{
-                    "7-8":10,
-                    "8-9":61
+                    "7-8":{
+                        "up":98,
+                        "down":1
+                    },
+                    "8-9":{
+                        "up":21,
+                        "down":45
+                    }
                 }
             },
             {
@@ -141,8 +213,14 @@ var fullrate_data = {
                 "station2_code":21019,
                 "station2_name":"くりこま高原",
                 "full_rate":{
-                    "7-8":65,
-                    "8-9":93
+                    "7-8":{
+                        "up":49,
+                        "down":10
+                    },
+                    "8-9":{
+                        "up":184,
+                        "down":148
+                    }
                 }
             },
             {
@@ -152,8 +230,14 @@ var fullrate_data = {
                 "station2_code":20934,
                 "station2_name":"水沢江刺",
                 "full_rate":{
-                    "7-8":183,
-                    "8-9":175
+                    "7-8":{
+                        "up":104,
+                        "down":19
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":193
+                    }
                 }
             },
             {
@@ -163,8 +247,14 @@ var fullrate_data = {
                 "station2_code":20934,
                 "station2_name":"水沢江刺",
                 "full_rate":{
-                    "7-8":17,
-                    "8-9":133
+                    "7-8":{
+                        "up":105,
+                        "down":148
+                    },
+                    "8-9":{
+                        "up":104,
+                        "down":63
+                    }
                 }
             },
             {
@@ -174,8 +264,14 @@ var fullrate_data = {
                 "station2_code":20873,
                 "station2_name":"新花巻",
                 "full_rate":{
-                    "7-8":80,
-                    "8-9":113
+                    "7-8":{
+                        "up":20,
+                        "down":87
+                    },
+                    "8-9":{
+                        "up":130,
+                        "down":195
+                    }
                 }
             },
             {
@@ -185,8 +281,14 @@ var fullrate_data = {
                 "station2_code":20940,
                 "station2_name":"盛岡",
                 "full_rate":{
-                    "7-8":20,
-                    "8-9":84
+                    "7-8":{
+                        "up":130,
+                        "down":168
+                    },
+                    "8-9":{
+                        "up":23,
+                        "down":70
+                    }
                 }
             },
             {
@@ -196,19 +298,14 @@ var fullrate_data = {
                 "station2_code":20940,
                 "station2_name":"盛岡",
                 "full_rate":{
-                    "7-8":40,
-                    "8-9":137
-                }
-            },
-            {
-                "code":230280,
-                "station1_code":20902,
-                "station1_name":"いわて沼宮内",
-                "station2_code":20901,
-                "station2_name":"二戸",
-                "full_rate":{
-                    "7-8":80,
-                    "8-9":56
+                    "7-8":{
+                        "up":34,
+                        "down":151
+                    },
+                    "8-9":{
+                        "up":6,
+                        "down":178
+                    }
                 }
             },
             {
@@ -218,19 +315,31 @@ var fullrate_data = {
                 "station2_code":20750,
                 "station2_name":"八戸",
                 "full_rate":{
-                    "7-8":75,
-                    "8-9":106
+                    "7-8":{
+                        "up":193,
+                        "down":27
+                    },
+                    "8-9":{
+                        "up":196,
+                        "down":76
+                    }
                 }
             },
             {
-                "code":230310,
-                "station1_code":29388,
-                "station1_name":"七戸十和田",
-                "station2_code":20698,
-                "station2_name":"新青森",
+                "code":230280,
+                "station1_code":20902,
+                "station1_name":"いわて沼宮内",
+                "station2_code":20901,
+                "station2_name":"二戸",
                 "full_rate":{
-                    "7-8":156,
-                    "8-9":98
+                    "7-8":{
+                        "up":112,
+                        "down":48
+                    },
+                    "8-9":{
+                        "up":81,
+                        "down":52
+                    }
                 }
             },
             {
@@ -240,8 +349,31 @@ var fullrate_data = {
                 "station2_code":20750,
                 "station2_name":"八戸",
                 "full_rate":{
-                    "7-8":2,
-                    "8-9":140
+                    "7-8":{
+                        "up":77,
+                        "down":178
+                    },
+                    "8-9":{
+                        "up":138,
+                        "down":75
+                    }
+                }
+            },
+            {
+                "code":230310,
+                "station1_code":29388,
+                "station1_name":"七戸十和田",
+                "station2_code":20698,
+                "station2_name":"新青森",
+                "full_rate":{
+                    "7-8":{
+                        "up":56,
+                        "down":96
+                    },
+                    "8-9":{
+                        "up":52,
+                        "down":46
+                    }
                 }
             }
         ]
@@ -256,8 +388,14 @@ var fullrate_data = {
                 "station2_code":22828,
                 "station2_name":"東京",
                 "full_rate":{
-                    "7-8":44,
-                    "8-9":166
+                    "7-8":{
+                        "up":5,
+                        "down":109
+                    },
+                    "8-9":{
+                        "up":180,
+                        "down":171
+                    }
                 }
             },
             {
@@ -267,8 +405,14 @@ var fullrate_data = {
                 "station2_code":21987,
                 "station2_name":"大宮(埼玉県)",
                 "full_rate":{
-                    "7-8":127,
-                    "8-9":129
+                    "7-8":{
+                        "up":30,
+                        "down":138
+                    },
+                    "8-9":{
+                        "up":36,
+                        "down":28
+                    }
                 }
             },
             {
@@ -278,85 +422,14 @@ var fullrate_data = {
                 "station2_code":22029,
                 "station2_name":"熊谷",
                 "full_rate":{
-                    "7-8":186,
-                    "8-9":17
-                }
-            },
-            {
-                "code":240140,
-                "station1_code":21913,
-                "station1_name":"高崎",
-                "station2_code":29484,
-                "station2_name":"本庄早稲田",
-                "full_rate":{
-                    "7-8":162,
-                    "8-9":132
-                }
-            },
-            {
-                "code":240150,
-                "station1_code":21907,
-                "station1_name":"上毛高原",
-                "station2_code":21913,
-                "station2_name":"高崎",
-                "full_rate":{
-                    "7-8":32,
-                    "8-9":29
-                }
-            },
-            {
-                "code":240160,
-                "station1_code":23938,
-                "station1_name":"越後湯沢",
-                "station2_code":21907,
-                "station2_name":"上毛高原",
-                "full_rate":{
-                    "7-8":157,
-                    "8-9":43
-                }
-            },
-            {
-                "code":240170,
-                "station1_code":23913,
-                "station1_name":"浦佐",
-                "station2_code":23938,
-                "station2_name":"越後湯沢",
-                "full_rate":{
-                    "7-8":170,
-                    "8-9":136
-                }
-            },
-            {
-                "code":240180,
-                "station1_code":23913,
-                "station1_name":"浦佐",
-                "station2_code":24029,
-                "station2_name":"長岡",
-                "full_rate":{
-                    "7-8":193,
-                    "8-9":78
-                }
-            },
-            {
-                "code":240190,
-                "station1_code":24016,
-                "station1_name":"燕三条",
-                "station2_code":24029,
-                "station2_name":"長岡",
-                "full_rate":{
-                    "7-8":48,
-                    "8-9":142
-                }
-            },
-            {
-                "code":240200,
-                "station1_code":24016,
-                "station1_name":"燕三条",
-                "station2_code":24033,
-                "station2_name":"新潟",
-                "full_rate":{
-                    "7-8":181,
-                    "8-9":55
+                    "7-8":{
+                        "up":1,
+                        "down":117
+                    },
+                    "8-9":{
+                        "up":133,
+                        "down":70
+                    }
                 }
             },
             {
@@ -366,8 +439,133 @@ var fullrate_data = {
                 "station2_code":29484,
                 "station2_name":"本庄早稲田",
                 "full_rate":{
-                    "7-8":131,
-                    "8-9":135
+                    "7-8":{
+                        "up":137,
+                        "down":131
+                    },
+                    "8-9":{
+                        "up":34,
+                        "down":111
+                    }
+                }
+            },
+            {
+                "code":240150,
+                "station1_code":21907,
+                "station1_name":"上毛高原",
+                "station2_code":21913,
+                "station2_name":"高崎",
+                "full_rate":{
+                    "7-8":{
+                        "up":53,
+                        "down":28
+                    },
+                    "8-9":{
+                        "up":50,
+                        "down":186
+                    }
+                }
+            },
+            {
+                "code":240160,
+                "station1_code":23938,
+                "station1_name":"越後湯沢",
+                "station2_code":21907,
+                "station2_name":"上毛高原",
+                "full_rate":{
+                    "7-8":{
+                        "up":185,
+                        "down":88
+                    },
+                    "8-9":{
+                        "up":103,
+                        "down":13
+                    }
+                }
+            },
+            {
+                "code":240170,
+                "station1_code":23913,
+                "station1_name":"浦佐",
+                "station2_code":23938,
+                "station2_name":"越後湯沢",
+                "full_rate":{
+                    "7-8":{
+                        "up":98,
+                        "down":159
+                    },
+                    "8-9":{
+                        "up":103,
+                        "down":18
+                    }
+                }
+            },
+            {
+                "code":240140,
+                "station1_code":21913,
+                "station1_name":"高崎",
+                "station2_code":29484,
+                "station2_name":"本庄早稲田",
+                "full_rate":{
+                    "7-8":{
+                        "up":23,
+                        "down":81
+                    },
+                    "8-9":{
+                        "up":54,
+                        "down":157
+                    }
+                }
+            },
+            {
+                "code":240180,
+                "station1_code":23913,
+                "station1_name":"浦佐",
+                "station2_code":24029,
+                "station2_name":"長岡",
+                "full_rate":{
+                    "7-8":{
+                        "up":21,
+                        "down":98
+                    },
+                    "8-9":{
+                        "up":6,
+                        "down":12
+                    }
+                }
+            },
+            {
+                "code":240200,
+                "station1_code":24016,
+                "station1_name":"燕三条",
+                "station2_code":24033,
+                "station2_name":"新潟",
+                "full_rate":{
+                    "7-8":{
+                        "up":55,
+                        "down":165
+                    },
+                    "8-9":{
+                        "up":107,
+                        "down":29
+                    }
+                }
+            },
+            {
+                "code":240190,
+                "station1_code":24016,
+                "station1_name":"燕三条",
+                "station2_code":24029,
+                "station2_name":"長岡",
+                "full_rate":{
+                    "7-8":{
+                        "up":198,
+                        "down":12
+                    },
+                    "8-9":{
+                        "up":30,
+                        "down":13
+                    }
                 }
             }
         ]
@@ -382,8 +580,14 @@ var fullrate_data = {
                 "station2_code":22828,
                 "station2_name":"東京",
                 "full_rate":{
-                    "7-8":96,
-                    "8-9":11
+                    "7-8":{
+                        "up":95,
+                        "down":49
+                    },
+                    "8-9":{
+                        "up":179,
+                        "down":95
+                    }
                 }
             },
             {
@@ -393,8 +597,14 @@ var fullrate_data = {
                 "station2_code":21987,
                 "station2_name":"大宮(埼玉県)",
                 "full_rate":{
-                    "7-8":198,
-                    "8-9":8
+                    "7-8":{
+                        "up":63,
+                        "down":91
+                    },
+                    "8-9":{
+                        "up":173,
+                        "down":164
+                    }
                 }
             },
             {
@@ -404,19 +614,14 @@ var fullrate_data = {
                 "station2_code":22029,
                 "station2_name":"熊谷",
                 "full_rate":{
-                    "7-8":62,
-                    "8-9":150
-                }
-            },
-            {
-                "code":260140,
-                "station1_code":21913,
-                "station1_name":"高崎",
-                "station2_code":29484,
-                "station2_name":"本庄早稲田",
-                "full_rate":{
-                    "7-8":126,
-                    "8-9":131
+                    "7-8":{
+                        "up":152,
+                        "down":36
+                    },
+                    "8-9":{
+                        "up":56,
+                        "down":159
+                    }
                 }
             },
             {
@@ -426,8 +631,31 @@ var fullrate_data = {
                 "station2_code":29484,
                 "station2_name":"本庄早稲田",
                 "full_rate":{
-                    "7-8":110,
-                    "8-9":123
+                    "7-8":{
+                        "up":100,
+                        "down":127
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":122
+                    }
+                }
+            },
+            {
+                "code":260140,
+                "station1_code":21913,
+                "station1_name":"高崎",
+                "station2_code":29484,
+                "station2_name":"本庄早稲田",
+                "full_rate":{
+                    "7-8":{
+                        "up":19,
+                        "down":184
+                    },
+                    "8-9":{
+                        "up":192,
+                        "down":159
+                    }
                 }
             },
             {
@@ -437,30 +665,14 @@ var fullrate_data = {
                 "station2_code":21913,
                 "station2_name":"高崎",
                 "full_rate":{
-                    "7-8":105,
-                    "8-9":11
-                }
-            },
-            {
-                "code":260170,
-                "station1_code":24163,
-                "station1_name":"軽井沢",
-                "station2_code":29187,
-                "station2_name":"佐久平",
-                "full_rate":{
-                    "7-8":109,
-                    "8-9":180
-                }
-            },
-            {
-                "code":260180,
-                "station1_code":24129,
-                "station1_name":"上田",
-                "station2_code":29187,
-                "station2_name":"佐久平",
-                "full_rate":{
-                    "7-8":125,
-                    "8-9":104
+                    "7-8":{
+                        "up":93,
+                        "down":109
+                    },
+                    "8-9":{
+                        "up":175,
+                        "down":184
+                    }
                 }
             },
             {
@@ -470,8 +682,48 @@ var fullrate_data = {
                 "station2_code":24163,
                 "station2_name":"軽井沢",
                 "full_rate":{
-                    "7-8":81,
-                    "8-9":110
+                    "7-8":{
+                        "up":41,
+                        "down":178
+                    },
+                    "8-9":{
+                        "up":152,
+                        "down":168
+                    }
+                }
+            },
+            {
+                "code":260170,
+                "station1_code":24163,
+                "station1_name":"軽井沢",
+                "station2_code":29187,
+                "station2_name":"佐久平",
+                "full_rate":{
+                    "7-8":{
+                        "up":72,
+                        "down":173
+                    },
+                    "8-9":{
+                        "up":101,
+                        "down":161
+                    }
+                }
+            },
+            {
+                "code":260180,
+                "station1_code":24129,
+                "station1_name":"上田",
+                "station2_code":29187,
+                "station2_name":"佐久平",
+                "full_rate":{
+                    "7-8":{
+                        "up":66,
+                        "down":189
+                    },
+                    "8-9":{
+                        "up":49,
+                        "down":25
+                    }
                 }
             },
             {
@@ -481,8 +733,14 @@ var fullrate_data = {
                 "station2_code":24282,
                 "station2_name":"長野",
                 "full_rate":{
-                    "7-8":118,
-                    "8-9":0
+                    "7-8":{
+                        "up":174,
+                        "down":135
+                    },
+                    "8-9":{
+                        "up":120,
+                        "down":192
+                    }
                 }
             },
             {
@@ -492,8 +750,14 @@ var fullrate_data = {
                 "station2_code":24282,
                 "station2_name":"長野",
                 "full_rate":{
-                    "7-8":167,
-                    "8-9":24
+                    "7-8":{
+                        "up":171,
+                        "down":117
+                    },
+                    "8-9":{
+                        "up":136,
+                        "down":146
+                    }
                 }
             },
             {
@@ -503,8 +767,14 @@ var fullrate_data = {
                 "station2_code":24093,
                 "station2_name":"上越妙高",
                 "full_rate":{
-                    "7-8":175,
-                    "8-9":71
+                    "7-8":{
+                        "up":21,
+                        "down":101
+                    },
+                    "8-9":{
+                        "up":115,
+                        "down":191
+                    }
                 }
             },
             {
@@ -514,8 +784,14 @@ var fullrate_data = {
                 "station2_code":24093,
                 "station2_name":"上越妙高",
                 "full_rate":{
-                    "7-8":10,
-                    "8-9":119
+                    "7-8":{
+                        "up":1,
+                        "down":7
+                    },
+                    "8-9":{
+                        "up":110,
+                        "down":88
+                    }
                 }
             },
             {
@@ -525,19 +801,14 @@ var fullrate_data = {
                 "station2_code":29390,
                 "station2_name":"黒部宇奈月温泉",
                 "full_rate":{
-                    "7-8":137,
-                    "8-9":13
-                }
-            },
-            {
-                "code":260240,
-                "station1_code":29390,
-                "station1_name":"黒部宇奈月温泉",
-                "station2_code":24721,
-                "station2_name":"富山",
-                "full_rate":{
-                    "7-8":169,
-                    "8-9":11
+                    "7-8":{
+                        "up":113,
+                        "down":115
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":59
+                    }
                 }
             },
             {
@@ -547,8 +818,14 @@ var fullrate_data = {
                 "station2_code":24721,
                 "station2_name":"富山",
                 "full_rate":{
-                    "7-8":45,
-                    "8-9":72
+                    "7-8":{
+                        "up":125,
+                        "down":7
+                    },
+                    "8-9":{
+                        "up":99,
+                        "down":7
+                    }
                 }
             },
             {
@@ -558,8 +835,31 @@ var fullrate_data = {
                 "station2_code":29681,
                 "station2_name":"新高岡",
                 "full_rate":{
-                    "7-8":136,
-                    "8-9":18
+                    "7-8":{
+                        "up":144,
+                        "down":100
+                    },
+                    "8-9":{
+                        "up":18,
+                        "down":194
+                    }
+                }
+            },
+            {
+                "code":260240,
+                "station1_code":29390,
+                "station1_name":"黒部宇奈月温泉",
+                "station2_code":24721,
+                "station2_name":"富山",
+                "full_rate":{
+                    "7-8":{
+                        "up":196,
+                        "down":128
+                    },
+                    "8-9":{
+                        "up":76,
+                        "down":50
+                    }
                 }
             }
         ]
@@ -574,8 +874,14 @@ var fullrate_data = {
                 "station2_code":22828,
                 "station2_name":"東京",
                 "full_rate":{
-                    "7-8":136,
-                    "8-9":171
+                    "7-8":{
+                        "up":55,
+                        "down":103
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":5
+                    }
                 }
             },
             {
@@ -585,8 +891,14 @@ var fullrate_data = {
                 "station2_code":21987,
                 "station2_name":"大宮(埼玉県)",
                 "full_rate":{
-                    "7-8":19,
-                    "8-9":137
+                    "7-8":{
+                        "up":144,
+                        "down":26
+                    },
+                    "8-9":{
+                        "up":80,
+                        "down":38
+                    }
                 }
             },
             {
@@ -596,8 +908,14 @@ var fullrate_data = {
                 "station2_code":21551,
                 "station2_name":"福島(福島県)",
                 "full_rate":{
-                    "7-8":15,
-                    "8-9":3
+                    "7-8":{
+                        "up":156,
+                        "down":93
+                    },
+                    "8-9":{
+                        "up":2,
+                        "down":91
+                    }
                 }
             },
             {
@@ -607,8 +925,14 @@ var fullrate_data = {
                 "station2_code":21987,
                 "station2_name":"大宮(埼玉県)",
                 "full_rate":{
-                    "7-8":0,
-                    "8-9":142
+                    "7-8":{
+                        "up":41,
+                        "down":135
+                    },
+                    "8-9":{
+                        "up":197,
+                        "down":139
+                    }
                 }
             },
             {
@@ -618,19 +942,14 @@ var fullrate_data = {
                 "station2_code":21483,
                 "station2_name":"郡山(福島県)",
                 "full_rate":{
-                    "7-8":192,
-                    "8-9":26
-                }
-            },
-            {
-                "code":270260,
-                "station1_code":21345,
-                "station1_name":"高畠",
-                "station2_code":21396,
-                "station2_name":"米沢",
-                "full_rate":{
-                    "7-8":192,
-                    "8-9":133
+                    "7-8":{
+                        "up":114,
+                        "down":20
+                    },
+                    "8-9":{
+                        "up":120,
+                        "down":17
+                    }
                 }
             },
             {
@@ -640,8 +959,31 @@ var fullrate_data = {
                 "station2_code":21396,
                 "station2_name":"米沢",
                 "full_rate":{
-                    "7-8":65,
-                    "8-9":101
+                    "7-8":{
+                        "up":38,
+                        "down":168
+                    },
+                    "8-9":{
+                        "up":169,
+                        "down":177
+                    }
+                }
+            },
+            {
+                "code":270260,
+                "station1_code":21345,
+                "station1_name":"高畠",
+                "station2_code":21396,
+                "station2_name":"米沢",
+                "full_rate":{
+                    "7-8":{
+                        "up":10,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":111,
+                        "down":20
+                    }
                 }
             },
             {
@@ -651,8 +993,14 @@ var fullrate_data = {
                 "station2_code":21345,
                 "station2_name":"高畠",
                 "full_rate":{
-                    "7-8":81,
-                    "8-9":64
+                    "7-8":{
+                        "up":23,
+                        "down":169
+                    },
+                    "8-9":{
+                        "up":54,
+                        "down":77
+                    }
                 }
             },
             {
@@ -662,8 +1010,14 @@ var fullrate_data = {
                 "station2_code":21320,
                 "station2_name":"かみのやま温泉",
                 "full_rate":{
-                    "7-8":159,
-                    "8-9":117
+                    "7-8":{
+                        "up":179,
+                        "down":190
+                    },
+                    "8-9":{
+                        "up":171,
+                        "down":42
+                    }
                 }
             },
             {
@@ -673,8 +1027,14 @@ var fullrate_data = {
                 "station2_code":21392,
                 "station2_name":"山形",
                 "full_rate":{
-                    "7-8":79,
-                    "8-9":123
+                    "7-8":{
+                        "up":198,
+                        "down":185
+                    },
+                    "8-9":{
+                        "up":155,
+                        "down":189
+                    }
                 }
             },
             {
@@ -684,8 +1044,14 @@ var fullrate_data = {
                 "station2_code":21392,
                 "station2_name":"山形",
                 "full_rate":{
-                    "7-8":193,
-                    "8-9":72
+                    "7-8":{
+                        "up":158,
+                        "down":43
+                    },
+                    "8-9":{
+                        "up":130,
+                        "down":24
+                    }
                 }
             },
             {
@@ -695,8 +1061,14 @@ var fullrate_data = {
                 "station2_code":21355,
                 "station2_name":"天童",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":28
+                    "7-8":{
+                        "up":55,
+                        "down":159
+                    },
+                    "8-9":{
+                        "up":129,
+                        "down":125
+                    }
                 }
             },
             {
@@ -706,8 +1078,14 @@ var fullrate_data = {
                 "station2_code":21348,
                 "station2_name":"村山(山形県)",
                 "full_rate":{
-                    "7-8":192,
-                    "8-9":136
+                    "7-8":{
+                        "up":129,
+                        "down":67
+                    },
+                    "8-9":{
+                        "up":29,
+                        "down":97
+                    }
                 }
             },
             {
@@ -717,8 +1095,14 @@ var fullrate_data = {
                 "station2_code":21348,
                 "station2_name":"村山(山形県)",
                 "full_rate":{
-                    "7-8":196,
-                    "8-9":43
+                    "7-8":{
+                        "up":12,
+                        "down":33
+                    },
+                    "8-9":{
+                        "up":127,
+                        "down":101
+                    }
                 }
             },
             {
@@ -728,8 +1112,14 @@ var fullrate_data = {
                 "station2_code":21338,
                 "station2_name":"新庄",
                 "full_rate":{
-                    "7-8":136,
-                    "8-9":35
+                    "7-8":{
+                        "up":162,
+                        "down":47
+                    },
+                    "8-9":{
+                        "up":94,
+                        "down":103
+                    }
                 }
             }
         ]
@@ -738,91 +1128,20 @@ var fullrate_data = {
         "name":"ＪＲ秋田新幹線",
         "sections":[
             {
-                "code":280200,
-                "station1_code":21044,
-                "station1_name":"仙台",
-                "station2_code":21087,
-                "station2_name":"古川",
-                "full_rate":{
-                    "7-8":114,
-                    "8-9":19
-                }
-            },
-            {
-                "code":280210,
-                "station1_code":21019,
-                "station1_name":"くりこま高原",
-                "station2_code":21087,
-                "station2_name":"古川",
-                "full_rate":{
-                    "7-8":157,
-                    "8-9":117
-                }
-            },
-            {
-                "code":280220,
-                "station1_code":20806,
-                "station1_name":"一ノ関",
-                "station2_code":21019,
-                "station2_name":"くりこま高原",
-                "full_rate":{
-                    "7-8":174,
-                    "8-9":160
-                }
-            },
-            {
-                "code":280230,
-                "station1_code":20806,
-                "station1_name":"一ノ関",
-                "station2_code":20934,
-                "station2_name":"水沢江刺",
-                "full_rate":{
-                    "7-8":182,
-                    "8-9":138
-                }
-            },
-            {
-                "code":280240,
-                "station1_code":20844,
-                "station1_name":"北上",
-                "station2_code":20934,
-                "station2_name":"水沢江刺",
-                "full_rate":{
-                    "7-8":159,
-                    "8-9":198
-                }
-            },
-            {
-                "code":280250,
-                "station1_code":20844,
-                "station1_name":"北上",
-                "station2_code":20873,
-                "station2_name":"新花巻",
-                "full_rate":{
-                    "7-8":130,
-                    "8-9":108
-                }
-            },
-            {
-                "code":280260,
-                "station1_code":20873,
-                "station1_name":"新花巻",
-                "station2_code":20940,
-                "station2_name":"盛岡",
-                "full_rate":{
-                    "7-8":195,
-                    "8-9":93
-                }
-            },
-            {
                 "code":280100,
                 "station1_code":22528,
                 "station1_name":"上野",
                 "station2_code":22828,
                 "station2_name":"東京",
                 "full_rate":{
-                    "7-8":136,
-                    "8-9":73
+                    "7-8":{
+                        "up":102,
+                        "down":92
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":50
+                    }
                 }
             },
             {
@@ -832,8 +1151,133 @@ var fullrate_data = {
                 "station2_code":21987,
                 "station2_name":"大宮(埼玉県)",
                 "full_rate":{
-                    "7-8":155,
-                    "8-9":192
+                    "7-8":{
+                        "up":158,
+                        "down":82
+                    },
+                    "8-9":{
+                        "up":91,
+                        "down":128
+                    }
+                }
+            },
+            {
+                "code":280200,
+                "station1_code":21044,
+                "station1_name":"仙台",
+                "station2_code":21087,
+                "station2_name":"古川",
+                "full_rate":{
+                    "7-8":{
+                        "up":148,
+                        "down":145
+                    },
+                    "8-9":{
+                        "up":67,
+                        "down":110
+                    }
+                }
+            },
+            {
+                "code":280210,
+                "station1_code":21019,
+                "station1_name":"くりこま高原",
+                "station2_code":21087,
+                "station2_name":"古川",
+                "full_rate":{
+                    "7-8":{
+                        "up":18,
+                        "down":8
+                    },
+                    "8-9":{
+                        "up":114,
+                        "down":129
+                    }
+                }
+            },
+            {
+                "code":280220,
+                "station1_code":20806,
+                "station1_name":"一ノ関",
+                "station2_code":21019,
+                "station2_name":"くりこま高原",
+                "full_rate":{
+                    "7-8":{
+                        "up":67,
+                        "down":131
+                    },
+                    "8-9":{
+                        "up":186,
+                        "down":37
+                    }
+                }
+            },
+            {
+                "code":280230,
+                "station1_code":20806,
+                "station1_name":"一ノ関",
+                "station2_code":20934,
+                "station2_name":"水沢江刺",
+                "full_rate":{
+                    "7-8":{
+                        "up":76,
+                        "down":149
+                    },
+                    "8-9":{
+                        "up":170,
+                        "down":177
+                    }
+                }
+            },
+            {
+                "code":280240,
+                "station1_code":20844,
+                "station1_name":"北上",
+                "station2_code":20934,
+                "station2_name":"水沢江刺",
+                "full_rate":{
+                    "7-8":{
+                        "up":135,
+                        "down":31
+                    },
+                    "8-9":{
+                        "up":140,
+                        "down":24
+                    }
+                }
+            },
+            {
+                "code":280250,
+                "station1_code":20844,
+                "station1_name":"北上",
+                "station2_code":20873,
+                "station2_name":"新花巻",
+                "full_rate":{
+                    "7-8":{
+                        "up":65,
+                        "down":61
+                    },
+                    "8-9":{
+                        "up":128,
+                        "down":31
+                    }
+                }
+            },
+            {
+                "code":280260,
+                "station1_code":20873,
+                "station1_name":"新花巻",
+                "station2_code":20940,
+                "station2_name":"盛岡",
+                "full_rate":{
+                    "7-8":{
+                        "up":62,
+                        "down":198
+                    },
+                    "8-9":{
+                        "up":130,
+                        "down":51
+                    }
                 }
             },
             {
@@ -843,8 +1287,14 @@ var fullrate_data = {
                 "station2_code":21044,
                 "station2_name":"仙台",
                 "full_rate":{
-                    "7-8":28,
-                    "8-9":161
+                    "7-8":{
+                        "up":175,
+                        "down":59
+                    },
+                    "8-9":{
+                        "up":11,
+                        "down":37
+                    }
                 }
             },
             {
@@ -854,8 +1304,14 @@ var fullrate_data = {
                 "station2_code":20940,
                 "station2_name":"盛岡",
                 "full_rate":{
-                    "7-8":130,
-                    "8-9":74
+                    "7-8":{
+                        "up":193,
+                        "down":107
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":168
+                    }
                 }
             },
             {
@@ -865,8 +1321,14 @@ var fullrate_data = {
                 "station2_code":21221,
                 "station2_name":"田沢湖",
                 "full_rate":{
-                    "7-8":141,
-                    "8-9":127
+                    "7-8":{
+                        "up":36,
+                        "down":107
+                    },
+                    "8-9":{
+                        "up":23,
+                        "down":23
+                    }
                 }
             },
             {
@@ -876,8 +1338,14 @@ var fullrate_data = {
                 "station2_code":21221,
                 "station2_name":"田沢湖",
                 "full_rate":{
-                    "7-8":154,
-                    "8-9":104
+                    "7-8":{
+                        "up":45,
+                        "down":90
+                    },
+                    "8-9":{
+                        "up":189,
+                        "down":55
+                    }
                 }
             },
             {
@@ -887,8 +1355,14 @@ var fullrate_data = {
                 "station2_code":21174,
                 "station2_name":"角館",
                 "full_rate":{
-                    "7-8":32,
-                    "8-9":138
+                    "7-8":{
+                        "up":187,
+                        "down":24
+                    },
+                    "8-9":{
+                        "up":196,
+                        "down":33
+                    }
                 }
             },
             {
@@ -898,8 +1372,14 @@ var fullrate_data = {
                 "station2_code":21168,
                 "station2_name":"大曲(秋田県)",
                 "full_rate":{
-                    "7-8":54,
-                    "8-9":144
+                    "7-8":{
+                        "up":57,
+                        "down":19
+                    },
+                    "8-9":{
+                        "up":85,
+                        "down":57
+                    }
                 }
             }
         ]
@@ -914,8 +1394,14 @@ var fullrate_data = {
                 "station2_code":22574,
                 "station2_name":"尾久",
                 "full_rate":{
-                    "7-8":87,
-                    "8-9":120
+                    "7-8":{
+                        "up":15,
+                        "down":31
+                    },
+                    "8-9":{
+                        "up":88,
+                        "down":89
+                    }
                 }
             },
             {
@@ -925,8 +1411,14 @@ var fullrate_data = {
                 "station2_code":22574,
                 "station2_name":"尾久",
                 "full_rate":{
-                    "7-8":51,
-                    "8-9":18
+                    "7-8":{
+                        "up":182,
+                        "down":167
+                    },
+                    "8-9":{
+                        "up":40,
+                        "down":71
+                    }
                 }
             },
             {
@@ -936,8 +1428,14 @@ var fullrate_data = {
                 "station2_code":21982,
                 "station2_name":"浦和",
                 "full_rate":{
-                    "7-8":150,
-                    "8-9":7
+                    "7-8":{
+                        "up":5,
+                        "down":198
+                    },
+                    "8-9":{
+                        "up":117,
+                        "down":129
+                    }
                 }
             },
             {
@@ -947,8 +1445,14 @@ var fullrate_data = {
                 "station2_code":29315,
                 "station2_name":"さいたま新都心",
                 "full_rate":{
-                    "7-8":77,
-                    "8-9":67
+                    "7-8":{
+                        "up":72,
+                        "down":88
+                    },
+                    "8-9":{
+                        "up":159,
+                        "down":27
+                    }
                 }
             },
             {
@@ -958,8 +1462,14 @@ var fullrate_data = {
                 "station2_code":29315,
                 "station2_name":"さいたま新都心",
                 "full_rate":{
-                    "7-8":34,
-                    "8-9":172
+                    "7-8":{
+                        "up":132,
+                        "down":36
+                    },
+                    "8-9":{
+                        "up":145,
+                        "down":170
+                    }
                 }
             },
             {
@@ -969,8 +1479,14 @@ var fullrate_data = {
                 "station2_code":22084,
                 "station2_name":"土呂",
                 "full_rate":{
-                    "7-8":79,
-                    "8-9":160
+                    "7-8":{
+                        "up":177,
+                        "down":105
+                    },
+                    "8-9":{
+                        "up":171,
+                        "down":41
+                    }
                 }
             },
             {
@@ -980,8 +1496,14 @@ var fullrate_data = {
                 "station2_code":22110,
                 "station2_name":"東大宮",
                 "full_rate":{
-                    "7-8":30,
-                    "8-9":119
+                    "7-8":{
+                        "up":65,
+                        "down":115
+                    },
+                    "8-9":{
+                        "up":35,
+                        "down":147
+                    }
                 }
             },
             {
@@ -991,30 +1513,14 @@ var fullrate_data = {
                 "station2_code":22110,
                 "station2_name":"東大宮",
                 "full_rate":{
-                    "7-8":126,
-                    "8-9":48
-                }
-            },
-            {
-                "code":600260,
-                "station1_code":22051,
-                "station1_name":"白岡",
-                "station2_code":22100,
-                "station2_name":"蓮田",
-                "full_rate":{
-                    "7-8":192,
-                    "8-9":157
-                }
-            },
-            {
-                "code":600270,
-                "station1_code":22051,
-                "station1_name":"白岡",
-                "station2_code":22058,
-                "station2_name":"新白岡",
-                "full_rate":{
-                    "7-8":129,
-                    "8-9":42
+                    "7-8":{
+                        "up":182,
+                        "down":183
+                    },
+                    "8-9":{
+                        "up":48,
+                        "down":56
+                    }
                 }
             },
             {
@@ -1024,8 +1530,31 @@ var fullrate_data = {
                 "station2_code":22058,
                 "station2_name":"新白岡",
                 "full_rate":{
-                    "7-8":164,
-                    "8-9":145
+                    "7-8":{
+                        "up":189,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":195,
+                        "down":47
+                    }
+                }
+            },
+            {
+                "code":600270,
+                "station1_code":22051,
+                "station1_name":"白岡",
+                "station2_code":22058,
+                "station2_name":"新白岡",
+                "full_rate":{
+                    "7-8":{
+                        "up":15,
+                        "down":7
+                    },
+                    "8-9":{
+                        "up":121,
+                        "down":131
+                    }
                 }
             },
             {
@@ -1035,8 +1564,14 @@ var fullrate_data = {
                 "station2_code":22118,
                 "station2_name":"東鷲宮",
                 "full_rate":{
-                    "7-8":184,
-                    "8-9":185
+                    "7-8":{
+                        "up":44,
+                        "down":191
+                    },
+                    "8-9":{
+                        "up":86,
+                        "down":159
+                    }
                 }
             },
             {
@@ -1046,8 +1581,14 @@ var fullrate_data = {
                 "station2_code":22118,
                 "station2_name":"東鷲宮",
                 "full_rate":{
-                    "7-8":48,
-                    "8-9":87
+                    "7-8":{
+                        "up":177,
+                        "down":166
+                    },
+                    "8-9":{
+                        "up":140,
+                        "down":122
+                    }
                 }
             },
             {
@@ -1057,8 +1598,14 @@ var fullrate_data = {
                 "station2_code":21631,
                 "station2_name":"古河",
                 "full_rate":{
-                    "7-8":38,
-                    "8-9":174
+                    "7-8":{
+                        "up":199,
+                        "down":35
+                    },
+                    "8-9":{
+                        "up":195,
+                        "down":43
+                    }
                 }
             },
             {
@@ -1068,8 +1615,14 @@ var fullrate_data = {
                 "station2_code":21812,
                 "station2_name":"野木",
                 "full_rate":{
-                    "7-8":29,
-                    "8-9":120
+                    "7-8":{
+                        "up":31,
+                        "down":154
+                    },
+                    "8-9":{
+                        "up":41,
+                        "down":107
+                    }
                 }
             },
             {
@@ -1079,30 +1632,14 @@ var fullrate_data = {
                 "station2_code":21823,
                 "station2_name":"間々田",
                 "full_rate":{
-                    "7-8":191,
-                    "8-9":53
-                }
-            },
-            {
-                "code":600350,
-                "station1_code":21746,
-                "station1_name":"小山",
-                "station2_code":21767,
-                "station2_name":"小金井",
-                "full_rate":{
-                    "7-8":90,
-                    "8-9":110
-                }
-            },
-            {
-                "code":600360,
-                "station1_code":21767,
-                "station1_name":"小金井",
-                "station2_code":21783,
-                "station2_name":"自治医大",
-                "full_rate":{
-                    "7-8":89,
-                    "8-9":86
+                    "7-8":{
+                        "up":193,
+                        "down":128
+                    },
+                    "8-9":{
+                        "up":141,
+                        "down":37
+                    }
                 }
             },
             {
@@ -1112,8 +1649,65 @@ var fullrate_data = {
                 "station2_code":21823,
                 "station2_name":"間々田",
                 "full_rate":{
-                    "7-8":40,
-                    "8-9":174
+                    "7-8":{
+                        "up":90,
+                        "down":145
+                    },
+                    "8-9":{
+                        "up":98,
+                        "down":92
+                    }
+                }
+            },
+            {
+                "code":600350,
+                "station1_code":21746,
+                "station1_name":"小山",
+                "station2_code":21767,
+                "station2_name":"小金井",
+                "full_rate":{
+                    "7-8":{
+                        "up":101,
+                        "down":113
+                    },
+                    "8-9":{
+                        "up":49,
+                        "down":131
+                    }
+                }
+            },
+            {
+                "code":600360,
+                "station1_code":21767,
+                "station1_name":"小金井",
+                "station2_code":21783,
+                "station2_name":"自治医大",
+                "full_rate":{
+                    "7-8":{
+                        "up":56,
+                        "down":28
+                    },
+                    "8-9":{
+                        "up":99,
+                        "down":81
+                    }
+                }
+            },
+            {
+                "code":600260,
+                "station1_code":22051,
+                "station1_name":"白岡",
+                "station2_code":22100,
+                "station2_name":"蓮田",
+                "full_rate":{
+                    "7-8":{
+                        "up":77,
+                        "down":156
+                    },
+                    "8-9":{
+                        "up":107,
+                        "down":121
+                    }
                 }
             },
             {
@@ -1123,8 +1717,14 @@ var fullrate_data = {
                 "station2_code":21783,
                 "station2_name":"自治医大",
                 "full_rate":{
-                    "7-8":104,
-                    "8-9":116
+                    "7-8":{
+                        "up":140,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":44,
+                        "down":119
+                    }
                 }
             },
             {
@@ -1134,8 +1734,14 @@ var fullrate_data = {
                 "station2_code":21784,
                 "station2_name":"雀宮",
                 "full_rate":{
-                    "7-8":191,
-                    "8-9":99
+                    "7-8":{
+                        "up":2,
+                        "down":9
+                    },
+                    "8-9":{
+                        "up":43,
+                        "down":142
+                    }
                 }
             },
             {
@@ -1145,8 +1751,14 @@ var fullrate_data = {
                 "station2_code":21784,
                 "station2_name":"雀宮",
                 "full_rate":{
-                    "7-8":43,
-                    "8-9":35
+                    "7-8":{
+                        "up":87,
+                        "down":195
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":124
+                    }
                 }
             },
             {
@@ -1156,8 +1768,14 @@ var fullrate_data = {
                 "station2_code":21741,
                 "station2_name":"岡本(栃木県)",
                 "full_rate":{
-                    "7-8":75,
-                    "8-9":114
+                    "7-8":{
+                        "up":128,
+                        "down":32
+                    },
+                    "8-9":{
+                        "up":74,
+                        "down":155
+                    }
                 }
             },
             {
@@ -1167,19 +1785,14 @@ var fullrate_data = {
                 "station2_code":21819,
                 "station2_name":"宝積寺",
                 "full_rate":{
-                    "7-8":83,
-                    "8-9":197
-                }
-            },
-            {
-                "code":600430,
-                "station1_code":21735,
-                "station1_name":"氏家",
-                "station2_code":21750,
-                "station2_name":"蒲須坂",
-                "full_rate":{
-                    "7-8":169,
-                    "8-9":123
+                    "7-8":{
+                        "up":57,
+                        "down":51
+                    },
+                    "8-9":{
+                        "up":158,
+                        "down":182
+                    }
                 }
             },
             {
@@ -1189,8 +1802,31 @@ var fullrate_data = {
                 "station2_code":21819,
                 "station2_name":"宝積寺",
                 "full_rate":{
-                    "7-8":150,
-                    "8-9":125
+                    "7-8":{
+                        "up":179,
+                        "down":85
+                    },
+                    "8-9":{
+                        "up":6,
+                        "down":35
+                    }
+                }
+            },
+            {
+                "code":600430,
+                "station1_code":21735,
+                "station1_name":"氏家",
+                "station2_code":21750,
+                "station2_name":"蒲須坂",
+                "full_rate":{
+                    "7-8":{
+                        "up":195,
+                        "down":199
+                    },
+                    "8-9":{
+                        "up":133,
+                        "down":99
+                    }
                 }
             },
             {
@@ -1200,8 +1836,14 @@ var fullrate_data = {
                 "station2_code":21750,
                 "station2_name":"蒲須坂",
                 "full_rate":{
-                    "7-8":170,
-                    "8-9":112
+                    "7-8":{
+                        "up":4,
+                        "down":73
+                    },
+                    "8-9":{
+                        "up":155,
+                        "down":116
+                    }
                 }
             },
             {
@@ -1211,8 +1853,14 @@ var fullrate_data = {
                 "station2_code":21830,
                 "station2_name":"矢板",
                 "full_rate":{
-                    "7-8":122,
-                    "8-9":72
+                    "7-8":{
+                        "up":182,
+                        "down":123
+                    },
+                    "8-9":{
+                        "up":29,
+                        "down":145
+                    }
                 }
             },
             {
@@ -1222,8 +1870,14 @@ var fullrate_data = {
                 "station2_code":21830,
                 "station2_name":"矢板",
                 "full_rate":{
-                    "7-8":145,
-                    "8-9":146
+                    "7-8":{
+                        "up":90,
+                        "down":12
+                    },
+                    "8-9":{
+                        "up":102,
+                        "down":79
+                    }
                 }
             },
             {
@@ -1233,8 +1887,14 @@ var fullrate_data = {
                 "station2_code":21813,
                 "station2_name":"野崎(栃木県)",
                 "full_rate":{
-                    "7-8":110,
-                    "8-9":90
+                    "7-8":{
+                        "up":40,
+                        "down":103
+                    },
+                    "8-9":{
+                        "up":31,
+                        "down":13
+                    }
                 }
             },
             {
@@ -1244,8 +1904,14 @@ var fullrate_data = {
                 "station2_code":21810,
                 "station2_name":"西那須野",
                 "full_rate":{
-                    "7-8":141,
-                    "8-9":163
+                    "7-8":{
+                        "up":163,
+                        "down":53
+                    },
+                    "8-9":{
+                        "up":123,
+                        "down":30
+                    }
                 }
             },
             {
@@ -1255,8 +1921,14 @@ var fullrate_data = {
                 "station2_code":21804,
                 "station2_name":"那須塩原",
                 "full_rate":{
-                    "7-8":155,
-                    "8-9":24
+                    "7-8":{
+                        "up":195,
+                        "down":53
+                    },
+                    "8-9":{
+                        "up":96,
+                        "down":151
+                    }
                 }
             }
         ]
@@ -1271,19 +1943,14 @@ var fullrate_data = {
                 "station2_code":22862,
                 "station2_name":"日暮里",
                 "full_rate":{
-                    "7-8":96,
-                    "8-9":74
-                }
-            },
-            {
-                "code":650120,
-                "station1_code":22862,
-                "station1_name":"日暮里",
-                "station2_code":22983,
-                "station2_name":"三河島",
-                "full_rate":{
-                    "7-8":128,
-                    "8-9":96
+                    "7-8":{
+                        "up":161,
+                        "down":127
+                    },
+                    "8-9":{
+                        "up":11,
+                        "down":71
+                    }
                 }
             },
             {
@@ -1293,8 +1960,31 @@ var fullrate_data = {
                 "station2_code":22995,
                 "station2_name":"南千住",
                 "full_rate":{
-                    "7-8":43,
-                    "8-9":132
+                    "7-8":{
+                        "up":102,
+                        "down":68
+                    },
+                    "8-9":{
+                        "up":67,
+                        "down":39
+                    }
+                }
+            },
+            {
+                "code":650120,
+                "station1_code":22862,
+                "station1_name":"日暮里",
+                "station2_code":22983,
+                "station2_name":"三河島",
+                "full_rate":{
+                    "7-8":{
+                        "up":93,
+                        "down":13
+                    },
+                    "8-9":{
+                        "up":41,
+                        "down":135
+                    }
                 }
             },
             {
@@ -1304,96 +1994,14 @@ var fullrate_data = {
                 "station2_code":22995,
                 "station2_name":"南千住",
                 "full_rate":{
-                    "7-8":168,
-                    "8-9":64
-                }
-            },
-            {
-                "code":650190,
-                "station1_code":22228,
-                "station1_name":"柏",
-                "station2_code":22444,
-                "station2_name":"松戸",
-                "full_rate":{
-                    "7-8":183,
-                    "8-9":46
-                }
-            },
-            {
-                "code":650250,
-                "station1_code":22183,
-                "station1_name":"我孫子",
-                "station2_code":22228,
-                "station2_name":"柏",
-                "full_rate":{
-                    "7-8":17,
-                    "8-9":119
-                }
-            },
-            {
-                "code":650270,
-                "station1_code":22183,
-                "station1_name":"我孫子",
-                "station2_code":22372,
-                "station2_name":"天王台",
-                "full_rate":{
-                    "7-8":159,
-                    "8-9":142
-                }
-            },
-            {
-                "code":650280,
-                "station1_code":22372,
-                "station1_name":"天王台",
-                "station2_code":21673,
-                "station2_name":"取手",
-                "full_rate":{
-                    "7-8":123,
-                    "8-9":121
-                }
-            },
-            {
-                "code":650290,
-                "station1_code":21673,
-                "station1_name":"取手",
-                "station2_code":21705,
-                "station2_name":"藤代",
-                "full_rate":{
-                    "7-8":26,
-                    "8-9":191
-                }
-            },
-            {
-                "code":650300,
-                "station1_code":21637,
-                "station1_name":"佐貫",
-                "station2_code":21705,
-                "station2_name":"藤代",
-                "full_rate":{
-                    "7-8":106,
-                    "8-9":75
-                }
-            },
-            {
-                "code":650310,
-                "station1_code":21594,
-                "station1_name":"牛久",
-                "station2_code":21637,
-                "station2_name":"佐貫",
-                "full_rate":{
-                    "7-8":181,
-                    "8-9":170
-                }
-            },
-            {
-                "code":650320,
-                "station1_code":21594,
-                "station1_name":"牛久",
-                "station2_code":29220,
-                "station2_name":"ひたち野うしく",
-                "full_rate":{
-                    "7-8":112,
-                    "8-9":103
+                    "7-8":{
+                        "up":199,
+                        "down":169
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":157
+                    }
                 }
             },
             {
@@ -1403,8 +2011,150 @@ var fullrate_data = {
                 "station2_code":22444,
                 "station2_name":"松戸",
                 "full_rate":{
-                    "7-8":21,
-                    "8-9":9
+                    "7-8":{
+                        "up":127,
+                        "down":166
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":108
+                    }
+                }
+            },
+            {
+                "code":650190,
+                "station1_code":22228,
+                "station1_name":"柏",
+                "station2_code":22444,
+                "station2_name":"松戸",
+                "full_rate":{
+                    "7-8":{
+                        "up":135,
+                        "down":62
+                    },
+                    "8-9":{
+                        "up":7,
+                        "down":198
+                    }
+                }
+            },
+            {
+                "code":650250,
+                "station1_code":22183,
+                "station1_name":"我孫子",
+                "station2_code":22228,
+                "station2_name":"柏",
+                "full_rate":{
+                    "7-8":{
+                        "up":141,
+                        "down":185
+                    },
+                    "8-9":{
+                        "up":99,
+                        "down":164
+                    }
+                }
+            },
+            {
+                "code":650270,
+                "station1_code":22183,
+                "station1_name":"我孫子",
+                "station2_code":22372,
+                "station2_name":"天王台",
+                "full_rate":{
+                    "7-8":{
+                        "up":117,
+                        "down":13
+                    },
+                    "8-9":{
+                        "up":132,
+                        "down":108
+                    }
+                }
+            },
+            {
+                "code":650280,
+                "station1_code":22372,
+                "station1_name":"天王台",
+                "station2_code":21673,
+                "station2_name":"取手",
+                "full_rate":{
+                    "7-8":{
+                        "up":145,
+                        "down":185
+                    },
+                    "8-9":{
+                        "up":185,
+                        "down":12
+                    }
+                }
+            },
+            {
+                "code":650300,
+                "station1_code":21637,
+                "station1_name":"佐貫",
+                "station2_code":21705,
+                "station2_name":"藤代",
+                "full_rate":{
+                    "7-8":{
+                        "up":144,
+                        "down":167
+                    },
+                    "8-9":{
+                        "up":117,
+                        "down":2
+                    }
+                }
+            },
+            {
+                "code":650290,
+                "station1_code":21673,
+                "station1_name":"取手",
+                "station2_code":21705,
+                "station2_name":"藤代",
+                "full_rate":{
+                    "7-8":{
+                        "up":110,
+                        "down":43
+                    },
+                    "8-9":{
+                        "up":194,
+                        "down":158
+                    }
+                }
+            },
+            {
+                "code":650310,
+                "station1_code":21594,
+                "station1_name":"牛久",
+                "station2_code":21637,
+                "station2_name":"佐貫",
+                "full_rate":{
+                    "7-8":{
+                        "up":108,
+                        "down":129
+                    },
+                    "8-9":{
+                        "up":125,
+                        "down":160
+                    }
+                }
+            },
+            {
+                "code":650320,
+                "station1_code":21594,
+                "station1_name":"牛久",
+                "station2_code":29220,
+                "station2_name":"ひたち野うしく",
+                "full_rate":{
+                    "7-8":{
+                        "up":121,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":140,
+                        "down":31
+                    }
                 }
             },
             {
@@ -1414,8 +2164,14 @@ var fullrate_data = {
                 "station2_code":29220,
                 "station2_name":"ひたち野うしく",
                 "full_rate":{
-                    "7-8":194,
-                    "8-9":117
+                    "7-8":{
+                        "up":33,
+                        "down":175
+                    },
+                    "8-9":{
+                        "up":3,
+                        "down":172
+                    }
                 }
             },
             {
@@ -1425,8 +2181,14 @@ var fullrate_data = {
                 "station2_code":21663,
                 "station2_name":"土浦",
                 "full_rate":{
-                    "7-8":30,
-                    "8-9":22
+                    "7-8":{
+                        "up":52,
+                        "down":161
+                    },
+                    "8-9":{
+                        "up":39,
+                        "down":54
+                    }
                 }
             },
             {
@@ -1436,8 +2198,14 @@ var fullrate_data = {
                 "station2_code":21663,
                 "station2_name":"土浦",
                 "full_rate":{
-                    "7-8":187,
-                    "8-9":45
+                    "7-8":{
+                        "up":3,
+                        "down":41
+                    },
+                    "8-9":{
+                        "up":48,
+                        "down":188
+                    }
                 }
             },
             {
@@ -1447,8 +2215,14 @@ var fullrate_data = {
                 "station2_code":21656,
                 "station2_name":"高浜(茨城県)",
                 "full_rate":{
-                    "7-8":177,
-                    "8-9":117
+                    "7-8":{
+                        "up":135,
+                        "down":143
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":14
+                    }
                 }
             },
             {
@@ -1458,8 +2232,14 @@ var fullrate_data = {
                 "station2_code":21656,
                 "station2_name":"高浜(茨城県)",
                 "full_rate":{
-                    "7-8":16,
-                    "8-9":54
+                    "7-8":{
+                        "up":48,
+                        "down":6
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":30
+                    }
                 }
             },
             {
@@ -1469,19 +2249,14 @@ var fullrate_data = {
                 "station2_code":21685,
                 "station2_name":"羽鳥",
                 "full_rate":{
-                    "7-8":52,
-                    "8-9":37
-                }
-            },
-            {
-                "code":650400,
-                "station1_code":21593,
-                "station1_name":"岩間",
-                "station2_code":21672,
-                "station2_name":"友部",
-                "full_rate":{
-                    "7-8":37,
-                    "8-9":89
+                    "7-8":{
+                        "up":181,
+                        "down":54
+                    },
+                    "8-9":{
+                        "up":157,
+                        "down":104
+                    }
                 }
             },
             {
@@ -1491,8 +2266,31 @@ var fullrate_data = {
                 "station2_code":21685,
                 "station2_name":"羽鳥",
                 "full_rate":{
-                    "7-8":33,
-                    "8-9":50
+                    "7-8":{
+                        "up":28,
+                        "down":19
+                    },
+                    "8-9":{
+                        "up":62,
+                        "down":57
+                    }
+                }
+            },
+            {
+                "code":650400,
+                "station1_code":21593,
+                "station1_name":"岩間",
+                "station2_code":21672,
+                "station2_name":"友部",
+                "full_rate":{
+                    "7-8":{
+                        "up":77,
+                        "down":168
+                    },
+                    "8-9":{
+                        "up":124,
+                        "down":69
+                    }
                 }
             },
             {
@@ -1502,8 +2300,14 @@ var fullrate_data = {
                 "station2_code":21672,
                 "station2_name":"友部",
                 "full_rate":{
-                    "7-8":90,
-                    "8-9":160
+                    "7-8":{
+                        "up":90,
+                        "down":189
+                    },
+                    "8-9":{
+                        "up":15,
+                        "down":173
+                    }
                 }
             },
             {
@@ -1513,19 +2317,14 @@ var fullrate_data = {
                 "station2_code":21595,
                 "station2_name":"内原",
                 "full_rate":{
-                    "7-8":49,
-                    "8-9":96
-                }
-            },
-            {
-                "code":650430,
-                "station1_code":21579,
-                "station1_name":"赤塚",
-                "station2_code":29275,
-                "station2_name":"偕楽園",
-                "full_rate":{
-                    "7-8":162,
-                    "8-9":119
+                    "7-8":{
+                        "up":63,
+                        "down":154
+                    },
+                    "8-9":{
+                        "up":96,
+                        "down":27
+                    }
                 }
             },
             {
@@ -1535,8 +2334,31 @@ var fullrate_data = {
                 "station2_code":21710,
                 "station2_name":"水戸",
                 "full_rate":{
-                    "7-8":190,
-                    "8-9":140
+                    "7-8":{
+                        "up":105,
+                        "down":57
+                    },
+                    "8-9":{
+                        "up":85,
+                        "down":167
+                    }
+                }
+            },
+            {
+                "code":650430,
+                "station1_code":21579,
+                "station1_name":"赤塚",
+                "station2_code":29275,
+                "station2_name":"偕楽園",
+                "full_rate":{
+                    "7-8":{
+                        "up":87,
+                        "down":159
+                    },
+                    "8-9":{
+                        "up":125,
+                        "down":131
+                    }
                 }
             },
             {
@@ -1546,8 +2368,14 @@ var fullrate_data = {
                 "station2_code":21710,
                 "station2_name":"水戸",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":149
+                    "7-8":{
+                        "up":96,
+                        "down":41
+                    },
+                    "8-9":{
+                        "up":167,
+                        "down":101
+                    }
                 }
             },
             {
@@ -1557,8 +2385,14 @@ var fullrate_data = {
                 "station2_code":21638,
                 "station2_name":"佐和",
                 "full_rate":{
-                    "7-8":140,
-                    "8-9":70
+                    "7-8":{
+                        "up":136,
+                        "down":113
+                    },
+                    "8-9":{
+                        "up":100,
+                        "down":93
+                    }
                 }
             },
             {
@@ -1568,8 +2402,14 @@ var fullrate_data = {
                 "station2_code":21666,
                 "station2_name":"東海",
                 "full_rate":{
-                    "7-8":28,
-                    "8-9":175
+                    "7-8":{
+                        "up":159,
+                        "down":183
+                    },
+                    "8-9":{
+                        "up":0,
+                        "down":68
+                    }
                 }
             },
             {
@@ -1579,8 +2419,14 @@ var fullrate_data = {
                 "station2_code":21666,
                 "station2_name":"東海",
                 "full_rate":{
-                    "7-8":96,
-                    "8-9":29
+                    "7-8":{
+                        "up":0,
+                        "down":103
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":9
+                    }
                 }
             },
             {
@@ -1590,8 +2436,14 @@ var fullrate_data = {
                 "station2_code":21698,
                 "station2_name":"常陸多賀",
                 "full_rate":{
-                    "7-8":192,
-                    "8-9":30
+                    "7-8":{
+                        "up":28,
+                        "down":28
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":146
+                    }
                 }
             },
             {
@@ -1601,8 +2453,14 @@ var fullrate_data = {
                 "station2_code":21698,
                 "station2_name":"常陸多賀",
                 "full_rate":{
-                    "7-8":27,
-                    "8-9":10
+                    "7-8":{
+                        "up":165,
+                        "down":106
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":178
+                    }
                 }
             },
             {
@@ -1612,8 +2470,14 @@ var fullrate_data = {
                 "station2_code":21691,
                 "station2_name":"日立",
                 "full_rate":{
-                    "7-8":27,
-                    "8-9":3
+                    "7-8":{
+                        "up":21,
+                        "down":183
+                    },
+                    "8-9":{
+                        "up":189,
+                        "down":63
+                    }
                 }
             },
             {
@@ -1623,19 +2487,14 @@ var fullrate_data = {
                 "station2_code":21622,
                 "station2_name":"十王",
                 "full_rate":{
-                    "7-8":58,
-                    "8-9":15
-                }
-            },
-            {
-                "code":650530,
-                "station1_code":21622,
-                "station1_name":"十王",
-                "station2_code":21655,
-                "station2_name":"高萩",
-                "full_rate":{
-                    "7-8":125,
-                    "8-9":75
+                    "7-8":{
+                        "up":147,
+                        "down":1
+                    },
+                    "8-9":{
+                        "up":185,
+                        "down":21
+                    }
                 }
             },
             {
@@ -1645,8 +2504,31 @@ var fullrate_data = {
                 "station2_code":21714,
                 "station2_name":"南中郷",
                 "full_rate":{
-                    "7-8":152,
-                    "8-9":10
+                    "7-8":{
+                        "up":181,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":118,
+                        "down":5
+                    }
+                }
+            },
+            {
+                "code":650530,
+                "station1_code":21622,
+                "station1_name":"十王",
+                "station2_code":21655,
+                "station2_name":"高萩",
+                "full_rate":{
+                    "7-8":{
+                        "up":3,
+                        "down":132
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":112
+                    }
                 }
             },
             {
@@ -1656,8 +2538,14 @@ var fullrate_data = {
                 "station2_code":21714,
                 "station2_name":"南中郷",
                 "full_rate":{
-                    "7-8":59,
-                    "8-9":7
+                    "7-8":{
+                        "up":105,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":91,
+                        "down":91
+                    }
                 }
             },
             {
@@ -1667,8 +2555,14 @@ var fullrate_data = {
                 "station2_code":21600,
                 "station2_name":"大津港",
                 "full_rate":{
-                    "7-8":11,
-                    "8-9":77
+                    "7-8":{
+                        "up":152,
+                        "down":13
+                    },
+                    "8-9":{
+                        "up":24,
+                        "down":38
+                    }
                 }
             },
             {
@@ -1678,8 +2572,14 @@ var fullrate_data = {
                 "station2_code":21522,
                 "station2_name":"勿来",
                 "full_rate":{
-                    "7-8":149,
-                    "8-9":99
+                    "7-8":{
+                        "up":129,
+                        "down":112
+                    },
+                    "8-9":{
+                        "up":7,
+                        "down":12
+                    }
                 }
             },
             {
@@ -1689,8 +2589,14 @@ var fullrate_data = {
                 "station2_code":21522,
                 "station2_name":"勿来",
                 "full_rate":{
-                    "7-8":26,
-                    "8-9":129
+                    "7-8":{
+                        "up":194,
+                        "down":124
+                    },
+                    "8-9":{
+                        "up":46,
+                        "down":149
+                    }
                 }
             },
             {
@@ -1700,8 +2606,14 @@ var fullrate_data = {
                 "station2_code":21445,
                 "station2_name":"植田(福島県)",
                 "full_rate":{
-                    "7-8":42,
-                    "8-9":161
+                    "7-8":{
+                        "up":86,
+                        "down":188
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":168
+                    }
                 }
             },
             {
@@ -1711,30 +2623,14 @@ var fullrate_data = {
                 "station2_code":21574,
                 "station2_name":"湯本",
                 "full_rate":{
-                    "7-8":72,
-                    "8-9":173
-                }
-            },
-            {
-                "code":650610,
-                "station1_code":21446,
-                "station1_name":"内郷",
-                "station2_code":21574,
-                "station2_name":"湯本",
-                "full_rate":{
-                    "7-8":173,
-                    "8-9":104
-                }
-            },
-            {
-                "code":650620,
-                "station1_code":21435,
-                "station1_name":"いわき",
-                "station2_code":21446,
-                "station2_name":"内郷",
-                "full_rate":{
-                    "7-8":19,
-                    "8-9":24
+                    "7-8":{
+                        "up":192,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":168,
+                        "down":117
+                    }
                 }
             },
             {
@@ -1744,8 +2640,14 @@ var fullrate_data = {
                 "station2_code":21480,
                 "station2_name":"草野(福島県)",
                 "full_rate":{
-                    "7-8":23,
-                    "8-9":160
+                    "7-8":{
+                        "up":96,
+                        "down":169
+                    },
+                    "8-9":{
+                        "up":165,
+                        "down":132
+                    }
                 }
             },
             {
@@ -1755,8 +2657,48 @@ var fullrate_data = {
                 "station2_code":21576,
                 "station2_name":"四ツ倉",
                 "full_rate":{
-                    "7-8":101,
-                    "8-9":17
+                    "7-8":{
+                        "up":5,
+                        "down":190
+                    },
+                    "8-9":{
+                        "up":13,
+                        "down":23
+                    }
+                }
+            },
+            {
+                "code":650610,
+                "station1_code":21446,
+                "station1_name":"内郷",
+                "station2_code":21574,
+                "station2_name":"湯本",
+                "full_rate":{
+                    "7-8":{
+                        "up":67,
+                        "down":163
+                    },
+                    "8-9":{
+                        "up":67,
+                        "down":47
+                    }
+                }
+            },
+            {
+                "code":650620,
+                "station1_code":21435,
+                "station1_name":"いわき",
+                "station2_code":21446,
+                "station2_name":"内郷",
+                "full_rate":{
+                    "7-8":{
+                        "up":49,
+                        "down":65
+                    },
+                    "8-9":{
+                        "up":106,
+                        "down":44
+                    }
                 }
             },
             {
@@ -1766,8 +2708,14 @@ var fullrate_data = {
                 "station2_code":21576,
                 "station2_name":"四ツ倉",
                 "full_rate":{
-                    "7-8":62,
-                    "8-9":21
+                    "7-8":{
+                        "up":168,
+                        "down":155
+                    },
+                    "8-9":{
+                        "up":105,
+                        "down":163
+                    }
                 }
             },
             {
@@ -1777,8 +2725,14 @@ var fullrate_data = {
                 "station2_code":21545,
                 "station2_name":"久ノ浜",
                 "full_rate":{
-                    "7-8":177,
-                    "8-9":2
+                    "7-8":{
+                        "up":158,
+                        "down":180
+                    },
+                    "8-9":{
+                        "up":108,
+                        "down":182
+                    }
                 }
             },
             {
@@ -1788,8 +2742,14 @@ var fullrate_data = {
                 "station2_code":21548,
                 "station2_name":"広野(福島県)",
                 "full_rate":{
-                    "7-8":35,
-                    "8-9":122
+                    "7-8":{
+                        "up":197,
+                        "down":180
+                    },
+                    "8-9":{
+                        "up":110,
+                        "down":9
+                    }
                 }
             },
             {
@@ -1799,8 +2759,14 @@ var fullrate_data = {
                 "station2_code":21548,
                 "station2_name":"広野(福島県)",
                 "full_rate":{
-                    "7-8":145,
-                    "8-9":181
+                    "7-8":{
+                        "up":105,
+                        "down":186
+                    },
+                    "8-9":{
+                        "up":67,
+                        "down":82
+                    }
                 }
             },
             {
@@ -1810,19 +2776,14 @@ var fullrate_data = {
                 "station2_code":21510,
                 "station2_name":"竜田",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":10
-                }
-            },
-            {
-                "code":650710,
-                "station1_code":21516,
-                "station1_name":"富岡",
-                "station2_code":21577,
-                "station2_name":"夜ノ森",
-                "full_rate":{
-                    "7-8":166,
-                    "8-9":30
+                    "7-8":{
+                        "up":119,
+                        "down":45
+                    },
+                    "8-9":{
+                        "up":185,
+                        "down":86
+                    }
                 }
             },
             {
@@ -1832,8 +2793,31 @@ var fullrate_data = {
                 "station2_code":21516,
                 "station2_name":"富岡",
                 "full_rate":{
-                    "7-8":177,
-                    "8-9":135
+                    "7-8":{
+                        "up":21,
+                        "down":116
+                    },
+                    "8-9":{
+                        "up":122,
+                        "down":100
+                    }
+                }
+            },
+            {
+                "code":650710,
+                "station1_code":21516,
+                "station1_name":"富岡",
+                "station2_code":21577,
+                "station2_name":"夜ノ森",
+                "full_rate":{
+                    "7-8":{
+                        "up":146,
+                        "down":90
+                    },
+                    "8-9":{
+                        "up":122,
+                        "down":48
+                    }
                 }
             },
             {
@@ -1843,8 +2827,14 @@ var fullrate_data = {
                 "station2_code":21577,
                 "station2_name":"夜ノ森",
                 "full_rate":{
-                    "7-8":185,
-                    "8-9":61
+                    "7-8":{
+                        "up":185,
+                        "down":80
+                    },
+                    "8-9":{
+                        "up":158,
+                        "down":156
+                    }
                 }
             },
             {
@@ -1854,8 +2844,14 @@ var fullrate_data = {
                 "station2_code":21554,
                 "station2_name":"双葉",
                 "full_rate":{
-                    "7-8":123,
-                    "8-9":153
+                    "7-8":{
+                        "up":84,
+                        "down":51
+                    },
+                    "8-9":{
+                        "up":120,
+                        "down":166
+                    }
                 }
             },
             {
@@ -1865,8 +2861,14 @@ var fullrate_data = {
                 "station2_code":21554,
                 "station2_name":"双葉",
                 "full_rate":{
-                    "7-8":9,
-                    "8-9":11
+                    "7-8":{
+                        "up":187,
+                        "down":87
+                    },
+                    "8-9":{
+                        "up":53,
+                        "down":108
+                    }
                 }
             },
             {
@@ -1876,19 +2878,14 @@ var fullrate_data = {
                 "station2_code":21565,
                 "station2_name":"桃内",
                 "full_rate":{
-                    "7-8":195,
-                    "8-9":20
-                }
-            },
-            {
-                "code":650770,
-                "station1_code":21439,
-                "station1_name":"磐城太田",
-                "station2_code":21458,
-                "station2_name":"小高",
-                "full_rate":{
-                    "7-8":165,
-                    "8-9":130
+                    "7-8":{
+                        "up":58,
+                        "down":89
+                    },
+                    "8-9":{
+                        "up":35,
+                        "down":150
+                    }
                 }
             },
             {
@@ -1898,8 +2895,31 @@ var fullrate_data = {
                 "station2_code":21565,
                 "station2_name":"桃内",
                 "full_rate":{
-                    "7-8":130,
-                    "8-9":197
+                    "7-8":{
+                        "up":187,
+                        "down":89
+                    },
+                    "8-9":{
+                        "up":92,
+                        "down":48
+                    }
+                }
+            },
+            {
+                "code":650770,
+                "station1_code":21439,
+                "station1_name":"磐城太田",
+                "station2_code":21458,
+                "station2_name":"小高",
+                "full_rate":{
+                    "7-8":{
+                        "up":40,
+                        "down":98
+                    },
+                    "8-9":{
+                        "up":49,
+                        "down":192
+                    }
                 }
             },
             {
@@ -1909,8 +2929,14 @@ var fullrate_data = {
                 "station2_code":21539,
                 "station2_name":"原ノ町",
                 "full_rate":{
-                    "7-8":67,
-                    "8-9":89
+                    "7-8":{
+                        "up":178,
+                        "down":38
+                    },
+                    "8-9":{
+                        "up":172,
+                        "down":93
+                    }
                 }
             },
             {
@@ -1920,8 +2946,14 @@ var fullrate_data = {
                 "station2_code":21539,
                 "station2_name":"原ノ町",
                 "full_rate":{
-                    "7-8":6,
-                    "8-9":170
+                    "7-8":{
+                        "up":77,
+                        "down":179
+                    },
+                    "8-9":{
+                        "up":102,
+                        "down":104
+                    }
                 }
             },
             {
@@ -1931,8 +2963,14 @@ var fullrate_data = {
                 "station2_code":21528,
                 "station2_name":"日立木",
                 "full_rate":{
-                    "7-8":28,
-                    "8-9":91
+                    "7-8":{
+                        "up":21,
+                        "down":149
+                    },
+                    "8-9":{
+                        "up":133,
+                        "down":196
+                    }
                 }
             },
             {
@@ -1942,8 +2980,14 @@ var fullrate_data = {
                 "station2_code":21528,
                 "station2_name":"日立木",
                 "full_rate":{
-                    "7-8":43,
-                    "8-9":161
+                    "7-8":{
+                        "up":162,
+                        "down":163
+                    },
+                    "8-9":{
+                        "up":135,
+                        "down":189
+                    }
                 }
             },
             {
@@ -1953,8 +2997,14 @@ var fullrate_data = {
                 "station2_code":21503,
                 "station2_name":"相馬",
                 "full_rate":{
-                    "7-8":94,
-                    "8-9":27
+                    "7-8":{
+                        "up":130,
+                        "down":146
+                    },
+                    "8-9":{
+                        "up":25,
+                        "down":80
+                    }
                 }
             },
             {
@@ -1964,8 +3014,14 @@ var fullrate_data = {
                 "station2_code":21495,
                 "station2_name":"新地",
                 "full_rate":{
-                    "7-8":56,
-                    "8-9":42
+                    "7-8":{
+                        "up":133,
+                        "down":11
+                    },
+                    "8-9":{
+                        "up":75,
+                        "down":78
+                    }
                 }
             },
             {
@@ -1975,8 +3031,14 @@ var fullrate_data = {
                 "station2_code":21495,
                 "station2_name":"新地",
                 "full_rate":{
-                    "7-8":61,
-                    "8-9":37
+                    "7-8":{
+                        "up":150,
+                        "down":182
+                    },
+                    "8-9":{
+                        "up":103,
+                        "down":34
+                    }
                 }
             },
             {
@@ -1986,8 +3048,14 @@ var fullrate_data = {
                 "station2_code":21107,
                 "station2_name":"山下(宮城県)",
                 "full_rate":{
-                    "7-8":146,
-                    "8-9":83
+                    "7-8":{
+                        "up":61,
+                        "down":51
+                    },
+                    "8-9":{
+                        "up":184,
+                        "down":68
+                    }
                 }
             },
             {
@@ -1997,8 +3065,14 @@ var fullrate_data = {
                 "station2_code":21107,
                 "station2_name":"山下(宮城県)",
                 "full_rate":{
-                    "7-8":86,
-                    "8-9":62
+                    "7-8":{
+                        "up":84,
+                        "down":127
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":136
+                    }
                 }
             },
             {
@@ -2008,8 +3082,14 @@ var fullrate_data = {
                 "station2_code":21133,
                 "station2_name":"亘理",
                 "full_rate":{
-                    "7-8":38,
-                    "8-9":29
+                    "7-8":{
+                        "up":23,
+                        "down":178
+                    },
+                    "8-9":{
+                        "up":191,
+                        "down":171
+                    }
                 }
             },
             {
@@ -2019,8 +3099,14 @@ var fullrate_data = {
                 "station2_code":21133,
                 "station2_name":"亘理",
                 "full_rate":{
-                    "7-8":19,
-                    "8-9":142
+                    "7-8":{
+                        "up":107,
+                        "down":17
+                    },
+                    "8-9":{
+                        "up":74,
+                        "down":173
+                    }
                 }
             },
             {
@@ -2030,8 +3116,14 @@ var fullrate_data = {
                 "station2_code":20992,
                 "station2_name":"逢隈",
                 "full_rate":{
-                    "7-8":149,
-                    "8-9":133
+                    "7-8":{
+                        "up":149,
+                        "down":127
+                    },
+                    "8-9":{
+                        "up":184,
+                        "down":97
+                    }
                 }
             },
             {
@@ -2041,8 +3133,14 @@ var fullrate_data = {
                 "station2_code":21050,
                 "station2_name":"館腰",
                 "full_rate":{
-                    "7-8":28,
-                    "8-9":97
+                    "7-8":{
+                        "up":14,
+                        "down":89
+                    },
+                    "8-9":{
+                        "up":96,
+                        "down":118
+                    }
                 }
             },
             {
@@ -2052,8 +3150,14 @@ var fullrate_data = {
                 "station2_code":21066,
                 "station2_name":"名取",
                 "full_rate":{
-                    "7-8":73,
-                    "8-9":13
+                    "7-8":{
+                        "up":69,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":118,
+                        "down":66
+                    }
                 }
             },
             {
@@ -2063,8 +3167,14 @@ var fullrate_data = {
                 "station2_code":21101,
                 "station2_name":"南仙台",
                 "full_rate":{
-                    "7-8":132,
-                    "8-9":105
+                    "7-8":{
+                        "up":72,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":160,
+                        "down":195
+                    }
                 }
             },
             {
@@ -2074,8 +3184,14 @@ var fullrate_data = {
                 "station2_code":21101,
                 "station2_name":"南仙台",
                 "full_rate":{
-                    "7-8":116,
-                    "8-9":123
+                    "7-8":{
+                        "up":85,
+                        "down":41
+                    },
+                    "8-9":{
+                        "up":179,
+                        "down":4
+                    }
                 }
             },
             {
@@ -2085,8 +3201,14 @@ var fullrate_data = {
                 "station2_code":21063,
                 "station2_name":"長町",
                 "full_rate":{
-                    "7-8":64,
-                    "8-9":197
+                    "7-8":{
+                        "up":2,
+                        "down":40
+                    },
+                    "8-9":{
+                        "up":159,
+                        "down":182
+                    }
                 }
             },
             {
@@ -2096,8 +3218,14 @@ var fullrate_data = {
                 "station2_code":21063,
                 "station2_name":"長町",
                 "full_rate":{
-                    "7-8":26,
-                    "8-9":52
+                    "7-8":{
+                        "up":143,
+                        "down":121
+                    },
+                    "8-9":{
+                        "up":104,
+                        "down":92
+                    }
                 }
             }
         ]
@@ -2106,14 +3234,37 @@ var fullrate_data = {
         "name":"ＪＲ総武本線",
         "sections":[
             {
+                "code":930100,
+                "station1_code":22750,
+                "station1_name":"新日本橋",
+                "station2_code":22828,
+                "station2_name":"東京",
+                "full_rate":{
+                    "7-8":{
+                        "up":14,
+                        "down":129
+                    },
+                    "8-9":{
+                        "up":172,
+                        "down":155
+                    }
+                }
+            },
+            {
                 "code":930110,
                 "station1_code":22750,
                 "station1_name":"新日本橋",
                 "station2_code":22918,
                 "station2_name":"馬喰町",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":179
+                    "7-8":{
+                        "up":55,
+                        "down":48
+                    },
+                    "8-9":{
+                        "up":43,
+                        "down":167
+                    }
                 }
             },
             {
@@ -2123,30 +3274,14 @@ var fullrate_data = {
                 "station2_code":22918,
                 "station2_name":"馬喰町",
                 "full_rate":{
-                    "7-8":171,
-                    "8-9":113
-                }
-            },
-            {
-                "code":930100,
-                "station1_code":22750,
-                "station1_name":"新日本橋",
-                "station2_code":22828,
-                "station2_name":"東京",
-                "full_rate":{
-                    "7-8":168,
-                    "8-9":66
-                }
-            },
-            {
-                "code":930130,
-                "station1_code":22612,
-                "station1_name":"亀戸",
-                "station2_code":22640,
-                "station2_name":"錦糸町",
-                "full_rate":{
-                    "7-8":191,
-                    "8-9":145
+                    "7-8":{
+                        "up":12,
+                        "down":138
+                    },
+                    "8-9":{
+                        "up":60,
+                        "down":110
+                    }
                 }
             },
             {
@@ -2156,8 +3291,31 @@ var fullrate_data = {
                 "station2_code":22952,
                 "station2_name":"平井(東京都)",
                 "full_rate":{
-                    "7-8":139,
-                    "8-9":131
+                    "7-8":{
+                        "up":2,
+                        "down":88
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":76
+                    }
+                }
+            },
+            {
+                "code":930130,
+                "station1_code":22612,
+                "station1_name":"亀戸",
+                "station2_code":22640,
+                "station2_name":"錦糸町",
+                "full_rate":{
+                    "7-8":{
+                        "up":38,
+                        "down":135
+                    },
+                    "8-9":{
+                        "up":106,
+                        "down":88
+                    }
                 }
             },
             {
@@ -2167,19 +3325,14 @@ var fullrate_data = {
                 "station2_code":22952,
                 "station2_name":"平井(東京都)",
                 "full_rate":{
-                    "7-8":141,
-                    "8-9":158
-                }
-            },
-            {
-                "code":930160,
-                "station1_code":22670,
-                "station1_name":"小岩",
-                "station2_code":22734,
-                "station2_name":"新小岩",
-                "full_rate":{
-                    "7-8":59,
-                    "8-9":140
+                    "7-8":{
+                        "up":96,
+                        "down":37
+                    },
+                    "8-9":{
+                        "up":22,
+                        "down":151
+                    }
                 }
             },
             {
@@ -2189,8 +3342,31 @@ var fullrate_data = {
                 "station2_code":22670,
                 "station2_name":"小岩",
                 "full_rate":{
-                    "7-8":13,
-                    "8-9":82
+                    "7-8":{
+                        "up":122,
+                        "down":125
+                    },
+                    "8-9":{
+                        "up":118,
+                        "down":101
+                    }
+                }
+            },
+            {
+                "code":930160,
+                "station1_code":22670,
+                "station1_name":"小岩",
+                "station2_code":22734,
+                "station2_name":"新小岩",
+                "full_rate":{
+                    "7-8":{
+                        "up":122,
+                        "down":98
+                    },
+                    "8-9":{
+                        "up":184,
+                        "down":74
+                    }
                 }
             },
             {
@@ -2200,8 +3376,14 @@ var fullrate_data = {
                 "station2_code":22463,
                 "station2_name":"本八幡(総武線)",
                 "full_rate":{
-                    "7-8":67,
-                    "8-9":115
+                    "7-8":{
+                        "up":22,
+                        "down":33
+                    },
+                    "8-9":{
+                        "up":2,
+                        "down":173
+                    }
                 }
             },
             {
@@ -2211,8 +3393,14 @@ var fullrate_data = {
                 "station2_code":22463,
                 "station2_name":"本八幡(総武線)",
                 "full_rate":{
-                    "7-8":148,
-                    "8-9":1
+                    "7-8":{
+                        "up":48,
+                        "down":84
+                    },
+                    "8-9":{
+                        "up":67,
+                        "down":131
+                    }
                 }
             },
             {
@@ -2222,8 +3410,14 @@ var fullrate_data = {
                 "station2_code":22401,
                 "station2_name":"西船橋",
                 "full_rate":{
-                    "7-8":154,
-                    "8-9":188
+                    "7-8":{
+                        "up":71,
+                        "down":157
+                    },
+                    "8-9":{
+                        "up":161,
+                        "down":80
+                    }
                 }
             },
             {
@@ -2233,8 +3427,14 @@ var fullrate_data = {
                 "station2_code":22427,
                 "station2_name":"船橋",
                 "full_rate":{
-                    "7-8":192,
-                    "8-9":32
+                    "7-8":{
+                        "up":163,
+                        "down":58
+                    },
+                    "8-9":{
+                        "up":56,
+                        "down":3
+                    }
                 }
             },
             {
@@ -2244,8 +3444,14 @@ var fullrate_data = {
                 "station2_code":22427,
                 "station2_name":"船橋",
                 "full_rate":{
-                    "7-8":162,
-                    "8-9":149
+                    "7-8":{
+                        "up":73,
+                        "down":158
+                    },
+                    "8-9":{
+                        "up":49,
+                        "down":114
+                    }
                 }
             },
             {
@@ -2255,8 +3461,14 @@ var fullrate_data = {
                 "station2_code":22415,
                 "station2_name":"東船橋",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":167
+                    "7-8":{
+                        "up":43,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":37,
+                        "down":48
+                    }
                 }
             },
             {
@@ -2266,8 +3478,14 @@ var fullrate_data = {
                 "station2_code":22439,
                 "station2_name":"幕張本郷",
                 "full_rate":{
-                    "7-8":3,
-                    "8-9":184
+                    "7-8":{
+                        "up":38,
+                        "down":196
+                    },
+                    "8-9":{
+                        "up":168,
+                        "down":159
+                    }
                 }
             },
             {
@@ -2277,8 +3495,14 @@ var fullrate_data = {
                 "station2_code":22439,
                 "station2_name":"幕張本郷",
                 "full_rate":{
-                    "7-8":44,
-                    "8-9":193
+                    "7-8":{
+                        "up":74,
+                        "down":154
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":156
+                    }
                 }
             },
             {
@@ -2288,8 +3512,14 @@ var fullrate_data = {
                 "station2_code":22438,
                 "station2_name":"幕張",
                 "full_rate":{
-                    "7-8":88,
-                    "8-9":23
+                    "7-8":{
+                        "up":166,
+                        "down":199
+                    },
+                    "8-9":{
+                        "up":64,
+                        "down":23
+                    }
                 }
             },
             {
@@ -2299,8 +3529,14 @@ var fullrate_data = {
                 "station2_code":22327,
                 "station2_name":"新検見川",
                 "full_rate":{
-                    "7-8":3,
-                    "8-9":93
+                    "7-8":{
+                        "up":148,
+                        "down":61
+                    },
+                    "8-9":{
+                        "up":176,
+                        "down":198
+                    }
                 }
             },
             {
@@ -2310,8 +3546,14 @@ var fullrate_data = {
                 "station2_code":22398,
                 "station2_name":"西千葉",
                 "full_rate":{
-                    "7-8":63,
-                    "8-9":136
+                    "7-8":{
+                        "up":117,
+                        "down":156
+                    },
+                    "8-9":{
+                        "up":185,
+                        "down":49
+                    }
                 }
             },
             {
@@ -2321,8 +3563,14 @@ var fullrate_data = {
                 "station2_code":22398,
                 "station2_name":"西千葉",
                 "full_rate":{
-                    "7-8":151,
-                    "8-9":22
+                    "7-8":{
+                        "up":82,
+                        "down":19
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":185
+                    }
                 }
             },
             {
@@ -2332,8 +3580,14 @@ var fullrate_data = {
                 "station2_code":22411,
                 "station2_name":"東千葉",
                 "full_rate":{
-                    "7-8":163,
-                    "8-9":134
+                    "7-8":{
+                        "up":121,
+                        "down":25
+                    },
+                    "8-9":{
+                        "up":126,
+                        "down":94
+                    }
                 }
             },
             {
@@ -2343,8 +3597,14 @@ var fullrate_data = {
                 "station2_code":22411,
                 "station2_name":"東千葉",
                 "full_rate":{
-                    "7-8":31,
-                    "8-9":157
+                    "7-8":{
+                        "up":30,
+                        "down":26
+                    },
+                    "8-9":{
+                        "up":47,
+                        "down":161
+                    }
                 }
             },
             {
@@ -2354,8 +3614,14 @@ var fullrate_data = {
                 "station2_code":22479,
                 "station2_name":"四街道",
                 "full_rate":{
-                    "7-8":39,
-                    "8-9":18
+                    "7-8":{
+                        "up":91,
+                        "down":188
+                    },
+                    "8-9":{
+                        "up":18,
+                        "down":156
+                    }
                 }
             },
             {
@@ -2365,8 +3631,14 @@ var fullrate_data = {
                 "station2_code":22479,
                 "station2_name":"四街道",
                 "full_rate":{
-                    "7-8":121,
-                    "8-9":2
+                    "7-8":{
+                        "up":92,
+                        "down":67
+                    },
+                    "8-9":{
+                        "up":137,
+                        "down":65
+                    }
                 }
             },
             {
@@ -2376,8 +3648,14 @@ var fullrate_data = {
                 "station2_code":22465,
                 "station2_name":"物井",
                 "full_rate":{
-                    "7-8":105,
-                    "8-9":46
+                    "7-8":{
+                        "up":113,
+                        "down":55
+                    },
+                    "8-9":{
+                        "up":123,
+                        "down":155
+                    }
                 }
             },
             {
@@ -2387,8 +3665,14 @@ var fullrate_data = {
                 "station2_code":22454,
                 "station2_name":"南酒々井",
                 "full_rate":{
-                    "7-8":15,
-                    "8-9":43
+                    "7-8":{
+                        "up":141,
+                        "down":45
+                    },
+                    "8-9":{
+                        "up":116,
+                        "down":111
+                    }
                 }
             },
             {
@@ -2398,8 +3682,14 @@ var fullrate_data = {
                 "station2_code":22454,
                 "station2_name":"南酒々井",
                 "full_rate":{
-                    "7-8":28,
-                    "8-9":192
+                    "7-8":{
+                        "up":149,
+                        "down":37
+                    },
+                    "8-9":{
+                        "up":161,
+                        "down":173
+                    }
                 }
             },
             {
@@ -2409,85 +3699,14 @@ var fullrate_data = {
                 "station2_code":22468,
                 "station2_name":"八街",
                 "full_rate":{
-                    "7-8":84,
-                    "8-9":131
-                }
-            },
-            {
-                "code":930380,
-                "station1_code":22408,
-                "station1_name":"日向",
-                "station2_code":22468,
-                "station2_name":"八街",
-                "full_rate":{
-                    "7-8":72,
-                    "8-9":104
-                }
-            },
-            {
-                "code":930410,
-                "station1_code":22442,
-                "station1_name":"松尾(千葉県)",
-                "station2_code":22477,
-                "station2_name":"横芝",
-                "full_rate":{
-                    "7-8":79,
-                    "8-9":123
-                }
-            },
-            {
-                "code":930450,
-                "station1_code":22177,
-                "station1_name":"旭(千葉県)",
-                "station2_code":22418,
-                "station2_name":"干潟",
-                "full_rate":{
-                    "7-8":39,
-                    "8-9":122
-                }
-            },
-            {
-                "code":930440,
-                "station1_code":22418,
-                "station1_name":"干潟",
-                "station2_code":22475,
-                "station2_name":"八日市場",
-                "full_rate":{
-                    "7-8":130,
-                    "8-9":111
-                }
-            },
-            {
-                "code":930460,
-                "station1_code":22177,
-                "station1_name":"旭(千葉県)",
-                "station2_code":22190,
-                "station2_name":"飯岡",
-                "full_rate":{
-                    "7-8":62,
-                    "8-9":149
-                }
-            },
-            {
-                "code":930470,
-                "station1_code":22190,
-                "station1_name":"飯岡",
-                "station2_code":22272,
-                "station2_name":"倉橋",
-                "full_rate":{
-                    "7-8":163,
-                    "8-9":148
-                }
-            },
-            {
-                "code":930480,
-                "station1_code":22272,
-                "station1_name":"倉橋",
-                "station2_code":22311,
-                "station2_name":"猿田",
-                "full_rate":{
-                    "7-8":57,
-                    "8-9":137
+                    "7-8":{
+                        "up":17,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":143,
+                        "down":66
+                    }
                 }
             },
             {
@@ -2497,30 +3716,31 @@ var fullrate_data = {
                 "station2_code":22408,
                 "station2_name":"日向",
                 "full_rate":{
-                    "7-8":37,
-                    "8-9":188
+                    "7-8":{
+                        "up":164,
+                        "down":65
+                    },
+                    "8-9":{
+                        "up":159,
+                        "down":177
+                    }
                 }
             },
             {
-                "code":930490,
-                "station1_code":22311,
-                "station1_name":"猿田",
-                "station2_code":22443,
-                "station2_name":"松岸",
+                "code":930380,
+                "station1_code":22408,
+                "station1_name":"日向",
+                "station2_code":22468,
+                "station2_name":"八街",
                 "full_rate":{
-                    "7-8":2,
-                    "8-9":187
-                }
-            },
-            {
-                "code":930500,
-                "station1_code":22354,
-                "station1_name":"銚子",
-                "station2_code":22443,
-                "station2_name":"松岸",
-                "full_rate":{
-                    "7-8":128,
-                    "8-9":146
+                    "7-8":{
+                        "up":77,
+                        "down":196
+                    },
+                    "8-9":{
+                        "up":54,
+                        "down":118
+                    }
                 }
             },
             {
@@ -2530,8 +3750,31 @@ var fullrate_data = {
                 "station2_code":22442,
                 "station2_name":"松尾(千葉県)",
                 "full_rate":{
-                    "7-8":133,
-                    "8-9":137
+                    "7-8":{
+                        "up":43,
+                        "down":68
+                    },
+                    "8-9":{
+                        "up":34,
+                        "down":116
+                    }
+                }
+            },
+            {
+                "code":930410,
+                "station1_code":22442,
+                "station1_name":"松尾(千葉県)",
+                "station2_code":22477,
+                "station2_name":"横芝",
+                "full_rate":{
+                    "7-8":{
+                        "up":175,
+                        "down":178
+                    },
+                    "8-9":{
+                        "up":10,
+                        "down":152
+                    }
                 }
             },
             {
@@ -2541,8 +3784,14 @@ var fullrate_data = {
                 "station2_code":22477,
                 "station2_name":"横芝",
                 "full_rate":{
-                    "7-8":132,
-                    "8-9":48
+                    "7-8":{
+                        "up":134,
+                        "down":182
+                    },
+                    "8-9":{
+                        "up":86,
+                        "down":182
+                    }
                 }
             },
             {
@@ -2552,8 +3801,133 @@ var fullrate_data = {
                 "station2_code":22475,
                 "station2_name":"八日市場",
                 "full_rate":{
-                    "7-8":172,
-                    "8-9":71
+                    "7-8":{
+                        "up":186,
+                        "down":17
+                    },
+                    "8-9":{
+                        "up":18,
+                        "down":144
+                    }
+                }
+            },
+            {
+                "code":930440,
+                "station1_code":22418,
+                "station1_name":"干潟",
+                "station2_code":22475,
+                "station2_name":"八日市場",
+                "full_rate":{
+                    "7-8":{
+                        "up":150,
+                        "down":78
+                    },
+                    "8-9":{
+                        "up":59,
+                        "down":85
+                    }
+                }
+            },
+            {
+                "code":930450,
+                "station1_code":22177,
+                "station1_name":"旭(千葉県)",
+                "station2_code":22418,
+                "station2_name":"干潟",
+                "full_rate":{
+                    "7-8":{
+                        "up":117,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":67,
+                        "down":5
+                    }
+                }
+            },
+            {
+                "code":930460,
+                "station1_code":22177,
+                "station1_name":"旭(千葉県)",
+                "station2_code":22190,
+                "station2_name":"飯岡",
+                "full_rate":{
+                    "7-8":{
+                        "up":140,
+                        "down":142
+                    },
+                    "8-9":{
+                        "up":78,
+                        "down":149
+                    }
+                }
+            },
+            {
+                "code":930470,
+                "station1_code":22190,
+                "station1_name":"飯岡",
+                "station2_code":22272,
+                "station2_name":"倉橋",
+                "full_rate":{
+                    "7-8":{
+                        "up":90,
+                        "down":165
+                    },
+                    "8-9":{
+                        "up":158,
+                        "down":62
+                    }
+                }
+            },
+            {
+                "code":930480,
+                "station1_code":22272,
+                "station1_name":"倉橋",
+                "station2_code":22311,
+                "station2_name":"猿田",
+                "full_rate":{
+                    "7-8":{
+                        "up":57,
+                        "down":149
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":0
+                    }
+                }
+            },
+            {
+                "code":930490,
+                "station1_code":22311,
+                "station1_name":"猿田",
+                "station2_code":22443,
+                "station2_name":"松岸",
+                "full_rate":{
+                    "7-8":{
+                        "up":183,
+                        "down":177
+                    },
+                    "8-9":{
+                        "up":7,
+                        "down":142
+                    }
+                }
+            },
+            {
+                "code":930500,
+                "station1_code":22354,
+                "station1_name":"銚子",
+                "station2_code":22443,
+                "station2_name":"松岸",
+                "full_rate":{
+                    "7-8":{
+                        "up":16,
+                        "down":72
+                    },
+                    "8-9":{
+                        "up":102,
+                        "down":139
+                    }
                 }
             }
         ]
@@ -2562,14 +3936,20 @@ var fullrate_data = {
         "name":"ＪＲ総武線快速",
         "sections":[
             {
-                "code":940100,
+                "code":940110,
                 "station1_code":22750,
                 "station1_name":"新日本橋",
-                "station2_code":22828,
-                "station2_name":"東京",
+                "station2_code":22918,
+                "station2_name":"馬喰町",
                 "full_rate":{
-                    "7-8":185,
-                    "8-9":164
+                    "7-8":{
+                        "up":11,
+                        "down":96
+                    },
+                    "8-9":{
+                        "up":113,
+                        "down":169
+                    }
                 }
             },
             {
@@ -2579,19 +3959,31 @@ var fullrate_data = {
                 "station2_code":22918,
                 "station2_name":"馬喰町",
                 "full_rate":{
-                    "7-8":134,
-                    "8-9":138
+                    "7-8":{
+                        "up":35,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":60,
+                        "down":26
+                    }
                 }
             },
             {
-                "code":940130,
-                "station1_code":22640,
-                "station1_name":"錦糸町",
-                "station2_code":22734,
-                "station2_name":"新小岩",
+                "code":940100,
+                "station1_code":22750,
+                "station1_name":"新日本橋",
+                "station2_code":22828,
+                "station2_name":"東京",
                 "full_rate":{
-                    "7-8":95,
-                    "8-9":81
+                    "7-8":{
+                        "up":29,
+                        "down":88
+                    },
+                    "8-9":{
+                        "up":168,
+                        "down":130
+                    }
                 }
             },
             {
@@ -2601,19 +3993,31 @@ var fullrate_data = {
                 "station2_code":22734,
                 "station2_name":"新小岩",
                 "full_rate":{
-                    "7-8":7,
-                    "8-9":114
+                    "7-8":{
+                        "up":151,
+                        "down":165
+                    },
+                    "8-9":{
+                        "up":173,
+                        "down":154
+                    }
                 }
             },
             {
-                "code":940110,
-                "station1_code":22750,
-                "station1_name":"新日本橋",
-                "station2_code":22918,
-                "station2_name":"馬喰町",
+                "code":940130,
+                "station1_code":22640,
+                "station1_name":"錦糸町",
+                "station2_code":22734,
+                "station2_name":"新小岩",
                 "full_rate":{
-                    "7-8":64,
-                    "8-9":67
+                    "7-8":{
+                        "up":124,
+                        "down":157
+                    },
+                    "8-9":{
+                        "up":89,
+                        "down":159
+                    }
                 }
             },
             {
@@ -2623,8 +4027,14 @@ var fullrate_data = {
                 "station2_code":22427,
                 "station2_name":"船橋",
                 "full_rate":{
-                    "7-8":123,
-                    "8-9":13
+                    "7-8":{
+                        "up":35,
+                        "down":25
+                    },
+                    "8-9":{
+                        "up":160,
+                        "down":48
+                    }
                 }
             },
             {
@@ -2634,8 +4044,14 @@ var fullrate_data = {
                 "station2_code":22427,
                 "station2_name":"船橋",
                 "full_rate":{
-                    "7-8":133,
-                    "8-9":93
+                    "7-8":{
+                        "up":14,
+                        "down":30
+                    },
+                    "8-9":{
+                        "up":4,
+                        "down":133
+                    }
                 }
             },
             {
@@ -2645,8 +4061,14 @@ var fullrate_data = {
                 "station2_code":22370,
                 "station2_name":"津田沼",
                 "full_rate":{
-                    "7-8":160,
-                    "8-9":44
+                    "7-8":{
+                        "up":46,
+                        "down":125
+                    },
+                    "8-9":{
+                        "up":25,
+                        "down":54
+                    }
                 }
             },
             {
@@ -2656,8 +4078,14 @@ var fullrate_data = {
                 "station2_code":22361,
                 "station2_name":"千葉",
                 "full_rate":{
-                    "7-8":70,
-                    "8-9":187
+                    "7-8":{
+                        "up":91,
+                        "down":120
+                    },
+                    "8-9":{
+                        "up":53,
+                        "down":179
+                    }
                 }
             }
         ]
@@ -2672,8 +4100,14 @@ var fullrate_data = {
                 "station2_code":22894,
                 "station2_name":"八丁堀(東京都)",
                 "full_rate":{
-                    "7-8":77,
-                    "8-9":83
+                    "7-8":{
+                        "up":84,
+                        "down":196
+                    },
+                    "8-9":{
+                        "up":182,
+                        "down":55
+                    }
                 }
             },
             {
@@ -2683,8 +4117,14 @@ var fullrate_data = {
                 "station2_code":22894,
                 "station2_name":"八丁堀(東京都)",
                 "full_rate":{
-                    "7-8":46,
-                    "8-9":50
+                    "7-8":{
+                        "up":162,
+                        "down":168
+                    },
+                    "8-9":{
+                        "up":164,
+                        "down":106
+                    }
                 }
             },
             {
@@ -2694,8 +4134,14 @@ var fullrate_data = {
                 "station2_code":22708,
                 "station2_name":"潮見",
                 "full_rate":{
-                    "7-8":136,
-                    "8-9":85
+                    "7-8":{
+                        "up":64,
+                        "down":197
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":169
+                    }
                 }
             },
             {
@@ -2705,8 +4151,14 @@ var fullrate_data = {
                 "station2_code":22733,
                 "station2_name":"新木場",
                 "full_rate":{
-                    "7-8":139,
-                    "8-9":144
+                    "7-8":{
+                        "up":120,
+                        "down":139
+                    },
+                    "8-9":{
+                        "up":183,
+                        "down":89
+                    }
                 }
             },
             {
@@ -2716,8 +4168,14 @@ var fullrate_data = {
                 "station2_code":22733,
                 "station2_name":"新木場",
                 "full_rate":{
-                    "7-8":24,
-                    "8-9":68
+                    "7-8":{
+                        "up":150,
+                        "down":185
+                    },
+                    "8-9":{
+                        "up":21,
+                        "down":34
+                    }
                 }
             },
             {
@@ -2727,30 +4185,14 @@ var fullrate_data = {
                 "station2_code":22435,
                 "station2_name":"舞浜",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":116
-                }
-            },
-            {
-                "code":950160,
-                "station1_code":22324,
-                "station1_name":"新浦安",
-                "station2_code":22435,
-                "station2_name":"舞浜",
-                "full_rate":{
-                    "7-8":108,
-                    "8-9":186
-                }
-            },
-            {
-                "code":950170,
-                "station1_code":22195,
-                "station1_name":"市川塩浜",
-                "station2_code":22324,
-                "station2_name":"新浦安",
-                "full_rate":{
-                    "7-8":36,
-                    "8-9":44
+                    "7-8":{
+                        "up":155,
+                        "down":102
+                    },
+                    "8-9":{
+                        "up":191,
+                        "down":147
+                    }
                 }
             },
             {
@@ -2760,8 +4202,31 @@ var fullrate_data = {
                 "station2_code":22424,
                 "station2_name":"二俣新町",
                 "full_rate":{
-                    "7-8":199,
-                    "8-9":16
+                    "7-8":{
+                        "up":59,
+                        "down":109
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":142
+                    }
+                }
+            },
+            {
+                "code":950170,
+                "station1_code":22195,
+                "station1_name":"市川塩浜",
+                "station2_code":22324,
+                "station2_name":"新浦安",
+                "full_rate":{
+                    "7-8":{
+                        "up":87,
+                        "down":62
+                    },
+                    "8-9":{
+                        "up":110,
+                        "down":74
+                    }
                 }
             },
             {
@@ -2771,8 +4236,31 @@ var fullrate_data = {
                 "station2_code":22457,
                 "station2_name":"南船橋",
                 "full_rate":{
-                    "7-8":98,
-                    "8-9":17
+                    "7-8":{
+                        "up":178,
+                        "down":191
+                    },
+                    "8-9":{
+                        "up":71,
+                        "down":13
+                    }
+                }
+            },
+            {
+                "code":950160,
+                "station1_code":22324,
+                "station1_name":"新浦安",
+                "station2_code":22435,
+                "station2_name":"舞浜",
+                "full_rate":{
+                    "7-8":{
+                        "up":128,
+                        "down":38
+                    },
+                    "8-9":{
+                        "up":34,
+                        "down":115
+                    }
                 }
             },
             {
@@ -2782,19 +4270,14 @@ var fullrate_data = {
                 "station2_code":22457,
                 "station2_name":"南船橋",
                 "full_rate":{
-                    "7-8":24,
-                    "8-9":187
-                }
-            },
-            {
-                "code":950210,
-                "station1_code":22226,
-                "station1_name":"海浜幕張",
-                "station2_code":22330,
-                "station2_name":"新習志野",
-                "full_rate":{
-                    "7-8":54,
-                    "8-9":48
+                    "7-8":{
+                        "up":79,
+                        "down":123
+                    },
+                    "8-9":{
+                        "up":25,
+                        "down":156
+                    }
                 }
             },
             {
@@ -2804,30 +4287,31 @@ var fullrate_data = {
                 "station2_code":22291,
                 "station2_name":"検見川浜",
                 "full_rate":{
-                    "7-8":144,
-                    "8-9":136
+                    "7-8":{
+                        "up":84,
+                        "down":29
+                    },
+                    "8-9":{
+                        "up":132,
+                        "down":13
+                    }
                 }
             },
             {
-                "code":950230,
-                "station1_code":22198,
-                "station1_name":"稲毛海岸",
-                "station2_code":22291,
-                "station2_name":"検見川浜",
+                "code":950210,
+                "station1_code":22226,
+                "station1_name":"海浜幕張",
+                "station2_code":22330,
+                "station2_name":"新習志野",
                 "full_rate":{
-                    "7-8":127,
-                    "8-9":42
-                }
-            },
-            {
-                "code":950240,
-                "station1_code":22198,
-                "station1_name":"稲毛海岸",
-                "station2_code":22366,
-                "station2_name":"千葉みなと",
-                "full_rate":{
-                    "7-8":129,
-                    "8-9":82
+                    "7-8":{
+                        "up":43,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":33
+                    }
                 }
             },
             {
@@ -2837,8 +4321,48 @@ var fullrate_data = {
                 "station2_code":22366,
                 "station2_name":"千葉みなと",
                 "full_rate":{
-                    "7-8":106,
-                    "8-9":186
+                    "7-8":{
+                        "up":147,
+                        "down":28
+                    },
+                    "8-9":{
+                        "up":148,
+                        "down":97
+                    }
+                }
+            },
+            {
+                "code":950230,
+                "station1_code":22198,
+                "station1_name":"稲毛海岸",
+                "station2_code":22291,
+                "station2_name":"検見川浜",
+                "full_rate":{
+                    "7-8":{
+                        "up":107,
+                        "down":189
+                    },
+                    "8-9":{
+                        "up":44,
+                        "down":198
+                    }
+                }
+            },
+            {
+                "code":950240,
+                "station1_code":22198,
+                "station1_name":"稲毛海岸",
+                "station2_code":22366,
+                "station2_name":"千葉みなと",
+                "full_rate":{
+                    "7-8":{
+                        "up":63,
+                        "down":57
+                    },
+                    "8-9":{
+                        "up":129,
+                        "down":16
+                    }
                 }
             }
         ]
@@ -2853,8 +4377,14 @@ var fullrate_data = {
                 "station2_code":22963,
                 "station2_name":"府中本町",
                 "full_rate":{
-                    "7-8":91,
-                    "8-9":165
+                    "7-8":{
+                        "up":118,
+                        "down":87
+                    },
+                    "8-9":{
+                        "up":192,
+                        "down":75
+                    }
                 }
             },
             {
@@ -2864,8 +4394,14 @@ var fullrate_data = {
                 "station2_code":22872,
                 "station2_name":"西国分寺",
                 "full_rate":{
-                    "7-8":7,
-                    "8-9":85
+                    "7-8":{
+                        "up":140,
+                        "down":40
+                    },
+                    "8-9":{
+                        "up":163,
+                        "down":73
+                    }
                 }
             },
             {
@@ -2875,19 +4411,14 @@ var fullrate_data = {
                 "station2_code":22872,
                 "station2_name":"西国分寺",
                 "full_rate":{
-                    "7-8":158,
-                    "8-9":70
-                }
-            },
-            {
-                "code":980130,
-                "station1_code":22728,
-                "station1_name":"新秋津",
-                "station2_code":22738,
-                "station2_name":"新小平",
-                "full_rate":{
-                    "7-8":171,
-                    "8-9":89
+                    "7-8":{
+                        "up":122,
+                        "down":175
+                    },
+                    "8-9":{
+                        "up":30,
+                        "down":28
+                    }
                 }
             },
             {
@@ -2897,19 +4428,31 @@ var fullrate_data = {
                 "station2_code":22113,
                 "station2_name":"東所沢",
                 "full_rate":{
-                    "7-8":86,
-                    "8-9":173
+                    "7-8":{
+                        "up":197,
+                        "down":127
+                    },
+                    "8-9":{
+                        "up":166,
+                        "down":34
+                    }
                 }
             },
             {
-                "code":980150,
-                "station1_code":22090,
-                "station1_name":"新座",
-                "station2_code":22113,
-                "station2_name":"東所沢",
+                "code":980130,
+                "station1_code":22728,
+                "station1_name":"新秋津",
+                "station2_code":22738,
+                "station2_name":"新小平",
                 "full_rate":{
-                    "7-8":118,
-                    "8-9":14
+                    "7-8":{
+                        "up":174,
+                        "down":36
+                    },
+                    "8-9":{
+                        "up":102,
+                        "down":188
+                    }
                 }
             },
             {
@@ -2919,52 +4462,31 @@ var fullrate_data = {
                 "station2_code":22090,
                 "station2_name":"新座",
                 "full_rate":{
-                    "7-8":194,
-                    "8-9":28
+                    "7-8":{
+                        "up":87,
+                        "down":61
+                    },
+                    "8-9":{
+                        "up":39,
+                        "down":166
+                    }
                 }
             },
             {
-                "code":980170,
-                "station1_code":22016,
-                "station1_name":"北朝霞",
-                "station2_code":22092,
-                "station2_name":"西浦和",
+                "code":980150,
+                "station1_code":22090,
+                "station1_name":"新座",
+                "station2_code":22113,
+                "station2_name":"東所沢",
                 "full_rate":{
-                    "7-8":136,
-                    "8-9":37
-                }
-            },
-            {
-                "code":980180,
-                "station1_code":22092,
-                "station1_name":"西浦和",
-                "station2_code":22151,
-                "station2_name":"武蔵浦和",
-                "full_rate":{
-                    "7-8":108,
-                    "8-9":195
-                }
-            },
-            {
-                "code":980190,
-                "station1_code":22142,
-                "station1_name":"南浦和",
-                "station2_code":22151,
-                "station2_name":"武蔵浦和",
-                "full_rate":{
-                    "7-8":162,
-                    "8-9":50
-                }
-            },
-            {
-                "code":980200,
-                "station1_code":22109,
-                "station1_name":"東浦和",
-                "station2_code":22142,
-                "station2_name":"南浦和",
-                "full_rate":{
-                    "7-8":122,
-                    "8-9":52
+                    "7-8":{
+                        "up":132,
+                        "down":171
+                    },
+                    "8-9":{
+                        "up":45,
+                        "down":66
+                    }
                 }
             },
             {
@@ -2974,8 +4496,48 @@ var fullrate_data = {
                 "station2_code":22111,
                 "station2_name":"東川口",
                 "full_rate":{
-                    "7-8":12,
-                    "8-9":24
+                    "7-8":{
+                        "up":94,
+                        "down":161
+                    },
+                    "8-9":{
+                        "up":5,
+                        "down":110
+                    }
+                }
+            },
+            {
+                "code":980190,
+                "station1_code":22142,
+                "station1_name":"南浦和",
+                "station2_code":22151,
+                "station2_name":"武蔵浦和",
+                "full_rate":{
+                    "7-8":{
+                        "up":196,
+                        "down":192
+                    },
+                    "8-9":{
+                        "up":18,
+                        "down":172
+                    }
+                }
+            },
+            {
+                "code":980200,
+                "station1_code":22109,
+                "station1_name":"東浦和",
+                "station2_code":22142,
+                "station2_name":"南浦和",
+                "full_rate":{
+                    "7-8":{
+                        "up":51,
+                        "down":101
+                    },
+                    "8-9":{
+                        "up":76,
+                        "down":135
+                    }
                 }
             },
             {
@@ -2985,41 +4547,48 @@ var fullrate_data = {
                 "station2_code":22145,
                 "station2_name":"南越谷",
                 "full_rate":{
-                    "7-8":170,
-                    "8-9":57
+                    "7-8":{
+                        "up":60,
+                        "down":149
+                    },
+                    "8-9":{
+                        "up":70,
+                        "down":48
+                    }
                 }
             },
             {
-                "code":980230,
-                "station1_code":29601,
-                "station1_name":"越谷レイクタウン",
-                "station2_code":22145,
-                "station2_name":"南越谷",
+                "code":980180,
+                "station1_code":22092,
+                "station1_name":"西浦和",
+                "station2_code":22151,
+                "station2_name":"武蔵浦和",
                 "full_rate":{
-                    "7-8":29,
-                    "8-9":69
+                    "7-8":{
+                        "up":63,
+                        "down":124
+                    },
+                    "8-9":{
+                        "up":26,
+                        "down":61
+                    }
                 }
             },
             {
-                "code":980240,
-                "station1_code":29601,
-                "station1_name":"越谷レイクタウン",
-                "station2_code":22165,
-                "station2_name":"吉川",
+                "code":980170,
+                "station1_code":22016,
+                "station1_name":"北朝霞",
+                "station2_code":22092,
+                "station2_name":"西浦和",
                 "full_rate":{
-                    "7-8":136,
-                    "8-9":91
-                }
-            },
-            {
-                "code":980250,
-                "station1_code":22165,
-                "station1_name":"吉川",
-                "station2_code":29697,
-                "station2_name":"吉川美南",
-                "full_rate":{
-                    "7-8":69,
-                    "8-9":89
+                    "7-8":{
+                        "up":178,
+                        "down":199
+                    },
+                    "8-9":{
+                        "up":102,
+                        "down":144
+                    }
                 }
             },
             {
@@ -3029,8 +4598,48 @@ var fullrate_data = {
                 "station2_code":29697,
                 "station2_name":"吉川美南",
                 "full_rate":{
-                    "7-8":178,
-                    "8-9":79
+                    "7-8":{
+                        "up":2,
+                        "down":127
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":144
+                    }
+                }
+            },
+            {
+                "code":980240,
+                "station1_code":29601,
+                "station1_name":"越谷レイクタウン",
+                "station2_code":22165,
+                "station2_name":"吉川",
+                "full_rate":{
+                    "7-8":{
+                        "up":187,
+                        "down":46
+                    },
+                    "8-9":{
+                        "up":91,
+                        "down":101
+                    }
+                }
+            },
+            {
+                "code":980230,
+                "station1_code":29601,
+                "station1_name":"越谷レイクタウン",
+                "station2_code":22145,
+                "station2_name":"南越谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":44,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":68
+                    }
                 }
             },
             {
@@ -3040,8 +4649,31 @@ var fullrate_data = {
                 "station2_code":22138,
                 "station2_name":"三郷(埼玉県)",
                 "full_rate":{
-                    "7-8":34,
-                    "8-9":104
+                    "7-8":{
+                        "up":25,
+                        "down":143
+                    },
+                    "8-9":{
+                        "up":29,
+                        "down":46
+                    }
+                }
+            },
+            {
+                "code":980250,
+                "station1_code":22165,
+                "station1_name":"吉川",
+                "station2_code":29697,
+                "station2_name":"吉川美南",
+                "full_rate":{
+                    "7-8":{
+                        "up":183,
+                        "down":53
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":22
+                    }
                 }
             },
             {
@@ -3051,41 +4683,14 @@ var fullrate_data = {
                 "station2_code":22455,
                 "station2_name":"南流山",
                 "full_rate":{
-                    "7-8":184,
-                    "8-9":175
-                }
-            },
-            {
-                "code":980290,
-                "station1_code":22332,
-                "station1_name":"新松戸",
-                "station2_code":22455,
-                "station2_name":"南流山",
-                "full_rate":{
-                    "7-8":79,
-                    "8-9":53
-                }
-            },
-            {
-                "code":980300,
-                "station1_code":22332,
-                "station1_name":"新松戸",
-                "station2_code":22334,
-                "station2_name":"新八柱",
-                "full_rate":{
-                    "7-8":49,
-                    "8-9":81
-                }
-            },
-            {
-                "code":980310,
-                "station1_code":22334,
-                "station1_name":"新八柱",
-                "station2_code":22416,
-                "station2_name":"東松戸",
-                "full_rate":{
-                    "7-8":62,
-                    "8-9":29
+                    "7-8":{
+                        "up":155,
+                        "down":81
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":139
+                    }
                 }
             },
             {
@@ -3095,8 +4700,65 @@ var fullrate_data = {
                 "station2_code":22416,
                 "station2_name":"東松戸",
                 "full_rate":{
-                    "7-8":75,
-                    "8-9":68
+                    "7-8":{
+                        "up":24,
+                        "down":182
+                    },
+                    "8-9":{
+                        "up":92,
+                        "down":178
+                    }
+                }
+            },
+            {
+                "code":980290,
+                "station1_code":22332,
+                "station1_name":"新松戸",
+                "station2_code":22455,
+                "station2_name":"南流山",
+                "full_rate":{
+                    "7-8":{
+                        "up":42,
+                        "down":89
+                    },
+                    "8-9":{
+                        "up":60,
+                        "down":122
+                    }
+                }
+            },
+            {
+                "code":980310,
+                "station1_code":22334,
+                "station1_name":"新八柱",
+                "station2_code":22416,
+                "station2_name":"東松戸",
+                "full_rate":{
+                    "7-8":{
+                        "up":60,
+                        "down":91
+                    },
+                    "8-9":{
+                        "up":65,
+                        "down":89
+                    }
+                }
+            },
+            {
+                "code":980300,
+                "station1_code":22332,
+                "station1_name":"新松戸",
+                "station2_code":22334,
+                "station2_name":"新八柱",
+                "full_rate":{
+                    "7-8":{
+                        "up":101,
+                        "down":60
+                    },
+                    "8-9":{
+                        "up":34,
+                        "down":25
+                    }
                 }
             },
             {
@@ -3106,8 +4768,14 @@ var fullrate_data = {
                 "station2_code":22429,
                 "station2_name":"船橋法典",
                 "full_rate":{
-                    "7-8":169,
-                    "8-9":115
+                    "7-8":{
+                        "up":96,
+                        "down":186
+                    },
+                    "8-9":{
+                        "up":196,
+                        "down":137
+                    }
                 }
             },
             {
@@ -3117,8 +4785,14 @@ var fullrate_data = {
                 "station2_code":22429,
                 "station2_name":"船橋法典",
                 "full_rate":{
-                    "7-8":194,
-                    "8-9":87
+                    "7-8":{
+                        "up":142,
+                        "down":33
+                    },
+                    "8-9":{
+                        "up":19,
+                        "down":99
+                    }
                 }
             }
         ]
@@ -3133,8 +4807,14 @@ var fullrate_data = {
                 "station2_code":22862,
                 "station2_name":"日暮里",
                 "full_rate":{
-                    "7-8":174,
-                    "8-9":78
+                    "7-8":{
+                        "up":149,
+                        "down":142
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":183
+                    }
                 }
             },
             {
@@ -3144,8 +4824,14 @@ var fullrate_data = {
                 "station2_code":22983,
                 "station2_name":"三河島",
                 "full_rate":{
-                    "7-8":47,
-                    "8-9":46
+                    "7-8":{
+                        "up":124,
+                        "down":123
+                    },
+                    "8-9":{
+                        "up":121,
+                        "down":174
+                    }
                 }
             },
             {
@@ -3155,8 +4841,14 @@ var fullrate_data = {
                 "station2_code":22995,
                 "station2_name":"南千住",
                 "full_rate":{
-                    "7-8":9,
-                    "8-9":49
+                    "7-8":{
+                        "up":167,
+                        "down":180
+                    },
+                    "8-9":{
+                        "up":6,
+                        "down":100
+                    }
                 }
             },
             {
@@ -3166,8 +4858,14 @@ var fullrate_data = {
                 "station2_code":22995,
                 "station2_name":"南千住",
                 "full_rate":{
-                    "7-8":17,
-                    "8-9":12
+                    "7-8":{
+                        "up":91,
+                        "down":94
+                    },
+                    "8-9":{
+                        "up":183,
+                        "down":39
+                    }
                 }
             },
             {
@@ -3177,8 +4875,14 @@ var fullrate_data = {
                 "station2_code":22444,
                 "station2_name":"松戸",
                 "full_rate":{
-                    "7-8":1,
-                    "8-9":171
+                    "7-8":{
+                        "up":12,
+                        "down":107
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":152
+                    }
                 }
             },
             {
@@ -3188,30 +4892,14 @@ var fullrate_data = {
                 "station2_code":22444,
                 "station2_name":"松戸",
                 "full_rate":{
-                    "7-8":69,
-                    "8-9":9
-                }
-            },
-            {
-                "code":990280,
-                "station1_code":22372,
-                "station1_name":"天王台",
-                "station2_code":21673,
-                "station2_name":"取手",
-                "full_rate":{
-                    "7-8":37,
-                    "8-9":85
-                }
-            },
-            {
-                "code":990270,
-                "station1_code":22183,
-                "station1_name":"我孫子",
-                "station2_code":22372,
-                "station2_name":"天王台",
-                "full_rate":{
-                    "7-8":96,
-                    "8-9":21
+                    "7-8":{
+                        "up":106,
+                        "down":199
+                    },
+                    "8-9":{
+                        "up":115,
+                        "down":99
+                    }
                 }
             },
             {
@@ -3221,8 +4909,48 @@ var fullrate_data = {
                 "station2_code":22228,
                 "station2_name":"柏",
                 "full_rate":{
-                    "7-8":162,
-                    "8-9":48
+                    "7-8":{
+                        "up":181,
+                        "down":62
+                    },
+                    "8-9":{
+                        "up":75,
+                        "down":46
+                    }
+                }
+            },
+            {
+                "code":990270,
+                "station1_code":22183,
+                "station1_name":"我孫子",
+                "station2_code":22372,
+                "station2_name":"天王台",
+                "full_rate":{
+                    "7-8":{
+                        "up":113,
+                        "down":142
+                    },
+                    "8-9":{
+                        "up":129,
+                        "down":70
+                    }
+                }
+            },
+            {
+                "code":990280,
+                "station1_code":22372,
+                "station1_name":"天王台",
+                "station2_code":21673,
+                "station2_name":"取手",
+                "full_rate":{
+                    "7-8":{
+                        "up":60,
+                        "down":103
+                    },
+                    "8-9":{
+                        "up":79,
+                        "down":86
+                    }
                 }
             }
         ]
@@ -3231,135 +4959,37 @@ var fullrate_data = {
         "name":"ＪＲ常磐線各駅停車",
         "sections":[
             {
-                "code":1000100,
-                "station1_code":22499,
-                "station1_name":"綾瀬",
-                "station2_code":22611,
-                "station2_name":"亀有",
-                "full_rate":{
-                    "7-8":5,
-                    "8-9":7
-                }
-            },
-            {
-                "code":1000110,
-                "station1_code":22598,
-                "station1_name":"金町(東京都)",
-                "station2_code":22611,
-                "station2_name":"亀有",
-                "full_rate":{
-                    "7-8":194,
-                    "8-9":153
-                }
-            },
-            {
-                "code":1000130,
-                "station1_code":22262,
-                "station1_name":"北松戸",
-                "station2_code":22444,
-                "station2_name":"松戸",
-                "full_rate":{
-                    "7-8":25,
-                    "8-9":49
-                }
-            },
-            {
-                "code":1000120,
-                "station1_code":22598,
-                "station1_name":"金町(東京都)",
-                "station2_code":22444,
-                "station2_name":"松戸",
-                "full_rate":{
-                    "7-8":126,
-                    "8-9":162
-                }
-            },
-            {
-                "code":1000150,
-                "station1_code":22332,
-                "station1_name":"新松戸",
-                "station2_code":22447,
-                "station2_name":"馬橋",
-                "full_rate":{
-                    "7-8":96,
-                    "8-9":141
-                }
-            },
-            {
-                "code":1000140,
-                "station1_code":22262,
-                "station1_name":"北松戸",
-                "station2_code":22447,
-                "station2_name":"馬橋",
-                "full_rate":{
-                    "7-8":119,
-                    "8-9":104
-                }
-            },
-            {
-                "code":1000160,
-                "station1_code":22258,
-                "station1_name":"北小金",
-                "station2_code":22332,
-                "station2_name":"新松戸",
-                "full_rate":{
-                    "7-8":54,
-                    "8-9":193
-                }
-            },
-            {
-                "code":1000170,
-                "station1_code":22258,
-                "station1_name":"北小金",
-                "station2_code":22452,
-                "station2_name":"南柏",
-                "full_rate":{
-                    "7-8":178,
-                    "8-9":40
-                }
-            },
-            {
-                "code":1000180,
-                "station1_code":22228,
-                "station1_name":"柏",
-                "station2_code":22452,
-                "station2_name":"南柏",
-                "full_rate":{
-                    "7-8":36,
-                    "8-9":178
-                }
-            },
-            {
-                "code":1000190,
-                "station1_code":22228,
-                "station1_name":"柏",
-                "station2_code":22257,
-                "station2_name":"北柏",
-                "full_rate":{
-                    "7-8":104,
-                    "8-9":143
-                }
-            },
-            {
-                "code":1000200,
-                "station1_code":22183,
-                "station1_name":"我孫子",
-                "station2_code":22257,
-                "station2_name":"北柏",
-                "full_rate":{
-                    "7-8":193,
-                    "8-9":6
-                }
-            },
-            {
                 "code":1000210,
                 "station1_code":22183,
                 "station1_name":"我孫子",
                 "station2_code":22372,
                 "station2_name":"天王台",
                 "full_rate":{
-                    "7-8":185,
-                    "8-9":53
+                    "7-8":{
+                        "up":193,
+                        "down":143
+                    },
+                    "8-9":{
+                        "up":38,
+                        "down":12
+                    }
+                }
+            },
+            {
+                "code":1000100,
+                "station1_code":22499,
+                "station1_name":"綾瀬",
+                "station2_code":22611,
+                "station2_name":"亀有",
+                "full_rate":{
+                    "7-8":{
+                        "up":61,
+                        "down":118
+                    },
+                    "8-9":{
+                        "up":78,
+                        "down":174
+                    }
                 }
             },
             {
@@ -3369,8 +4999,184 @@ var fullrate_data = {
                 "station2_code":21673,
                 "station2_name":"取手",
                 "full_rate":{
-                    "7-8":25,
-                    "8-9":18
+                    "7-8":{
+                        "up":56,
+                        "down":95
+                    },
+                    "8-9":{
+                        "up":146,
+                        "down":31
+                    }
+                }
+            },
+            {
+                "code":1000110,
+                "station1_code":22598,
+                "station1_name":"金町(東京都)",
+                "station2_code":22611,
+                "station2_name":"亀有",
+                "full_rate":{
+                    "7-8":{
+                        "up":139,
+                        "down":7
+                    },
+                    "8-9":{
+                        "up":0,
+                        "down":173
+                    }
+                }
+            },
+            {
+                "code":1000120,
+                "station1_code":22598,
+                "station1_name":"金町(東京都)",
+                "station2_code":22444,
+                "station2_name":"松戸",
+                "full_rate":{
+                    "7-8":{
+                        "up":163,
+                        "down":178
+                    },
+                    "8-9":{
+                        "up":131,
+                        "down":21
+                    }
+                }
+            },
+            {
+                "code":1000130,
+                "station1_code":22262,
+                "station1_name":"北松戸",
+                "station2_code":22444,
+                "station2_name":"松戸",
+                "full_rate":{
+                    "7-8":{
+                        "up":90,
+                        "down":167
+                    },
+                    "8-9":{
+                        "up":103,
+                        "down":170
+                    }
+                }
+            },
+            {
+                "code":1000160,
+                "station1_code":22258,
+                "station1_name":"北小金",
+                "station2_code":22332,
+                "station2_name":"新松戸",
+                "full_rate":{
+                    "7-8":{
+                        "up":21,
+                        "down":20
+                    },
+                    "8-9":{
+                        "up":43,
+                        "down":124
+                    }
+                }
+            },
+            {
+                "code":1000150,
+                "station1_code":22332,
+                "station1_name":"新松戸",
+                "station2_code":22447,
+                "station2_name":"馬橋",
+                "full_rate":{
+                    "7-8":{
+                        "up":149,
+                        "down":164
+                    },
+                    "8-9":{
+                        "up":27,
+                        "down":107
+                    }
+                }
+            },
+            {
+                "code":1000140,
+                "station1_code":22262,
+                "station1_name":"北松戸",
+                "station2_code":22447,
+                "station2_name":"馬橋",
+                "full_rate":{
+                    "7-8":{
+                        "up":0,
+                        "down":6
+                    },
+                    "8-9":{
+                        "up":111,
+                        "down":188
+                    }
+                }
+            },
+            {
+                "code":1000170,
+                "station1_code":22258,
+                "station1_name":"北小金",
+                "station2_code":22452,
+                "station2_name":"南柏",
+                "full_rate":{
+                    "7-8":{
+                        "up":84,
+                        "down":9
+                    },
+                    "8-9":{
+                        "up":69,
+                        "down":34
+                    }
+                }
+            },
+            {
+                "code":1000180,
+                "station1_code":22228,
+                "station1_name":"柏",
+                "station2_code":22452,
+                "station2_name":"南柏",
+                "full_rate":{
+                    "7-8":{
+                        "up":97,
+                        "down":46
+                    },
+                    "8-9":{
+                        "up":127,
+                        "down":64
+                    }
+                }
+            },
+            {
+                "code":1000190,
+                "station1_code":22228,
+                "station1_name":"柏",
+                "station2_code":22257,
+                "station2_name":"北柏",
+                "full_rate":{
+                    "7-8":{
+                        "up":79,
+                        "down":187
+                    },
+                    "8-9":{
+                        "up":119,
+                        "down":28
+                    }
+                }
+            },
+            {
+                "code":1000200,
+                "station1_code":22183,
+                "station1_name":"我孫子",
+                "station2_code":22257,
+                "station2_name":"北柏",
+                "full_rate":{
+                    "7-8":{
+                        "up":20,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":120,
+                        "down":22
+                    }
                 }
             }
         ]
@@ -3379,25 +5185,20 @@ var fullrate_data = {
         "name":"ＪＲ高崎線",
         "sections":[
             {
-                "code":1010140,
-                "station1_code":22487,
-                "station1_name":"赤羽",
-                "station2_code":21982,
-                "station2_name":"浦和",
-                "full_rate":{
-                    "7-8":124,
-                    "8-9":23
-                }
-            },
-            {
                 "code":1010100,
                 "station1_code":22528,
                 "station1_name":"上野",
                 "station2_code":22574,
                 "station2_name":"尾久",
                 "full_rate":{
-                    "7-8":171,
-                    "8-9":148
+                    "7-8":{
+                        "up":109,
+                        "down":8
+                    },
+                    "8-9":{
+                        "up":49,
+                        "down":111
+                    }
                 }
             },
             {
@@ -3407,8 +5208,31 @@ var fullrate_data = {
                 "station2_code":22574,
                 "station2_name":"尾久",
                 "full_rate":{
-                    "7-8":82,
-                    "8-9":105
+                    "7-8":{
+                        "up":6,
+                        "down":39
+                    },
+                    "8-9":{
+                        "up":190,
+                        "down":100
+                    }
+                }
+            },
+            {
+                "code":1010140,
+                "station1_code":22487,
+                "station1_name":"赤羽",
+                "station2_code":21982,
+                "station2_name":"浦和",
+                "full_rate":{
+                    "7-8":{
+                        "up":22,
+                        "down":25
+                    },
+                    "8-9":{
+                        "up":166,
+                        "down":106
+                    }
                 }
             },
             {
@@ -3418,96 +5242,14 @@ var fullrate_data = {
                 "station2_code":29315,
                 "station2_name":"さいたま新都心",
                 "full_rate":{
-                    "7-8":59,
-                    "8-9":67
-                }
-            },
-            {
-                "code":1010230,
-                "station1_code":21987,
-                "station1_name":"大宮(埼玉県)",
-                "station2_code":22150,
-                "station2_name":"宮原",
-                "full_rate":{
-                    "7-8":107,
-                    "8-9":199
-                }
-            },
-            {
-                "code":1010240,
-                "station1_code":21968,
-                "station1_name":"上尾",
-                "station2_code":22150,
-                "station2_name":"宮原",
-                "full_rate":{
-                    "7-8":110,
-                    "8-9":198
-                }
-            },
-            {
-                "code":1010250,
-                "station1_code":21968,
-                "station1_name":"上尾",
-                "station2_code":22015,
-                "station2_name":"北上尾",
-                "full_rate":{
-                    "7-8":78,
-                    "8-9":117
-                }
-            },
-            {
-                "code":1010260,
-                "station1_code":21992,
-                "station1_name":"桶川",
-                "station2_code":22015,
-                "station2_name":"北上尾",
-                "full_rate":{
-                    "7-8":182,
-                    "8-9":171
-                }
-            },
-            {
-                "code":1010270,
-                "station1_code":21992,
-                "station1_name":"桶川",
-                "station2_code":22024,
-                "station2_name":"北本",
-                "full_rate":{
-                    "7-8":83,
-                    "8-9":191
-                }
-            },
-            {
-                "code":1010280,
-                "station1_code":22024,
-                "station1_name":"北本",
-                "station2_code":22033,
-                "station2_name":"鴻巣",
-                "full_rate":{
-                    "7-8":157,
-                    "8-9":24
-                }
-            },
-            {
-                "code":1010300,
-                "station1_code":22020,
-                "station1_name":"北鴻巣",
-                "station2_code":22122,
-                "station2_name":"吹上(埼玉県)",
-                "full_rate":{
-                    "7-8":38,
-                    "8-9":41
-                }
-            },
-            {
-                "code":1010310,
-                "station1_code":22026,
-                "station1_name":"行田",
-                "station2_code":22122,
-                "station2_name":"吹上(埼玉県)",
-                "full_rate":{
-                    "7-8":84,
-                    "8-9":165
+                    "7-8":{
+                        "up":79,
+                        "down":111
+                    },
+                    "8-9":{
+                        "up":2,
+                        "down":40
+                    }
                 }
             },
             {
@@ -3517,107 +5259,116 @@ var fullrate_data = {
                 "station2_code":29315,
                 "station2_name":"さいたま新都心",
                 "full_rate":{
-                    "7-8":67,
-                    "8-9":151
+                    "7-8":{
+                        "up":163,
+                        "down":34
+                    },
+                    "8-9":{
+                        "up":109,
+                        "down":71
+                    }
                 }
             },
             {
-                "code":1010320,
-                "station1_code":22026,
-                "station1_name":"行田",
-                "station2_code":22029,
-                "station2_name":"熊谷",
+                "code":1010230,
+                "station1_code":21987,
+                "station1_name":"大宮(埼玉県)",
+                "station2_code":22150,
+                "station2_name":"宮原",
                 "full_rate":{
-                    "7-8":49,
-                    "8-9":60
+                    "7-8":{
+                        "up":101,
+                        "down":90
+                    },
+                    "8-9":{
+                        "up":178,
+                        "down":144
+                    }
                 }
             },
             {
-                "code":1010340,
-                "station1_code":22000,
-                "station1_name":"籠原",
-                "station2_code":22121,
-                "station2_name":"深谷",
+                "code":1010240,
+                "station1_code":21968,
+                "station1_name":"上尾",
+                "station2_code":22150,
+                "station2_name":"宮原",
                 "full_rate":{
-                    "7-8":161,
-                    "8-9":162
+                    "7-8":{
+                        "up":58,
+                        "down":114
+                    },
+                    "8-9":{
+                        "up":15,
+                        "down":48
+                    }
                 }
             },
             {
-                "code":1010350,
-                "station1_code":21990,
-                "station1_name":"岡部",
-                "station2_code":22121,
-                "station2_name":"深谷",
+                "code":1010250,
+                "station1_code":21968,
+                "station1_name":"上尾",
+                "station2_code":22015,
+                "station2_name":"北上尾",
                 "full_rate":{
-                    "7-8":140,
-                    "8-9":56
+                    "7-8":{
+                        "up":51,
+                        "down":61
+                    },
+                    "8-9":{
+                        "up":0,
+                        "down":139
+                    }
                 }
             },
             {
-                "code":1010330,
-                "station1_code":22000,
-                "station1_name":"籠原",
-                "station2_code":22029,
-                "station2_name":"熊谷",
+                "code":1010260,
+                "station1_code":21992,
+                "station1_name":"桶川",
+                "station2_code":22015,
+                "station2_name":"北上尾",
                 "full_rate":{
-                    "7-8":195,
-                    "8-9":72
+                    "7-8":{
+                        "up":157,
+                        "down":66
+                    },
+                    "8-9":{
+                        "up":142,
+                        "down":154
+                    }
                 }
             },
             {
-                "code":1010360,
-                "station1_code":21990,
-                "station1_name":"岡部",
-                "station2_code":22132,
-                "station2_name":"本庄",
+                "code":1010270,
+                "station1_code":21992,
+                "station1_name":"桶川",
+                "station2_code":22024,
+                "station2_name":"北本",
                 "full_rate":{
-                    "7-8":64,
-                    "8-9":91
+                    "7-8":{
+                        "up":5,
+                        "down":153
+                    },
+                    "8-9":{
+                        "up":164,
+                        "down":181
+                    }
                 }
             },
             {
-                "code":1010370,
-                "station1_code":22063,
-                "station1_name":"神保原",
-                "station2_code":22132,
-                "station2_name":"本庄",
+                "code":1010280,
+                "station1_code":22024,
+                "station1_name":"北本",
+                "station2_code":22033,
+                "station2_name":"鴻巣",
                 "full_rate":{
-                    "7-8":72,
-                    "8-9":144
-                }
-            },
-            {
-                "code":1010380,
-                "station1_code":21899,
-                "station1_name":"新町(群馬県)",
-                "station2_code":22063,
-                "station2_name":"神保原",
-                "full_rate":{
-                    "7-8":68,
-                    "8-9":100
-                }
-            },
-            {
-                "code":1010390,
-                "station1_code":21876,
-                "station1_name":"倉賀野",
-                "station2_code":21899,
-                "station2_name":"新町(群馬県)",
-                "full_rate":{
-                    "7-8":76,
-                    "8-9":95
-                }
-            },
-            {
-                "code":1010400,
-                "station1_code":21876,
-                "station1_name":"倉賀野",
-                "station2_code":21913,
-                "station2_name":"高崎",
-                "full_rate":{
-                    "7-8":78,
-                    "8-9":52
+                    "7-8":{
+                        "up":108,
+                        "down":15
+                    },
+                    "8-9":{
+                        "up":50,
+                        "down":197
+                    }
                 }
             },
             {
@@ -3627,8 +5378,201 @@ var fullrate_data = {
                 "station2_code":22033,
                 "station2_name":"鴻巣",
                 "full_rate":{
-                    "7-8":124,
-                    "8-9":4
+                    "7-8":{
+                        "up":14,
+                        "down":76
+                    },
+                    "8-9":{
+                        "up":78,
+                        "down":90
+                    }
+                }
+            },
+            {
+                "code":1010300,
+                "station1_code":22020,
+                "station1_name":"北鴻巣",
+                "station2_code":22122,
+                "station2_name":"吹上(埼玉県)",
+                "full_rate":{
+                    "7-8":{
+                        "up":1,
+                        "down":35
+                    },
+                    "8-9":{
+                        "up":150,
+                        "down":110
+                    }
+                }
+            },
+            {
+                "code":1010310,
+                "station1_code":22026,
+                "station1_name":"行田",
+                "station2_code":22122,
+                "station2_name":"吹上(埼玉県)",
+                "full_rate":{
+                    "7-8":{
+                        "up":63,
+                        "down":181
+                    },
+                    "8-9":{
+                        "up":8,
+                        "down":180
+                    }
+                }
+            },
+            {
+                "code":1010320,
+                "station1_code":22026,
+                "station1_name":"行田",
+                "station2_code":22029,
+                "station2_name":"熊谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":28,
+                        "down":136
+                    },
+                    "8-9":{
+                        "up":170,
+                        "down":110
+                    }
+                }
+            },
+            {
+                "code":1010340,
+                "station1_code":22000,
+                "station1_name":"籠原",
+                "station2_code":22121,
+                "station2_name":"深谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":36,
+                        "down":136
+                    },
+                    "8-9":{
+                        "up":192,
+                        "down":57
+                    }
+                }
+            },
+            {
+                "code":1010350,
+                "station1_code":21990,
+                "station1_name":"岡部",
+                "station2_code":22121,
+                "station2_name":"深谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":112,
+                        "down":169
+                    },
+                    "8-9":{
+                        "up":173,
+                        "down":103
+                    }
+                }
+            },
+            {
+                "code":1010360,
+                "station1_code":21990,
+                "station1_name":"岡部",
+                "station2_code":22132,
+                "station2_name":"本庄",
+                "full_rate":{
+                    "7-8":{
+                        "up":148,
+                        "down":84
+                    },
+                    "8-9":{
+                        "up":74,
+                        "down":83
+                    }
+                }
+            },
+            {
+                "code":1010370,
+                "station1_code":22063,
+                "station1_name":"神保原",
+                "station2_code":22132,
+                "station2_name":"本庄",
+                "full_rate":{
+                    "7-8":{
+                        "up":21,
+                        "down":42
+                    },
+                    "8-9":{
+                        "up":77,
+                        "down":156
+                    }
+                }
+            },
+            {
+                "code":1010380,
+                "station1_code":21899,
+                "station1_name":"新町(群馬県)",
+                "station2_code":22063,
+                "station2_name":"神保原",
+                "full_rate":{
+                    "7-8":{
+                        "up":184,
+                        "down":115
+                    },
+                    "8-9":{
+                        "up":141,
+                        "down":58
+                    }
+                }
+            },
+            {
+                "code":1010330,
+                "station1_code":22000,
+                "station1_name":"籠原",
+                "station2_code":22029,
+                "station2_name":"熊谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":133,
+                        "down":169
+                    },
+                    "8-9":{
+                        "up":183,
+                        "down":88
+                    }
+                }
+            },
+            {
+                "code":1010390,
+                "station1_code":21876,
+                "station1_name":"倉賀野",
+                "station2_code":21899,
+                "station2_name":"新町(群馬県)",
+                "full_rate":{
+                    "7-8":{
+                        "up":154,
+                        "down":83
+                    },
+                    "8-9":{
+                        "up":29,
+                        "down":49
+                    }
+                }
+            },
+            {
+                "code":1010400,
+                "station1_code":21876,
+                "station1_name":"倉賀野",
+                "station2_code":21913,
+                "station2_name":"高崎",
+                "full_rate":{
+                    "7-8":{
+                        "up":37,
+                        "down":144
+                    },
+                    "8-9":{
+                        "up":39,
+                        "down":42
+                    }
                 }
             }
         ]
@@ -3637,25 +5581,37 @@ var fullrate_data = {
         "name":"ＪＲ八高線(八王子−高麗川)",
         "sections":[
             {
-                "code":1020100,
-                "station1_code":22634,
-                "station1_name":"北八王子",
-                "station2_code":22905,
-                "station2_name":"八王子",
-                "full_rate":{
-                    "7-8":96,
-                    "8-9":27
-                }
-            },
-            {
                 "code":1020110,
                 "station1_code":22634,
                 "station1_name":"北八王子",
                 "station2_code":22686,
                 "station2_name":"小宮",
                 "full_rate":{
-                    "7-8":111,
-                    "8-9":179
+                    "7-8":{
+                        "up":94,
+                        "down":139
+                    },
+                    "8-9":{
+                        "up":141,
+                        "down":59
+                    }
+                }
+            },
+            {
+                "code":1020100,
+                "station1_code":22634,
+                "station1_name":"北八王子",
+                "station2_code":22905,
+                "station2_name":"八王子",
+                "full_rate":{
+                    "7-8":{
+                        "up":121,
+                        "down":60
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":93
+                    }
                 }
             },
             {
@@ -3665,8 +5621,14 @@ var fullrate_data = {
                 "station2_code":22895,
                 "station2_name":"拝島",
                 "full_rate":{
-                    "7-8":166,
-                    "8-9":101
+                    "7-8":{
+                        "up":159,
+                        "down":148
+                    },
+                    "8-9":{
+                        "up":141,
+                        "down":78
+                    }
                 }
             },
             {
@@ -3676,19 +5638,14 @@ var fullrate_data = {
                 "station2_code":22939,
                 "station2_name":"東福生",
                 "full_rate":{
-                    "7-8":122,
-                    "8-9":168
-                }
-            },
-            {
-                "code":1020140,
-                "station1_code":22899,
-                "station1_name":"箱根ケ崎",
-                "station2_code":22939,
-                "station2_name":"東福生",
-                "full_rate":{
-                    "7-8":91,
-                    "8-9":137
+                    "7-8":{
+                        "up":41,
+                        "down":97
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":97
+                    }
                 }
             },
             {
@@ -3698,8 +5655,14 @@ var fullrate_data = {
                 "station2_code":22899,
                 "station2_name":"箱根ケ崎",
                 "full_rate":{
-                    "7-8":125,
-                    "8-9":76
+                    "7-8":{
+                        "up":16,
+                        "down":33
+                    },
+                    "8-9":{
+                        "up":162,
+                        "down":139
+                    }
                 }
             },
             {
@@ -3709,8 +5672,31 @@ var fullrate_data = {
                 "station2_code":22114,
                 "station2_name":"東飯能",
                 "full_rate":{
-                    "7-8":77,
-                    "8-9":52
+                    "7-8":{
+                        "up":10,
+                        "down":160
+                    },
+                    "8-9":{
+                        "up":195,
+                        "down":91
+                    }
+                }
+            },
+            {
+                "code":1020140,
+                "station1_code":22899,
+                "station1_name":"箱根ケ崎",
+                "station2_code":22939,
+                "station2_name":"東福生",
+                "full_rate":{
+                    "7-8":{
+                        "up":5,
+                        "down":78
+                    },
+                    "8-9":{
+                        "up":125,
+                        "down":195
+                    }
                 }
             },
             {
@@ -3720,8 +5706,14 @@ var fullrate_data = {
                 "station2_code":22114,
                 "station2_name":"東飯能",
                 "full_rate":{
-                    "7-8":139,
-                    "8-9":118
+                    "7-8":{
+                        "up":50,
+                        "down":40
+                    },
+                    "8-9":{
+                        "up":138,
+                        "down":152
+                    }
                 }
             }
         ]
@@ -3730,14 +5722,37 @@ var fullrate_data = {
         "name":"ＪＲ湘南新宿ライン",
         "sections":[
             {
+                "code":1050360,
+                "station1_code":22487,
+                "station1_name":"赤羽",
+                "station2_code":21982,
+                "station2_name":"浦和",
+                "full_rate":{
+                    "7-8":{
+                        "up":156,
+                        "down":144
+                    },
+                    "8-9":{
+                        "up":124,
+                        "down":75
+                    }
+                }
+            },
+            {
                 "code":1050100,
                 "station1_code":23096,
                 "station1_name":"大船",
                 "station2_code":23251,
                 "station2_name":"戸塚",
                 "full_rate":{
-                    "7-8":166,
-                    "8-9":41
+                    "7-8":{
+                        "up":105,
+                        "down":23
+                    },
+                    "8-9":{
+                        "up":109,
+                        "down":78
+                    }
                 }
             },
             {
@@ -3747,8 +5762,14 @@ var fullrate_data = {
                 "station2_code":23291,
                 "station2_name":"東戸塚",
                 "full_rate":{
-                    "7-8":88,
-                    "8-9":38
+                    "7-8":{
+                        "up":67,
+                        "down":51
+                    },
+                    "8-9":{
+                        "up":65,
+                        "down":49
+                    }
                 }
             },
             {
@@ -3758,8 +5779,14 @@ var fullrate_data = {
                 "station2_code":23316,
                 "station2_name":"保土ケ谷",
                 "full_rate":{
-                    "7-8":66,
-                    "8-9":28
+                    "7-8":{
+                        "up":61,
+                        "down":146
+                    },
+                    "8-9":{
+                        "up":131,
+                        "down":105
+                    }
                 }
             },
             {
@@ -3769,41 +5796,14 @@ var fullrate_data = {
                 "station2_code":23368,
                 "station2_name":"横浜",
                 "full_rate":{
-                    "7-8":135,
-                    "8-9":20
-                }
-            },
-            {
-                "code":1050140,
-                "station1_code":23204,
-                "station1_name":"新川崎",
-                "station2_code":23368,
-                "station2_name":"横浜",
-                "full_rate":{
-                    "7-8":118,
-                    "8-9":183
-                }
-            },
-            {
-                "code":1050180,
-                "station1_code":23204,
-                "station1_name":"新川崎",
-                "station2_code":23345,
-                "station2_name":"武蔵小杉",
-                "full_rate":{
-                    "7-8":68,
-                    "8-9":179
-                }
-            },
-            {
-                "code":1050190,
-                "station1_code":22865,
-                "station1_name":"西大井",
-                "station2_code":23345,
-                "station2_name":"武蔵小杉",
-                "full_rate":{
-                    "7-8":52,
-                    "8-9":188
+                    "7-8":{
+                        "up":106,
+                        "down":121
+                    },
+                    "8-9":{
+                        "up":175,
+                        "down":104
+                    }
                 }
             },
             {
@@ -3813,19 +5813,14 @@ var fullrate_data = {
                 "station2_code":22865,
                 "station2_name":"西大井",
                 "full_rate":{
-                    "7-8":37,
-                    "8-9":101
-                }
-            },
-            {
-                "code":1050250,
-                "station1_code":22548,
-                "station1_name":"恵比寿",
-                "station2_code":22715,
-                "station2_name":"渋谷",
-                "full_rate":{
-                    "7-8":115,
-                    "8-9":45
+                    "7-8":{
+                        "up":80,
+                        "down":198
+                    },
+                    "8-9":{
+                        "up":43,
+                        "down":74
+                    }
                 }
             },
             {
@@ -3835,8 +5830,82 @@ var fullrate_data = {
                 "station2_code":22559,
                 "station2_name":"大崎",
                 "full_rate":{
-                    "7-8":116,
-                    "8-9":71
+                    "7-8":{
+                        "up":76,
+                        "down":84
+                    },
+                    "8-9":{
+                        "up":128,
+                        "down":144
+                    }
+                }
+            },
+            {
+                "code":1050180,
+                "station1_code":23204,
+                "station1_name":"新川崎",
+                "station2_code":23345,
+                "station2_name":"武蔵小杉",
+                "full_rate":{
+                    "7-8":{
+                        "up":20,
+                        "down":88
+                    },
+                    "8-9":{
+                        "up":77,
+                        "down":124
+                    }
+                }
+            },
+            {
+                "code":1050190,
+                "station1_code":22865,
+                "station1_name":"西大井",
+                "station2_code":23345,
+                "station2_name":"武蔵小杉",
+                "full_rate":{
+                    "7-8":{
+                        "up":164,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":33,
+                        "down":131
+                    }
+                }
+            },
+            {
+                "code":1050140,
+                "station1_code":23204,
+                "station1_name":"新川崎",
+                "station2_code":23368,
+                "station2_name":"横浜",
+                "full_rate":{
+                    "7-8":{
+                        "up":12,
+                        "down":118
+                    },
+                    "8-9":{
+                        "up":119,
+                        "down":51
+                    }
+                }
+            },
+            {
+                "code":1050250,
+                "station1_code":22548,
+                "station1_name":"恵比寿",
+                "station2_code":22715,
+                "station2_name":"渋谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":182,
+                        "down":135
+                    },
+                    "8-9":{
+                        "up":171,
+                        "down":101
+                    }
                 }
             },
             {
@@ -3846,41 +5915,14 @@ var fullrate_data = {
                 "station2_code":22741,
                 "station2_name":"新宿",
                 "full_rate":{
-                    "7-8":60,
-                    "8-9":101
-                }
-            },
-            {
-                "code":1050290,
-                "station1_code":22513,
-                "station1_name":"池袋",
-                "station2_code":22741,
-                "station2_name":"新宿",
-                "full_rate":{
-                    "7-8":184,
-                    "8-9":194
-                }
-            },
-            {
-                "code":1050330,
-                "station1_code":22487,
-                "station1_name":"赤羽",
-                "station2_code":22513,
-                "station2_name":"池袋",
-                "full_rate":{
-                    "7-8":82,
-                    "8-9":109
-                }
-            },
-            {
-                "code":1050360,
-                "station1_code":22487,
-                "station1_name":"赤羽",
-                "station2_code":21982,
-                "station2_name":"浦和",
-                "full_rate":{
-                    "7-8":85,
-                    "8-9":75
+                    "7-8":{
+                        "up":55,
+                        "down":28
+                    },
+                    "8-9":{
+                        "up":11,
+                        "down":126
+                    }
                 }
             },
             {
@@ -3890,8 +5932,48 @@ var fullrate_data = {
                 "station2_code":21987,
                 "station2_name":"大宮(埼玉県)",
                 "full_rate":{
-                    "7-8":109,
-                    "8-9":46
+                    "7-8":{
+                        "up":138,
+                        "down":128
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":50
+                    }
+                }
+            },
+            {
+                "code":1050330,
+                "station1_code":22487,
+                "station1_name":"赤羽",
+                "station2_code":22513,
+                "station2_name":"池袋",
+                "full_rate":{
+                    "7-8":{
+                        "up":152,
+                        "down":25
+                    },
+                    "8-9":{
+                        "up":42,
+                        "down":187
+                    }
+                }
+            },
+            {
+                "code":1050290,
+                "station1_code":22513,
+                "station1_name":"池袋",
+                "station2_code":22741,
+                "station2_name":"新宿",
+                "full_rate":{
+                    "7-8":{
+                        "up":49,
+                        "down":113
+                    },
+                    "8-9":{
+                        "up":83,
+                        "down":183
+                    }
                 }
             }
         ]
@@ -3900,91 +5982,20 @@ var fullrate_data = {
         "name":"ＪＲ埼京線",
         "sections":[
             {
-                "code":1060100,
-                "station1_code":22548,
-                "station1_name":"恵比寿",
-                "station2_code":22559,
-                "station2_name":"大崎",
-                "full_rate":{
-                    "7-8":109,
-                    "8-9":194
-                }
-            },
-            {
-                "code":1060130,
-                "station1_code":22548,
-                "station1_name":"恵比寿",
-                "station2_code":22715,
-                "station2_name":"渋谷",
-                "full_rate":{
-                    "7-8":125,
-                    "8-9":106
-                }
-            },
-            {
-                "code":1060170,
-                "station1_code":22513,
-                "station1_name":"池袋",
-                "station2_code":22741,
-                "station2_name":"新宿",
-                "full_rate":{
-                    "7-8":89,
-                    "8-9":75
-                }
-            },
-            {
-                "code":1060140,
-                "station1_code":22715,
-                "station1_name":"渋谷",
-                "station2_code":22741,
-                "station2_name":"新宿",
-                "full_rate":{
-                    "7-8":111,
-                    "8-9":108
-                }
-            },
-            {
                 "code":1060210,
                 "station1_code":22513,
                 "station1_name":"池袋",
                 "station2_code":22517,
                 "station2_name":"板橋",
                 "full_rate":{
-                    "7-8":76,
-                    "8-9":62
-                }
-            },
-            {
-                "code":1060220,
-                "station1_code":22517,
-                "station1_name":"板橋",
-                "station2_code":22754,
-                "station2_name":"十条(東京都)",
-                "full_rate":{
-                    "7-8":30,
-                    "8-9":169
-                }
-            },
-            {
-                "code":1060230,
-                "station1_code":22487,
-                "station1_name":"赤羽",
-                "station2_code":22754,
-                "station2_name":"十条(東京都)",
-                "full_rate":{
-                    "7-8":4,
-                    "8-9":120
-                }
-            },
-            {
-                "code":1060240,
-                "station1_code":22487,
-                "station1_name":"赤羽",
-                "station2_code":22626,
-                "station2_name":"北赤羽",
-                "full_rate":{
-                    "7-8":193,
-                    "8-9":112
+                    "7-8":{
+                        "up":25,
+                        "down":75
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":163
+                    }
                 }
             },
             {
@@ -3994,19 +6005,14 @@ var fullrate_data = {
                 "station2_code":22626,
                 "station2_name":"北赤羽",
                 "full_rate":{
-                    "7-8":16,
-                    "8-9":10
-                }
-            },
-            {
-                "code":1060260,
-                "station1_code":22530,
-                "station1_name":"浮間舟渡",
-                "station2_code":22082,
-                "station2_name":"戸田公園",
-                "full_rate":{
-                    "7-8":160,
-                    "8-9":25
+                    "7-8":{
+                        "up":59,
+                        "down":188
+                    },
+                    "8-9":{
+                        "up":36,
+                        "down":125
+                    }
                 }
             },
             {
@@ -4016,8 +6022,48 @@ var fullrate_data = {
                 "station2_code":22082,
                 "station2_name":"戸田公園",
                 "full_rate":{
-                    "7-8":55,
-                    "8-9":129
+                    "7-8":{
+                        "up":55,
+                        "down":165
+                    },
+                    "8-9":{
+                        "up":19,
+                        "down":161
+                    }
+                }
+            },
+            {
+                "code":1060240,
+                "station1_code":22487,
+                "station1_name":"赤羽",
+                "station2_code":22626,
+                "station2_name":"北赤羽",
+                "full_rate":{
+                    "7-8":{
+                        "up":20,
+                        "down":145
+                    },
+                    "8-9":{
+                        "up":118,
+                        "down":196
+                    }
+                }
+            },
+            {
+                "code":1060260,
+                "station1_code":22530,
+                "station1_name":"浮間舟渡",
+                "station2_code":22082,
+                "station2_name":"戸田公園",
+                "full_rate":{
+                    "7-8":{
+                        "up":188,
+                        "down":92
+                    },
+                    "8-9":{
+                        "up":136,
+                        "down":67
+                    }
                 }
             },
             {
@@ -4027,8 +6073,14 @@ var fullrate_data = {
                 "station2_code":22081,
                 "station2_name":"戸田(埼玉県)",
                 "full_rate":{
-                    "7-8":25,
-                    "8-9":16
+                    "7-8":{
+                        "up":66,
+                        "down":86
+                    },
+                    "8-9":{
+                        "up":68,
+                        "down":130
+                    }
                 }
             },
             {
@@ -4038,8 +6090,14 @@ var fullrate_data = {
                 "station2_code":22151,
                 "station2_name":"武蔵浦和",
                 "full_rate":{
-                    "7-8":13,
-                    "8-9":118
+                    "7-8":{
+                        "up":27,
+                        "down":47
+                    },
+                    "8-9":{
+                        "up":146,
+                        "down":182
+                    }
                 }
             },
             {
@@ -4049,8 +6107,14 @@ var fullrate_data = {
                 "station2_code":22151,
                 "station2_name":"武蔵浦和",
                 "full_rate":{
-                    "7-8":124,
-                    "8-9":146
+                    "7-8":{
+                        "up":161,
+                        "down":78
+                    },
+                    "8-9":{
+                        "up":182,
+                        "down":130
+                    }
                 }
             },
             {
@@ -4060,8 +6124,31 @@ var fullrate_data = {
                 "station2_code":22149,
                 "station2_name":"南与野",
                 "full_rate":{
-                    "7-8":147,
-                    "8-9":51
+                    "7-8":{
+                        "up":101,
+                        "down":167
+                    },
+                    "8-9":{
+                        "up":134,
+                        "down":36
+                    }
+                }
+            },
+            {
+                "code":1060230,
+                "station1_code":22487,
+                "station1_name":"赤羽",
+                "station2_code":22754,
+                "station2_name":"十条(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":46,
+                        "down":82
+                    },
+                    "8-9":{
+                        "up":151,
+                        "down":78
+                    }
                 }
             },
             {
@@ -4071,8 +6158,14 @@ var fullrate_data = {
                 "station2_code":22168,
                 "station2_name":"与野本町",
                 "full_rate":{
-                    "7-8":54,
-                    "8-9":90
+                    "7-8":{
+                        "up":189,
+                        "down":11
+                    },
+                    "8-9":{
+                        "up":43,
+                        "down":197
+                    }
                 }
             },
             {
@@ -4082,8 +6175,14 @@ var fullrate_data = {
                 "station2_code":22168,
                 "station2_name":"与野本町",
                 "full_rate":{
-                    "7-8":104,
-                    "8-9":174
+                    "7-8":{
+                        "up":19,
+                        "down":14
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":0
+                    }
                 }
             },
             {
@@ -4093,8 +6192,99 @@ var fullrate_data = {
                 "station2_code":22025,
                 "station2_name":"北与野",
                 "full_rate":{
-                    "7-8":13,
-                    "8-9":148
+                    "7-8":{
+                        "up":33,
+                        "down":17
+                    },
+                    "8-9":{
+                        "up":3,
+                        "down":44
+                    }
+                }
+            },
+            {
+                "code":1060220,
+                "station1_code":22517,
+                "station1_name":"板橋",
+                "station2_code":22754,
+                "station2_name":"十条(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":102,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":69,
+                        "down":10
+                    }
+                }
+            },
+            {
+                "code":1060100,
+                "station1_code":22548,
+                "station1_name":"恵比寿",
+                "station2_code":22559,
+                "station2_name":"大崎",
+                "full_rate":{
+                    "7-8":{
+                        "up":153,
+                        "down":130
+                    },
+                    "8-9":{
+                        "up":52,
+                        "down":173
+                    }
+                }
+            },
+            {
+                "code":1060130,
+                "station1_code":22548,
+                "station1_name":"恵比寿",
+                "station2_code":22715,
+                "station2_name":"渋谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":29,
+                        "down":44
+                    },
+                    "8-9":{
+                        "up":39,
+                        "down":84
+                    }
+                }
+            },
+            {
+                "code":1060140,
+                "station1_code":22715,
+                "station1_name":"渋谷",
+                "station2_code":22741,
+                "station2_name":"新宿",
+                "full_rate":{
+                    "7-8":{
+                        "up":172,
+                        "down":185
+                    },
+                    "8-9":{
+                        "up":50,
+                        "down":111
+                    }
+                }
+            },
+            {
+                "code":1060170,
+                "station1_code":22513,
+                "station1_name":"池袋",
+                "station2_code":22741,
+                "station2_name":"新宿",
+                "full_rate":{
+                    "7-8":{
+                        "up":67,
+                        "down":141
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":198
+                    }
                 }
             }
         ]
@@ -4103,25 +6293,20 @@ var fullrate_data = {
         "name":"ＪＲ中央本線(東京−塩尻)",
         "sections":[
             {
-                "code":1070100,
-                "station1_code":22617,
-                "station1_name":"神田(東京都)",
-                "station2_code":22828,
-                "station2_name":"東京",
-                "full_rate":{
-                    "7-8":109,
-                    "8-9":100
-                }
-            },
-            {
                 "code":1070110,
                 "station1_code":22582,
                 "station1_name":"御茶ノ水",
                 "station2_code":22617,
                 "station2_name":"神田(東京都)",
                 "full_rate":{
-                    "7-8":105,
-                    "8-9":136
+                    "7-8":{
+                        "up":177,
+                        "down":135
+                    },
+                    "8-9":{
+                        "up":20,
+                        "down":163
+                    }
                 }
             },
             {
@@ -4131,8 +6316,31 @@ var fullrate_data = {
                 "station2_code":22758,
                 "station2_name":"水道橋",
                 "full_rate":{
-                    "7-8":66,
-                    "8-9":14
+                    "7-8":{
+                        "up":55,
+                        "down":58
+                    },
+                    "8-9":{
+                        "up":109,
+                        "down":151
+                    }
+                }
+            },
+            {
+                "code":1070100,
+                "station1_code":22617,
+                "station1_name":"神田(東京都)",
+                "station2_code":22828,
+                "station2_name":"東京",
+                "full_rate":{
+                    "7-8":{
+                        "up":9,
+                        "down":173
+                    },
+                    "8-9":{
+                        "up":79,
+                        "down":191
+                    }
                 }
             },
             {
@@ -4142,8 +6350,14 @@ var fullrate_data = {
                 "station2_code":22758,
                 "station2_name":"水道橋",
                 "full_rate":{
-                    "7-8":188,
-                    "8-9":85
+                    "7-8":{
+                        "up":40,
+                        "down":62
+                    },
+                    "8-9":{
+                        "up":89,
+                        "down":28
+                    }
                 }
             },
             {
@@ -4153,8 +6367,14 @@ var fullrate_data = {
                 "station2_code":22520,
                 "station2_name":"市ケ谷",
                 "full_rate":{
-                    "7-8":37,
-                    "8-9":163
+                    "7-8":{
+                        "up":115,
+                        "down":1
+                    },
+                    "8-9":{
+                        "up":156,
+                        "down":143
+                    }
                 }
             },
             {
@@ -4164,19 +6384,14 @@ var fullrate_data = {
                 "station2_code":23041,
                 "station2_name":"四ツ谷",
                 "full_rate":{
-                    "7-8":110,
-                    "8-9":44
-                }
-            },
-            {
-                "code":1070160,
-                "station1_code":22710,
-                "station1_name":"信濃町",
-                "station2_code":23041,
-                "station2_name":"四ツ谷",
-                "full_rate":{
-                    "7-8":190,
-                    "8-9":157
+                    "7-8":{
+                        "up":118,
+                        "down":45
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":164
+                    }
                 }
             },
             {
@@ -4186,19 +6401,31 @@ var fullrate_data = {
                 "station2_code":22781,
                 "station2_name":"千駄ケ谷",
                 "full_rate":{
-                    "7-8":199,
-                    "8-9":13
+                    "7-8":{
+                        "up":198,
+                        "down":148
+                    },
+                    "8-9":{
+                        "up":65,
+                        "down":58
+                    }
                 }
             },
             {
-                "code":1070180,
-                "station1_code":22781,
-                "station1_name":"千駄ケ谷",
-                "station2_code":23043,
-                "station2_name":"代々木",
+                "code":1070160,
+                "station1_code":22710,
+                "station1_name":"信濃町",
+                "station2_code":23041,
+                "station2_name":"四ツ谷",
                 "full_rate":{
-                    "7-8":8,
-                    "8-9":151
+                    "7-8":{
+                        "up":23,
+                        "down":39
+                    },
+                    "8-9":{
+                        "up":30,
+                        "down":109
+                    }
                 }
             },
             {
@@ -4208,30 +6435,31 @@ var fullrate_data = {
                 "station2_code":23043,
                 "station2_name":"代々木",
                 "full_rate":{
-                    "7-8":15,
-                    "8-9":124
+                    "7-8":{
+                        "up":31,
+                        "down":183
+                    },
+                    "8-9":{
+                        "up":87,
+                        "down":20
+                    }
                 }
             },
             {
-                "code":1070200,
-                "station1_code":22558,
-                "station1_name":"大久保(東京都)",
-                "station2_code":22741,
-                "station2_name":"新宿",
+                "code":1070180,
+                "station1_code":22781,
+                "station1_name":"千駄ケ谷",
+                "station2_code":23043,
+                "station2_name":"代々木",
                 "full_rate":{
-                    "7-8":62,
-                    "8-9":61
-                }
-            },
-            {
-                "code":1070220,
-                "station1_code":22849,
-                "station1_name":"中野(東京都)",
-                "station2_code":22936,
-                "station2_name":"東中野",
-                "full_rate":{
-                    "7-8":180,
-                    "8-9":85
+                    "7-8":{
+                        "up":68,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":21,
+                        "down":80
+                    }
                 }
             },
             {
@@ -4241,8 +6469,48 @@ var fullrate_data = {
                 "station2_code":22936,
                 "station2_name":"東中野",
                 "full_rate":{
-                    "7-8":28,
-                    "8-9":59
+                    "7-8":{
+                        "up":160,
+                        "down":126
+                    },
+                    "8-9":{
+                        "up":156,
+                        "down":20
+                    }
+                }
+            },
+            {
+                "code":1070220,
+                "station1_code":22849,
+                "station1_name":"中野(東京都)",
+                "station2_code":22936,
+                "station2_name":"東中野",
+                "full_rate":{
+                    "7-8":{
+                        "up":177,
+                        "down":49
+                    },
+                    "8-9":{
+                        "up":137,
+                        "down":21
+                    }
+                }
+            },
+            {
+                "code":1070200,
+                "station1_code":22558,
+                "station1_name":"大久保(東京都)",
+                "station2_code":22741,
+                "station2_name":"新宿",
+                "full_rate":{
+                    "7-8":{
+                        "up":64,
+                        "down":55
+                    },
+                    "8-9":{
+                        "up":74,
+                        "down":78
+                    }
                 }
             },
             {
@@ -4252,8 +6520,14 @@ var fullrate_data = {
                 "station2_code":22849,
                 "station2_name":"中野(東京都)",
                 "full_rate":{
-                    "7-8":197,
-                    "8-9":70
+                    "7-8":{
+                        "up":96,
+                        "down":102
+                    },
+                    "8-9":{
+                        "up":91,
+                        "down":35
+                    }
                 }
             },
             {
@@ -4263,8 +6537,14 @@ var fullrate_data = {
                 "station2_code":22671,
                 "station2_name":"高円寺",
                 "full_rate":{
-                    "7-8":161,
-                    "8-9":144
+                    "7-8":{
+                        "up":79,
+                        "down":36
+                    },
+                    "8-9":{
+                        "up":188,
+                        "down":81
+                    }
                 }
             },
             {
@@ -4274,8 +6554,14 @@ var fullrate_data = {
                 "station2_code":22573,
                 "station2_name":"荻窪",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":130
+                    "7-8":{
+                        "up":167,
+                        "down":8
+                    },
+                    "8-9":{
+                        "up":100,
+                        "down":141
+                    }
                 }
             },
             {
@@ -4285,8 +6571,14 @@ var fullrate_data = {
                 "station2_code":22867,
                 "station2_name":"西荻窪",
                 "full_rate":{
-                    "7-8":196,
-                    "8-9":105
+                    "7-8":{
+                        "up":0,
+                        "down":75
+                    },
+                    "8-9":{
+                        "up":156,
+                        "down":130
+                    }
                 }
             },
             {
@@ -4296,8 +6588,14 @@ var fullrate_data = {
                 "station2_code":22867,
                 "station2_name":"西荻窪",
                 "full_rate":{
-                    "7-8":104,
-                    "8-9":91
+                    "7-8":{
+                        "up":156,
+                        "down":116
+                    },
+                    "8-9":{
+                        "up":94,
+                        "down":186
+                    }
                 }
             },
             {
@@ -4307,8 +6605,14 @@ var fullrate_data = {
                 "station2_code":22986,
                 "station2_name":"三鷹",
                 "full_rate":{
-                    "7-8":137,
-                    "8-9":168
+                    "7-8":{
+                        "up":82,
+                        "down":193
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":38
+                    }
                 }
             },
             {
@@ -4318,8 +6622,14 @@ var fullrate_data = {
                 "station2_code":23008,
                 "station2_name":"武蔵境",
                 "full_rate":{
-                    "7-8":45,
-                    "8-9":8
+                    "7-8":{
+                        "up":4,
+                        "down":166
+                    },
+                    "8-9":{
+                        "up":6,
+                        "down":97
+                    }
                 }
             },
             {
@@ -4329,8 +6639,14 @@ var fullrate_data = {
                 "station2_code":23008,
                 "station2_name":"武蔵境",
                 "full_rate":{
-                    "7-8":170,
-                    "8-9":134
+                    "7-8":{
+                        "up":123,
+                        "down":193
+                    },
+                    "8-9":{
+                        "up":44,
+                        "down":92
+                    }
                 }
             },
             {
@@ -4340,8 +6656,14 @@ var fullrate_data = {
                 "station2_code":23006,
                 "station2_name":"武蔵小金井",
                 "full_rate":{
-                    "7-8":58,
-                    "8-9":161
+                    "7-8":{
+                        "up":189,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":196,
+                        "down":180
+                    }
                 }
             },
             {
@@ -4351,8 +6673,14 @@ var fullrate_data = {
                 "station2_code":23006,
                 "station2_name":"武蔵小金井",
                 "full_rate":{
-                    "7-8":127,
-                    "8-9":156
+                    "7-8":{
+                        "up":93,
+                        "down":179
+                    },
+                    "8-9":{
+                        "up":100,
+                        "down":93
+                    }
                 }
             },
             {
@@ -4362,8 +6690,14 @@ var fullrate_data = {
                 "station2_code":22872,
                 "station2_name":"西国分寺",
                 "full_rate":{
-                    "7-8":151,
-                    "8-9":147
+                    "7-8":{
+                        "up":143,
+                        "down":45
+                    },
+                    "8-9":{
+                        "up":180,
+                        "down":182
+                    }
                 }
             },
             {
@@ -4373,8 +6707,14 @@ var fullrate_data = {
                 "station2_code":22872,
                 "station2_name":"西国分寺",
                 "full_rate":{
-                    "7-8":42,
-                    "8-9":141
+                    "7-8":{
+                        "up":87,
+                        "down":165
+                    },
+                    "8-9":{
+                        "up":64,
+                        "down":43
+                    }
                 }
             },
             {
@@ -4384,63 +6724,14 @@ var fullrate_data = {
                 "station2_code":22799,
                 "station2_name":"立川",
                 "full_rate":{
-                    "7-8":158,
-                    "8-9":31
-                }
-            },
-            {
-                "code":1070370,
-                "station1_code":22840,
-                "station1_name":"豊田",
-                "station2_code":22949,
-                "station2_name":"日野(東京都)",
-                "full_rate":{
-                    "7-8":31,
-                    "8-9":8
-                }
-            },
-            {
-                "code":1070380,
-                "station1_code":22840,
-                "station1_name":"豊田",
-                "station2_code":22905,
-                "station2_name":"八王子",
-                "full_rate":{
-                    "7-8":61,
-                    "8-9":110
-                }
-            },
-            {
-                "code":1070390,
-                "station1_code":22881,
-                "station1_name":"西八王子",
-                "station2_code":22905,
-                "station2_name":"八王子",
-                "full_rate":{
-                    "7-8":83,
-                    "8-9":154
-                }
-            },
-            {
-                "code":1070400,
-                "station1_code":22787,
-                "station1_name":"高尾(東京都)",
-                "station2_code":22881,
-                "station2_name":"西八王子",
-                "full_rate":{
-                    "7-8":20,
-                    "8-9":1
-                }
-            },
-            {
-                "code":1070420,
-                "station1_code":23174,
-                "station1_name":"相模湖",
-                "station2_code":23306,
-                "station2_name":"藤野",
-                "full_rate":{
-                    "7-8":190,
-                    "8-9":138
+                    "7-8":{
+                        "up":92,
+                        "down":131
+                    },
+                    "8-9":{
+                        "up":130,
+                        "down":77
+                    }
                 }
             },
             {
@@ -4450,8 +6741,82 @@ var fullrate_data = {
                 "station2_code":22949,
                 "station2_name":"日野(東京都)",
                 "full_rate":{
-                    "7-8":46,
-                    "8-9":44
+                    "7-8":{
+                        "up":20,
+                        "down":155
+                    },
+                    "8-9":{
+                        "up":53,
+                        "down":134
+                    }
+                }
+            },
+            {
+                "code":1070370,
+                "station1_code":22840,
+                "station1_name":"豊田",
+                "station2_code":22949,
+                "station2_name":"日野(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":125,
+                        "down":109
+                    },
+                    "8-9":{
+                        "up":26,
+                        "down":149
+                    }
+                }
+            },
+            {
+                "code":1070380,
+                "station1_code":22840,
+                "station1_name":"豊田",
+                "station2_code":22905,
+                "station2_name":"八王子",
+                "full_rate":{
+                    "7-8":{
+                        "up":18,
+                        "down":82
+                    },
+                    "8-9":{
+                        "up":98,
+                        "down":154
+                    }
+                }
+            },
+            {
+                "code":1070390,
+                "station1_code":22881,
+                "station1_name":"西八王子",
+                "station2_code":22905,
+                "station2_name":"八王子",
+                "full_rate":{
+                    "7-8":{
+                        "up":99,
+                        "down":150
+                    },
+                    "8-9":{
+                        "up":52,
+                        "down":26
+                    }
+                }
+            },
+            {
+                "code":1070400,
+                "station1_code":22787,
+                "station1_name":"高尾(東京都)",
+                "station2_code":22881,
+                "station2_name":"西八王子",
+                "full_rate":{
+                    "7-8":{
+                        "up":96,
+                        "down":92
+                    },
+                    "8-9":{
+                        "up":166,
+                        "down":56
+                    }
                 }
             },
             {
@@ -4461,8 +6826,31 @@ var fullrate_data = {
                 "station2_code":22787,
                 "station2_name":"高尾(東京都)",
                 "full_rate":{
-                    "7-8":109,
-                    "8-9":64
+                    "7-8":{
+                        "up":148,
+                        "down":56
+                    },
+                    "8-9":{
+                        "up":157,
+                        "down":16
+                    }
+                }
+            },
+            {
+                "code":1070420,
+                "station1_code":23174,
+                "station1_name":"相模湖",
+                "station2_code":23306,
+                "station2_name":"藤野",
+                "full_rate":{
+                    "7-8":{
+                        "up":144,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":127
+                    }
                 }
             },
             {
@@ -4472,8 +6860,14 @@ var fullrate_data = {
                 "station2_code":23306,
                 "station2_name":"藤野",
                 "full_rate":{
-                    "7-8":176,
-                    "8-9":40
+                    "7-8":{
+                        "up":76,
+                        "down":167
+                    },
+                    "8-9":{
+                        "up":159,
+                        "down":187
+                    }
                 }
             },
             {
@@ -4483,8 +6877,14 @@ var fullrate_data = {
                 "station2_code":23416,
                 "station2_name":"四方津",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":90
+                    "7-8":{
+                        "up":151,
+                        "down":153
+                    },
+                    "8-9":{
+                        "up":106,
+                        "down":46
+                    }
                 }
             },
             {
@@ -4494,8 +6894,14 @@ var fullrate_data = {
                 "station2_code":23441,
                 "station2_name":"梁川(山梨県)",
                 "full_rate":{
-                    "7-8":13,
-                    "8-9":67
+                    "7-8":{
+                        "up":119,
+                        "down":45
+                    },
+                    "8-9":{
+                        "up":122,
+                        "down":121
+                    }
                 }
             },
             {
@@ -4505,8 +6911,14 @@ var fullrate_data = {
                 "station2_code":23441,
                 "station2_name":"梁川(山梨県)",
                 "full_rate":{
-                    "7-8":190,
-                    "8-9":154
+                    "7-8":{
+                        "up":162,
+                        "down":90
+                    },
+                    "8-9":{
+                        "up":140,
+                        "down":177
+                    }
                 }
             },
             {
@@ -4516,8 +6928,14 @@ var fullrate_data = {
                 "station2_code":23427,
                 "station2_name":"鳥沢",
                 "full_rate":{
-                    "7-8":66,
-                    "8-9":8
+                    "7-8":{
+                        "up":78,
+                        "down":2
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":130
+                    }
                 }
             },
             {
@@ -4527,8 +6945,14 @@ var fullrate_data = {
                 "station2_code":23414,
                 "station2_name":"猿橋",
                 "full_rate":{
-                    "7-8":171,
-                    "8-9":53
+                    "7-8":{
+                        "up":80,
+                        "down":155
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":195
+                    }
                 }
             },
             {
@@ -4538,8 +6962,14 @@ var fullrate_data = {
                 "station2_code":23431,
                 "station2_name":"初狩",
                 "full_rate":{
-                    "7-8":75,
-                    "8-9":10
+                    "7-8":{
+                        "up":34,
+                        "down":29
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":170
+                    }
                 }
             },
             {
@@ -4549,19 +6979,14 @@ var fullrate_data = {
                 "station2_code":23431,
                 "station2_name":"初狩",
                 "full_rate":{
-                    "7-8":41,
-                    "8-9":50
-                }
-            },
-            {
-                "code":1070510,
-                "station1_code":23396,
-                "station1_name":"甲斐大和",
-                "station2_code":23413,
-                "station2_name":"笹子",
-                "full_rate":{
-                    "7-8":69,
-                    "8-9":143
+                    "7-8":{
+                        "up":44,
+                        "down":15
+                    },
+                    "8-9":{
+                        "up":95,
+                        "down":105
+                    }
                 }
             },
             {
@@ -4571,8 +6996,31 @@ var fullrate_data = {
                 "station2_code":23400,
                 "station2_name":"勝沼ぶどう郷",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":180
+                    "7-8":{
+                        "up":41,
+                        "down":179
+                    },
+                    "8-9":{
+                        "up":110,
+                        "down":174
+                    }
+                }
+            },
+            {
+                "code":1070510,
+                "station1_code":23396,
+                "station1_name":"甲斐大和",
+                "station2_code":23413,
+                "station2_name":"笹子",
+                "full_rate":{
+                    "7-8":{
+                        "up":155,
+                        "down":13
+                    },
+                    "8-9":{
+                        "up":35,
+                        "down":159
+                    }
                 }
             },
             {
@@ -4582,8 +7030,14 @@ var fullrate_data = {
                 "station2_code":23400,
                 "station2_name":"勝沼ぶどう郷",
                 "full_rate":{
-                    "7-8":184,
-                    "8-9":84
+                    "7-8":{
+                        "up":162,
+                        "down":15
+                    },
+                    "8-9":{
+                        "up":110,
+                        "down":186
+                    }
                 }
             },
             {
@@ -4593,8 +7047,14 @@ var fullrate_data = {
                 "station2_code":23434,
                 "station2_name":"東山梨",
                 "full_rate":{
-                    "7-8":147,
-                    "8-9":39
+                    "7-8":{
+                        "up":72,
+                        "down":101
+                    },
+                    "8-9":{
+                        "up":72,
+                        "down":103
+                    }
                 }
             },
             {
@@ -4604,8 +7064,14 @@ var fullrate_data = {
                 "station2_code":23442,
                 "station2_name":"山梨市",
                 "full_rate":{
-                    "7-8":104,
-                    "8-9":131
+                    "7-8":{
+                        "up":196,
+                        "down":93
+                    },
+                    "8-9":{
+                        "up":152,
+                        "down":168
+                    }
                 }
             },
             {
@@ -4615,8 +7081,14 @@ var fullrate_data = {
                 "station2_code":23442,
                 "station2_name":"山梨市",
                 "full_rate":{
-                    "7-8":147,
-                    "8-9":97
+                    "7-8":{
+                        "up":21,
+                        "down":105
+                    },
+                    "8-9":{
+                        "up":165,
+                        "down":188
+                    }
                 }
             },
             {
@@ -4626,8 +7098,14 @@ var fullrate_data = {
                 "station2_code":23398,
                 "station2_name":"春日居町",
                 "full_rate":{
-                    "7-8":87,
-                    "8-9":127
+                    "7-8":{
+                        "up":86,
+                        "down":45
+                    },
+                    "8-9":{
+                        "up":20,
+                        "down":26
+                    }
                 }
             },
             {
@@ -4637,8 +7115,14 @@ var fullrate_data = {
                 "station2_code":23412,
                 "station2_name":"酒折",
                 "full_rate":{
-                    "7-8":166,
-                    "8-9":38
+                    "7-8":{
+                        "up":16,
+                        "down":95
+                    },
+                    "8-9":{
+                        "up":6,
+                        "down":98
+                    }
                 }
             },
             {
@@ -4648,8 +7132,14 @@ var fullrate_data = {
                 "station2_code":23412,
                 "station2_name":"酒折",
                 "full_rate":{
-                    "7-8":35,
-                    "8-9":161
+                    "7-8":{
+                        "up":163,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":114
+                    }
                 }
             },
             {
@@ -4659,8 +7149,14 @@ var fullrate_data = {
                 "station2_code":23446,
                 "station2_name":"竜王",
                 "full_rate":{
-                    "7-8":47,
-                    "8-9":87
+                    "7-8":{
+                        "up":70,
+                        "down":12
+                    },
+                    "8-9":{
+                        "up":43,
+                        "down":28
+                    }
                 }
             },
             {
@@ -4670,8 +7166,14 @@ var fullrate_data = {
                 "station2_code":23446,
                 "station2_name":"竜王",
                 "full_rate":{
-                    "7-8":185,
-                    "8-9":176
+                    "7-8":{
+                        "up":153,
+                        "down":17
+                    },
+                    "8-9":{
+                        "up":34,
+                        "down":173
+                    }
                 }
             },
             {
@@ -4681,8 +7183,14 @@ var fullrate_data = {
                 "station2_code":23429,
                 "station2_name":"韮崎",
                 "full_rate":{
-                    "7-8":183,
-                    "8-9":36
+                    "7-8":{
+                        "up":163,
+                        "down":49
+                    },
+                    "8-9":{
+                        "up":25,
+                        "down":170
+                    }
                 }
             },
             {
@@ -4692,8 +7200,14 @@ var fullrate_data = {
                 "station2_code":23429,
                 "station2_name":"韮崎",
                 "full_rate":{
-                    "7-8":140,
-                    "8-9":121
+                    "7-8":{
+                        "up":114,
+                        "down":135
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":134
+                    }
                 }
             },
             {
@@ -4703,8 +7217,14 @@ var fullrate_data = {
                 "station2_code":23420,
                 "station2_name":"新府",
                 "full_rate":{
-                    "7-8":7,
-                    "8-9":70
+                    "7-8":{
+                        "up":194,
+                        "down":156
+                    },
+                    "8-9":{
+                        "up":76,
+                        "down":87
+                    }
                 }
             },
             {
@@ -4714,8 +7234,14 @@ var fullrate_data = {
                 "station2_code":23435,
                 "station2_name":"日野春",
                 "full_rate":{
-                    "7-8":85,
-                    "8-9":174
+                    "7-8":{
+                        "up":70,
+                        "down":87
+                    },
+                    "8-9":{
+                        "up":95,
+                        "down":181
+                    }
                 }
             },
             {
@@ -4725,8 +7251,14 @@ var fullrate_data = {
                 "station2_code":23435,
                 "station2_name":"日野春",
                 "full_rate":{
-                    "7-8":108,
-                    "8-9":161
+                    "7-8":{
+                        "up":95,
+                        "down":100
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":75
+                    }
                 }
             },
             {
@@ -4736,8 +7268,14 @@ var fullrate_data = {
                 "station2_code":23428,
                 "station2_name":"長坂",
                 "full_rate":{
-                    "7-8":75,
-                    "8-9":116
+                    "7-8":{
+                        "up":191,
+                        "down":144
+                    },
+                    "8-9":{
+                        "up":113,
+                        "down":76
+                    }
                 }
             },
             {
@@ -4747,8 +7285,14 @@ var fullrate_data = {
                 "station2_code":24216,
                 "station2_name":"信濃境",
                 "full_rate":{
-                    "7-8":149,
-                    "8-9":71
+                    "7-8":{
+                        "up":87,
+                        "down":118
+                    },
+                    "8-9":{
+                        "up":118,
+                        "down":181
+                    }
                 }
             },
             {
@@ -4758,8 +7302,14 @@ var fullrate_data = {
                 "station2_code":24315,
                 "station2_name":"富士見",
                 "full_rate":{
-                    "7-8":84,
-                    "8-9":87
+                    "7-8":{
+                        "up":93,
+                        "down":1
+                    },
+                    "8-9":{
+                        "up":90,
+                        "down":112
+                    }
                 }
             },
             {
@@ -4769,8 +7319,14 @@ var fullrate_data = {
                 "station2_code":24315,
                 "station2_name":"富士見",
                 "full_rate":{
-                    "7-8":77,
-                    "8-9":126
+                    "7-8":{
+                        "up":180,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":75,
+                        "down":169
+                    }
                 }
             },
             {
@@ -4780,8 +7336,14 @@ var fullrate_data = {
                 "station2_code":24242,
                 "station2_name":"すずらんの里",
                 "full_rate":{
-                    "7-8":7,
-                    "8-9":57
+                    "7-8":{
+                        "up":101,
+                        "down":183
+                    },
+                    "8-9":{
+                        "up":180,
+                        "down":67
+                    }
                 }
             },
             {
@@ -4791,8 +7353,14 @@ var fullrate_data = {
                 "station2_code":24262,
                 "station2_name":"茅野",
                 "full_rate":{
-                    "7-8":25,
-                    "8-9":74
+                    "7-8":{
+                        "up":2,
+                        "down":3
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":0
+                    }
                 }
             },
             {
@@ -4802,8 +7370,14 @@ var fullrate_data = {
                 "station2_code":24262,
                 "station2_name":"茅野",
                 "full_rate":{
-                    "7-8":160,
-                    "8-9":100
+                    "7-8":{
+                        "up":118,
+                        "down":158
+                    },
+                    "8-9":{
+                        "up":16,
+                        "down":180
+                    }
                 }
             },
             {
@@ -4813,8 +7387,14 @@ var fullrate_data = {
                 "station2_code":24231,
                 "station2_name":"下諏訪",
                 "full_rate":{
-                    "7-8":60,
-                    "8-9":145
+                    "7-8":{
+                        "up":83,
+                        "down":107
+                    },
+                    "8-9":{
+                        "up":110,
+                        "down":124
+                    }
                 }
             },
             {
@@ -4824,8 +7404,14 @@ var fullrate_data = {
                 "station2_code":24231,
                 "station2_name":"下諏訪",
                 "full_rate":{
-                    "7-8":192,
-                    "8-9":2
+                    "7-8":{
+                        "up":25,
+                        "down":77
+                    },
+                    "8-9":{
+                        "up":175,
+                        "down":4
+                    }
                 }
             },
             {
@@ -4835,8 +7421,14 @@ var fullrate_data = {
                 "station2_code":24330,
                 "station2_name":"みどり湖",
                 "full_rate":{
-                    "7-8":196,
-                    "8-9":40
+                    "7-8":{
+                        "up":101,
+                        "down":151
+                    },
+                    "8-9":{
+                        "up":52,
+                        "down":70
+                    }
                 }
             },
             {
@@ -4846,8 +7438,14 @@ var fullrate_data = {
                 "station2_code":24330,
                 "station2_name":"みどり湖",
                 "full_rate":{
-                    "7-8":107,
-                    "8-9":21
+                    "7-8":{
+                        "up":113,
+                        "down":108
+                    },
+                    "8-9":{
+                        "up":111,
+                        "down":93
+                    }
                 }
             }
         ]
@@ -4862,8 +7460,14 @@ var fullrate_data = {
                 "station2_code":22828,
                 "station2_name":"東京",
                 "full_rate":{
-                    "7-8":106,
-                    "8-9":38
+                    "7-8":{
+                        "up":47,
+                        "down":105
+                    },
+                    "8-9":{
+                        "up":53,
+                        "down":118
+                    }
                 }
             },
             {
@@ -4873,8 +7477,14 @@ var fullrate_data = {
                 "station2_code":22617,
                 "station2_name":"神田(東京都)",
                 "full_rate":{
-                    "7-8":30,
-                    "8-9":172
+                    "7-8":{
+                        "up":87,
+                        "down":192
+                    },
+                    "8-9":{
+                        "up":89,
+                        "down":147
+                    }
                 }
             },
             {
@@ -4884,30 +7494,14 @@ var fullrate_data = {
                 "station2_code":23041,
                 "station2_name":"四ツ谷",
                 "full_rate":{
-                    "7-8":116,
-                    "8-9":130
-                }
-            },
-            {
-                "code":1090200,
-                "station1_code":22741,
-                "station1_name":"新宿",
-                "station2_code":22849,
-                "station2_name":"中野(東京都)",
-                "full_rate":{
-                    "7-8":72,
-                    "8-9":123
-                }
-            },
-            {
-                "code":1090160,
-                "station1_code":22741,
-                "station1_name":"新宿",
-                "station2_code":23041,
-                "station2_name":"四ツ谷",
-                "full_rate":{
-                    "7-8":132,
-                    "8-9":47
+                    "7-8":{
+                        "up":47,
+                        "down":188
+                    },
+                    "8-9":{
+                        "up":36,
+                        "down":36
+                    }
                 }
             },
             {
@@ -4917,8 +7511,48 @@ var fullrate_data = {
                 "station2_code":22849,
                 "station2_name":"中野(東京都)",
                 "full_rate":{
-                    "7-8":178,
-                    "8-9":173
+                    "7-8":{
+                        "up":190,
+                        "down":151
+                    },
+                    "8-9":{
+                        "up":84,
+                        "down":142
+                    }
+                }
+            },
+            {
+                "code":1090160,
+                "station1_code":22741,
+                "station1_name":"新宿",
+                "station2_code":23041,
+                "station2_name":"四ツ谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":166,
+                        "down":18
+                    },
+                    "8-9":{
+                        "up":3,
+                        "down":17
+                    }
+                }
+            },
+            {
+                "code":1090200,
+                "station1_code":22741,
+                "station1_name":"新宿",
+                "station2_code":22849,
+                "station2_name":"中野(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":177,
+                        "down":32
+                    },
+                    "8-9":{
+                        "up":144,
+                        "down":0
+                    }
                 }
             },
             {
@@ -4928,8 +7562,14 @@ var fullrate_data = {
                 "station2_code":22671,
                 "station2_name":"高円寺",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":36
+                    "7-8":{
+                        "up":3,
+                        "down":106
+                    },
+                    "8-9":{
+                        "up":85,
+                        "down":48
+                    }
                 }
             },
             {
@@ -4939,8 +7579,14 @@ var fullrate_data = {
                 "station2_code":22573,
                 "station2_name":"荻窪",
                 "full_rate":{
-                    "7-8":48,
-                    "8-9":155
+                    "7-8":{
+                        "up":39,
+                        "down":175
+                    },
+                    "8-9":{
+                        "up":29,
+                        "down":74
+                    }
                 }
             },
             {
@@ -4950,8 +7596,14 @@ var fullrate_data = {
                 "station2_code":22867,
                 "station2_name":"西荻窪",
                 "full_rate":{
-                    "7-8":56,
-                    "8-9":179
+                    "7-8":{
+                        "up":152,
+                        "down":57
+                    },
+                    "8-9":{
+                        "up":175,
+                        "down":11
+                    }
                 }
             },
             {
@@ -4961,8 +7613,14 @@ var fullrate_data = {
                 "station2_code":22867,
                 "station2_name":"西荻窪",
                 "full_rate":{
-                    "7-8":120,
-                    "8-9":33
+                    "7-8":{
+                        "up":111,
+                        "down":177
+                    },
+                    "8-9":{
+                        "up":168,
+                        "down":125
+                    }
                 }
             },
             {
@@ -4972,8 +7630,14 @@ var fullrate_data = {
                 "station2_code":22986,
                 "station2_name":"三鷹",
                 "full_rate":{
-                    "7-8":132,
-                    "8-9":123
+                    "7-8":{
+                        "up":123,
+                        "down":179
+                    },
+                    "8-9":{
+                        "up":104,
+                        "down":112
+                    }
                 }
             },
             {
@@ -4983,8 +7647,14 @@ var fullrate_data = {
                 "station2_code":23008,
                 "station2_name":"武蔵境",
                 "full_rate":{
-                    "7-8":4,
-                    "8-9":29
+                    "7-8":{
+                        "up":77,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":22,
+                        "down":187
+                    }
                 }
             },
             {
@@ -4994,8 +7664,14 @@ var fullrate_data = {
                 "station2_code":23008,
                 "station2_name":"武蔵境",
                 "full_rate":{
-                    "7-8":79,
-                    "8-9":106
+                    "7-8":{
+                        "up":62,
+                        "down":151
+                    },
+                    "8-9":{
+                        "up":123,
+                        "down":161
+                    }
                 }
             },
             {
@@ -5005,8 +7681,14 @@ var fullrate_data = {
                 "station2_code":23006,
                 "station2_name":"武蔵小金井",
                 "full_rate":{
-                    "7-8":191,
-                    "8-9":128
+                    "7-8":{
+                        "up":113,
+                        "down":196
+                    },
+                    "8-9":{
+                        "up":121,
+                        "down":169
+                    }
                 }
             },
             {
@@ -5016,8 +7698,14 @@ var fullrate_data = {
                 "station2_code":23006,
                 "station2_name":"武蔵小金井",
                 "full_rate":{
-                    "7-8":118,
-                    "8-9":125
+                    "7-8":{
+                        "up":174,
+                        "down":186
+                    },
+                    "8-9":{
+                        "up":143,
+                        "down":74
+                    }
                 }
             },
             {
@@ -5027,8 +7715,14 @@ var fullrate_data = {
                 "station2_code":22872,
                 "station2_name":"西国分寺",
                 "full_rate":{
-                    "7-8":171,
-                    "8-9":49
+                    "7-8":{
+                        "up":71,
+                        "down":73
+                    },
+                    "8-9":{
+                        "up":46,
+                        "down":185
+                    }
                 }
             },
             {
@@ -5038,8 +7732,14 @@ var fullrate_data = {
                 "station2_code":22872,
                 "station2_name":"西国分寺",
                 "full_rate":{
-                    "7-8":135,
-                    "8-9":31
+                    "7-8":{
+                        "up":199,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":14,
+                        "down":130
+                    }
                 }
             },
             {
@@ -5049,8 +7749,14 @@ var fullrate_data = {
                 "station2_code":22799,
                 "station2_name":"立川",
                 "full_rate":{
-                    "7-8":86,
-                    "8-9":135
+                    "7-8":{
+                        "up":191,
+                        "down":131
+                    },
+                    "8-9":{
+                        "up":21,
+                        "down":122
+                    }
                 }
             },
             {
@@ -5060,8 +7766,14 @@ var fullrate_data = {
                 "station2_code":22949,
                 "station2_name":"日野(東京都)",
                 "full_rate":{
-                    "7-8":147,
-                    "8-9":49
+                    "7-8":{
+                        "up":49,
+                        "down":197
+                    },
+                    "8-9":{
+                        "up":95,
+                        "down":112
+                    }
                 }
             },
             {
@@ -5071,8 +7783,14 @@ var fullrate_data = {
                 "station2_code":22949,
                 "station2_name":"日野(東京都)",
                 "full_rate":{
-                    "7-8":130,
-                    "8-9":102
+                    "7-8":{
+                        "up":173,
+                        "down":145
+                    },
+                    "8-9":{
+                        "up":130,
+                        "down":42
+                    }
                 }
             },
             {
@@ -5082,8 +7800,14 @@ var fullrate_data = {
                 "station2_code":22905,
                 "station2_name":"八王子",
                 "full_rate":{
-                    "7-8":29,
-                    "8-9":134
+                    "7-8":{
+                        "up":83,
+                        "down":194
+                    },
+                    "8-9":{
+                        "up":23,
+                        "down":34
+                    }
                 }
             },
             {
@@ -5093,8 +7817,14 @@ var fullrate_data = {
                 "station2_code":22905,
                 "station2_name":"八王子",
                 "full_rate":{
-                    "7-8":44,
-                    "8-9":16
+                    "7-8":{
+                        "up":143,
+                        "down":17
+                    },
+                    "8-9":{
+                        "up":144,
+                        "down":126
+                    }
                 }
             },
             {
@@ -5104,8 +7834,14 @@ var fullrate_data = {
                 "station2_code":22881,
                 "station2_name":"西八王子",
                 "full_rate":{
-                    "7-8":25,
-                    "8-9":23
+                    "7-8":{
+                        "up":81,
+                        "down":37
+                    },
+                    "8-9":{
+                        "up":178,
+                        "down":67
+                    }
                 }
             }
         ]
@@ -5114,256 +7850,20 @@ var fullrate_data = {
         "name":"ＪＲ中央・総武線各駅停車",
         "sections":[
             {
-                "code":1100100,
-                "station1_code":22361,
-                "station1_name":"千葉",
-                "station2_code":22398,
-                "station2_name":"西千葉",
-                "full_rate":{
-                    "7-8":195,
-                    "8-9":86
-                }
-            },
-            {
-                "code":1100110,
-                "station1_code":22197,
-                "station1_name":"稲毛",
-                "station2_code":22398,
-                "station2_name":"西千葉",
-                "full_rate":{
-                    "7-8":77,
-                    "8-9":30
-                }
-            },
-            {
-                "code":1100120,
-                "station1_code":22197,
-                "station1_name":"稲毛",
-                "station2_code":22327,
-                "station2_name":"新検見川",
-                "full_rate":{
-                    "7-8":167,
-                    "8-9":49
-                }
-            },
-            {
-                "code":1100130,
-                "station1_code":22327,
-                "station1_name":"新検見川",
-                "station2_code":22438,
-                "station2_name":"幕張",
-                "full_rate":{
-                    "7-8":121,
-                    "8-9":62
-                }
-            },
-            {
-                "code":1100140,
-                "station1_code":22438,
-                "station1_name":"幕張",
-                "station2_code":22439,
-                "station2_name":"幕張本郷",
-                "full_rate":{
-                    "7-8":61,
-                    "8-9":48
-                }
-            },
-            {
-                "code":1100150,
-                "station1_code":22370,
-                "station1_name":"津田沼",
-                "station2_code":22439,
-                "station2_name":"幕張本郷",
-                "full_rate":{
-                    "7-8":199,
-                    "8-9":198
-                }
-            },
-            {
-                "code":1100160,
-                "station1_code":22370,
-                "station1_name":"津田沼",
-                "station2_code":22415,
-                "station2_name":"東船橋",
-                "full_rate":{
-                    "7-8":55,
-                    "8-9":112
-                }
-            },
-            {
-                "code":1100170,
-                "station1_code":22415,
-                "station1_name":"東船橋",
-                "station2_code":22427,
-                "station2_name":"船橋",
-                "full_rate":{
-                    "7-8":96,
-                    "8-9":46
-                }
-            },
-            {
-                "code":1100180,
-                "station1_code":22401,
-                "station1_name":"西船橋",
-                "station2_code":22427,
-                "station2_name":"船橋",
-                "full_rate":{
-                    "7-8":32,
-                    "8-9":167
-                }
-            },
-            {
-                "code":1100190,
-                "station1_code":22320,
-                "station1_name":"下総中山",
-                "station2_code":22401,
-                "station2_name":"西船橋",
-                "full_rate":{
-                    "7-8":138,
-                    "8-9":195
-                }
-            },
-            {
-                "code":1100220,
-                "station1_code":22193,
-                "station1_name":"市川",
-                "station2_code":22670,
-                "station2_name":"小岩",
-                "full_rate":{
-                    "7-8":61,
-                    "8-9":68
-                }
-            },
-            {
-                "code":1100200,
-                "station1_code":22320,
-                "station1_name":"下総中山",
-                "station2_code":22463,
-                "station2_name":"本八幡(総武線)",
-                "full_rate":{
-                    "7-8":89,
-                    "8-9":42
-                }
-            },
-            {
-                "code":1100210,
-                "station1_code":22193,
-                "station1_name":"市川",
-                "station2_code":22463,
-                "station2_name":"本八幡(総武線)",
-                "full_rate":{
-                    "7-8":77,
-                    "8-9":174
-                }
-            },
-            {
-                "code":1100230,
-                "station1_code":22670,
-                "station1_name":"小岩",
-                "station2_code":22734,
-                "station2_name":"新小岩",
-                "full_rate":{
-                    "7-8":54,
-                    "8-9":60
-                }
-            },
-            {
-                "code":1100240,
-                "station1_code":22734,
-                "station1_name":"新小岩",
-                "station2_code":22952,
-                "station2_name":"平井(東京都)",
-                "full_rate":{
-                    "7-8":192,
-                    "8-9":46
-                }
-            },
-            {
-                "code":1100250,
-                "station1_code":22612,
-                "station1_name":"亀戸",
-                "station2_code":22952,
-                "station2_name":"平井(東京都)",
-                "full_rate":{
-                    "7-8":125,
-                    "8-9":173
-                }
-            },
-            {
-                "code":1100260,
-                "station1_code":22612,
-                "station1_name":"亀戸",
-                "station2_code":22640,
-                "station2_name":"錦糸町",
-                "full_rate":{
-                    "7-8":17,
-                    "8-9":154
-                }
-            },
-            {
-                "code":1100270,
-                "station1_code":22640,
-                "station1_name":"錦糸町",
-                "station2_code":23048,
-                "station2_name":"両国",
-                "full_rate":{
-                    "7-8":1,
-                    "8-9":149
-                }
-            },
-            {
-                "code":1100280,
-                "station1_code":22496,
-                "station1_name":"浅草橋",
-                "station2_code":23048,
-                "station2_name":"両国",
-                "full_rate":{
-                    "7-8":107,
-                    "8-9":73
-                }
-            },
-            {
-                "code":1100290,
-                "station1_code":22492,
-                "station1_name":"秋葉原",
-                "station2_code":22496,
-                "station2_name":"浅草橋",
-                "full_rate":{
-                    "7-8":32,
-                    "8-9":45
-                }
-            },
-            {
                 "code":1100310,
                 "station1_code":22582,
                 "station1_name":"御茶ノ水",
                 "station2_code":22758,
                 "station2_name":"水道橋",
                 "full_rate":{
-                    "7-8":80,
-                    "8-9":153
-                }
-            },
-            {
-                "code":1100320,
-                "station1_code":22507,
-                "station1_name":"飯田橋",
-                "station2_code":22758,
-                "station2_name":"水道橋",
-                "full_rate":{
-                    "7-8":176,
-                    "8-9":145
-                }
-            },
-            {
-                "code":1100300,
-                "station1_code":22492,
-                "station1_name":"秋葉原",
-                "station2_code":22582,
-                "station2_name":"御茶ノ水",
-                "full_rate":{
-                    "7-8":56,
-                    "8-9":151
+                    "7-8":{
+                        "up":3,
+                        "down":170
+                    },
+                    "8-9":{
+                        "up":116,
+                        "down":113
+                    }
                 }
             },
             {
@@ -5373,8 +7873,14 @@ var fullrate_data = {
                 "station2_code":22520,
                 "station2_name":"市ケ谷",
                 "full_rate":{
-                    "7-8":79,
-                    "8-9":134
+                    "7-8":{
+                        "up":146,
+                        "down":160
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":80
+                    }
                 }
             },
             {
@@ -5384,19 +7890,14 @@ var fullrate_data = {
                 "station2_code":23041,
                 "station2_name":"四ツ谷",
                 "full_rate":{
-                    "7-8":112,
-                    "8-9":91
-                }
-            },
-            {
-                "code":1100350,
-                "station1_code":22710,
-                "station1_name":"信濃町",
-                "station2_code":23041,
-                "station2_name":"四ツ谷",
-                "full_rate":{
-                    "7-8":18,
-                    "8-9":7
+                    "7-8":{
+                        "up":119,
+                        "down":165
+                    },
+                    "8-9":{
+                        "up":16,
+                        "down":46
+                    }
                 }
             },
             {
@@ -5406,19 +7907,48 @@ var fullrate_data = {
                 "station2_code":22781,
                 "station2_name":"千駄ケ谷",
                 "full_rate":{
-                    "7-8":184,
-                    "8-9":176
+                    "7-8":{
+                        "up":139,
+                        "down":106
+                    },
+                    "8-9":{
+                        "up":183,
+                        "down":78
+                    }
                 }
             },
             {
-                "code":1100380,
-                "station1_code":22741,
-                "station1_name":"新宿",
-                "station2_code":23043,
-                "station2_name":"代々木",
+                "code":1100320,
+                "station1_code":22507,
+                "station1_name":"飯田橋",
+                "station2_code":22758,
+                "station2_name":"水道橋",
                 "full_rate":{
-                    "7-8":179,
-                    "8-9":160
+                    "7-8":{
+                        "up":90,
+                        "down":57
+                    },
+                    "8-9":{
+                        "up":170,
+                        "down":2
+                    }
+                }
+            },
+            {
+                "code":1100350,
+                "station1_code":22710,
+                "station1_name":"信濃町",
+                "station2_code":23041,
+                "station2_name":"四ツ谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":116,
+                        "down":129
+                    },
+                    "8-9":{
+                        "up":58,
+                        "down":68
+                    }
                 }
             },
             {
@@ -5428,8 +7958,31 @@ var fullrate_data = {
                 "station2_code":23043,
                 "station2_name":"代々木",
                 "full_rate":{
-                    "7-8":137,
-                    "8-9":166
+                    "7-8":{
+                        "up":29,
+                        "down":80
+                    },
+                    "8-9":{
+                        "up":89,
+                        "down":28
+                    }
+                }
+            },
+            {
+                "code":1100380,
+                "station1_code":22741,
+                "station1_name":"新宿",
+                "station2_code":23043,
+                "station2_name":"代々木",
+                "full_rate":{
+                    "7-8":{
+                        "up":92,
+                        "down":11
+                    },
+                    "8-9":{
+                        "up":137,
+                        "down":76
+                    }
                 }
             },
             {
@@ -5439,8 +7992,14 @@ var fullrate_data = {
                 "station2_code":22741,
                 "station2_name":"新宿",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":6
+                    "7-8":{
+                        "up":52,
+                        "down":165
+                    },
+                    "8-9":{
+                        "up":140,
+                        "down":43
+                    }
                 }
             },
             {
@@ -5450,8 +8009,14 @@ var fullrate_data = {
                 "station2_code":22936,
                 "station2_name":"東中野",
                 "full_rate":{
-                    "7-8":28,
-                    "8-9":119
+                    "7-8":{
+                        "up":157,
+                        "down":176
+                    },
+                    "8-9":{
+                        "up":102,
+                        "down":190
+                    }
                 }
             },
             {
@@ -5461,8 +8026,14 @@ var fullrate_data = {
                 "station2_code":22936,
                 "station2_name":"東中野",
                 "full_rate":{
-                    "7-8":86,
-                    "8-9":64
+                    "7-8":{
+                        "up":42,
+                        "down":129
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":51
+                    }
                 }
             },
             {
@@ -5472,8 +8043,14 @@ var fullrate_data = {
                 "station2_code":22849,
                 "station2_name":"中野(東京都)",
                 "full_rate":{
-                    "7-8":30,
-                    "8-9":143
+                    "7-8":{
+                        "up":13,
+                        "down":91
+                    },
+                    "8-9":{
+                        "up":111,
+                        "down":65
+                    }
                 }
             },
             {
@@ -5483,19 +8060,14 @@ var fullrate_data = {
                 "station2_code":22671,
                 "station2_name":"高円寺",
                 "full_rate":{
-                    "7-8":125,
-                    "8-9":14
-                }
-            },
-            {
-                "code":1100440,
-                "station1_code":22494,
-                "station1_name":"阿佐ケ谷",
-                "station2_code":22573,
-                "station2_name":"荻窪",
-                "full_rate":{
-                    "7-8":48,
-                    "8-9":196
+                    "7-8":{
+                        "up":44,
+                        "down":137
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":62
+                    }
                 }
             },
             {
@@ -5505,8 +8077,14 @@ var fullrate_data = {
                 "station2_code":22867,
                 "station2_name":"西荻窪",
                 "full_rate":{
-                    "7-8":70,
-                    "8-9":147
+                    "7-8":{
+                        "up":128,
+                        "down":131
+                    },
+                    "8-9":{
+                        "up":49,
+                        "down":95
+                    }
                 }
             },
             {
@@ -5516,8 +8094,14 @@ var fullrate_data = {
                 "station2_code":22867,
                 "station2_name":"西荻窪",
                 "full_rate":{
-                    "7-8":182,
-                    "8-9":22
+                    "7-8":{
+                        "up":114,
+                        "down":76
+                    },
+                    "8-9":{
+                        "up":184,
+                        "down":49
+                    }
                 }
             },
             {
@@ -5527,8 +8111,388 @@ var fullrate_data = {
                 "station2_code":22986,
                 "station2_name":"三鷹",
                 "full_rate":{
-                    "7-8":126,
-                    "8-9":2
+                    "7-8":{
+                        "up":103,
+                        "down":186
+                    },
+                    "8-9":{
+                        "up":170,
+                        "down":42
+                    }
+                }
+            },
+            {
+                "code":1100440,
+                "station1_code":22494,
+                "station1_name":"阿佐ケ谷",
+                "station2_code":22573,
+                "station2_name":"荻窪",
+                "full_rate":{
+                    "7-8":{
+                        "up":171,
+                        "down":99
+                    },
+                    "8-9":{
+                        "up":152,
+                        "down":149
+                    }
+                }
+            },
+            {
+                "code":1100100,
+                "station1_code":22361,
+                "station1_name":"千葉",
+                "station2_code":22398,
+                "station2_name":"西千葉",
+                "full_rate":{
+                    "7-8":{
+                        "up":108,
+                        "down":102
+                    },
+                    "8-9":{
+                        "up":21,
+                        "down":31
+                    }
+                }
+            },
+            {
+                "code":1100110,
+                "station1_code":22197,
+                "station1_name":"稲毛",
+                "station2_code":22398,
+                "station2_name":"西千葉",
+                "full_rate":{
+                    "7-8":{
+                        "up":40,
+                        "down":85
+                    },
+                    "8-9":{
+                        "up":133,
+                        "down":51
+                    }
+                }
+            },
+            {
+                "code":1100120,
+                "station1_code":22197,
+                "station1_name":"稲毛",
+                "station2_code":22327,
+                "station2_name":"新検見川",
+                "full_rate":{
+                    "7-8":{
+                        "up":119,
+                        "down":163
+                    },
+                    "8-9":{
+                        "up":64,
+                        "down":169
+                    }
+                }
+            },
+            {
+                "code":1100130,
+                "station1_code":22327,
+                "station1_name":"新検見川",
+                "station2_code":22438,
+                "station2_name":"幕張",
+                "full_rate":{
+                    "7-8":{
+                        "up":156,
+                        "down":48
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":73
+                    }
+                }
+            },
+            {
+                "code":1100140,
+                "station1_code":22438,
+                "station1_name":"幕張",
+                "station2_code":22439,
+                "station2_name":"幕張本郷",
+                "full_rate":{
+                    "7-8":{
+                        "up":168,
+                        "down":183
+                    },
+                    "8-9":{
+                        "up":68,
+                        "down":58
+                    }
+                }
+            },
+            {
+                "code":1100150,
+                "station1_code":22370,
+                "station1_name":"津田沼",
+                "station2_code":22439,
+                "station2_name":"幕張本郷",
+                "full_rate":{
+                    "7-8":{
+                        "up":21,
+                        "down":188
+                    },
+                    "8-9":{
+                        "up":175,
+                        "down":114
+                    }
+                }
+            },
+            {
+                "code":1100160,
+                "station1_code":22370,
+                "station1_name":"津田沼",
+                "station2_code":22415,
+                "station2_name":"東船橋",
+                "full_rate":{
+                    "7-8":{
+                        "up":76,
+                        "down":26
+                    },
+                    "8-9":{
+                        "up":63,
+                        "down":16
+                    }
+                }
+            },
+            {
+                "code":1100170,
+                "station1_code":22415,
+                "station1_name":"東船橋",
+                "station2_code":22427,
+                "station2_name":"船橋",
+                "full_rate":{
+                    "7-8":{
+                        "up":150,
+                        "down":57
+                    },
+                    "8-9":{
+                        "up":40,
+                        "down":105
+                    }
+                }
+            },
+            {
+                "code":1100190,
+                "station1_code":22320,
+                "station1_name":"下総中山",
+                "station2_code":22401,
+                "station2_name":"西船橋",
+                "full_rate":{
+                    "7-8":{
+                        "up":35,
+                        "down":126
+                    },
+                    "8-9":{
+                        "up":2,
+                        "down":188
+                    }
+                }
+            },
+            {
+                "code":1100200,
+                "station1_code":22320,
+                "station1_name":"下総中山",
+                "station2_code":22463,
+                "station2_name":"本八幡(総武線)",
+                "full_rate":{
+                    "7-8":{
+                        "up":39,
+                        "down":2
+                    },
+                    "8-9":{
+                        "up":132,
+                        "down":50
+                    }
+                }
+            },
+            {
+                "code":1100210,
+                "station1_code":22193,
+                "station1_name":"市川",
+                "station2_code":22463,
+                "station2_name":"本八幡(総武線)",
+                "full_rate":{
+                    "7-8":{
+                        "up":88,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":194,
+                        "down":79
+                    }
+                }
+            },
+            {
+                "code":1100180,
+                "station1_code":22401,
+                "station1_name":"西船橋",
+                "station2_code":22427,
+                "station2_name":"船橋",
+                "full_rate":{
+                    "7-8":{
+                        "up":109,
+                        "down":86
+                    },
+                    "8-9":{
+                        "up":122,
+                        "down":84
+                    }
+                }
+            },
+            {
+                "code":1100230,
+                "station1_code":22670,
+                "station1_name":"小岩",
+                "station2_code":22734,
+                "station2_name":"新小岩",
+                "full_rate":{
+                    "7-8":{
+                        "up":124,
+                        "down":173
+                    },
+                    "8-9":{
+                        "up":142,
+                        "down":95
+                    }
+                }
+            },
+            {
+                "code":1100220,
+                "station1_code":22193,
+                "station1_name":"市川",
+                "station2_code":22670,
+                "station2_name":"小岩",
+                "full_rate":{
+                    "7-8":{
+                        "up":50,
+                        "down":48
+                    },
+                    "8-9":{
+                        "up":51,
+                        "down":108
+                    }
+                }
+            },
+            {
+                "code":1100240,
+                "station1_code":22734,
+                "station1_name":"新小岩",
+                "station2_code":22952,
+                "station2_name":"平井(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":160,
+                        "down":121
+                    },
+                    "8-9":{
+                        "up":38,
+                        "down":163
+                    }
+                }
+            },
+            {
+                "code":1100250,
+                "station1_code":22612,
+                "station1_name":"亀戸",
+                "station2_code":22952,
+                "station2_name":"平井(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":116,
+                        "down":186
+                    },
+                    "8-9":{
+                        "up":109,
+                        "down":100
+                    }
+                }
+            },
+            {
+                "code":1100260,
+                "station1_code":22612,
+                "station1_name":"亀戸",
+                "station2_code":22640,
+                "station2_name":"錦糸町",
+                "full_rate":{
+                    "7-8":{
+                        "up":3,
+                        "down":71
+                    },
+                    "8-9":{
+                        "up":174,
+                        "down":136
+                    }
+                }
+            },
+            {
+                "code":1100270,
+                "station1_code":22640,
+                "station1_name":"錦糸町",
+                "station2_code":23048,
+                "station2_name":"両国",
+                "full_rate":{
+                    "7-8":{
+                        "up":150,
+                        "down":28
+                    },
+                    "8-9":{
+                        "up":24,
+                        "down":132
+                    }
+                }
+            },
+            {
+                "code":1100280,
+                "station1_code":22496,
+                "station1_name":"浅草橋",
+                "station2_code":23048,
+                "station2_name":"両国",
+                "full_rate":{
+                    "7-8":{
+                        "up":108,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":97,
+                        "down":116
+                    }
+                }
+            },
+            {
+                "code":1100290,
+                "station1_code":22492,
+                "station1_name":"秋葉原",
+                "station2_code":22496,
+                "station2_name":"浅草橋",
+                "full_rate":{
+                    "7-8":{
+                        "up":2,
+                        "down":27
+                    },
+                    "8-9":{
+                        "up":13,
+                        "down":98
+                    }
+                }
+            },
+            {
+                "code":1100300,
+                "station1_code":22492,
+                "station1_name":"秋葉原",
+                "station2_code":22582,
+                "station2_name":"御茶ノ水",
+                "full_rate":{
+                    "7-8":{
+                        "up":140,
+                        "down":0
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":67
+                    }
                 }
             }
         ]
@@ -5537,25 +8501,37 @@ var fullrate_data = {
         "name":"ＪＲ青梅線",
         "sections":[
             {
-                "code":1110100,
-                "station1_code":22799,
-                "station1_name":"立川",
-                "station2_code":22877,
-                "station2_name":"西立川",
-                "full_rate":{
-                    "7-8":98,
-                    "8-9":102
-                }
-            },
-            {
                 "code":1110110,
                 "station1_code":22877,
                 "station1_name":"西立川",
                 "station2_code":22935,
                 "station2_name":"東中神",
                 "full_rate":{
-                    "7-8":71,
-                    "8-9":108
+                    "7-8":{
+                        "up":7,
+                        "down":76
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":105
+                    }
+                }
+            },
+            {
+                "code":1110100,
+                "station1_code":22799,
+                "station1_name":"立川",
+                "station2_code":22877,
+                "station2_name":"西立川",
+                "full_rate":{
+                    "7-8":{
+                        "up":177,
+                        "down":55
+                    },
+                    "8-9":{
+                        "up":198,
+                        "down":0
+                    }
                 }
             },
             {
@@ -5565,8 +8541,14 @@ var fullrate_data = {
                 "station2_code":22935,
                 "station2_name":"東中神",
                 "full_rate":{
-                    "7-8":167,
-                    "8-9":112
+                    "7-8":{
+                        "up":142,
+                        "down":190
+                    },
+                    "8-9":{
+                        "up":43,
+                        "down":190
+                    }
                 }
             },
             {
@@ -5576,8 +8558,14 @@ var fullrate_data = {
                 "station2_code":22847,
                 "station2_name":"中神",
                 "full_rate":{
-                    "7-8":162,
-                    "8-9":141
+                    "7-8":{
+                        "up":198,
+                        "down":49
+                    },
+                    "8-9":{
+                        "up":144,
+                        "down":113
+                    }
                 }
             },
             {
@@ -5587,8 +8575,14 @@ var fullrate_data = {
                 "station2_code":22895,
                 "station2_name":"拝島",
                 "full_rate":{
-                    "7-8":145,
-                    "8-9":14
+                    "7-8":{
+                        "up":155,
+                        "down":122
+                    },
+                    "8-9":{
+                        "up":164,
+                        "down":198
+                    }
                 }
             },
             {
@@ -5598,8 +8592,14 @@ var fullrate_data = {
                 "station2_code":22895,
                 "station2_name":"拝島",
                 "full_rate":{
-                    "7-8":4,
-                    "8-9":79
+                    "7-8":{
+                        "up":191,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":105,
+                        "down":69
+                    }
                 }
             },
             {
@@ -5609,8 +8609,14 @@ var fullrate_data = {
                 "station2_code":22955,
                 "station2_name":"福生",
                 "full_rate":{
-                    "7-8":103,
-                    "8-9":170
+                    "7-8":{
+                        "up":76,
+                        "down":57
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":100
+                    }
                 }
             },
             {
@@ -5620,8 +8626,14 @@ var fullrate_data = {
                 "station2_code":22955,
                 "station2_name":"福生",
                 "full_rate":{
-                    "7-8":45,
-                    "8-9":7
+                    "7-8":{
+                        "up":42,
+                        "down":169
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":154
+                    }
                 }
             },
             {
@@ -5631,8 +8643,14 @@ var fullrate_data = {
                 "station2_code":22915,
                 "station2_name":"羽村",
                 "full_rate":{
-                    "7-8":57,
-                    "8-9":170
+                    "7-8":{
+                        "up":0,
+                        "down":113
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":99
+                    }
                 }
             },
             {
@@ -5642,19 +8660,14 @@ var fullrate_data = {
                 "station2_code":22601,
                 "station2_name":"河辺",
                 "full_rate":{
-                    "7-8":111,
-                    "8-9":102
-                }
-            },
-            {
-                "code":1110200,
-                "station1_code":22601,
-                "station1_name":"河辺",
-                "station2_code":22926,
-                "station2_name":"東青梅",
-                "full_rate":{
-                    "7-8":61,
-                    "8-9":144
+                    "7-8":{
+                        "up":189,
+                        "down":161
+                    },
+                    "8-9":{
+                        "up":36,
+                        "down":42
+                    }
                 }
             },
             {
@@ -5664,8 +8677,31 @@ var fullrate_data = {
                 "station2_code":22926,
                 "station2_name":"東青梅",
                 "full_rate":{
-                    "7-8":184,
-                    "8-9":12
+                    "7-8":{
+                        "up":22,
+                        "down":84
+                    },
+                    "8-9":{
+                        "up":19,
+                        "down":0
+                    }
+                }
+            },
+            {
+                "code":1110200,
+                "station1_code":22601,
+                "station1_name":"河辺",
+                "station2_code":22926,
+                "station2_name":"東青梅",
+                "full_rate":{
+                    "7-8":{
+                        "up":28,
+                        "down":138
+                    },
+                    "8-9":{
+                        "up":53,
+                        "down":91
+                    }
                 }
             },
             {
@@ -5675,8 +8711,14 @@ var fullrate_data = {
                 "station2_code":23002,
                 "station2_name":"宮ノ平",
                 "full_rate":{
-                    "7-8":6,
-                    "8-9":29
+                    "7-8":{
+                        "up":152,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":51,
+                        "down":99
+                    }
                 }
             },
             {
@@ -5686,8 +8728,14 @@ var fullrate_data = {
                 "station2_code":23002,
                 "station2_name":"宮ノ平",
                 "full_rate":{
-                    "7-8":67,
-                    "8-9":152
+                    "7-8":{
+                        "up":150,
+                        "down":24
+                    },
+                    "8-9":{
+                        "up":189,
+                        "down":147
+                    }
                 }
             },
             {
@@ -5697,8 +8745,14 @@ var fullrate_data = {
                 "station2_code":22948,
                 "station2_name":"日向和田",
                 "full_rate":{
-                    "7-8":4,
-                    "8-9":54
+                    "7-8":{
+                        "up":168,
+                        "down":156
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":59
+                    }
                 }
             },
             {
@@ -5708,8 +8762,14 @@ var fullrate_data = {
                 "station2_code":22959,
                 "station2_name":"二俣尾",
                 "full_rate":{
-                    "7-8":29,
-                    "8-9":194
+                    "7-8":{
+                        "up":169,
+                        "down":168
+                    },
+                    "8-9":{
+                        "up":165,
+                        "down":113
+                    }
                 }
             },
             {
@@ -5719,8 +8779,14 @@ var fullrate_data = {
                 "station2_code":22959,
                 "station2_name":"二俣尾",
                 "full_rate":{
-                    "7-8":65,
-                    "8-9":43
+                    "7-8":{
+                        "up":11,
+                        "down":39
+                    },
+                    "8-9":{
+                        "up":64,
+                        "down":168
+                    }
                 }
             },
             {
@@ -5730,8 +8796,14 @@ var fullrate_data = {
                 "station2_code":22701,
                 "station2_name":"沢井",
                 "full_rate":{
-                    "7-8":118,
-                    "8-9":28
+                    "7-8":{
+                        "up":88,
+                        "down":22
+                    },
+                    "8-9":{
+                        "up":126,
+                        "down":99
+                    }
                 }
             },
             {
@@ -5741,8 +8813,14 @@ var fullrate_data = {
                 "station2_code":22988,
                 "station2_name":"御嶽",
                 "full_rate":{
-                    "7-8":29,
-                    "8-9":79
+                    "7-8":{
+                        "up":111,
+                        "down":120
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":33
+                    }
                 }
             },
             {
@@ -5752,8 +8830,14 @@ var fullrate_data = {
                 "station2_code":22988,
                 "station2_name":"御嶽",
                 "full_rate":{
-                    "7-8":45,
-                    "8-9":52
+                    "7-8":{
+                        "up":102,
+                        "down":199
+                    },
+                    "8-9":{
+                        "up":97,
+                        "down":126
+                    }
                 }
             },
             {
@@ -5763,8 +8847,14 @@ var fullrate_data = {
                 "station2_code":22687,
                 "station2_name":"古里(東京都)",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":4
+                    "7-8":{
+                        "up":74,
+                        "down":167
+                    },
+                    "8-9":{
+                        "up":45,
+                        "down":165
+                    }
                 }
             },
             {
@@ -5774,8 +8864,14 @@ var fullrate_data = {
                 "station2_code":22908,
                 "station2_name":"鳩ノ巣",
                 "full_rate":{
-                    "7-8":8,
-                    "8-9":183
+                    "7-8":{
+                        "up":115,
+                        "down":24
+                    },
+                    "8-9":{
+                        "up":5,
+                        "down":98
+                    }
                 }
             },
             {
@@ -5785,8 +8881,14 @@ var fullrate_data = {
                 "station2_code":22908,
                 "station2_name":"鳩ノ巣",
                 "full_rate":{
-                    "7-8":29,
-                    "8-9":145
+                    "7-8":{
+                        "up":28,
+                        "down":68
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":150
+                    }
                 }
             },
             {
@@ -5796,8 +8898,14 @@ var fullrate_data = {
                 "station2_code":22727,
                 "station2_name":"白丸(東京都)",
                 "full_rate":{
-                    "7-8":143,
-                    "8-9":119
+                    "7-8":{
+                        "up":116,
+                        "down":141
+                    },
+                    "8-9":{
+                        "up":198,
+                        "down":71
+                    }
                 }
             }
         ]
@@ -5812,8 +8920,14 @@ var fullrate_data = {
                 "station2_code":22895,
                 "station2_name":"拝島",
                 "full_rate":{
-                    "7-8":9,
-                    "8-9":61
+                    "7-8":{
+                        "up":2,
+                        "down":134
+                    },
+                    "8-9":{
+                        "up":124,
+                        "down":70
+                    }
                 }
             },
             {
@@ -5823,8 +8937,14 @@ var fullrate_data = {
                 "station2_code":22922,
                 "station2_name":"東秋留",
                 "full_rate":{
-                    "7-8":160,
-                    "8-9":49
+                    "7-8":{
+                        "up":17,
+                        "down":181
+                    },
+                    "8-9":{
+                        "up":136,
+                        "down":57
+                    }
                 }
             },
             {
@@ -5834,8 +8954,14 @@ var fullrate_data = {
                 "station2_code":22922,
                 "station2_name":"東秋留",
                 "full_rate":{
-                    "7-8":78,
-                    "8-9":130
+                    "7-8":{
+                        "up":158,
+                        "down":120
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":73
+                    }
                 }
             },
             {
@@ -5845,8 +8971,14 @@ var fullrate_data = {
                 "station2_code":23013,
                 "station2_name":"武蔵引田",
                 "full_rate":{
-                    "7-8":94,
-                    "8-9":17
+                    "7-8":{
+                        "up":24,
+                        "down":134
+                    },
+                    "8-9":{
+                        "up":98,
+                        "down":156
+                    }
                 }
             },
             {
@@ -5856,8 +8988,14 @@ var fullrate_data = {
                 "station2_code":23014,
                 "station2_name":"武蔵増戸",
                 "full_rate":{
-                    "7-8":76,
-                    "8-9":36
+                    "7-8":{
+                        "up":102,
+                        "down":55
+                    },
+                    "8-9":{
+                        "up":2,
+                        "down":21
+                    }
                 }
             },
             {
@@ -5867,8 +9005,14 @@ var fullrate_data = {
                 "station2_code":23014,
                 "station2_name":"武蔵増戸",
                 "full_rate":{
-                    "7-8":23,
-                    "8-9":20
+                    "7-8":{
+                        "up":95,
+                        "down":181
+                    },
+                    "8-9":{
+                        "up":138,
+                        "down":83
+                    }
                 }
             }
         ]
@@ -5877,36 +9021,37 @@ var fullrate_data = {
         "name":"ＪＲ山手線内回り",
         "sections":[
             {
+                "code":1130160,
+                "station1_code":22617,
+                "station1_name":"神田(東京都)",
+                "station2_code":22828,
+                "station2_name":"東京",
+                "full_rate":{
+                    "7-8":{
+                        "up":25,
+                        "down":137
+                    },
+                    "8-9":{
+                        "up":138,
+                        "down":186
+                    }
+                }
+            },
+            {
                 "code":1130100,
                 "station1_code":22559,
                 "station1_name":"大崎",
                 "station2_code":22709,
                 "station2_name":"品川",
                 "full_rate":{
-                    "7-8":162,
-                    "8-9":58
-                }
-            },
-            {
-                "code":1130120,
-                "station1_code":22807,
-                "station1_name":"田町(東京都)",
-                "station2_code":22914,
-                "station2_name":"浜松町",
-                "full_rate":{
-                    "7-8":138,
-                    "8-9":180
-                }
-            },
-            {
-                "code":1130130,
-                "station1_code":22751,
-                "station1_name":"新橋",
-                "station2_code":22914,
-                "station2_name":"浜松町",
-                "full_rate":{
-                    "7-8":114,
-                    "8-9":127
+                    "7-8":{
+                        "up":155,
+                        "down":142
+                    },
+                    "8-9":{
+                        "up":190,
+                        "down":70
+                    }
                 }
             },
             {
@@ -5916,8 +9061,48 @@ var fullrate_data = {
                 "station2_code":22807,
                 "station2_name":"田町(東京都)",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":127
+                    "7-8":{
+                        "up":119,
+                        "down":161
+                    },
+                    "8-9":{
+                        "up":78,
+                        "down":136
+                    }
+                }
+            },
+            {
+                "code":1130120,
+                "station1_code":22807,
+                "station1_name":"田町(東京都)",
+                "station2_code":22914,
+                "station2_name":"浜松町",
+                "full_rate":{
+                    "7-8":{
+                        "up":88,
+                        "down":153
+                    },
+                    "8-9":{
+                        "up":0,
+                        "down":90
+                    }
+                }
+            },
+            {
+                "code":1130130,
+                "station1_code":22751,
+                "station1_name":"新橋",
+                "station2_code":22914,
+                "station2_name":"浜松町",
+                "full_rate":{
+                    "7-8":{
+                        "up":15,
+                        "down":82
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":1
+                    }
                 }
             },
             {
@@ -5927,8 +9112,14 @@ var fullrate_data = {
                 "station2_code":23036,
                 "station2_name":"有楽町",
                 "full_rate":{
-                    "7-8":163,
-                    "8-9":54
+                    "7-8":{
+                        "up":153,
+                        "down":41
+                    },
+                    "8-9":{
+                        "up":80,
+                        "down":21
+                    }
                 }
             },
             {
@@ -5938,19 +9129,14 @@ var fullrate_data = {
                 "station2_code":23036,
                 "station2_name":"有楽町",
                 "full_rate":{
-                    "7-8":65,
-                    "8-9":75
-                }
-            },
-            {
-                "code":1130160,
-                "station1_code":22617,
-                "station1_name":"神田(東京都)",
-                "station2_code":22828,
-                "station2_name":"東京",
-                "full_rate":{
-                    "7-8":103,
-                    "8-9":186
+                    "7-8":{
+                        "up":116,
+                        "down":94
+                    },
+                    "8-9":{
+                        "up":48,
+                        "down":116
+                    }
                 }
             },
             {
@@ -5960,8 +9146,14 @@ var fullrate_data = {
                 "station2_code":22617,
                 "station2_name":"神田(東京都)",
                 "full_rate":{
-                    "7-8":106,
-                    "8-9":75
+                    "7-8":{
+                        "up":184,
+                        "down":158
+                    },
+                    "8-9":{
+                        "up":16,
+                        "down":145
+                    }
                 }
             },
             {
@@ -5971,8 +9163,14 @@ var fullrate_data = {
                 "station2_code":22570,
                 "station2_name":"御徒町",
                 "full_rate":{
-                    "7-8":40,
-                    "8-9":17
+                    "7-8":{
+                        "up":34,
+                        "down":167
+                    },
+                    "8-9":{
+                        "up":105,
+                        "down":32
+                    }
                 }
             },
             {
@@ -5982,8 +9180,14 @@ var fullrate_data = {
                 "station2_code":22570,
                 "station2_name":"御徒町",
                 "full_rate":{
-                    "7-8":143,
-                    "8-9":32
+                    "7-8":{
+                        "up":133,
+                        "down":198
+                    },
+                    "8-9":{
+                        "up":10,
+                        "down":96
+                    }
                 }
             },
             {
@@ -5993,8 +9197,14 @@ var fullrate_data = {
                 "station2_code":22531,
                 "station2_name":"鶯谷",
                 "full_rate":{
-                    "7-8":113,
-                    "8-9":179
+                    "7-8":{
+                        "up":128,
+                        "down":183
+                    },
+                    "8-9":{
+                        "up":162,
+                        "down":28
+                    }
                 }
             },
             {
@@ -6004,8 +9214,14 @@ var fullrate_data = {
                 "station2_code":22862,
                 "station2_name":"日暮里",
                 "full_rate":{
-                    "7-8":78,
-                    "8-9":129
+                    "7-8":{
+                        "up":139,
+                        "down":134
+                    },
+                    "8-9":{
+                        "up":155,
+                        "down":34
+                    }
                 }
             },
             {
@@ -6015,8 +9231,14 @@ var fullrate_data = {
                 "station2_code":22862,
                 "station2_name":"日暮里",
                 "full_rate":{
-                    "7-8":107,
-                    "8-9":127
+                    "7-8":{
+                        "up":10,
+                        "down":21
+                    },
+                    "8-9":{
+                        "up":106,
+                        "down":46
+                    }
                 }
             },
             {
@@ -6026,8 +9248,14 @@ var fullrate_data = {
                 "station2_code":22880,
                 "station2_name":"西日暮里",
                 "full_rate":{
-                    "7-8":169,
-                    "8-9":23
+                    "7-8":{
+                        "up":95,
+                        "down":92
+                    },
+                    "8-9":{
+                        "up":157,
+                        "down":110
+                    }
                 }
             },
             {
@@ -6037,8 +9265,14 @@ var fullrate_data = {
                 "station2_code":22802,
                 "station2_name":"田端",
                 "full_rate":{
-                    "7-8":31,
-                    "8-9":151
+                    "7-8":{
+                        "up":157,
+                        "down":182
+                    },
+                    "8-9":{
+                        "up":46,
+                        "down":83
+                    }
                 }
             },
             {
@@ -6048,8 +9282,14 @@ var fullrate_data = {
                 "station2_code":22760,
                 "station2_name":"巣鴨",
                 "full_rate":{
-                    "7-8":159,
-                    "8-9":127
+                    "7-8":{
+                        "up":148,
+                        "down":0
+                    },
+                    "8-9":{
+                        "up":53,
+                        "down":165
+                    }
                 }
             },
             {
@@ -6059,8 +9299,14 @@ var fullrate_data = {
                 "station2_code":22760,
                 "station2_name":"巣鴨",
                 "full_rate":{
-                    "7-8":84,
-                    "8-9":10
+                    "7-8":{
+                        "up":107,
+                        "down":199
+                    },
+                    "8-9":{
+                        "up":99,
+                        "down":117
+                    }
                 }
             },
             {
@@ -6070,19 +9316,14 @@ var fullrate_data = {
                 "station2_code":22562,
                 "station2_name":"大塚(東京都)",
                 "full_rate":{
-                    "7-8":114,
-                    "8-9":121
-                }
-            },
-            {
-                "code":1130280,
-                "station1_code":22513,
-                "station1_name":"池袋",
-                "station2_code":23019,
-                "station2_name":"目白",
-                "full_rate":{
-                    "7-8":51,
-                    "8-9":117
+                    "7-8":{
+                        "up":119,
+                        "down":14
+                    },
+                    "8-9":{
+                        "up":175,
+                        "down":176
+                    }
                 }
             },
             {
@@ -6092,8 +9333,31 @@ var fullrate_data = {
                 "station2_code":23019,
                 "station2_name":"目白",
                 "full_rate":{
-                    "7-8":40,
-                    "8-9":179
+                    "7-8":{
+                        "up":155,
+                        "down":132
+                    },
+                    "8-9":{
+                        "up":44,
+                        "down":187
+                    }
+                }
+            },
+            {
+                "code":1130280,
+                "station1_code":22513,
+                "station1_name":"池袋",
+                "station2_code":23019,
+                "station2_name":"目白",
+                "full_rate":{
+                    "7-8":{
+                        "up":144,
+                        "down":96
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":132
+                    }
                 }
             },
             {
@@ -6103,8 +9367,14 @@ var fullrate_data = {
                 "station2_code":22790,
                 "station2_name":"高田馬場",
                 "full_rate":{
-                    "7-8":97,
-                    "8-9":191
+                    "7-8":{
+                        "up":123,
+                        "down":132
+                    },
+                    "8-9":{
+                        "up":114,
+                        "down":128
+                    }
                 }
             },
             {
@@ -6114,8 +9384,14 @@ var fullrate_data = {
                 "station2_code":22741,
                 "station2_name":"新宿",
                 "full_rate":{
-                    "7-8":153,
-                    "8-9":34
+                    "7-8":{
+                        "up":186,
+                        "down":173
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":156
+                    }
                 }
             },
             {
@@ -6125,8 +9401,14 @@ var fullrate_data = {
                 "station2_code":23043,
                 "station2_name":"代々木",
                 "full_rate":{
-                    "7-8":114,
-                    "8-9":7
+                    "7-8":{
+                        "up":168,
+                        "down":43
+                    },
+                    "8-9":{
+                        "up":68,
+                        "down":193
+                    }
                 }
             },
             {
@@ -6136,8 +9418,14 @@ var fullrate_data = {
                 "station2_code":23043,
                 "station2_name":"代々木",
                 "full_rate":{
-                    "7-8":54,
-                    "8-9":128
+                    "7-8":{
+                        "up":56,
+                        "down":83
+                    },
+                    "8-9":{
+                        "up":52,
+                        "down":183
+                    }
                 }
             },
             {
@@ -6147,8 +9435,14 @@ var fullrate_data = {
                 "station2_code":22916,
                 "station2_name":"原宿",
                 "full_rate":{
-                    "7-8":61,
-                    "8-9":24
+                    "7-8":{
+                        "up":89,
+                        "down":51
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":141
+                    }
                 }
             },
             {
@@ -6158,30 +9452,14 @@ var fullrate_data = {
                 "station2_code":22715,
                 "station2_name":"渋谷",
                 "full_rate":{
-                    "7-8":31,
-                    "8-9":126
-                }
-            },
-            {
-                "code":1130380,
-                "station1_code":22559,
-                "station1_name":"大崎",
-                "station2_code":22691,
-                "station2_name":"五反田",
-                "full_rate":{
-                    "7-8":8,
-                    "8-9":149
-                }
-            },
-            {
-                "code":1130370,
-                "station1_code":22691,
-                "station1_name":"五反田",
-                "station2_code":23018,
-                "station2_name":"目黒",
-                "full_rate":{
-                    "7-8":144,
-                    "8-9":136
+                    "7-8":{
+                        "up":98,
+                        "down":183
+                    },
+                    "8-9":{
+                        "up":164,
+                        "down":192
+                    }
                 }
             },
             {
@@ -6191,8 +9469,48 @@ var fullrate_data = {
                 "station2_code":23018,
                 "station2_name":"目黒",
                 "full_rate":{
-                    "7-8":2,
-                    "8-9":171
+                    "7-8":{
+                        "up":181,
+                        "down":107
+                    },
+                    "8-9":{
+                        "up":176,
+                        "down":35
+                    }
+                }
+            },
+            {
+                "code":1130370,
+                "station1_code":22691,
+                "station1_name":"五反田",
+                "station2_code":23018,
+                "station2_name":"目黒",
+                "full_rate":{
+                    "7-8":{
+                        "up":99,
+                        "down":71
+                    },
+                    "8-9":{
+                        "up":34,
+                        "down":79
+                    }
+                }
+            },
+            {
+                "code":1130380,
+                "station1_code":22559,
+                "station1_name":"大崎",
+                "station2_code":22691,
+                "station2_name":"五反田",
+                "full_rate":{
+                    "7-8":{
+                        "up":185,
+                        "down":56
+                    },
+                    "8-9":{
+                        "up":198,
+                        "down":155
+                    }
                 }
             }
         ]
@@ -6201,69 +9519,20 @@ var fullrate_data = {
         "name":"ＪＲ山手線外回り",
         "sections":[
             {
-                "code":1140100,
-                "station1_code":22559,
-                "station1_name":"大崎",
-                "station2_code":22691,
-                "station2_name":"五反田",
-                "full_rate":{
-                    "7-8":136,
-                    "8-9":196
-                }
-            },
-            {
-                "code":1140110,
-                "station1_code":22691,
-                "station1_name":"五反田",
-                "station2_code":23018,
-                "station2_name":"目黒",
-                "full_rate":{
-                    "7-8":54,
-                    "8-9":130
-                }
-            },
-            {
-                "code":1140120,
-                "station1_code":22548,
-                "station1_name":"恵比寿",
-                "station2_code":23018,
-                "station2_name":"目黒",
-                "full_rate":{
-                    "7-8":78,
-                    "8-9":98
-                }
-            },
-            {
                 "code":1140130,
                 "station1_code":22548,
                 "station1_name":"恵比寿",
                 "station2_code":22715,
                 "station2_name":"渋谷",
                 "full_rate":{
-                    "7-8":100,
-                    "8-9":120
-                }
-            },
-            {
-                "code":1140140,
-                "station1_code":22715,
-                "station1_name":"渋谷",
-                "station2_code":22916,
-                "station2_name":"原宿",
-                "full_rate":{
-                    "7-8":162,
-                    "8-9":198
-                }
-            },
-            {
-                "code":1140150,
-                "station1_code":22916,
-                "station1_name":"原宿",
-                "station2_code":23043,
-                "station2_name":"代々木",
-                "full_rate":{
-                    "7-8":134,
-                    "8-9":99
+                    "7-8":{
+                        "up":135,
+                        "down":28
+                    },
+                    "8-9":{
+                        "up":132,
+                        "down":89
+                    }
                 }
             },
             {
@@ -6273,8 +9542,99 @@ var fullrate_data = {
                 "station2_code":23043,
                 "station2_name":"代々木",
                 "full_rate":{
-                    "7-8":168,
-                    "8-9":136
+                    "7-8":{
+                        "up":94,
+                        "down":134
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":28
+                    }
+                }
+            },
+            {
+                "code":1140100,
+                "station1_code":22559,
+                "station1_name":"大崎",
+                "station2_code":22691,
+                "station2_name":"五反田",
+                "full_rate":{
+                    "7-8":{
+                        "up":61,
+                        "down":11
+                    },
+                    "8-9":{
+                        "up":42,
+                        "down":173
+                    }
+                }
+            },
+            {
+                "code":1140110,
+                "station1_code":22691,
+                "station1_name":"五反田",
+                "station2_code":23018,
+                "station2_name":"目黒",
+                "full_rate":{
+                    "7-8":{
+                        "up":84,
+                        "down":104
+                    },
+                    "8-9":{
+                        "up":142,
+                        "down":21
+                    }
+                }
+            },
+            {
+                "code":1140120,
+                "station1_code":22548,
+                "station1_name":"恵比寿",
+                "station2_code":23018,
+                "station2_name":"目黒",
+                "full_rate":{
+                    "7-8":{
+                        "up":70,
+                        "down":7
+                    },
+                    "8-9":{
+                        "up":44,
+                        "down":189
+                    }
+                }
+            },
+            {
+                "code":1140140,
+                "station1_code":22715,
+                "station1_name":"渋谷",
+                "station2_code":22916,
+                "station2_name":"原宿",
+                "full_rate":{
+                    "7-8":{
+                        "up":145,
+                        "down":29
+                    },
+                    "8-9":{
+                        "up":83,
+                        "down":18
+                    }
+                }
+            },
+            {
+                "code":1140150,
+                "station1_code":22916,
+                "station1_name":"原宿",
+                "station2_code":23043,
+                "station2_name":"代々木",
+                "full_rate":{
+                    "7-8":{
+                        "up":53,
+                        "down":31
+                    },
+                    "8-9":{
+                        "up":5,
+                        "down":130
+                    }
                 }
             },
             {
@@ -6284,8 +9644,14 @@ var fullrate_data = {
                 "station2_code":22741,
                 "station2_name":"新宿",
                 "full_rate":{
-                    "7-8":147,
-                    "8-9":20
+                    "7-8":{
+                        "up":19,
+                        "down":159
+                    },
+                    "8-9":{
+                        "up":132,
+                        "down":192
+                    }
                 }
             },
             {
@@ -6295,8 +9661,14 @@ var fullrate_data = {
                 "station2_code":22790,
                 "station2_name":"高田馬場",
                 "full_rate":{
-                    "7-8":135,
-                    "8-9":159
+                    "7-8":{
+                        "up":47,
+                        "down":28
+                    },
+                    "8-9":{
+                        "up":144,
+                        "down":113
+                    }
                 }
             },
             {
@@ -6306,8 +9678,14 @@ var fullrate_data = {
                 "station2_code":23019,
                 "station2_name":"目白",
                 "full_rate":{
-                    "7-8":150,
-                    "8-9":40
+                    "7-8":{
+                        "up":155,
+                        "down":176
+                    },
+                    "8-9":{
+                        "up":139,
+                        "down":197
+                    }
                 }
             },
             {
@@ -6317,8 +9695,14 @@ var fullrate_data = {
                 "station2_code":23019,
                 "station2_name":"目白",
                 "full_rate":{
-                    "7-8":105,
-                    "8-9":63
+                    "7-8":{
+                        "up":28,
+                        "down":195
+                    },
+                    "8-9":{
+                        "up":182,
+                        "down":173
+                    }
                 }
             },
             {
@@ -6328,8 +9712,14 @@ var fullrate_data = {
                 "station2_code":22562,
                 "station2_name":"大塚(東京都)",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":0
+                    "7-8":{
+                        "up":77,
+                        "down":165
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":0
+                    }
                 }
             },
             {
@@ -6339,8 +9729,14 @@ var fullrate_data = {
                 "station2_code":22760,
                 "station2_name":"巣鴨",
                 "full_rate":{
-                    "7-8":110,
-                    "8-9":122
+                    "7-8":{
+                        "up":147,
+                        "down":150
+                    },
+                    "8-9":{
+                        "up":88,
+                        "down":186
+                    }
                 }
             },
             {
@@ -6350,8 +9746,14 @@ var fullrate_data = {
                 "station2_code":22760,
                 "station2_name":"巣鴨",
                 "full_rate":{
-                    "7-8":118,
-                    "8-9":94
+                    "7-8":{
+                        "up":123,
+                        "down":108
+                    },
+                    "8-9":{
+                        "up":189,
+                        "down":195
+                    }
                 }
             },
             {
@@ -6361,8 +9763,14 @@ var fullrate_data = {
                 "station2_code":22802,
                 "station2_name":"田端",
                 "full_rate":{
-                    "7-8":73,
-                    "8-9":105
+                    "7-8":{
+                        "up":1,
+                        "down":77
+                    },
+                    "8-9":{
+                        "up":138,
+                        "down":89
+                    }
                 }
             },
             {
@@ -6372,8 +9780,14 @@ var fullrate_data = {
                 "station2_code":22880,
                 "station2_name":"西日暮里",
                 "full_rate":{
-                    "7-8":163,
-                    "8-9":68
+                    "7-8":{
+                        "up":152,
+                        "down":68
+                    },
+                    "8-9":{
+                        "up":119,
+                        "down":107
+                    }
                 }
             },
             {
@@ -6383,8 +9797,14 @@ var fullrate_data = {
                 "station2_code":22862,
                 "station2_name":"日暮里",
                 "full_rate":{
-                    "7-8":54,
-                    "8-9":41
+                    "7-8":{
+                        "up":187,
+                        "down":106
+                    },
+                    "8-9":{
+                        "up":12,
+                        "down":4
+                    }
                 }
             },
             {
@@ -6394,8 +9814,14 @@ var fullrate_data = {
                 "station2_code":22862,
                 "station2_name":"日暮里",
                 "full_rate":{
-                    "7-8":61,
-                    "8-9":6
+                    "7-8":{
+                        "up":38,
+                        "down":141
+                    },
+                    "8-9":{
+                        "up":109,
+                        "down":138
+                    }
                 }
             },
             {
@@ -6405,8 +9831,14 @@ var fullrate_data = {
                 "station2_code":22531,
                 "station2_name":"鶯谷",
                 "full_rate":{
-                    "7-8":139,
-                    "8-9":168
+                    "7-8":{
+                        "up":64,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":42,
+                        "down":74
+                    }
                 }
             },
             {
@@ -6416,8 +9848,14 @@ var fullrate_data = {
                 "station2_code":22570,
                 "station2_name":"御徒町",
                 "full_rate":{
-                    "7-8":143,
-                    "8-9":1
+                    "7-8":{
+                        "up":54,
+                        "down":114
+                    },
+                    "8-9":{
+                        "up":101,
+                        "down":41
+                    }
                 }
             },
             {
@@ -6427,8 +9865,14 @@ var fullrate_data = {
                 "station2_code":22570,
                 "station2_name":"御徒町",
                 "full_rate":{
-                    "7-8":191,
-                    "8-9":174
+                    "7-8":{
+                        "up":48,
+                        "down":132
+                    },
+                    "8-9":{
+                        "up":10,
+                        "down":51
+                    }
                 }
             },
             {
@@ -6438,8 +9882,14 @@ var fullrate_data = {
                 "station2_code":22617,
                 "station2_name":"神田(東京都)",
                 "full_rate":{
-                    "7-8":176,
-                    "8-9":69
+                    "7-8":{
+                        "up":108,
+                        "down":1
+                    },
+                    "8-9":{
+                        "up":196,
+                        "down":176
+                    }
                 }
             },
             {
@@ -6449,8 +9899,14 @@ var fullrate_data = {
                 "station2_code":22828,
                 "station2_name":"東京",
                 "full_rate":{
-                    "7-8":123,
-                    "8-9":185
+                    "7-8":{
+                        "up":99,
+                        "down":141
+                    },
+                    "8-9":{
+                        "up":146,
+                        "down":78
+                    }
                 }
             },
             {
@@ -6460,8 +9916,14 @@ var fullrate_data = {
                 "station2_code":23036,
                 "station2_name":"有楽町",
                 "full_rate":{
-                    "7-8":97,
-                    "8-9":30
+                    "7-8":{
+                        "up":143,
+                        "down":174
+                    },
+                    "8-9":{
+                        "up":193,
+                        "down":83
+                    }
                 }
             },
             {
@@ -6471,8 +9933,14 @@ var fullrate_data = {
                 "station2_code":23036,
                 "station2_name":"有楽町",
                 "full_rate":{
-                    "7-8":61,
-                    "8-9":92
+                    "7-8":{
+                        "up":20,
+                        "down":126
+                    },
+                    "8-9":{
+                        "up":10,
+                        "down":5
+                    }
                 }
             },
             {
@@ -6482,8 +9950,14 @@ var fullrate_data = {
                 "station2_code":22914,
                 "station2_name":"浜松町",
                 "full_rate":{
-                    "7-8":13,
-                    "8-9":45
+                    "7-8":{
+                        "up":19,
+                        "down":73
+                    },
+                    "8-9":{
+                        "up":123,
+                        "down":123
+                    }
                 }
             },
             {
@@ -6493,8 +9967,14 @@ var fullrate_data = {
                 "station2_code":22914,
                 "station2_name":"浜松町",
                 "full_rate":{
-                    "7-8":94,
-                    "8-9":13
+                    "7-8":{
+                        "up":199,
+                        "down":97
+                    },
+                    "8-9":{
+                        "up":64,
+                        "down":36
+                    }
                 }
             },
             {
@@ -6504,8 +9984,14 @@ var fullrate_data = {
                 "station2_code":22709,
                 "station2_name":"品川",
                 "full_rate":{
-                    "7-8":158,
-                    "8-9":159
+                    "7-8":{
+                        "up":32,
+                        "down":22
+                    },
+                    "8-9":{
+                        "up":105,
+                        "down":122
+                    }
                 }
             },
             {
@@ -6515,8 +10001,14 @@ var fullrate_data = {
                 "station2_code":22807,
                 "station2_name":"田町(東京都)",
                 "full_rate":{
-                    "7-8":167,
-                    "8-9":31
+                    "7-8":{
+                        "up":20,
+                        "down":117
+                    },
+                    "8-9":{
+                        "up":180,
+                        "down":15
+                    }
                 }
             }
         ]
@@ -6531,8 +10023,14 @@ var fullrate_data = {
                 "station2_code":29315,
                 "station2_name":"さいたま新都心",
                 "full_rate":{
-                    "7-8":23,
-                    "8-9":169
+                    "7-8":{
+                        "up":146,
+                        "down":184
+                    },
+                    "8-9":{
+                        "up":102,
+                        "down":53
+                    }
                 }
             },
             {
@@ -6542,8 +10040,14 @@ var fullrate_data = {
                 "station2_code":22167,
                 "station2_name":"与野",
                 "full_rate":{
-                    "7-8":70,
-                    "8-9":48
+                    "7-8":{
+                        "up":103,
+                        "down":195
+                    },
+                    "8-9":{
+                        "up":169,
+                        "down":55
+                    }
                 }
             },
             {
@@ -6553,8 +10057,14 @@ var fullrate_data = {
                 "station2_code":22167,
                 "station2_name":"与野",
                 "full_rate":{
-                    "7-8":44,
-                    "8-9":115
+                    "7-8":{
+                        "up":147,
+                        "down":71
+                    },
+                    "8-9":{
+                        "up":40,
+                        "down":11
+                    }
                 }
             },
             {
@@ -6564,19 +10074,14 @@ var fullrate_data = {
                 "station2_code":22017,
                 "station2_name":"北浦和",
                 "full_rate":{
-                    "7-8":147,
-                    "8-9":47
-                }
-            },
-            {
-                "code":1150140,
-                "station1_code":21982,
-                "station1_name":"浦和",
-                "station2_code":22142,
-                "station2_name":"南浦和",
-                "full_rate":{
-                    "7-8":164,
-                    "8-9":55
+                    "7-8":{
+                        "up":99,
+                        "down":82
+                    },
+                    "8-9":{
+                        "up":45,
+                        "down":10
+                    }
                 }
             },
             {
@@ -6586,8 +10091,14 @@ var fullrate_data = {
                 "station2_code":22174,
                 "station2_name":"蕨",
                 "full_rate":{
-                    "7-8":95,
-                    "8-9":125
+                    "7-8":{
+                        "up":46,
+                        "down":140
+                    },
+                    "8-9":{
+                        "up":116,
+                        "down":163
+                    }
                 }
             },
             {
@@ -6597,8 +10108,14 @@ var fullrate_data = {
                 "station2_code":22174,
                 "station2_name":"蕨",
                 "full_rate":{
-                    "7-8":194,
-                    "8-9":199
+                    "7-8":{
+                        "up":28,
+                        "down":15
+                    },
+                    "8-9":{
+                        "up":101,
+                        "down":0
+                    }
                 }
             },
             {
@@ -6608,8 +10125,14 @@ var fullrate_data = {
                 "station2_code":22094,
                 "station2_name":"西川口",
                 "full_rate":{
-                    "7-8":124,
-                    "8-9":137
+                    "7-8":{
+                        "up":124,
+                        "down":115
+                    },
+                    "8-9":{
+                        "up":170,
+                        "down":26
+                    }
                 }
             },
             {
@@ -6619,8 +10142,14 @@ var fullrate_data = {
                 "station2_code":22011,
                 "station2_name":"川口",
                 "full_rate":{
-                    "7-8":71,
-                    "8-9":91
+                    "7-8":{
+                        "up":140,
+                        "down":55
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":75
+                    }
                 }
             },
             {
@@ -6630,8 +10159,31 @@ var fullrate_data = {
                 "station2_code":22934,
                 "station2_name":"東十条",
                 "full_rate":{
-                    "7-8":70,
-                    "8-9":36
+                    "7-8":{
+                        "up":174,
+                        "down":155
+                    },
+                    "8-9":{
+                        "up":30,
+                        "down":41
+                    }
+                }
+            },
+            {
+                "code":1150140,
+                "station1_code":21982,
+                "station1_name":"浦和",
+                "station2_code":22142,
+                "station2_name":"南浦和",
+                "full_rate":{
+                    "7-8":{
+                        "up":66,
+                        "down":140
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":186
+                    }
                 }
             },
             {
@@ -6641,8 +10193,14 @@ var fullrate_data = {
                 "station2_code":22934,
                 "station2_name":"東十条",
                 "full_rate":{
-                    "7-8":16,
-                    "8-9":37
+                    "7-8":{
+                        "up":13,
+                        "down":141
+                    },
+                    "8-9":{
+                        "up":52,
+                        "down":145
+                    }
                 }
             },
             {
@@ -6652,19 +10210,14 @@ var fullrate_data = {
                 "station2_code":22607,
                 "station2_name":"上中里",
                 "full_rate":{
-                    "7-8":42,
-                    "8-9":62
-                }
-            },
-            {
-                "code":1150220,
-                "station1_code":22607,
-                "station1_name":"上中里",
-                "station2_code":22802,
-                "station2_name":"田端",
-                "full_rate":{
-                    "7-8":128,
-                    "8-9":148
+                    "7-8":{
+                        "up":122,
+                        "down":19
+                    },
+                    "8-9":{
+                        "up":28,
+                        "down":139
+                    }
                 }
             },
             {
@@ -6674,8 +10227,31 @@ var fullrate_data = {
                 "station2_code":22880,
                 "station2_name":"西日暮里",
                 "full_rate":{
-                    "7-8":134,
-                    "8-9":83
+                    "7-8":{
+                        "up":25,
+                        "down":199
+                    },
+                    "8-9":{
+                        "up":183,
+                        "down":5
+                    }
+                }
+            },
+            {
+                "code":1150220,
+                "station1_code":22607,
+                "station1_name":"上中里",
+                "station2_code":22802,
+                "station2_name":"田端",
+                "full_rate":{
+                    "7-8":{
+                        "up":100,
+                        "down":53
+                    },
+                    "8-9":{
+                        "up":145,
+                        "down":150
+                    }
                 }
             },
             {
@@ -6685,8 +10261,14 @@ var fullrate_data = {
                 "station2_code":22862,
                 "station2_name":"日暮里",
                 "full_rate":{
-                    "7-8":179,
-                    "8-9":43
+                    "7-8":{
+                        "up":36,
+                        "down":36
+                    },
+                    "8-9":{
+                        "up":84,
+                        "down":23
+                    }
                 }
             },
             {
@@ -6696,8 +10278,14 @@ var fullrate_data = {
                 "station2_code":22862,
                 "station2_name":"日暮里",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":26
+                    "7-8":{
+                        "up":77,
+                        "down":192
+                    },
+                    "8-9":{
+                        "up":197,
+                        "down":61
+                    }
                 }
             },
             {
@@ -6707,19 +10295,14 @@ var fullrate_data = {
                 "station2_code":22531,
                 "station2_name":"鶯谷",
                 "full_rate":{
-                    "7-8":28,
-                    "8-9":113
-                }
-            },
-            {
-                "code":1150280,
-                "station1_code":22492,
-                "station1_name":"秋葉原",
-                "station2_code":22570,
-                "station2_name":"御徒町",
-                "full_rate":{
-                    "7-8":92,
-                    "8-9":52
+                    "7-8":{
+                        "up":8,
+                        "down":185
+                    },
+                    "8-9":{
+                        "up":186,
+                        "down":193
+                    }
                 }
             },
             {
@@ -6729,8 +10312,31 @@ var fullrate_data = {
                 "station2_code":22570,
                 "station2_name":"御徒町",
                 "full_rate":{
-                    "7-8":40,
-                    "8-9":118
+                    "7-8":{
+                        "up":194,
+                        "down":175
+                    },
+                    "8-9":{
+                        "up":170,
+                        "down":75
+                    }
+                }
+            },
+            {
+                "code":1150280,
+                "station1_code":22492,
+                "station1_name":"秋葉原",
+                "station2_code":22570,
+                "station2_name":"御徒町",
+                "full_rate":{
+                    "7-8":{
+                        "up":118,
+                        "down":7
+                    },
+                    "8-9":{
+                        "up":55,
+                        "down":101
+                    }
                 }
             },
             {
@@ -6740,8 +10346,14 @@ var fullrate_data = {
                 "station2_code":22617,
                 "station2_name":"神田(東京都)",
                 "full_rate":{
-                    "7-8":174,
-                    "8-9":7
+                    "7-8":{
+                        "up":56,
+                        "down":128
+                    },
+                    "8-9":{
+                        "up":96,
+                        "down":62
+                    }
                 }
             },
             {
@@ -6751,8 +10363,14 @@ var fullrate_data = {
                 "station2_code":22828,
                 "station2_name":"東京",
                 "full_rate":{
-                    "7-8":152,
-                    "8-9":110
+                    "7-8":{
+                        "up":115,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":135,
+                        "down":13
+                    }
                 }
             },
             {
@@ -6762,8 +10380,14 @@ var fullrate_data = {
                 "station2_code":23036,
                 "station2_name":"有楽町",
                 "full_rate":{
-                    "7-8":14,
-                    "8-9":156
+                    "7-8":{
+                        "up":194,
+                        "down":78
+                    },
+                    "8-9":{
+                        "up":142,
+                        "down":32
+                    }
                 }
             },
             {
@@ -6773,8 +10397,14 @@ var fullrate_data = {
                 "station2_code":23036,
                 "station2_name":"有楽町",
                 "full_rate":{
-                    "7-8":61,
-                    "8-9":91
+                    "7-8":{
+                        "up":11,
+                        "down":168
+                    },
+                    "8-9":{
+                        "up":90,
+                        "down":99
+                    }
                 }
             },
             {
@@ -6784,19 +10414,14 @@ var fullrate_data = {
                 "station2_code":22914,
                 "station2_name":"浜松町",
                 "full_rate":{
-                    "7-8":63,
-                    "8-9":74
-                }
-            },
-            {
-                "code":1150350,
-                "station1_code":22709,
-                "station1_name":"品川",
-                "station2_code":22807,
-                "station2_name":"田町(東京都)",
-                "full_rate":{
-                    "7-8":153,
-                    "8-9":164
+                    "7-8":{
+                        "up":175,
+                        "down":139
+                    },
+                    "8-9":{
+                        "up":0,
+                        "down":18
+                    }
                 }
             },
             {
@@ -6806,8 +10431,31 @@ var fullrate_data = {
                 "station2_code":22914,
                 "station2_name":"浜松町",
                 "full_rate":{
-                    "7-8":109,
-                    "8-9":176
+                    "7-8":{
+                        "up":177,
+                        "down":146
+                    },
+                    "8-9":{
+                        "up":43,
+                        "down":197
+                    }
+                }
+            },
+            {
+                "code":1150350,
+                "station1_code":22709,
+                "station1_name":"品川",
+                "station2_code":22807,
+                "station2_name":"田町(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":44,
+                        "down":11
+                    },
+                    "8-9":{
+                        "up":51,
+                        "down":8
+                    }
                 }
             },
             {
@@ -6817,19 +10465,14 @@ var fullrate_data = {
                 "station2_code":22709,
                 "station2_name":"品川",
                 "full_rate":{
-                    "7-8":181,
-                    "8-9":30
-                }
-            },
-            {
-                "code":1150370,
-                "station1_code":22556,
-                "station1_name":"大井町",
-                "station2_code":22566,
-                "station2_name":"大森(東京都)",
-                "full_rate":{
-                    "7-8":12,
-                    "8-9":75
+                    "7-8":{
+                        "up":17,
+                        "down":144
+                    },
+                    "8-9":{
+                        "up":48,
+                        "down":52
+                    }
                 }
             },
             {
@@ -6839,8 +10482,31 @@ var fullrate_data = {
                 "station2_code":22602,
                 "station2_name":"蒲田",
                 "full_rate":{
-                    "7-8":185,
-                    "8-9":146
+                    "7-8":{
+                        "up":176,
+                        "down":22
+                    },
+                    "8-9":{
+                        "up":128,
+                        "down":99
+                    }
+                }
+            },
+            {
+                "code":1150370,
+                "station1_code":22556,
+                "station1_name":"大井町",
+                "station2_code":22566,
+                "station2_name":"大森(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":135,
+                        "down":63
+                    },
+                    "8-9":{
+                        "up":32,
+                        "down":114
+                    }
                 }
             },
             {
@@ -6850,8 +10516,14 @@ var fullrate_data = {
                 "station2_code":23126,
                 "station2_name":"川崎",
                 "full_rate":{
-                    "7-8":129,
-                    "8-9":199
+                    "7-8":{
+                        "up":90,
+                        "down":118
+                    },
+                    "8-9":{
+                        "up":152,
+                        "down":5
+                    }
                 }
             },
             {
@@ -6861,8 +10533,14 @@ var fullrate_data = {
                 "station2_code":23244,
                 "station2_name":"鶴見",
                 "full_rate":{
-                    "7-8":67,
-                    "8-9":100
+                    "7-8":{
+                        "up":144,
+                        "down":104
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":27
+                    }
                 }
             },
             {
@@ -6872,8 +10550,14 @@ var fullrate_data = {
                 "station2_code":23244,
                 "station2_name":"鶴見",
                 "full_rate":{
-                    "7-8":170,
-                    "8-9":7
+                    "7-8":{
+                        "up":52,
+                        "down":15
+                    },
+                    "8-9":{
+                        "up":44,
+                        "down":156
+                    }
                 }
             },
             {
@@ -6883,8 +10567,14 @@ var fullrate_data = {
                 "station2_code":23289,
                 "station2_name":"東神奈川",
                 "full_rate":{
-                    "7-8":66,
-                    "8-9":79
+                    "7-8":{
+                        "up":30,
+                        "down":173
+                    },
+                    "8-9":{
+                        "up":96,
+                        "down":97
+                    }
                 }
             },
             {
@@ -6894,8 +10584,14 @@ var fullrate_data = {
                 "station2_code":23368,
                 "station2_name":"横浜",
                 "full_rate":{
-                    "7-8":112,
-                    "8-9":73
+                    "7-8":{
+                        "up":79,
+                        "down":138
+                    },
+                    "8-9":{
+                        "up":108,
+                        "down":143
+                    }
                 }
             }
         ]
@@ -6910,8 +10606,14 @@ var fullrate_data = {
                 "station2_code":22828,
                 "station2_name":"東京",
                 "full_rate":{
-                    "7-8":166,
-                    "8-9":90
+                    "7-8":{
+                        "up":46,
+                        "down":59
+                    },
+                    "8-9":{
+                        "up":151,
+                        "down":61
+                    }
                 }
             },
             {
@@ -6921,8 +10623,14 @@ var fullrate_data = {
                 "station2_code":22751,
                 "station2_name":"新橋",
                 "full_rate":{
-                    "7-8":154,
-                    "8-9":54
+                    "7-8":{
+                        "up":114,
+                        "down":0
+                    },
+                    "8-9":{
+                        "up":185,
+                        "down":187
+                    }
                 }
             },
             {
@@ -6932,8 +10640,14 @@ var fullrate_data = {
                 "station2_code":22865,
                 "station2_name":"西大井",
                 "full_rate":{
-                    "7-8":69,
-                    "8-9":182
+                    "7-8":{
+                        "up":79,
+                        "down":80
+                    },
+                    "8-9":{
+                        "up":106,
+                        "down":176
+                    }
                 }
             },
             {
@@ -6943,8 +10657,14 @@ var fullrate_data = {
                 "station2_code":23345,
                 "station2_name":"武蔵小杉",
                 "full_rate":{
-                    "7-8":95,
-                    "8-9":159
+                    "7-8":{
+                        "up":31,
+                        "down":197
+                    },
+                    "8-9":{
+                        "up":10,
+                        "down":55
+                    }
                 }
             },
             {
@@ -6954,8 +10674,14 @@ var fullrate_data = {
                 "station2_code":23345,
                 "station2_name":"武蔵小杉",
                 "full_rate":{
-                    "7-8":197,
-                    "8-9":157
+                    "7-8":{
+                        "up":182,
+                        "down":94
+                    },
+                    "8-9":{
+                        "up":38,
+                        "down":148
+                    }
                 }
             },
             {
@@ -6965,8 +10691,14 @@ var fullrate_data = {
                 "station2_code":23368,
                 "station2_name":"横浜",
                 "full_rate":{
-                    "7-8":31,
-                    "8-9":79
+                    "7-8":{
+                        "up":148,
+                        "down":42
+                    },
+                    "8-9":{
+                        "up":3,
+                        "down":27
+                    }
                 }
             },
             {
@@ -6976,8 +10708,14 @@ var fullrate_data = {
                 "station2_code":23368,
                 "station2_name":"横浜",
                 "full_rate":{
-                    "7-8":141,
-                    "8-9":98
+                    "7-8":{
+                        "up":55,
+                        "down":2
+                    },
+                    "8-9":{
+                        "up":4,
+                        "down":0
+                    }
                 }
             },
             {
@@ -6987,8 +10725,14 @@ var fullrate_data = {
                 "station2_code":23316,
                 "station2_name":"保土ケ谷",
                 "full_rate":{
-                    "7-8":12,
-                    "8-9":60
+                    "7-8":{
+                        "up":0,
+                        "down":19
+                    },
+                    "8-9":{
+                        "up":116,
+                        "down":70
+                    }
                 }
             },
             {
@@ -6998,8 +10742,14 @@ var fullrate_data = {
                 "station2_code":23291,
                 "station2_name":"東戸塚",
                 "full_rate":{
-                    "7-8":164,
-                    "8-9":45
+                    "7-8":{
+                        "up":143,
+                        "down":141
+                    },
+                    "8-9":{
+                        "up":54,
+                        "down":104
+                    }
                 }
             },
             {
@@ -7009,8 +10759,14 @@ var fullrate_data = {
                 "station2_code":23251,
                 "station2_name":"戸塚",
                 "full_rate":{
-                    "7-8":20,
-                    "8-9":194
+                    "7-8":{
+                        "up":138,
+                        "down":23
+                    },
+                    "8-9":{
+                        "up":130,
+                        "down":151
+                    }
                 }
             },
             {
@@ -7020,8 +10776,14 @@ var fullrate_data = {
                 "station2_code":23132,
                 "station2_name":"北鎌倉",
                 "full_rate":{
-                    "7-8":187,
-                    "8-9":184
+                    "7-8":{
+                        "up":191,
+                        "down":82
+                    },
+                    "8-9":{
+                        "up":50,
+                        "down":40
+                    }
                 }
             },
             {
@@ -7031,8 +10793,14 @@ var fullrate_data = {
                 "station2_code":23132,
                 "station2_name":"北鎌倉",
                 "full_rate":{
-                    "7-8":48,
-                    "8-9":17
+                    "7-8":{
+                        "up":87,
+                        "down":136
+                    },
+                    "8-9":{
+                        "up":198,
+                        "down":34
+                    }
                 }
             },
             {
@@ -7042,8 +10810,14 @@ var fullrate_data = {
                 "station2_code":23217,
                 "station2_name":"逗子",
                 "full_rate":{
-                    "7-8":39,
-                    "8-9":73
+                    "7-8":{
+                        "up":29,
+                        "down":84
+                    },
+                    "8-9":{
+                        "up":8,
+                        "down":61
+                    }
                 }
             },
             {
@@ -7053,8 +10827,14 @@ var fullrate_data = {
                 "station2_code":23290,
                 "station2_name":"東逗子",
                 "full_rate":{
-                    "7-8":42,
-                    "8-9":34
+                    "7-8":{
+                        "up":150,
+                        "down":91
+                    },
+                    "8-9":{
+                        "up":116,
+                        "down":45
+                    }
                 }
             },
             {
@@ -7064,8 +10844,14 @@ var fullrate_data = {
                 "station2_code":23290,
                 "station2_name":"東逗子",
                 "full_rate":{
-                    "7-8":144,
-                    "8-9":77
+                    "7-8":{
+                        "up":2,
+                        "down":87
+                    },
+                    "8-9":{
+                        "up":102,
+                        "down":188
+                    }
                 }
             },
             {
@@ -7075,8 +10861,14 @@ var fullrate_data = {
                 "station2_code":23366,
                 "station2_name":"横須賀",
                 "full_rate":{
-                    "7-8":156,
-                    "8-9":40
+                    "7-8":{
+                        "up":109,
+                        "down":103
+                    },
+                    "8-9":{
+                        "up":96,
+                        "down":112
+                    }
                 }
             },
             {
@@ -7086,8 +10878,14 @@ var fullrate_data = {
                 "station2_code":23366,
                 "station2_name":"横須賀",
                 "full_rate":{
-                    "7-8":19,
-                    "8-9":20
+                    "7-8":{
+                        "up":10,
+                        "down":123
+                    },
+                    "8-9":{
+                        "up":56,
+                        "down":160
+                    }
                 }
             },
             {
@@ -7097,8 +10895,14 @@ var fullrate_data = {
                 "station2_code":23141,
                 "station2_name":"久里浜",
                 "full_rate":{
-                    "7-8":188,
-                    "8-9":176
+                    "7-8":{
+                        "up":173,
+                        "down":99
+                    },
+                    "8-9":{
+                        "up":94,
+                        "down":58
+                    }
                 }
             }
         ]
@@ -7113,118 +10917,14 @@ var fullrate_data = {
                 "station2_code":22828,
                 "station2_name":"東京",
                 "full_rate":{
-                    "7-8":12,
-                    "8-9":188
-                }
-            },
-            {
-                "code":1170260,
-                "station1_code":23096,
-                "station1_name":"大船",
-                "station2_code":23251,
-                "station2_name":"戸塚",
-                "full_rate":{
-                    "7-8":127,
-                    "8-9":170
-                }
-            },
-            {
-                "code":1170150,
-                "station1_code":23126,
-                "station1_name":"川崎",
-                "station2_code":22709,
-                "station2_name":"品川",
-                "full_rate":{
-                    "7-8":120,
-                    "8-9":69
-                }
-            },
-            {
-                "code":1170190,
-                "station1_code":23126,
-                "station1_name":"川崎",
-                "station2_code":23368,
-                "station2_name":"横浜",
-                "full_rate":{
-                    "7-8":171,
-                    "8-9":38
-                }
-            },
-            {
-                "code":1170230,
-                "station1_code":23251,
-                "station1_name":"戸塚",
-                "station2_code":23368,
-                "station2_name":"横浜",
-                "full_rate":{
-                    "7-8":74,
-                    "8-9":8
-                }
-            },
-            {
-                "code":1170270,
-                "station1_code":23096,
-                "station1_name":"大船",
-                "station2_code":23304,
-                "station2_name":"藤沢",
-                "full_rate":{
-                    "7-8":66,
-                    "8-9":140
-                }
-            },
-            {
-                "code":1170280,
-                "station1_code":23238,
-                "station1_name":"辻堂",
-                "station2_code":23304,
-                "station2_name":"藤沢",
-                "full_rate":{
-                    "7-8":98,
-                    "8-9":131
-                }
-            },
-            {
-                "code":1170310,
-                "station1_code":23091,
-                "station1_name":"大磯",
-                "station2_code":23298,
-                "station2_name":"平塚",
-                "full_rate":{
-                    "7-8":150,
-                    "8-9":97
-                }
-            },
-            {
-                "code":1170300,
-                "station1_code":23234,
-                "station1_name":"茅ケ崎",
-                "station2_code":23298,
-                "station2_name":"平塚",
-                "full_rate":{
-                    "7-8":104,
-                    "8-9":80
-                }
-            },
-            {
-                "code":1170320,
-                "station1_code":23091,
-                "station1_name":"大磯",
-                "station2_code":23269,
-                "station2_name":"二宮",
-                "full_rate":{
-                    "7-8":10,
-                    "8-9":162
-                }
-            },
-            {
-                "code":1170330,
-                "station1_code":23156,
-                "station1_name":"国府津",
-                "station2_code":23269,
-                "station2_name":"二宮",
-                "full_rate":{
-                    "7-8":34,
-                    "8-9":122
+                    "7-8":{
+                        "up":65,
+                        "down":171
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":35
+                    }
                 }
             },
             {
@@ -7234,8 +10934,116 @@ var fullrate_data = {
                 "station2_code":22751,
                 "station2_name":"新橋",
                 "full_rate":{
-                    "7-8":163,
-                    "8-9":184
+                    "7-8":{
+                        "up":150,
+                        "down":160
+                    },
+                    "8-9":{
+                        "up":71,
+                        "down":59
+                    }
+                }
+            },
+            {
+                "code":1170260,
+                "station1_code":23096,
+                "station1_name":"大船",
+                "station2_code":23251,
+                "station2_name":"戸塚",
+                "full_rate":{
+                    "7-8":{
+                        "up":136,
+                        "down":91
+                    },
+                    "8-9":{
+                        "up":196,
+                        "down":79
+                    }
+                }
+            },
+            {
+                "code":1170150,
+                "station1_code":23126,
+                "station1_name":"川崎",
+                "station2_code":22709,
+                "station2_name":"品川",
+                "full_rate":{
+                    "7-8":{
+                        "up":22,
+                        "down":101
+                    },
+                    "8-9":{
+                        "up":115,
+                        "down":119
+                    }
+                }
+            },
+            {
+                "code":1170190,
+                "station1_code":23126,
+                "station1_name":"川崎",
+                "station2_code":23368,
+                "station2_name":"横浜",
+                "full_rate":{
+                    "7-8":{
+                        "up":138,
+                        "down":125
+                    },
+                    "8-9":{
+                        "up":110,
+                        "down":83
+                    }
+                }
+            },
+            {
+                "code":1170230,
+                "station1_code":23251,
+                "station1_name":"戸塚",
+                "station2_code":23368,
+                "station2_name":"横浜",
+                "full_rate":{
+                    "7-8":{
+                        "up":46,
+                        "down":170
+                    },
+                    "8-9":{
+                        "up":117,
+                        "down":65
+                    }
+                }
+            },
+            {
+                "code":1170270,
+                "station1_code":23096,
+                "station1_name":"大船",
+                "station2_code":23304,
+                "station2_name":"藤沢",
+                "full_rate":{
+                    "7-8":{
+                        "up":65,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":16,
+                        "down":170
+                    }
+                }
+            },
+            {
+                "code":1170280,
+                "station1_code":23238,
+                "station1_name":"辻堂",
+                "station2_code":23304,
+                "station2_name":"藤沢",
+                "full_rate":{
+                    "7-8":{
+                        "up":141,
+                        "down":21
+                    },
+                    "8-9":{
+                        "up":29,
+                        "down":158
+                    }
                 }
             },
             {
@@ -7245,19 +11053,82 @@ var fullrate_data = {
                 "station2_code":23238,
                 "station2_name":"辻堂",
                 "full_rate":{
-                    "7-8":164,
-                    "8-9":131
+                    "7-8":{
+                        "up":92,
+                        "down":99
+                    },
+                    "8-9":{
+                        "up":19,
+                        "down":182
+                    }
                 }
             },
             {
-                "code":1170340,
-                "station1_code":23124,
-                "station1_name":"鴨宮",
-                "station2_code":23156,
-                "station2_name":"国府津",
+                "code":1170300,
+                "station1_code":23234,
+                "station1_name":"茅ケ崎",
+                "station2_code":23298,
+                "station2_name":"平塚",
                 "full_rate":{
-                    "7-8":174,
-                    "8-9":14
+                    "7-8":{
+                        "up":157,
+                        "down":103
+                    },
+                    "8-9":{
+                        "up":16,
+                        "down":149
+                    }
+                }
+            },
+            {
+                "code":1170320,
+                "station1_code":23091,
+                "station1_name":"大磯",
+                "station2_code":23269,
+                "station2_name":"二宮",
+                "full_rate":{
+                    "7-8":{
+                        "up":107,
+                        "down":104
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":134
+                    }
+                }
+            },
+            {
+                "code":1170330,
+                "station1_code":23156,
+                "station1_name":"国府津",
+                "station2_code":23269,
+                "station2_name":"二宮",
+                "full_rate":{
+                    "7-8":{
+                        "up":160,
+                        "down":24
+                    },
+                    "8-9":{
+                        "up":123,
+                        "down":73
+                    }
+                }
+            },
+            {
+                "code":1170310,
+                "station1_code":23091,
+                "station1_name":"大磯",
+                "station2_code":23298,
+                "station2_name":"平塚",
+                "full_rate":{
+                    "7-8":{
+                        "up":130,
+                        "down":191
+                    },
+                    "8-9":{
+                        "up":113,
+                        "down":195
+                    }
                 }
             },
             {
@@ -7267,8 +11138,14 @@ var fullrate_data = {
                 "station2_code":23124,
                 "station2_name":"鴨宮",
                 "full_rate":{
-                    "7-8":174,
-                    "8-9":150
+                    "7-8":{
+                        "up":12,
+                        "down":171
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":37
+                    }
                 }
             },
             {
@@ -7278,8 +11155,31 @@ var fullrate_data = {
                 "station2_code":23285,
                 "station2_name":"早川",
                 "full_rate":{
-                    "7-8":94,
-                    "8-9":36
+                    "7-8":{
+                        "up":9,
+                        "down":79
+                    },
+                    "8-9":{
+                        "up":148,
+                        "down":198
+                    }
+                }
+            },
+            {
+                "code":1170340,
+                "station1_code":23124,
+                "station1_name":"鴨宮",
+                "station2_code":23156,
+                "station2_name":"国府津",
+                "full_rate":{
+                    "7-8":{
+                        "up":33,
+                        "down":105
+                    },
+                    "8-9":{
+                        "up":144,
+                        "down":164
+                    }
                 }
             },
             {
@@ -7289,8 +11189,14 @@ var fullrate_data = {
                 "station2_code":23285,
                 "station2_name":"早川",
                 "full_rate":{
-                    "7-8":30,
-                    "8-9":140
+                    "7-8":{
+                        "up":3,
+                        "down":79
+                    },
+                    "8-9":{
+                        "up":144,
+                        "down":194
+                    }
                 }
             },
             {
@@ -7300,8 +11206,14 @@ var fullrate_data = {
                 "station2_code":23324,
                 "station2_name":"真鶴",
                 "full_rate":{
-                    "7-8":177,
-                    "8-9":89
+                    "7-8":{
+                        "up":71,
+                        "down":197
+                    },
+                    "8-9":{
+                        "up":170,
+                        "down":31
+                    }
                 }
             },
             {
@@ -7311,8 +11223,14 @@ var fullrate_data = {
                 "station2_code":23363,
                 "station2_name":"湯河原",
                 "full_rate":{
-                    "7-8":113,
-                    "8-9":52
+                    "7-8":{
+                        "up":89,
+                        "down":144
+                    },
+                    "8-9":{
+                        "up":160,
+                        "down":85
+                    }
                 }
             },
             {
@@ -7322,8 +11240,14 @@ var fullrate_data = {
                 "station2_code":23363,
                 "station2_name":"湯河原",
                 "full_rate":{
-                    "7-8":132,
-                    "8-9":80
+                    "7-8":{
+                        "up":25,
+                        "down":3
+                    },
+                    "8-9":{
+                        "up":29,
+                        "down":39
+                    }
                 }
             }
         ]
@@ -7332,14 +11256,20 @@ var fullrate_data = {
         "name":"ＪＲ南武線(川崎−立川)",
         "sections":[
             {
-                "code":1210100,
-                "station1_code":23126,
-                "station1_name":"川崎",
-                "station2_code":23195,
-                "station2_name":"尻手",
+                "code":1210130,
+                "station1_code":23104,
+                "station1_name":"鹿島田",
+                "station2_code":23300,
+                "station2_name":"平間",
                 "full_rate":{
-                    "7-8":39,
-                    "8-9":121
+                    "7-8":{
+                        "up":11,
+                        "down":56
+                    },
+                    "8-9":{
+                        "up":48,
+                        "down":53
+                    }
                 }
             },
             {
@@ -7349,8 +11279,14 @@ var fullrate_data = {
                 "station2_code":23355,
                 "station2_name":"矢向",
                 "full_rate":{
-                    "7-8":131,
-                    "8-9":7
+                    "7-8":{
+                        "up":164,
+                        "down":190
+                    },
+                    "8-9":{
+                        "up":195,
+                        "down":90
+                    }
                 }
             },
             {
@@ -7360,8 +11296,31 @@ var fullrate_data = {
                 "station2_code":23355,
                 "station2_name":"矢向",
                 "full_rate":{
-                    "7-8":62,
-                    "8-9":196
+                    "7-8":{
+                        "up":27,
+                        "down":23
+                    },
+                    "8-9":{
+                        "up":180,
+                        "down":10
+                    }
+                }
+            },
+            {
+                "code":1210100,
+                "station1_code":23126,
+                "station1_name":"川崎",
+                "station2_code":23195,
+                "station2_name":"尻手",
+                "full_rate":{
+                    "7-8":{
+                        "up":142,
+                        "down":13
+                    },
+                    "8-9":{
+                        "up":140,
+                        "down":176
+                    }
                 }
             },
             {
@@ -7371,19 +11330,14 @@ var fullrate_data = {
                 "station2_code":23343,
                 "station2_name":"向河原",
                 "full_rate":{
-                    "7-8":38,
-                    "8-9":115
-                }
-            },
-            {
-                "code":1210130,
-                "station1_code":23104,
-                "station1_name":"鹿島田",
-                "station2_code":23300,
-                "station2_name":"平間",
-                "full_rate":{
-                    "7-8":132,
-                    "8-9":71
+                    "7-8":{
+                        "up":190,
+                        "down":25
+                    },
+                    "8-9":{
+                        "up":77,
+                        "down":94
+                    }
                 }
             },
             {
@@ -7393,52 +11347,14 @@ var fullrate_data = {
                 "station2_code":23345,
                 "station2_name":"武蔵小杉",
                 "full_rate":{
-                    "7-8":62,
-                    "8-9":23
-                }
-            },
-            {
-                "code":1210160,
-                "station1_code":23345,
-                "station1_name":"武蔵小杉",
-                "station2_code":23348,
-                "station2_name":"武蔵中原",
-                "full_rate":{
-                    "7-8":182,
-                    "8-9":26
-                }
-            },
-            {
-                "code":1210170,
-                "station1_code":23347,
-                "station1_name":"武蔵新城",
-                "station2_code":23348,
-                "station2_name":"武蔵中原",
-                "full_rate":{
-                    "7-8":0,
-                    "8-9":186
-                }
-            },
-            {
-                "code":1210180,
-                "station1_code":23347,
-                "station1_name":"武蔵新城",
-                "station2_code":23349,
-                "station2_name":"武蔵溝ノ口",
-                "full_rate":{
-                    "7-8":3,
-                    "8-9":152
-                }
-            },
-            {
-                "code":1210200,
-                "station1_code":23139,
-                "station1_name":"久地",
-                "station2_code":23239,
-                "station2_name":"津田山",
-                "full_rate":{
-                    "7-8":22,
-                    "8-9":154
+                    "7-8":{
+                        "up":11,
+                        "down":54
+                    },
+                    "8-9":{
+                        "up":45,
+                        "down":189
+                    }
                 }
             },
             {
@@ -7448,8 +11364,82 @@ var fullrate_data = {
                 "station2_code":23349,
                 "station2_name":"武蔵溝ノ口",
                 "full_rate":{
-                    "7-8":94,
-                    "8-9":199
+                    "7-8":{
+                        "up":86,
+                        "down":135
+                    },
+                    "8-9":{
+                        "up":30,
+                        "down":195
+                    }
+                }
+            },
+            {
+                "code":1210160,
+                "station1_code":23345,
+                "station1_name":"武蔵小杉",
+                "station2_code":23348,
+                "station2_name":"武蔵中原",
+                "full_rate":{
+                    "7-8":{
+                        "up":42,
+                        "down":97
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":84
+                    }
+                }
+            },
+            {
+                "code":1210170,
+                "station1_code":23347,
+                "station1_name":"武蔵新城",
+                "station2_code":23348,
+                "station2_name":"武蔵中原",
+                "full_rate":{
+                    "7-8":{
+                        "up":195,
+                        "down":178
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":152
+                    }
+                }
+            },
+            {
+                "code":1210180,
+                "station1_code":23347,
+                "station1_name":"武蔵新城",
+                "station2_code":23349,
+                "station2_name":"武蔵溝ノ口",
+                "full_rate":{
+                    "7-8":{
+                        "up":89,
+                        "down":62
+                    },
+                    "8-9":{
+                        "up":146,
+                        "down":153
+                    }
+                }
+            },
+            {
+                "code":1210200,
+                "station1_code":23139,
+                "station1_name":"久地",
+                "station2_code":23239,
+                "station2_name":"津田山",
+                "full_rate":{
+                    "7-8":{
+                        "up":18,
+                        "down":15
+                    },
+                    "8-9":{
+                        "up":69,
+                        "down":197
+                    }
                 }
             },
             {
@@ -7459,19 +11449,14 @@ var fullrate_data = {
                 "station2_code":23188,
                 "station2_name":"宿河原",
                 "full_rate":{
-                    "7-8":128,
-                    "8-9":122
-                }
-            },
-            {
-                "code":1210220,
-                "station1_code":23188,
-                "station1_name":"宿河原",
-                "station2_code":23275,
-                "station2_name":"登戸",
-                "full_rate":{
-                    "7-8":131,
-                    "8-9":194
+                    "7-8":{
+                        "up":20,
+                        "down":163
+                    },
+                    "8-9":{
+                        "up":186,
+                        "down":43
+                    }
                 }
             },
             {
@@ -7481,19 +11466,14 @@ var fullrate_data = {
                 "station2_code":23275,
                 "station2_name":"登戸",
                 "full_rate":{
-                    "7-8":111,
-                    "8-9":14
-                }
-            },
-            {
-                "code":1210240,
-                "station1_code":23076,
-                "station1_name":"稲田堤",
-                "station2_code":23257,
-                "station2_name":"中野島",
-                "full_rate":{
-                    "7-8":122,
-                    "8-9":140
+                    "7-8":{
+                        "up":132,
+                        "down":130
+                    },
+                    "8-9":{
+                        "up":36,
+                        "down":37
+                    }
                 }
             },
             {
@@ -7503,8 +11483,48 @@ var fullrate_data = {
                 "station2_code":23029,
                 "station2_name":"矢野口",
                 "full_rate":{
-                    "7-8":71,
-                    "8-9":115
+                    "7-8":{
+                        "up":19,
+                        "down":106
+                    },
+                    "8-9":{
+                        "up":172,
+                        "down":163
+                    }
+                }
+            },
+            {
+                "code":1210220,
+                "station1_code":23188,
+                "station1_name":"宿河原",
+                "station2_code":23275,
+                "station2_name":"登戸",
+                "full_rate":{
+                    "7-8":{
+                        "up":59,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":185,
+                        "down":24
+                    }
+                }
+            },
+            {
+                "code":1210240,
+                "station1_code":23076,
+                "station1_name":"稲田堤",
+                "station2_code":23257,
+                "station2_name":"中野島",
+                "full_rate":{
+                    "7-8":{
+                        "up":99,
+                        "down":22
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":147
+                    }
                 }
             },
             {
@@ -7514,8 +11534,14 @@ var fullrate_data = {
                 "station2_code":23029,
                 "station2_name":"矢野口",
                 "full_rate":{
-                    "7-8":25,
-                    "8-9":45
+                    "7-8":{
+                        "up":13,
+                        "down":85
+                    },
+                    "8-9":{
+                        "up":88,
+                        "down":183
+                    }
                 }
             },
             {
@@ -7525,8 +11551,14 @@ var fullrate_data = {
                 "station2_code":22996,
                 "station2_name":"南多摩",
                 "full_rate":{
-                    "7-8":124,
-                    "8-9":51
+                    "7-8":{
+                        "up":21,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":52,
+                        "down":57
+                    }
                 }
             },
             {
@@ -7536,8 +11568,14 @@ var fullrate_data = {
                 "station2_code":22996,
                 "station2_name":"南多摩",
                 "full_rate":{
-                    "7-8":15,
-                    "8-9":130
+                    "7-8":{
+                        "up":131,
+                        "down":147
+                    },
+                    "8-9":{
+                        "up":199,
+                        "down":94
+                    }
                 }
             },
             {
@@ -7547,8 +11585,14 @@ var fullrate_data = {
                 "station2_code":22966,
                 "station2_name":"分倍河原",
                 "full_rate":{
-                    "7-8":31,
-                    "8-9":42
+                    "7-8":{
+                        "up":4,
+                        "down":29
+                    },
+                    "8-9":{
+                        "up":107,
+                        "down":53
+                    }
                 }
             },
             {
@@ -7558,8 +11602,14 @@ var fullrate_data = {
                 "station2_code":22966,
                 "station2_name":"分倍河原",
                 "full_rate":{
-                    "7-8":65,
-                    "8-9":19
+                    "7-8":{
+                        "up":116,
+                        "down":70
+                    },
+                    "8-9":{
+                        "up":103,
+                        "down":64
+                    }
                 }
             },
             {
@@ -7569,8 +11619,14 @@ var fullrate_data = {
                 "station2_code":23031,
                 "station2_name":"谷保",
                 "full_rate":{
-                    "7-8":144,
-                    "8-9":36
+                    "7-8":{
+                        "up":118,
+                        "down":94
+                    },
+                    "8-9":{
+                        "up":110,
+                        "down":102
+                    }
                 }
             },
             {
@@ -7580,8 +11636,14 @@ var fullrate_data = {
                 "station2_code":23031,
                 "station2_name":"谷保",
                 "full_rate":{
-                    "7-8":38,
-                    "8-9":193
+                    "7-8":{
+                        "up":137,
+                        "down":96
+                    },
+                    "8-9":{
+                        "up":113,
+                        "down":185
+                    }
                 }
             },
             {
@@ -7591,8 +11653,14 @@ var fullrate_data = {
                 "station2_code":23025,
                 "station2_name":"矢川",
                 "full_rate":{
-                    "7-8":33,
-                    "8-9":150
+                    "7-8":{
+                        "up":121,
+                        "down":24
+                    },
+                    "8-9":{
+                        "up":89,
+                        "down":146
+                    }
                 }
             },
             {
@@ -7602,8 +11670,14 @@ var fullrate_data = {
                 "station2_code":22871,
                 "station2_name":"西国立",
                 "full_rate":{
-                    "7-8":158,
-                    "8-9":122
+                    "7-8":{
+                        "up":190,
+                        "down":39
+                    },
+                    "8-9":{
+                        "up":9,
+                        "down":28
+                    }
                 }
             }
         ]
@@ -7612,25 +11686,37 @@ var fullrate_data = {
         "name":"ＪＲ横浜線",
         "sections":[
             {
-                "code":1230100,
-                "station1_code":23289,
-                "station1_name":"東神奈川",
-                "station2_code":23368,
-                "station2_name":"横浜",
-                "full_rate":{
-                    "7-8":170,
-                    "8-9":10
-                }
-            },
-            {
                 "code":1230110,
                 "station1_code":23094,
                 "station1_name":"大口",
                 "station2_code":23289,
                 "station2_name":"東神奈川",
                 "full_rate":{
-                    "7-8":145,
-                    "8-9":1
+                    "7-8":{
+                        "up":105,
+                        "down":5
+                    },
+                    "8-9":{
+                        "up":27,
+                        "down":138
+                    }
+                }
+            },
+            {
+                "code":1230100,
+                "station1_code":23289,
+                "station1_name":"東神奈川",
+                "station2_code":23368,
+                "station2_name":"横浜",
+                "full_rate":{
+                    "7-8":{
+                        "up":124,
+                        "down":17
+                    },
+                    "8-9":{
+                        "up":45,
+                        "down":95
+                    }
                 }
             },
             {
@@ -7640,8 +11726,14 @@ var fullrate_data = {
                 "station2_code":23130,
                 "station2_name":"菊名",
                 "full_rate":{
-                    "7-8":180,
-                    "8-9":144
+                    "7-8":{
+                        "up":47,
+                        "down":183
+                    },
+                    "8-9":{
+                        "up":136,
+                        "down":198
+                    }
                 }
             },
             {
@@ -7651,8 +11743,14 @@ var fullrate_data = {
                 "station2_code":23212,
                 "station2_name":"新横浜",
                 "full_rate":{
-                    "7-8":170,
-                    "8-9":85
+                    "7-8":{
+                        "up":38,
+                        "down":33
+                    },
+                    "8-9":{
+                        "up":179,
+                        "down":7
+                    }
                 }
             },
             {
@@ -7662,8 +11760,14 @@ var fullrate_data = {
                 "station2_code":23212,
                 "station2_name":"新横浜",
                 "full_rate":{
-                    "7-8":165,
-                    "8-9":129
+                    "7-8":{
+                        "up":95,
+                        "down":131
+                    },
+                    "8-9":{
+                        "up":50,
+                        "down":79
+                    }
                 }
             },
             {
@@ -7673,19 +11777,14 @@ var fullrate_data = {
                 "station2_code":23259,
                 "station2_name":"中山(神奈川県)",
                 "full_rate":{
-                    "7-8":71,
-                    "8-9":35
-                }
-            },
-            {
-                "code":1230170,
-                "station1_code":23250,
-                "station1_name":"十日市場(神奈川県)",
-                "station2_code":23259,
-                "station2_name":"中山(神奈川県)",
-                "full_rate":{
-                    "7-8":23,
-                    "8-9":192
+                    "7-8":{
+                        "up":33,
+                        "down":83
+                    },
+                    "8-9":{
+                        "up":50,
+                        "down":37
+                    }
                 }
             },
             {
@@ -7695,8 +11794,31 @@ var fullrate_data = {
                 "station2_code":23163,
                 "station2_name":"小机",
                 "full_rate":{
-                    "7-8":174,
-                    "8-9":170
+                    "7-8":{
+                        "up":129,
+                        "down":182
+                    },
+                    "8-9":{
+                        "up":5,
+                        "down":139
+                    }
+                }
+            },
+            {
+                "code":1230170,
+                "station1_code":23250,
+                "station1_name":"十日市場(神奈川県)",
+                "station2_code":23259,
+                "station2_name":"中山(神奈川県)",
+                "full_rate":{
+                    "7-8":{
+                        "up":39,
+                        "down":43
+                    },
+                    "8-9":{
+                        "up":44,
+                        "down":10
+                    }
                 }
             },
             {
@@ -7706,8 +11828,14 @@ var fullrate_data = {
                 "station2_code":23260,
                 "station2_name":"長津田",
                 "full_rate":{
-                    "7-8":37,
-                    "8-9":60
+                    "7-8":{
+                        "up":166,
+                        "down":153
+                    },
+                    "8-9":{
+                        "up":48,
+                        "down":35
+                    }
                 }
             },
             {
@@ -7717,8 +11845,14 @@ var fullrate_data = {
                 "station2_code":22861,
                 "station2_name":"成瀬",
                 "full_rate":{
-                    "7-8":48,
-                    "8-9":195
+                    "7-8":{
+                        "up":92,
+                        "down":61
+                    },
+                    "8-9":{
+                        "up":22,
+                        "down":89
+                    }
                 }
             },
             {
@@ -7728,41 +11862,14 @@ var fullrate_data = {
                 "station2_code":22976,
                 "station2_name":"町田",
                 "full_rate":{
-                    "7-8":154,
-                    "8-9":129
-                }
-            },
-            {
-                "code":1230230,
-                "station1_code":23311,
-                "station1_name":"淵野辺",
-                "station2_code":23357,
-                "station2_name":"矢部",
-                "full_rate":{
-                    "7-8":187,
-                    "8-9":64
-                }
-            },
-            {
-                "code":1230240,
-                "station1_code":23177,
-                "station1_name":"相模原",
-                "station2_code":23357,
-                "station2_name":"矢部",
-                "full_rate":{
-                    "7-8":74,
-                    "8-9":158
-                }
-            },
-            {
-                "code":1230250,
-                "station1_code":23177,
-                "station1_name":"相模原",
-                "station2_code":23281,
-                "station2_name":"橋本(神奈川県)",
-                "full_rate":{
-                    "7-8":35,
-                    "8-9":68
+                    "7-8":{
+                        "up":7,
+                        "down":99
+                    },
+                    "8-9":{
+                        "up":106,
+                        "down":52
+                    }
                 }
             },
             {
@@ -7772,8 +11879,31 @@ var fullrate_data = {
                 "station2_code":22976,
                 "station2_name":"町田",
                 "full_rate":{
-                    "7-8":75,
-                    "8-9":140
+                    "7-8":{
+                        "up":169,
+                        "down":130
+                    },
+                    "8-9":{
+                        "up":14,
+                        "down":76
+                    }
+                }
+            },
+            {
+                "code":1230230,
+                "station1_code":23311,
+                "station1_name":"淵野辺",
+                "station2_code":23357,
+                "station2_name":"矢部",
+                "full_rate":{
+                    "7-8":{
+                        "up":79,
+                        "down":40
+                    },
+                    "8-9":{
+                        "up":63,
+                        "down":71
+                    }
                 }
             },
             {
@@ -7783,8 +11913,48 @@ var fullrate_data = {
                 "station2_code":23311,
                 "station2_name":"淵野辺",
                 "full_rate":{
-                    "7-8":61,
-                    "8-9":18
+                    "7-8":{
+                        "up":51,
+                        "down":125
+                    },
+                    "8-9":{
+                        "up":97,
+                        "down":29
+                    }
+                }
+            },
+            {
+                "code":1230240,
+                "station1_code":23177,
+                "station1_name":"相模原",
+                "station2_code":23357,
+                "station2_name":"矢部",
+                "full_rate":{
+                    "7-8":{
+                        "up":131,
+                        "down":37
+                    },
+                    "8-9":{
+                        "up":80,
+                        "down":183
+                    }
+                }
+            },
+            {
+                "code":1230250,
+                "station1_code":23177,
+                "station1_name":"相模原",
+                "station2_code":23281,
+                "station2_name":"橋本(神奈川県)",
+                "full_rate":{
+                    "7-8":{
+                        "up":25,
+                        "down":177
+                    },
+                    "8-9":{
+                        "up":69,
+                        "down":42
+                    }
                 }
             },
             {
@@ -7794,8 +11964,14 @@ var fullrate_data = {
                 "station2_code":23281,
                 "station2_name":"橋本(神奈川県)",
                 "full_rate":{
-                    "7-8":49,
-                    "8-9":143
+                    "7-8":{
+                        "up":92,
+                        "down":13
+                    },
+                    "8-9":{
+                        "up":81,
+                        "down":129
+                    }
                 }
             },
             {
@@ -7805,8 +11981,14 @@ var fullrate_data = {
                 "station2_code":29177,
                 "station2_name":"八王子みなみ野",
                 "full_rate":{
-                    "7-8":19,
-                    "8-9":175
+                    "7-8":{
+                        "up":186,
+                        "down":17
+                    },
+                    "8-9":{
+                        "up":83,
+                        "down":184
+                    }
                 }
             },
             {
@@ -7816,8 +11998,14 @@ var fullrate_data = {
                 "station2_code":29177,
                 "station2_name":"八王子みなみ野",
                 "full_rate":{
-                    "7-8":25,
-                    "8-9":52
+                    "7-8":{
+                        "up":135,
+                        "down":141
+                    },
+                    "8-9":{
+                        "up":88,
+                        "down":156
+                    }
                 }
             },
             {
@@ -7827,8 +12015,14 @@ var fullrate_data = {
                 "station2_code":22905,
                 "station2_name":"八王子",
                 "full_rate":{
-                    "7-8":28,
-                    "8-9":178
+                    "7-8":{
+                        "up":19,
+                        "down":177
+                    },
+                    "8-9":{
+                        "up":19,
+                        "down":172
+                    }
                 }
             }
         ]
@@ -7843,8 +12037,14 @@ var fullrate_data = {
                 "station2_code":22828,
                 "station2_name":"東京",
                 "full_rate":{
-                    "7-8":182,
-                    "8-9":110
+                    "7-8":{
+                        "up":166,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":195,
+                        "down":125
+                    }
                 }
             },
             {
@@ -7854,8 +12054,14 @@ var fullrate_data = {
                 "station2_code":23212,
                 "station2_name":"新横浜",
                 "full_rate":{
-                    "7-8":9,
-                    "8-9":163
+                    "7-8":{
+                        "up":38,
+                        "down":155
+                    },
+                    "8-9":{
+                        "up":181,
+                        "down":167
+                    }
                 }
             },
             {
@@ -7865,8 +12071,14 @@ var fullrate_data = {
                 "station2_code":23212,
                 "station2_name":"新横浜",
                 "full_rate":{
-                    "7-8":165,
-                    "8-9":162
+                    "7-8":{
+                        "up":8,
+                        "down":21
+                    },
+                    "8-9":{
+                        "up":16,
+                        "down":116
+                    }
                 }
             },
             {
@@ -7876,8 +12088,14 @@ var fullrate_data = {
                 "station2_code":23098,
                 "station2_name":"小田原",
                 "full_rate":{
-                    "7-8":65,
-                    "8-9":78
+                    "7-8":{
+                        "up":126,
+                        "down":94
+                    },
+                    "8-9":{
+                        "up":71,
+                        "down":100
+                    }
                 }
             },
             {
@@ -7887,19 +12105,14 @@ var fullrate_data = {
                 "station2_code":23636,
                 "station2_name":"三島",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":97
-                }
-            },
-            {
-                "code":1340150,
-                "station1_code":23559,
-                "station1_name":"新富士(静岡県)",
-                "station2_code":23636,
-                "station2_name":"三島",
-                "full_rate":{
-                    "7-8":31,
-                    "8-9":69
+                    "7-8":{
+                        "up":183,
+                        "down":118
+                    },
+                    "8-9":{
+                        "up":160,
+                        "down":91
+                    }
                 }
             },
             {
@@ -7909,8 +12122,14 @@ var fullrate_data = {
                 "station2_code":23559,
                 "station2_name":"新富士(静岡県)",
                 "full_rate":{
-                    "7-8":66,
-                    "8-9":46
+                    "7-8":{
+                        "up":158,
+                        "down":173
+                    },
+                    "8-9":{
+                        "up":84,
+                        "down":174
+                    }
                 }
             },
             {
@@ -7920,8 +12139,14 @@ var fullrate_data = {
                 "station2_code":23545,
                 "station2_name":"静岡",
                 "full_rate":{
-                    "7-8":161,
-                    "8-9":18
+                    "7-8":{
+                        "up":143,
+                        "down":111
+                    },
+                    "8-9":{
+                        "up":68,
+                        "down":46
+                    }
                 }
             },
             {
@@ -7931,8 +12156,14 @@ var fullrate_data = {
                 "station2_code":23604,
                 "station2_name":"浜松",
                 "full_rate":{
-                    "7-8":126,
-                    "8-9":192
+                    "7-8":{
+                        "up":160,
+                        "down":47
+                    },
+                    "8-9":{
+                        "up":84,
+                        "down":15
+                    }
                 }
             },
             {
@@ -7942,8 +12173,14 @@ var fullrate_data = {
                 "station2_code":23604,
                 "station2_name":"浜松",
                 "full_rate":{
-                    "7-8":44,
-                    "8-9":112
+                    "7-8":{
+                        "up":191,
+                        "down":19
+                    },
+                    "8-9":{
+                        "up":77,
+                        "down":122
+                    }
                 }
             },
             {
@@ -7953,19 +12190,14 @@ var fullrate_data = {
                 "station2_code":25175,
                 "station2_name":"三河安城",
                 "full_rate":{
-                    "7-8":149,
-                    "8-9":57
-                }
-            },
-            {
-                "code":1340220,
-                "station1_code":24431,
-                "station1_name":"岐阜羽島",
-                "station2_code":25077,
-                "station2_name":"名古屋",
-                "full_rate":{
-                    "7-8":168,
-                    "8-9":182
+                    "7-8":{
+                        "up":125,
+                        "down":111
+                    },
+                    "8-9":{
+                        "up":193,
+                        "down":196
+                    }
                 }
             },
             {
@@ -7975,8 +12207,48 @@ var fullrate_data = {
                 "station2_code":25175,
                 "station2_name":"三河安城",
                 "full_rate":{
-                    "7-8":22,
-                    "8-9":1
+                    "7-8":{
+                        "up":178,
+                        "down":146
+                    },
+                    "8-9":{
+                        "up":121,
+                        "down":123
+                    }
+                }
+            },
+            {
+                "code":1340220,
+                "station1_code":24431,
+                "station1_name":"岐阜羽島",
+                "station2_code":25077,
+                "station2_name":"名古屋",
+                "full_rate":{
+                    "7-8":{
+                        "up":123,
+                        "down":15
+                    },
+                    "8-9":{
+                        "up":18,
+                        "down":74
+                    }
+                }
+            },
+            {
+                "code":1340150,
+                "station1_code":23559,
+                "station1_name":"新富士(静岡県)",
+                "station2_code":23636,
+                "station2_name":"三島",
+                "full_rate":{
+                    "7-8":{
+                        "up":197,
+                        "down":57
+                    },
+                    "8-9":{
+                        "up":120,
+                        "down":174
+                    }
                 }
             },
             {
@@ -7986,8 +12258,14 @@ var fullrate_data = {
                 "station2_code":25565,
                 "station2_name":"米原",
                 "full_rate":{
-                    "7-8":136,
-                    "8-9":175
+                    "7-8":{
+                        "up":194,
+                        "down":164
+                    },
+                    "8-9":{
+                        "up":50,
+                        "down":176
+                    }
                 }
             },
             {
@@ -7997,8 +12275,14 @@ var fullrate_data = {
                 "station2_code":25565,
                 "station2_name":"米原",
                 "full_rate":{
-                    "7-8":107,
-                    "8-9":118
+                    "7-8":{
+                        "up":39,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":180,
+                        "down":73
+                    }
                 }
             },
             {
@@ -8008,8 +12292,14 @@ var fullrate_data = {
                 "station2_code":25978,
                 "station2_name":"新大阪",
                 "full_rate":{
-                    "7-8":196,
-                    "8-9":37
+                    "7-8":{
+                        "up":54,
+                        "down":71
+                    },
+                    "8-9":{
+                        "up":106,
+                        "down":50
+                    }
                 }
             }
         ]
@@ -8024,8 +12314,14 @@ var fullrate_data = {
                 "station2_code":22859,
                 "station2_name":"とうきょうスカイツリー",
                 "full_rate":{
-                    "7-8":95,
-                    "8-9":4
+                    "7-8":{
+                        "up":50,
+                        "down":29
+                    },
+                    "8-9":{
+                        "up":49,
+                        "down":195
+                    }
                 }
             },
             {
@@ -8035,8 +12331,14 @@ var fullrate_data = {
                 "station2_code":22946,
                 "station2_name":"曳舟",
                 "full_rate":{
-                    "7-8":37,
-                    "8-9":171
+                    "7-8":{
+                        "up":95,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":176,
+                        "down":158
+                    }
                 }
             },
             {
@@ -8046,8 +12348,14 @@ var fullrate_data = {
                 "station2_code":22946,
                 "station2_name":"曳舟",
                 "full_rate":{
-                    "7-8":27,
-                    "8-9":177
+                    "7-8":{
+                        "up":111,
+                        "down":145
+                    },
+                    "8-9":{
+                        "up":197,
+                        "down":69
+                    }
                 }
             },
             {
@@ -8057,8 +12365,14 @@ var fullrate_data = {
                 "station2_code":22943,
                 "station2_name":"東向島",
                 "full_rate":{
-                    "7-8":80,
-                    "8-9":193
+                    "7-8":{
+                        "up":50,
+                        "down":124
+                    },
+                    "8-9":{
+                        "up":159,
+                        "down":67
+                    }
                 }
             },
             {
@@ -8068,8 +12382,14 @@ var fullrate_data = {
                 "station2_code":22971,
                 "station2_name":"堀切",
                 "full_rate":{
-                    "7-8":47,
-                    "8-9":82
+                    "7-8":{
+                        "up":103,
+                        "down":5
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":75
+                    }
                 }
             },
             {
@@ -8079,8 +12399,14 @@ var fullrate_data = {
                 "station2_code":22971,
                 "station2_name":"堀切",
                 "full_rate":{
-                    "7-8":88,
-                    "8-9":55
+                    "7-8":{
+                        "up":42,
+                        "down":141
+                    },
+                    "8-9":{
+                        "up":185,
+                        "down":85
+                    }
                 }
             },
             {
@@ -8090,19 +12416,14 @@ var fullrate_data = {
                 "station2_code":22630,
                 "station2_name":"北千住",
                 "full_rate":{
-                    "7-8":153,
-                    "8-9":113
-                }
-            },
-            {
-                "code":2660170,
-                "station1_code":22630,
-                "station1_name":"北千住",
-                "station2_code":22678,
-                "station2_name":"小菅",
-                "full_rate":{
-                    "7-8":160,
-                    "8-9":105
+                    "7-8":{
+                        "up":13,
+                        "down":126
+                    },
+                    "8-9":{
+                        "up":29,
+                        "down":161
+                    }
                 }
             },
             {
@@ -8112,8 +12433,31 @@ var fullrate_data = {
                 "station2_code":22692,
                 "station2_name":"五反野",
                 "full_rate":{
-                    "7-8":167,
-                    "8-9":116
+                    "7-8":{
+                        "up":175,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":122
+                    }
+                }
+            },
+            {
+                "code":2660170,
+                "station1_code":22630,
+                "station1_name":"北千住",
+                "station2_code":22678,
+                "station2_name":"小菅",
+                "full_rate":{
+                    "7-8":{
+                        "up":84,
+                        "down":143
+                    },
+                    "8-9":{
+                        "up":115,
+                        "down":4
+                    }
                 }
             },
             {
@@ -8123,8 +12467,14 @@ var fullrate_data = {
                 "station2_code":22692,
                 "station2_name":"五反野",
                 "full_rate":{
-                    "7-8":78,
-                    "8-9":103
+                    "7-8":{
+                        "up":100,
+                        "down":48
+                    },
+                    "8-9":{
+                        "up":185,
+                        "down":183
+                    }
                 }
             },
             {
@@ -8134,8 +12484,14 @@ var fullrate_data = {
                 "station2_code":22863,
                 "station2_name":"西新井",
                 "full_rate":{
-                    "7-8":117,
-                    "8-9":123
+                    "7-8":{
+                        "up":50,
+                        "down":4
+                    },
+                    "8-9":{
+                        "up":139,
+                        "down":139
+                    }
                 }
             },
             {
@@ -8145,8 +12501,14 @@ var fullrate_data = {
                 "station2_code":22863,
                 "station2_name":"西新井",
                 "full_rate":{
-                    "7-8":58,
-                    "8-9":29
+                    "7-8":{
+                        "up":191,
+                        "down":24
+                    },
+                    "8-9":{
+                        "up":151,
+                        "down":108
+                    }
                 }
             },
             {
@@ -8156,8 +12518,14 @@ var fullrate_data = {
                 "station2_code":22161,
                 "station2_name":"谷塚",
                 "full_rate":{
-                    "7-8":168,
-                    "8-9":38
+                    "7-8":{
+                        "up":3,
+                        "down":136
+                    },
+                    "8-9":{
+                        "up":88,
+                        "down":65
+                    }
                 }
             },
             {
@@ -8167,8 +12535,14 @@ var fullrate_data = {
                 "station2_code":22161,
                 "station2_name":"谷塚",
                 "full_rate":{
-                    "7-8":63,
-                    "8-9":78
+                    "7-8":{
+                        "up":193,
+                        "down":120
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":28
+                    }
                 }
             },
             {
@@ -8178,8 +12552,14 @@ var fullrate_data = {
                 "station2_code":22133,
                 "station2_name":"松原団地",
                 "full_rate":{
-                    "7-8":99,
-                    "8-9":120
+                    "7-8":{
+                        "up":178,
+                        "down":9
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":162
+                    }
                 }
             },
             {
@@ -8189,8 +12569,14 @@ var fullrate_data = {
                 "station2_code":22133,
                 "station2_name":"松原団地",
                 "full_rate":{
-                    "7-8":47,
-                    "8-9":180
+                    "7-8":{
+                        "up":119,
+                        "down":7
+                    },
+                    "8-9":{
+                        "up":134,
+                        "down":74
+                    }
                 }
             },
             {
@@ -8200,8 +12586,14 @@ var fullrate_data = {
                 "station2_code":22055,
                 "station2_name":"新越谷",
                 "full_rate":{
-                    "7-8":58,
-                    "8-9":38
+                    "7-8":{
+                        "up":123,
+                        "down":115
+                    },
+                    "8-9":{
+                        "up":77,
+                        "down":31
+                    }
                 }
             },
             {
@@ -8211,30 +12603,14 @@ var fullrate_data = {
                 "station2_code":22059,
                 "station2_name":"新田(埼玉県)",
                 "full_rate":{
-                    "7-8":177,
-                    "8-9":168
-                }
-            },
-            {
-                "code":2660280,
-                "station1_code":22034,
-                "station1_name":"越谷",
-                "station2_code":22055,
-                "station2_name":"新越谷",
-                "full_rate":{
-                    "7-8":88,
-                    "8-9":98
-                }
-            },
-            {
-                "code":2660290,
-                "station1_code":22021,
-                "station1_name":"北越谷",
-                "station2_code":22034,
-                "station2_name":"越谷",
-                "full_rate":{
-                    "7-8":72,
-                    "8-9":192
+                    "7-8":{
+                        "up":163,
+                        "down":187
+                    },
+                    "8-9":{
+                        "up":167,
+                        "down":117
+                    }
                 }
             },
             {
@@ -8244,8 +12620,14 @@ var fullrate_data = {
                 "station2_code":22067,
                 "station2_name":"せんげん台",
                 "full_rate":{
-                    "7-8":129,
-                    "8-9":57
+                    "7-8":{
+                        "up":78,
+                        "down":144
+                    },
+                    "8-9":{
+                        "up":50,
+                        "down":189
+                    }
                 }
             },
             {
@@ -8255,30 +12637,14 @@ var fullrate_data = {
                 "station2_code":22071,
                 "station2_name":"武里",
                 "full_rate":{
-                    "7-8":152,
-                    "8-9":194
-                }
-            },
-            {
-                "code":2660300,
-                "station1_code":21986,
-                "station1_name":"大袋",
-                "station2_code":22021,
-                "station2_name":"北越谷",
-                "full_rate":{
-                    "7-8":132,
-                    "8-9":74
-                }
-            },
-            {
-                "code":2660330,
-                "station1_code":21974,
-                "station1_name":"一ノ割",
-                "station2_code":22071,
-                "station2_name":"武里",
-                "full_rate":{
-                    "7-8":130,
-                    "8-9":75
+                    "7-8":{
+                        "up":38,
+                        "down":83
+                    },
+                    "8-9":{
+                        "up":174,
+                        "down":55
+                    }
                 }
             },
             {
@@ -8288,8 +12654,14 @@ var fullrate_data = {
                 "station2_code":22002,
                 "station2_name":"春日部",
                 "full_rate":{
-                    "7-8":54,
-                    "8-9":2
+                    "7-8":{
+                        "up":114,
+                        "down":83
+                    },
+                    "8-9":{
+                        "up":167,
+                        "down":163
+                    }
                 }
             },
             {
@@ -8299,8 +12671,48 @@ var fullrate_data = {
                 "station2_code":22019,
                 "station2_name":"北春日部",
                 "full_rate":{
-                    "7-8":145,
-                    "8-9":181
+                    "7-8":{
+                        "up":137,
+                        "down":40
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":181
+                    }
+                }
+            },
+            {
+                "code":2660300,
+                "station1_code":21986,
+                "station1_name":"大袋",
+                "station2_code":22021,
+                "station2_name":"北越谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":31,
+                        "down":90
+                    },
+                    "8-9":{
+                        "up":85,
+                        "down":5
+                    }
+                }
+            },
+            {
+                "code":2660280,
+                "station1_code":22034,
+                "station1_name":"越谷",
+                "station2_code":22055,
+                "station2_name":"新越谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":160,
+                        "down":127
+                    },
+                    "8-9":{
+                        "up":10,
+                        "down":156
+                    }
                 }
             },
             {
@@ -8310,8 +12722,14 @@ var fullrate_data = {
                 "station2_code":22120,
                 "station2_name":"姫宮",
                 "full_rate":{
-                    "7-8":148,
-                    "8-9":138
+                    "7-8":{
+                        "up":153,
+                        "down":80
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":117
+                    }
                 }
             },
             {
@@ -8321,8 +12739,48 @@ var fullrate_data = {
                 "station2_code":22120,
                 "station2_name":"姫宮",
                 "full_rate":{
-                    "7-8":85,
-                    "8-9":29
+                    "7-8":{
+                        "up":18,
+                        "down":27
+                    },
+                    "8-9":{
+                        "up":125,
+                        "down":189
+                    }
+                }
+            },
+            {
+                "code":2660330,
+                "station1_code":21974,
+                "station1_name":"一ノ割",
+                "station2_code":22071,
+                "station2_name":"武里",
+                "full_rate":{
+                    "7-8":{
+                        "up":193,
+                        "down":81
+                    },
+                    "8-9":{
+                        "up":179,
+                        "down":76
+                    }
+                }
+            },
+            {
+                "code":2660290,
+                "station1_code":22021,
+                "station1_name":"北越谷",
+                "station2_code":22034,
+                "station2_name":"越谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":73,
+                        "down":139
+                    },
+                    "8-9":{
+                        "up":189,
+                        "down":190
+                    }
                 }
             }
         ]
@@ -8337,8 +12795,14 @@ var fullrate_data = {
                 "station2_code":22946,
                 "station2_name":"曳舟",
                 "full_rate":{
-                    "7-8":143,
-                    "8-9":70
+                    "7-8":{
+                        "up":101,
+                        "down":61
+                    },
+                    "8-9":{
+                        "up":139,
+                        "down":136
+                    }
                 }
             }
         ]
@@ -8353,8 +12817,14 @@ var fullrate_data = {
                 "station2_code":22946,
                 "station2_name":"曳舟",
                 "full_rate":{
-                    "7-8":154,
-                    "8-9":8
+                    "7-8":{
+                        "up":126,
+                        "down":27
+                    },
+                    "8-9":{
+                        "up":14,
+                        "down":189
+                    }
                 }
             },
             {
@@ -8364,8 +12834,14 @@ var fullrate_data = {
                 "station2_code":22923,
                 "station2_name":"東あずま",
                 "full_rate":{
-                    "7-8":31,
-                    "8-9":179
+                    "7-8":{
+                        "up":167,
+                        "down":95
+                    },
+                    "8-9":{
+                        "up":145,
+                        "down":15
+                    }
                 }
             },
             {
@@ -8375,8 +12851,14 @@ var fullrate_data = {
                 "station2_code":22923,
                 "station2_name":"東あずま",
                 "full_rate":{
-                    "7-8":92,
-                    "8-9":67
+                    "7-8":{
+                        "up":84,
+                        "down":190
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":150
+                    }
                 }
             },
             {
@@ -8386,8 +12868,14 @@ var fullrate_data = {
                 "station2_code":22613,
                 "station2_name":"亀戸水神",
                 "full_rate":{
-                    "7-8":24,
-                    "8-9":118
+                    "7-8":{
+                        "up":124,
+                        "down":97
+                    },
+                    "8-9":{
+                        "up":132,
+                        "down":137
+                    }
                 }
             }
         ]
@@ -8402,8 +12890,14 @@ var fullrate_data = {
                 "station2_code":22863,
                 "station2_name":"西新井",
                 "full_rate":{
-                    "7-8":55,
-                    "8-9":160
+                    "7-8":{
+                        "up":12,
+                        "down":161
+                    },
+                    "8-9":{
+                        "up":148,
+                        "down":35
+                    }
                 }
             }
         ]
@@ -8418,8 +12912,14 @@ var fullrate_data = {
                 "station2_code":22628,
                 "station2_name":"北池袋",
                 "full_rate":{
-                    "7-8":24,
-                    "8-9":79
+                    "7-8":{
+                        "up":107,
+                        "down":104
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":87
+                    }
                 }
             },
             {
@@ -8429,8 +12929,14 @@ var fullrate_data = {
                 "station2_code":22721,
                 "station2_name":"下板橋",
                 "full_rate":{
-                    "7-8":73,
-                    "8-9":97
+                    "7-8":{
+                        "up":62,
+                        "down":105
+                    },
+                    "8-9":{
+                        "up":87,
+                        "down":180
+                    }
                 }
             },
             {
@@ -8440,8 +12946,14 @@ var fullrate_data = {
                 "station2_code":22721,
                 "station2_name":"下板橋",
                 "full_rate":{
-                    "7-8":185,
-                    "8-9":199
+                    "7-8":{
+                        "up":31,
+                        "down":97
+                    },
+                    "8-9":{
+                        "up":34,
+                        "down":16
+                    }
                 }
             },
             {
@@ -8451,8 +12963,14 @@ var fullrate_data = {
                 "station2_code":22845,
                 "station2_name":"中板橋",
                 "full_rate":{
-                    "7-8":104,
-                    "8-9":62
+                    "7-8":{
+                        "up":102,
+                        "down":9
+                    },
+                    "8-9":{
+                        "up":176,
+                        "down":31
+                    }
                 }
             },
             {
@@ -8462,19 +12980,14 @@ var fullrate_data = {
                 "station2_code":22845,
                 "station2_name":"中板橋",
                 "full_rate":{
-                    "7-8":82,
-                    "8-9":148
-                }
-            },
-            {
-                "code":2790150,
-                "station1_code":22604,
-                "station1_name":"上板橋",
-                "station2_code":22831,
-                "station2_name":"ときわ台(東京都)",
-                "full_rate":{
-                    "7-8":155,
-                    "8-9":129
+                    "7-8":{
+                        "up":166,
+                        "down":170
+                    },
+                    "8-9":{
+                        "up":126,
+                        "down":44
+                    }
                 }
             },
             {
@@ -8484,8 +12997,31 @@ var fullrate_data = {
                 "station2_code":22829,
                 "station2_name":"東武練馬",
                 "full_rate":{
-                    "7-8":24,
-                    "8-9":75
+                    "7-8":{
+                        "up":11,
+                        "down":191
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":30
+                    }
+                }
+            },
+            {
+                "code":2790150,
+                "station1_code":22604,
+                "station1_name":"上板橋",
+                "station2_code":22831,
+                "station2_name":"ときわ台(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":115,
+                        "down":26
+                    },
+                    "8-9":{
+                        "up":198,
+                        "down":135
+                    }
                 }
             },
             {
@@ -8495,8 +13031,14 @@ var fullrate_data = {
                 "station2_code":22829,
                 "station2_name":"東武練馬",
                 "full_rate":{
-                    "7-8":164,
-                    "8-9":190
+                    "7-8":{
+                        "up":88,
+                        "down":55
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":119
+                    }
                 }
             },
             {
@@ -8506,8 +13048,14 @@ var fullrate_data = {
                 "station2_code":22860,
                 "station2_name":"成増",
                 "full_rate":{
-                    "7-8":71,
-                    "8-9":197
+                    "7-8":{
+                        "up":162,
+                        "down":177
+                    },
+                    "8-9":{
+                        "up":10,
+                        "down":14
+                    }
                 }
             },
             {
@@ -8517,19 +13065,14 @@ var fullrate_data = {
                 "station2_code":22171,
                 "station2_name":"和光市",
                 "full_rate":{
-                    "7-8":49,
-                    "8-9":194
-                }
-            },
-            {
-                "code":2790210,
-                "station1_code":21969,
-                "station1_name":"朝霞",
-                "station2_code":21970,
-                "station2_name":"朝霞台",
-                "full_rate":{
-                    "7-8":23,
-                    "8-9":39
+                    "7-8":{
+                        "up":126,
+                        "down":129
+                    },
+                    "8-9":{
+                        "up":172,
+                        "down":98
+                    }
                 }
             },
             {
@@ -8539,8 +13082,31 @@ var fullrate_data = {
                 "station2_code":22171,
                 "station2_name":"和光市",
                 "full_rate":{
-                    "7-8":47,
-                    "8-9":184
+                    "7-8":{
+                        "up":28,
+                        "down":3
+                    },
+                    "8-9":{
+                        "up":115,
+                        "down":97
+                    }
+                }
+            },
+            {
+                "code":2790210,
+                "station1_code":21969,
+                "station1_name":"朝霞",
+                "station2_code":21970,
+                "station2_name":"朝霞台",
+                "full_rate":{
+                    "7-8":{
+                        "up":141,
+                        "down":9
+                    },
+                    "8-9":{
+                        "up":81,
+                        "down":188
+                    }
                 }
             },
             {
@@ -8550,8 +13116,14 @@ var fullrate_data = {
                 "station2_code":22048,
                 "station2_name":"志木",
                 "full_rate":{
-                    "7-8":11,
-                    "8-9":125
+                    "7-8":{
+                        "up":191,
+                        "down":180
+                    },
+                    "8-9":{
+                        "up":33,
+                        "down":82
+                    }
                 }
             },
             {
@@ -8561,8 +13133,14 @@ var fullrate_data = {
                 "station2_code":22162,
                 "station2_name":"柳瀬川",
                 "full_rate":{
-                    "7-8":107,
-                    "8-9":171
+                    "7-8":{
+                        "up":80,
+                        "down":59
+                    },
+                    "8-9":{
+                        "up":109,
+                        "down":48
+                    }
                 }
             },
             {
@@ -8572,8 +13150,14 @@ var fullrate_data = {
                 "station2_code":22162,
                 "station2_name":"柳瀬川",
                 "full_rate":{
-                    "7-8":169,
-                    "8-9":138
+                    "7-8":{
+                        "up":51,
+                        "down":194
+                    },
+                    "8-9":{
+                        "up":182,
+                        "down":41
+                    }
                 }
             },
             {
@@ -8583,8 +13167,14 @@ var fullrate_data = {
                 "station2_code":22139,
                 "station2_name":"みずほ台",
                 "full_rate":{
-                    "7-8":147,
-                    "8-9":194
+                    "7-8":{
+                        "up":18,
+                        "down":140
+                    },
+                    "8-9":{
+                        "up":10,
+                        "down":167
+                    }
                 }
             },
             {
@@ -8594,30 +13184,14 @@ var fullrate_data = {
                 "station2_code":22124,
                 "station2_name":"ふじみ野",
                 "full_rate":{
-                    "7-8":109,
-                    "8-9":58
-                }
-            },
-            {
-                "code":2790270,
-                "station1_code":22008,
-                "station1_name":"上福岡",
-                "station2_code":22124,
-                "station2_name":"ふじみ野",
-                "full_rate":{
-                    "7-8":187,
-                    "8-9":192
-                }
-            },
-            {
-                "code":2790290,
-                "station1_code":22012,
-                "station1_name":"川越",
-                "station2_code":22053,
-                "station2_name":"新河岸",
-                "full_rate":{
-                    "7-8":142,
-                    "8-9":88
+                    "7-8":{
+                        "up":54,
+                        "down":130
+                    },
+                    "8-9":{
+                        "up":186,
+                        "down":169
+                    }
                 }
             },
             {
@@ -8627,19 +13201,48 @@ var fullrate_data = {
                 "station2_code":22053,
                 "station2_name":"新河岸",
                 "full_rate":{
-                    "7-8":126,
-                    "8-9":23
+                    "7-8":{
+                        "up":42,
+                        "down":36
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":121
+                    }
                 }
             },
             {
-                "code":2790310,
-                "station1_code":22003,
-                "station1_name":"霞ケ関(埼玉県)",
-                "station2_code":22013,
-                "station2_name":"川越市",
+                "code":2790270,
+                "station1_code":22008,
+                "station1_name":"上福岡",
+                "station2_code":22124,
+                "station2_name":"ふじみ野",
                 "full_rate":{
-                    "7-8":80,
-                    "8-9":56
+                    "7-8":{
+                        "up":128,
+                        "down":59
+                    },
+                    "8-9":{
+                        "up":97,
+                        "down":126
+                    }
+                }
+            },
+            {
+                "code":2790290,
+                "station1_code":22012,
+                "station1_name":"川越",
+                "station2_code":22053,
+                "station2_name":"新河岸",
+                "full_rate":{
+                    "7-8":{
+                        "up":138,
+                        "down":45
+                    },
+                    "8-9":{
+                        "up":109,
+                        "down":62
+                    }
                 }
             },
             {
@@ -8649,19 +13252,31 @@ var fullrate_data = {
                 "station2_code":22013,
                 "station2_name":"川越市",
                 "full_rate":{
-                    "7-8":160,
-                    "8-9":147
+                    "7-8":{
+                        "up":92,
+                        "down":70
+                    },
+                    "8-9":{
+                        "up":123,
+                        "down":0
+                    }
                 }
             },
             {
-                "code":2790350,
-                "station1_code":22022,
-                "station1_name":"北坂戸",
-                "station2_code":22041,
-                "station2_name":"坂戸(埼玉県)",
+                "code":2790310,
+                "station1_code":22003,
+                "station1_name":"霞ケ関(埼玉県)",
+                "station2_code":22013,
+                "station2_name":"川越市",
                 "full_rate":{
-                    "7-8":141,
-                    "8-9":136
+                    "7-8":{
+                        "up":40,
+                        "down":65
+                    },
+                    "8-9":{
+                        "up":37,
+                        "down":184
+                    }
                 }
             },
             {
@@ -8671,8 +13286,14 @@ var fullrate_data = {
                 "station2_code":22076,
                 "station2_name":"鶴ケ島",
                 "full_rate":{
-                    "7-8":154,
-                    "8-9":85
+                    "7-8":{
+                        "up":131,
+                        "down":125
+                    },
+                    "8-9":{
+                        "up":160,
+                        "down":43
+                    }
                 }
             },
             {
@@ -8682,8 +13303,14 @@ var fullrate_data = {
                 "station2_code":22170,
                 "station2_name":"若葉",
                 "full_rate":{
-                    "7-8":113,
-                    "8-9":63
+                    "7-8":{
+                        "up":106,
+                        "down":130
+                    },
+                    "8-9":{
+                        "up":142,
+                        "down":24
+                    }
                 }
             },
             {
@@ -8693,8 +13320,31 @@ var fullrate_data = {
                 "station2_code":22170,
                 "station2_name":"若葉",
                 "full_rate":{
-                    "7-8":83,
-                    "8-9":10
+                    "7-8":{
+                        "up":50,
+                        "down":195
+                    },
+                    "8-9":{
+                        "up":159,
+                        "down":113
+                    }
+                }
+            },
+            {
+                "code":2790350,
+                "station1_code":22022,
+                "station1_name":"北坂戸",
+                "station2_code":22041,
+                "station2_name":"坂戸(埼玉県)",
+                "full_rate":{
+                    "7-8":{
+                        "up":167,
+                        "down":159
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":169
+                    }
                 }
             },
             {
@@ -8704,8 +13354,14 @@ var fullrate_data = {
                 "station2_code":22069,
                 "station2_name":"高坂",
                 "full_rate":{
-                    "7-8":143,
-                    "8-9":81
+                    "7-8":{
+                        "up":169,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":134,
+                        "down":182
+                    }
                 }
             },
             {
@@ -8715,8 +13371,14 @@ var fullrate_data = {
                 "station2_code":22115,
                 "station2_name":"東松山",
                 "full_rate":{
-                    "7-8":187,
-                    "8-9":162
+                    "7-8":{
+                        "up":191,
+                        "down":168
+                    },
+                    "8-9":{
+                        "up":143,
+                        "down":11
+                    }
                 }
             },
             {
@@ -8726,8 +13388,14 @@ var fullrate_data = {
                 "station2_code":22115,
                 "station2_name":"東松山",
                 "full_rate":{
-                    "7-8":16,
-                    "8-9":11
+                    "7-8":{
+                        "up":148,
+                        "down":182
+                    },
+                    "8-9":{
+                        "up":196,
+                        "down":163
+                    }
                 }
             },
             {
@@ -8737,19 +13405,14 @@ var fullrate_data = {
                 "station2_code":29383,
                 "station2_name":"つきのわ",
                 "full_rate":{
-                    "7-8":121,
-                    "8-9":198
-                }
-            },
-            {
-                "code":2790410,
-                "station1_code":21991,
-                "station1_name":"小川町(埼玉県)",
-                "station2_code":22155,
-                "station2_name":"武蔵嵐山",
-                "full_rate":{
-                    "7-8":68,
-                    "8-9":184
+                    "7-8":{
+                        "up":152,
+                        "down":160
+                    },
+                    "8-9":{
+                        "up":87,
+                        "down":113
+                    }
                 }
             },
             {
@@ -8759,8 +13422,31 @@ var fullrate_data = {
                 "station2_code":22155,
                 "station2_name":"武蔵嵐山",
                 "full_rate":{
-                    "7-8":5,
-                    "8-9":136
+                    "7-8":{
+                        "up":1,
+                        "down":72
+                    },
+                    "8-9":{
+                        "up":160,
+                        "down":196
+                    }
+                }
+            },
+            {
+                "code":2790410,
+                "station1_code":21991,
+                "station1_name":"小川町(埼玉県)",
+                "station2_code":22155,
+                "station2_name":"武蔵嵐山",
+                "full_rate":{
+                    "7-8":{
+                        "up":97,
+                        "down":149
+                    },
+                    "8-9":{
+                        "up":101,
+                        "down":194
+                    }
                 }
             },
             {
@@ -8770,8 +13456,14 @@ var fullrate_data = {
                 "station2_code":22078,
                 "station2_name":"東武竹沢",
                 "full_rate":{
-                    "7-8":143,
-                    "8-9":34
+                    "7-8":{
+                        "up":134,
+                        "down":117
+                    },
+                    "8-9":{
+                        "up":69,
+                        "down":74
+                    }
                 }
             },
             {
@@ -8781,30 +13473,14 @@ var fullrate_data = {
                 "station2_code":22078,
                 "station2_name":"東武竹沢",
                 "full_rate":{
-                    "7-8":77,
-                    "8-9":36
-                }
-            },
-            {
-                "code":2790460,
-                "station1_code":22073,
-                "station1_name":"玉淀",
-                "station2_code":22169,
-                "station2_name":"寄居",
-                "full_rate":{
-                    "7-8":37,
-                    "8-9":147
-                }
-            },
-            {
-                "code":2790450,
-                "station1_code":22073,
-                "station1_name":"玉淀",
-                "station2_code":22101,
-                "station2_name":"鉢形",
-                "full_rate":{
-                    "7-8":95,
-                    "8-9":44
+                    "7-8":{
+                        "up":92,
+                        "down":145
+                    },
+                    "8-9":{
+                        "up":32,
+                        "down":177
+                    }
                 }
             },
             {
@@ -8814,8 +13490,48 @@ var fullrate_data = {
                 "station2_code":22101,
                 "station2_name":"鉢形",
                 "full_rate":{
-                    "7-8":164,
-                    "8-9":74
+                    "7-8":{
+                        "up":132,
+                        "down":24
+                    },
+                    "8-9":{
+                        "up":142,
+                        "down":65
+                    }
+                }
+            },
+            {
+                "code":2790460,
+                "station1_code":22073,
+                "station1_name":"玉淀",
+                "station2_code":22169,
+                "station2_name":"寄居",
+                "full_rate":{
+                    "7-8":{
+                        "up":156,
+                        "down":56
+                    },
+                    "8-9":{
+                        "up":91,
+                        "down":199
+                    }
+                }
+            },
+            {
+                "code":2790450,
+                "station1_code":22073,
+                "station1_name":"玉淀",
+                "station2_code":22101,
+                "station2_name":"鉢形",
+                "full_rate":{
+                    "7-8":{
+                        "up":143,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":118,
+                        "down":101
+                    }
                 }
             }
         ]
@@ -8830,8 +13546,14 @@ var fullrate_data = {
                 "station2_code":22707,
                 "station2_name":"椎名町",
                 "full_rate":{
-                    "7-8":126,
-                    "8-9":67
+                    "7-8":{
+                        "up":149,
+                        "down":138
+                    },
+                    "8-9":{
+                        "up":32,
+                        "down":74
+                    }
                 }
             },
             {
@@ -8841,8 +13563,14 @@ var fullrate_data = {
                 "station2_code":22937,
                 "station2_name":"東長崎",
                 "full_rate":{
-                    "7-8":16,
-                    "8-9":69
+                    "7-8":{
+                        "up":155,
+                        "down":191
+                    },
+                    "8-9":{
+                        "up":99,
+                        "down":198
+                    }
                 }
             },
             {
@@ -8852,8 +13580,14 @@ var fullrate_data = {
                 "station2_code":22937,
                 "station2_name":"東長崎",
                 "full_rate":{
-                    "7-8":50,
-                    "8-9":121
+                    "7-8":{
+                        "up":111,
+                        "down":99
+                    },
+                    "8-9":{
+                        "up":2,
+                        "down":114
+                    }
                 }
             },
             {
@@ -8863,8 +13597,14 @@ var fullrate_data = {
                 "station2_code":22697,
                 "station2_name":"桜台(東京都)",
                 "full_rate":{
-                    "7-8":112,
-                    "8-9":139
+                    "7-8":{
+                        "up":0,
+                        "down":108
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":165
+                    }
                 }
             },
             {
@@ -8874,8 +13614,14 @@ var fullrate_data = {
                 "station2_code":22889,
                 "station2_name":"練馬",
                 "full_rate":{
-                    "7-8":111,
-                    "8-9":93
+                    "7-8":{
+                        "up":71,
+                        "down":42
+                    },
+                    "8-9":{
+                        "up":76,
+                        "down":108
+                    }
                 }
             },
             {
@@ -8885,8 +13631,14 @@ var fullrate_data = {
                 "station2_code":22889,
                 "station2_name":"練馬",
                 "full_rate":{
-                    "7-8":145,
-                    "8-9":163
+                    "7-8":{
+                        "up":104,
+                        "down":1
+                    },
+                    "8-9":{
+                        "up":139,
+                        "down":83
+                    }
                 }
             },
             {
@@ -8896,8 +13648,14 @@ var fullrate_data = {
                 "station2_code":22957,
                 "station2_name":"富士見台",
                 "full_rate":{
-                    "7-8":55,
-                    "8-9":196
+                    "7-8":{
+                        "up":39,
+                        "down":41
+                    },
+                    "8-9":{
+                        "up":26,
+                        "down":82
+                    }
                 }
             },
             {
@@ -8907,8 +13665,14 @@ var fullrate_data = {
                 "station2_code":22957,
                 "station2_name":"富士見台",
                 "full_rate":{
-                    "7-8":139,
-                    "8-9":7
+                    "7-8":{
+                        "up":156,
+                        "down":142
+                    },
+                    "8-9":{
+                        "up":96,
+                        "down":21
+                    }
                 }
             },
             {
@@ -8918,8 +13682,14 @@ var fullrate_data = {
                 "station2_code":22891,
                 "station2_name":"練馬高野台",
                 "full_rate":{
-                    "7-8":79,
-                    "8-9":193
+                    "7-8":{
+                        "up":29,
+                        "down":10
+                    },
+                    "8-9":{
+                        "up":46,
+                        "down":72
+                    }
                 }
             },
             {
@@ -8929,8 +13699,14 @@ var fullrate_data = {
                 "station2_code":22704,
                 "station2_name":"石神井公園",
                 "full_rate":{
-                    "7-8":125,
-                    "8-9":29
+                    "7-8":{
+                        "up":193,
+                        "down":111
+                    },
+                    "8-9":{
+                        "up":35,
+                        "down":42
+                    }
                 }
             },
             {
@@ -8940,8 +13716,14 @@ var fullrate_data = {
                 "station2_code":22970,
                 "station2_name":"保谷",
                 "full_rate":{
-                    "7-8":187,
-                    "8-9":14
+                    "7-8":{
+                        "up":32,
+                        "down":126
+                    },
+                    "8-9":{
+                        "up":11,
+                        "down":85
+                    }
                 }
             },
             {
@@ -8951,8 +13733,14 @@ var fullrate_data = {
                 "station2_code":22970,
                 "station2_name":"保谷",
                 "full_rate":{
-                    "7-8":172,
-                    "8-9":94
+                    "7-8":{
+                        "up":119,
+                        "down":95
+                    },
+                    "8-9":{
+                        "up":79,
+                        "down":198
+                    }
                 }
             },
             {
@@ -8962,8 +13750,14 @@ var fullrate_data = {
                 "station2_code":22950,
                 "station2_name":"ひばりケ丘(東京都)",
                 "full_rate":{
-                    "7-8":59,
-                    "8-9":98
+                    "7-8":{
+                        "up":144,
+                        "down":12
+                    },
+                    "8-9":{
+                        "up":41,
+                        "down":106
+                    }
                 }
             },
             {
@@ -8973,8 +13767,14 @@ var fullrate_data = {
                 "station2_code":22931,
                 "station2_name":"東久留米",
                 "full_rate":{
-                    "7-8":8,
-                    "8-9":76
+                    "7-8":{
+                        "up":57,
+                        "down":32
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":108
+                    }
                 }
             },
             {
@@ -8984,19 +13784,14 @@ var fullrate_data = {
                 "station2_code":22639,
                 "station2_name":"清瀬",
                 "full_rate":{
-                    "7-8":78,
-                    "8-9":103
-                }
-            },
-            {
-                "code":2810260,
-                "station1_code":22080,
-                "station1_name":"所沢",
-                "station2_code":22096,
-                "station2_name":"西所沢",
-                "full_rate":{
-                    "7-8":0,
-                    "8-9":67
+                    "7-8":{
+                        "up":88,
+                        "down":156
+                    },
+                    "8-9":{
+                        "up":165,
+                        "down":48
+                    }
                 }
             },
             {
@@ -9006,8 +13801,31 @@ var fullrate_data = {
                 "station2_code":22080,
                 "station2_name":"所沢",
                 "full_rate":{
-                    "7-8":20,
-                    "8-9":195
+                    "7-8":{
+                        "up":120,
+                        "down":34
+                    },
+                    "8-9":{
+                        "up":122,
+                        "down":167
+                    }
+                }
+            },
+            {
+                "code":2810260,
+                "station1_code":22080,
+                "station1_name":"所沢",
+                "station2_code":22096,
+                "station2_name":"西所沢",
+                "full_rate":{
+                    "7-8":{
+                        "up":78,
+                        "down":152
+                    },
+                    "8-9":{
+                        "up":34,
+                        "down":36
+                    }
                 }
             },
             {
@@ -9017,19 +13835,14 @@ var fullrate_data = {
                 "station2_code":22096,
                 "station2_name":"西所沢",
                 "full_rate":{
-                    "7-8":62,
-                    "8-9":180
-                }
-            },
-            {
-                "code":2810280,
-                "station1_code":22036,
-                "station1_name":"小手指",
-                "station2_code":22044,
-                "station2_name":"狭山ケ丘",
-                "full_rate":{
-                    "7-8":172,
-                    "8-9":135
+                    "7-8":{
+                        "up":195,
+                        "down":163
+                    },
+                    "8-9":{
+                        "up":16,
+                        "down":166
+                    }
                 }
             },
             {
@@ -9039,8 +13852,31 @@ var fullrate_data = {
                 "station2_code":22153,
                 "station2_name":"武蔵藤沢",
                 "full_rate":{
-                    "7-8":137,
-                    "8-9":28
+                    "7-8":{
+                        "up":125,
+                        "down":145
+                    },
+                    "8-9":{
+                        "up":189,
+                        "down":43
+                    }
+                }
+            },
+            {
+                "code":2810280,
+                "station1_code":22036,
+                "station1_name":"小手指",
+                "station2_code":22044,
+                "station2_name":"狭山ケ丘",
+                "full_rate":{
+                    "7-8":{
+                        "up":4,
+                        "down":152
+                    },
+                    "8-9":{
+                        "up":136,
+                        "down":197
+                    }
                 }
             },
             {
@@ -9050,8 +13886,14 @@ var fullrate_data = {
                 "station2_code":22153,
                 "station2_name":"武蔵藤沢",
                 "full_rate":{
-                    "7-8":61,
-                    "8-9":193
+                    "7-8":{
+                        "up":20,
+                        "down":166
+                    },
+                    "8-9":{
+                        "up":70,
+                        "down":140
+                    }
                 }
             },
             {
@@ -9061,8 +13903,14 @@ var fullrate_data = {
                 "station2_code":21978,
                 "station2_name":"入間市",
                 "full_rate":{
-                    "7-8":75,
-                    "8-9":87
+                    "7-8":{
+                        "up":10,
+                        "down":75
+                    },
+                    "8-9":{
+                        "up":163,
+                        "down":132
+                    }
                 }
             },
             {
@@ -9072,8 +13920,14 @@ var fullrate_data = {
                 "station2_code":22125,
                 "station2_name":"仏子",
                 "full_rate":{
-                    "7-8":25,
-                    "8-9":21
+                    "7-8":{
+                        "up":84,
+                        "down":133
+                    },
+                    "8-9":{
+                        "up":42,
+                        "down":7
+                    }
                 }
             },
             {
@@ -9083,8 +13937,14 @@ var fullrate_data = {
                 "station2_code":22157,
                 "station2_name":"元加治",
                 "full_rate":{
-                    "7-8":1,
-                    "8-9":25
+                    "7-8":{
+                        "up":95,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":166,
+                        "down":26
+                    }
                 }
             },
             {
@@ -9094,8 +13954,14 @@ var fullrate_data = {
                 "station2_code":22157,
                 "station2_name":"元加治",
                 "full_rate":{
-                    "7-8":3,
-                    "8-9":31
+                    "7-8":{
+                        "up":113,
+                        "down":184
+                    },
+                    "8-9":{
+                        "up":100,
+                        "down":71
+                    }
                 }
             }
         ]
@@ -9110,8 +13976,14 @@ var fullrate_data = {
                 "station2_code":22889,
                 "station2_name":"練馬",
                 "full_rate":{
-                    "7-8":184,
-                    "8-9":186
+                    "7-8":{
+                        "up":138,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":0,
+                        "down":55
+                    }
                 }
             },
             {
@@ -9121,8 +13993,14 @@ var fullrate_data = {
                 "station2_code":22739,
                 "station2_name":"新桜台",
                 "full_rate":{
-                    "7-8":184,
-                    "8-9":19
+                    "7-8":{
+                        "up":192,
+                        "down":12
+                    },
+                    "8-9":{
+                        "up":43,
+                        "down":69
+                    }
                 }
             }
         ]
@@ -9137,8 +14015,14 @@ var fullrate_data = {
                 "station2_code":22889,
                 "station2_name":"練馬",
                 "full_rate":{
-                    "7-8":47,
-                    "8-9":169
+                    "7-8":{
+                        "up":123,
+                        "down":173
+                    },
+                    "8-9":{
+                        "up":56,
+                        "down":185
+                    }
                 }
             }
         ]
@@ -9153,8 +14037,14 @@ var fullrate_data = {
                 "station2_code":22790,
                 "station2_name":"高田馬場",
                 "full_rate":{
-                    "7-8":184,
-                    "8-9":144
+                    "7-8":{
+                        "up":6,
+                        "down":67
+                    },
+                    "8-9":{
+                        "up":140,
+                        "down":151
+                    }
                 }
             },
             {
@@ -9164,8 +14054,14 @@ var fullrate_data = {
                 "station2_code":22790,
                 "station2_name":"高田馬場",
                 "full_rate":{
-                    "7-8":186,
-                    "8-9":9
+                    "7-8":{
+                        "up":130,
+                        "down":87
+                    },
+                    "8-9":{
+                        "up":69,
+                        "down":79
+                    }
                 }
             },
             {
@@ -9175,8 +14071,14 @@ var fullrate_data = {
                 "station2_code":22844,
                 "station2_name":"中井",
                 "full_rate":{
-                    "7-8":18,
-                    "8-9":40
+                    "7-8":{
+                        "up":23,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":10,
+                        "down":26
+                    }
                 }
             },
             {
@@ -9186,19 +14088,14 @@ var fullrate_data = {
                 "station2_code":22844,
                 "station2_name":"中井",
                 "full_rate":{
-                    "7-8":54,
-                    "8-9":21
-                }
-            },
-            {
-                "code":2880160,
-                "station1_code":22842,
-                "station1_name":"都立家政",
-                "station2_code":22892,
-                "station2_name":"野方",
-                "full_rate":{
-                    "7-8":191,
-                    "8-9":166
+                    "7-8":{
+                        "up":32,
+                        "down":124
+                    },
+                    "8-9":{
+                        "up":165,
+                        "down":40
+                    }
                 }
             },
             {
@@ -9208,8 +14105,14 @@ var fullrate_data = {
                 "station2_code":22886,
                 "station2_name":"沼袋",
                 "full_rate":{
-                    "7-8":85,
-                    "8-9":142
+                    "7-8":{
+                        "up":35,
+                        "down":83
+                    },
+                    "8-9":{
+                        "up":147,
+                        "down":164
+                    }
                 }
             },
             {
@@ -9219,19 +14122,31 @@ var fullrate_data = {
                 "station2_code":22892,
                 "station2_name":"野方",
                 "full_rate":{
-                    "7-8":14,
-                    "8-9":0
+                    "7-8":{
+                        "up":86,
+                        "down":182
+                    },
+                    "8-9":{
+                        "up":6,
+                        "down":31
+                    }
                 }
             },
             {
-                "code":2880170,
-                "station1_code":22694,
-                "station1_name":"鷺ノ宮",
-                "station2_code":22842,
-                "station2_name":"都立家政",
+                "code":2880160,
+                "station1_code":22842,
+                "station1_name":"都立家政",
+                "station2_code":22892,
+                "station2_name":"野方",
                 "full_rate":{
-                    "7-8":2,
-                    "8-9":95
+                    "7-8":{
+                        "up":172,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":5,
+                        "down":134
+                    }
                 }
             },
             {
@@ -9241,8 +14156,31 @@ var fullrate_data = {
                 "station2_code":22720,
                 "station2_name":"下井草",
                 "full_rate":{
-                    "7-8":190,
-                    "8-9":85
+                    "7-8":{
+                        "up":137,
+                        "down":63
+                    },
+                    "8-9":{
+                        "up":165,
+                        "down":89
+                    }
+                }
+            },
+            {
+                "code":2880170,
+                "station1_code":22694,
+                "station1_name":"鷺ノ宮",
+                "station2_code":22842,
+                "station2_name":"都立家政",
+                "full_rate":{
+                    "7-8":{
+                        "up":0,
+                        "down":76
+                    },
+                    "8-9":{
+                        "up":21,
+                        "down":158
+                    }
                 }
             },
             {
@@ -9252,41 +14190,14 @@ var fullrate_data = {
                 "station2_code":22720,
                 "station2_name":"下井草",
                 "full_rate":{
-                    "7-8":9,
-                    "8-9":168
-                }
-            },
-            {
-                "code":2880210,
-                "station1_code":22603,
-                "station1_name":"上井草",
-                "station2_code":22606,
-                "station2_name":"上石神井",
-                "full_rate":{
-                    "7-8":99,
-                    "8-9":115
-                }
-            },
-            {
-                "code":2880220,
-                "station1_code":22606,
-                "station1_name":"上石神井",
-                "station2_code":23010,
-                "station2_name":"武蔵関",
-                "full_rate":{
-                    "7-8":138,
-                    "8-9":24
-                }
-            },
-            {
-                "code":2880240,
-                "station1_code":22770,
-                "station1_name":"西武柳沢",
-                "station2_code":22940,
-                "station2_name":"東伏見",
-                "full_rate":{
-                    "7-8":24,
-                    "8-9":187
+                    "7-8":{
+                        "up":157,
+                        "down":128
+                    },
+                    "8-9":{
+                        "up":184,
+                        "down":120
+                    }
                 }
             },
             {
@@ -9296,8 +14207,48 @@ var fullrate_data = {
                 "station2_code":22603,
                 "station2_name":"上井草",
                 "full_rate":{
-                    "7-8":30,
-                    "8-9":9
+                    "7-8":{
+                        "up":94,
+                        "down":110
+                    },
+                    "8-9":{
+                        "up":40,
+                        "down":143
+                    }
+                }
+            },
+            {
+                "code":2880210,
+                "station1_code":22603,
+                "station1_name":"上井草",
+                "station2_code":22606,
+                "station2_name":"上石神井",
+                "full_rate":{
+                    "7-8":{
+                        "up":146,
+                        "down":107
+                    },
+                    "8-9":{
+                        "up":58,
+                        "down":50
+                    }
+                }
+            },
+            {
+                "code":2880220,
+                "station1_code":22606,
+                "station1_name":"上石神井",
+                "station2_code":23010,
+                "station2_name":"武蔵関",
+                "full_rate":{
+                    "7-8":{
+                        "up":165,
+                        "down":184
+                    },
+                    "8-9":{
+                        "up":25,
+                        "down":132
+                    }
                 }
             },
             {
@@ -9307,8 +14258,31 @@ var fullrate_data = {
                 "station2_code":23010,
                 "station2_name":"武蔵関",
                 "full_rate":{
-                    "7-8":106,
-                    "8-9":197
+                    "7-8":{
+                        "up":68,
+                        "down":77
+                    },
+                    "8-9":{
+                        "up":109,
+                        "down":54
+                    }
+                }
+            },
+            {
+                "code":2880240,
+                "station1_code":22770,
+                "station1_name":"西武柳沢",
+                "station2_code":22940,
+                "station2_name":"東伏見",
+                "full_rate":{
+                    "7-8":{
+                        "up":50,
+                        "down":145
+                    },
+                    "8-9":{
+                        "up":20,
+                        "down":21
+                    }
                 }
             },
             {
@@ -9318,8 +14292,14 @@ var fullrate_data = {
                 "station2_code":22801,
                 "station2_name":"田無",
                 "full_rate":{
-                    "7-8":107,
-                    "8-9":10
+                    "7-8":{
+                        "up":126,
+                        "down":196
+                    },
+                    "8-9":{
+                        "up":110,
+                        "down":145
+                    }
                 }
             },
             {
@@ -9329,8 +14309,14 @@ var fullrate_data = {
                 "station2_code":22909,
                 "station2_name":"花小金井",
                 "full_rate":{
-                    "7-8":84,
-                    "8-9":72
+                    "7-8":{
+                        "up":48,
+                        "down":117
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":134
+                    }
                 }
             },
             {
@@ -9340,8 +14326,14 @@ var fullrate_data = {
                 "station2_code":22909,
                 "station2_name":"花小金井",
                 "full_rate":{
-                    "7-8":101,
-                    "8-9":177
+                    "7-8":{
+                        "up":72,
+                        "down":116
+                    },
+                    "8-9":{
+                        "up":184,
+                        "down":147
+                    }
                 }
             },
             {
@@ -9351,8 +14343,14 @@ var fullrate_data = {
                 "station2_code":22680,
                 "station2_name":"小平",
                 "full_rate":{
-                    "7-8":16,
-                    "8-9":63
+                    "7-8":{
+                        "up":116,
+                        "down":12
+                    },
+                    "8-9":{
+                        "up":66,
+                        "down":118
+                    }
                 }
             },
             {
@@ -9362,30 +14360,14 @@ var fullrate_data = {
                 "station2_code":22944,
                 "station2_name":"東村山",
                 "full_rate":{
-                    "7-8":76,
-                    "8-9":86
-                }
-            },
-            {
-                "code":2880300,
-                "station1_code":22080,
-                "station1_name":"所沢",
-                "station2_code":22944,
-                "station2_name":"東村山",
-                "full_rate":{
-                    "7-8":1,
-                    "8-9":159
-                }
-            },
-            {
-                "code":2880310,
-                "station1_code":22032,
-                "station1_name":"航空公園",
-                "station2_code":22080,
-                "station2_name":"所沢",
-                "full_rate":{
-                    "7-8":64,
-                    "8-9":184
+                    "7-8":{
+                        "up":47,
+                        "down":32
+                    },
+                    "8-9":{
+                        "up":183,
+                        "down":111
+                    }
                 }
             },
             {
@@ -9395,8 +14377,48 @@ var fullrate_data = {
                 "station2_code":22060,
                 "station2_name":"新所沢",
                 "full_rate":{
-                    "7-8":50,
-                    "8-9":106
+                    "7-8":{
+                        "up":195,
+                        "down":197
+                    },
+                    "8-9":{
+                        "up":60,
+                        "down":16
+                    }
+                }
+            },
+            {
+                "code":2880310,
+                "station1_code":22032,
+                "station1_name":"航空公園",
+                "station2_code":22080,
+                "station2_name":"所沢",
+                "full_rate":{
+                    "7-8":{
+                        "up":163,
+                        "down":6
+                    },
+                    "8-9":{
+                        "up":36,
+                        "down":86
+                    }
+                }
+            },
+            {
+                "code":2880300,
+                "station1_code":22080,
+                "station1_name":"所沢",
+                "station2_code":22944,
+                "station2_name":"東村山",
+                "full_rate":{
+                    "7-8":{
+                        "up":169,
+                        "down":71
+                    },
+                    "8-9":{
+                        "up":111,
+                        "down":67
+                    }
                 }
             },
             {
@@ -9406,41 +14428,14 @@ var fullrate_data = {
                 "station2_code":22060,
                 "station2_name":"新所沢",
                 "full_rate":{
-                    "7-8":94,
-                    "8-9":112
-                }
-            },
-            {
-                "code":2880350,
-                "station1_code":22045,
-                "station1_name":"狭山市",
-                "station2_code":22057,
-                "station2_name":"新狭山",
-                "full_rate":{
-                    "7-8":5,
-                    "8-9":122
-                }
-            },
-            {
-                "code":2880370,
-                "station1_code":22131,
-                "station1_name":"本川越",
-                "station2_code":22143,
-                "station2_name":"南大塚",
-                "full_rate":{
-                    "7-8":178,
-                    "8-9":134
-                }
-            },
-            {
-                "code":2880360,
-                "station1_code":22057,
-                "station1_name":"新狭山",
-                "station2_code":22143,
-                "station2_name":"南大塚",
-                "full_rate":{
-                    "7-8":144,
-                    "8-9":44
+                    "7-8":{
+                        "up":33,
+                        "down":34
+                    },
+                    "8-9":{
+                        "up":174,
+                        "down":175
+                    }
                 }
             },
             {
@@ -9450,8 +14445,65 @@ var fullrate_data = {
                 "station2_code":22045,
                 "station2_name":"狭山市",
                 "full_rate":{
-                    "7-8":106,
-                    "8-9":161
+                    "7-8":{
+                        "up":37,
+                        "down":72
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":52
+                    }
+                }
+            },
+            {
+                "code":2880350,
+                "station1_code":22045,
+                "station1_name":"狭山市",
+                "station2_code":22057,
+                "station2_name":"新狭山",
+                "full_rate":{
+                    "7-8":{
+                        "up":55,
+                        "down":177
+                    },
+                    "8-9":{
+                        "up":116,
+                        "down":172
+                    }
+                }
+            },
+            {
+                "code":2880360,
+                "station1_code":22057,
+                "station1_name":"新狭山",
+                "station2_code":22143,
+                "station2_name":"南大塚",
+                "full_rate":{
+                    "7-8":{
+                        "up":22,
+                        "down":75
+                    },
+                    "8-9":{
+                        "up":106,
+                        "down":23
+                    }
+                }
+            },
+            {
+                "code":2880370,
+                "station1_code":22131,
+                "station1_name":"本川越",
+                "station2_code":22143,
+                "station2_name":"南大塚",
+                "full_rate":{
+                    "7-8":{
+                        "up":63,
+                        "down":151
+                    },
+                    "8-9":{
+                        "up":171,
+                        "down":195
+                    }
                 }
             }
         ]
@@ -9466,8 +14518,14 @@ var fullrate_data = {
                 "station2_code":22944,
                 "station2_name":"東村山",
                 "full_rate":{
-                    "7-8":156,
-                    "8-9":96
+                    "7-8":{
+                        "up":45,
+                        "down":66
+                    },
+                    "8-9":{
+                        "up":197,
+                        "down":132
+                    }
                 }
             }
         ]
@@ -9482,8 +14540,14 @@ var fullrate_data = {
                 "station2_code":22896,
                 "station2_name":"萩山",
                 "full_rate":{
-                    "7-8":167,
-                    "8-9":45
+                    "7-8":{
+                        "up":89,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":135,
+                        "down":52
+                    }
                 }
             },
             {
@@ -9493,8 +14557,14 @@ var fullrate_data = {
                 "station2_code":22896,
                 "station2_name":"萩山",
                 "full_rate":{
-                    "7-8":63,
-                    "8-9":124
+                    "7-8":{
+                        "up":110,
+                        "down":120
+                    },
+                    "8-9":{
+                        "up":88,
+                        "down":82
+                    }
                 }
             },
             {
@@ -9504,8 +14574,14 @@ var fullrate_data = {
                 "station2_code":22945,
                 "station2_name":"東大和市",
                 "full_rate":{
-                    "7-8":175,
-                    "8-9":80
+                    "7-8":{
+                        "up":162,
+                        "down":18
+                    },
+                    "8-9":{
+                        "up":190,
+                        "down":153
+                    }
                 }
             },
             {
@@ -9515,19 +14591,14 @@ var fullrate_data = {
                 "station2_code":22945,
                 "station2_name":"東大和市",
                 "full_rate":{
-                    "7-8":195,
-                    "8-9":38
-                }
-            },
-            {
-                "code":2900140,
-                "station1_code":22805,
-                "station1_name":"玉川上水",
-                "station2_code":23009,
-                "station2_name":"武蔵砂川",
-                "full_rate":{
-                    "7-8":69,
-                    "8-9":177
+                    "7-8":{
+                        "up":35,
+                        "down":106
+                    },
+                    "8-9":{
+                        "up":126,
+                        "down":21
+                    }
                 }
             },
             {
@@ -9537,8 +14608,14 @@ var fullrate_data = {
                 "station2_code":23009,
                 "station2_name":"武蔵砂川",
                 "full_rate":{
-                    "7-8":145,
-                    "8-9":197
+                    "7-8":{
+                        "up":166,
+                        "down":115
+                    },
+                    "8-9":{
+                        "up":183,
+                        "down":118
+                    }
                 }
             },
             {
@@ -9548,8 +14625,31 @@ var fullrate_data = {
                 "station2_code":22895,
                 "station2_name":"拝島",
                 "full_rate":{
-                    "7-8":166,
-                    "8-9":162
+                    "7-8":{
+                        "up":6,
+                        "down":185
+                    },
+                    "8-9":{
+                        "up":180,
+                        "down":11
+                    }
+                }
+            },
+            {
+                "code":2900140,
+                "station1_code":22805,
+                "station1_name":"玉川上水",
+                "station2_code":23009,
+                "station2_name":"武蔵砂川",
+                "full_rate":{
+                    "7-8":{
+                        "up":197,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":68,
+                        "down":109
+                    }
                 }
             }
         ]
@@ -9564,8 +14664,14 @@ var fullrate_data = {
                 "station2_code":22947,
                 "station2_name":"一橋学園",
                 "full_rate":{
-                    "7-8":83,
-                    "8-9":86
+                    "7-8":{
+                        "up":16,
+                        "down":183
+                    },
+                    "8-9":{
+                        "up":25,
+                        "down":61
+                    }
                 }
             },
             {
@@ -9575,8 +14681,14 @@ var fullrate_data = {
                 "station2_code":22947,
                 "station2_name":"一橋学園",
                 "full_rate":{
-                    "7-8":33,
-                    "8-9":138
+                    "7-8":{
+                        "up":94,
+                        "down":166
+                    },
+                    "8-9":{
+                        "up":135,
+                        "down":120
+                    }
                 }
             },
             {
@@ -9586,8 +14698,14 @@ var fullrate_data = {
                 "station2_code":22896,
                 "station2_name":"萩山",
                 "full_rate":{
-                    "7-8":98,
-                    "8-9":66
+                    "7-8":{
+                        "up":38,
+                        "down":30
+                    },
+                    "8-9":{
+                        "up":64,
+                        "down":111
+                    }
                 }
             },
             {
@@ -9597,8 +14715,14 @@ var fullrate_data = {
                 "station2_code":23028,
                 "station2_name":"八坂",
                 "full_rate":{
-                    "7-8":197,
-                    "8-9":18
+                    "7-8":{
+                        "up":140,
+                        "down":184
+                    },
+                    "8-9":{
+                        "up":66,
+                        "down":76
+                    }
                 }
             },
             {
@@ -9608,8 +14732,14 @@ var fullrate_data = {
                 "station2_code":23028,
                 "station2_name":"八坂",
                 "full_rate":{
-                    "7-8":53,
-                    "8-9":44
+                    "7-8":{
+                        "up":84,
+                        "down":22
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":87
+                    }
                 }
             },
             {
@@ -9619,8 +14749,14 @@ var fullrate_data = {
                 "station2_code":23015,
                 "station2_name":"武蔵大和",
                 "full_rate":{
-                    "7-8":189,
-                    "8-9":17
+                    "7-8":{
+                        "up":37,
+                        "down":135
+                    },
+                    "8-9":{
+                        "up":169,
+                        "down":49
+                    }
                 }
             }
         ]
@@ -9635,8 +14771,14 @@ var fullrate_data = {
                 "station2_code":22676,
                 "station2_name":"国分寺",
                 "full_rate":{
-                    "7-8":146,
-                    "8-9":178
+                    "7-8":{
+                        "up":179,
+                        "down":32
+                    },
+                    "8-9":{
+                        "up":155,
+                        "down":144
+                    }
                 }
             },
             {
@@ -9646,8 +14788,14 @@ var fullrate_data = {
                 "station2_code":22792,
                 "station2_name":"鷹の台",
                 "full_rate":{
-                    "7-8":89,
-                    "8-9":19
+                    "7-8":{
+                        "up":72,
+                        "down":99
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":196
+                    }
                 }
             },
             {
@@ -9657,8 +14805,14 @@ var fullrate_data = {
                 "station2_code":22792,
                 "station2_name":"鷹の台",
                 "full_rate":{
-                    "7-8":50,
-                    "8-9":44
+                    "7-8":{
+                        "up":74,
+                        "down":75
+                    },
+                    "8-9":{
+                        "up":0,
+                        "down":76
+                    }
                 }
             },
             {
@@ -9668,8 +14822,14 @@ var fullrate_data = {
                 "station2_code":22944,
                 "station2_name":"東村山",
                 "full_rate":{
-                    "7-8":153,
-                    "8-9":111
+                    "7-8":{
+                        "up":149,
+                        "down":199
+                    },
+                    "8-9":{
+                        "up":121,
+                        "down":11
+                    }
                 }
             }
         ]
@@ -9678,25 +14838,37 @@ var fullrate_data = {
         "name":"西武山口線",
         "sections":[
             {
-                "code":2930110,
-                "station1_code":22065,
-                "station1_name":"西武球場前",
-                "station2_code":23034,
-                "station2_name":"遊園地西",
-                "full_rate":{
-                    "7-8":6,
-                    "8-9":2
-                }
-            },
-            {
                 "code":2930100,
                 "station1_code":22771,
                 "station1_name":"西武遊園地",
                 "station2_code":23034,
                 "station2_name":"遊園地西",
                 "full_rate":{
-                    "7-8":5,
-                    "8-9":135
+                    "7-8":{
+                        "up":99,
+                        "down":59
+                    },
+                    "8-9":{
+                        "up":75,
+                        "down":61
+                    }
+                }
+            },
+            {
+                "code":2930110,
+                "station1_code":22065,
+                "station1_name":"西武球場前",
+                "station2_code":23034,
+                "station2_name":"遊園地西",
+                "full_rate":{
+                    "7-8":{
+                        "up":88,
+                        "down":34
+                    },
+                    "8-9":{
+                        "up":111,
+                        "down":190
+                    }
                 }
             }
         ]
@@ -9711,8 +14883,14 @@ var fullrate_data = {
                 "station2_code":23008,
                 "station2_name":"武蔵境",
                 "full_rate":{
-                    "7-8":52,
-                    "8-9":186
+                    "7-8":{
+                        "up":190,
+                        "down":41
+                    },
+                    "8-9":{
+                        "up":184,
+                        "down":85
+                    }
                 }
             },
             {
@@ -9722,19 +14900,14 @@ var fullrate_data = {
                 "station2_code":22809,
                 "station2_name":"多磨",
                 "full_rate":{
-                    "7-8":85,
-                    "8-9":103
-                }
-            },
-            {
-                "code":2940130,
-                "station1_code":22621,
-                "station1_name":"競艇場前",
-                "station2_code":22632,
-                "station2_name":"白糸台",
-                "full_rate":{
-                    "7-8":67,
-                    "8-9":0
+                    "7-8":{
+                        "up":102,
+                        "down":54
+                    },
+                    "8-9":{
+                        "up":37,
+                        "down":57
+                    }
                 }
             },
             {
@@ -9744,8 +14917,31 @@ var fullrate_data = {
                 "station2_code":22809,
                 "station2_name":"多磨",
                 "full_rate":{
-                    "7-8":163,
-                    "8-9":115
+                    "7-8":{
+                        "up":36,
+                        "down":75
+                    },
+                    "8-9":{
+                        "up":167,
+                        "down":87
+                    }
+                }
+            },
+            {
+                "code":2940130,
+                "station1_code":22621,
+                "station1_name":"競艇場前",
+                "station2_code":22632,
+                "station2_name":"白糸台",
+                "full_rate":{
+                    "7-8":{
+                        "up":125,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":54,
+                        "down":85
+                    }
                 }
             },
             {
@@ -9755,8 +14951,14 @@ var fullrate_data = {
                 "station2_code":22688,
                 "station2_name":"是政",
                 "full_rate":{
-                    "7-8":98,
-                    "8-9":52
+                    "7-8":{
+                        "up":92,
+                        "down":61
+                    },
+                    "8-9":{
+                        "up":92,
+                        "down":195
+                    }
                 }
             }
         ]
@@ -9771,8 +14973,14 @@ var fullrate_data = {
                 "station2_code":22862,
                 "station2_name":"日暮里",
                 "full_rate":{
-                    "7-8":177,
-                    "8-9":5
+                    "7-8":{
+                        "up":30,
+                        "down":99
+                    },
+                    "8-9":{
+                        "up":163,
+                        "down":117
+                    }
                 }
             },
             {
@@ -9782,8 +14990,14 @@ var fullrate_data = {
                 "station2_code":22862,
                 "station2_name":"日暮里",
                 "full_rate":{
-                    "7-8":135,
-                    "8-9":140
+                    "7-8":{
+                        "up":118,
+                        "down":78
+                    },
+                    "8-9":{
+                        "up":21,
+                        "down":132
+                    }
                 }
             },
             {
@@ -9793,8 +15007,14 @@ var fullrate_data = {
                 "station2_code":22977,
                 "station2_name":"町屋(京成線)",
                 "full_rate":{
-                    "7-8":178,
-                    "8-9":95
+                    "7-8":{
+                        "up":95,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":45,
+                        "down":95
+                    }
                 }
             },
             {
@@ -9804,8 +15024,14 @@ var fullrate_data = {
                 "station2_code":22977,
                 "station2_name":"町屋(京成線)",
                 "full_rate":{
-                    "7-8":167,
-                    "8-9":109
+                    "7-8":{
+                        "up":19,
+                        "down":95
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":130
+                    }
                 }
             },
             {
@@ -9815,8 +15041,14 @@ var fullrate_data = {
                 "station2_code":22778,
                 "station2_name":"千住大橋",
                 "full_rate":{
-                    "7-8":29,
-                    "8-9":84
+                    "7-8":{
+                        "up":141,
+                        "down":159
+                    },
+                    "8-9":{
+                        "up":83,
+                        "down":67
+                    }
                 }
             },
             {
@@ -9826,8 +15058,14 @@ var fullrate_data = {
                 "station2_code":22972,
                 "station2_name":"堀切菖蒲園",
                 "full_rate":{
-                    "7-8":103,
-                    "8-9":180
+                    "7-8":{
+                        "up":149,
+                        "down":130
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":185
+                    }
                 }
             },
             {
@@ -9837,19 +15075,14 @@ var fullrate_data = {
                 "station2_code":22972,
                 "station2_name":"堀切菖蒲園",
                 "full_rate":{
-                    "7-8":144,
-                    "8-9":168
-                }
-            },
-            {
-                "code":2950170,
-                "station1_code":22482,
-                "station1_name":"青砥",
-                "station2_code":22585,
-                "station2_name":"お花茶屋",
-                "full_rate":{
-                    "7-8":78,
-                    "8-9":85
+                    "7-8":{
+                        "up":137,
+                        "down":32
+                    },
+                    "8-9":{
+                        "up":124,
+                        "down":126
+                    }
                 }
             },
             {
@@ -9859,19 +15092,31 @@ var fullrate_data = {
                 "station2_code":22665,
                 "station2_name":"京成高砂",
                 "full_rate":{
-                    "7-8":75,
-                    "8-9":164
+                    "7-8":{
+                        "up":137,
+                        "down":168
+                    },
+                    "8-9":{
+                        "up":20,
+                        "down":199
+                    }
                 }
             },
             {
-                "code":2950190,
-                "station1_code":22663,
-                "station1_name":"京成小岩",
-                "station2_code":22665,
-                "station2_name":"京成高砂",
+                "code":2950170,
+                "station1_code":22482,
+                "station1_name":"青砥",
+                "station2_code":22585,
+                "station2_name":"お花茶屋",
                 "full_rate":{
-                    "7-8":55,
-                    "8-9":194
+                    "7-8":{
+                        "up":24,
+                        "down":198
+                    },
+                    "8-9":{
+                        "up":6,
+                        "down":137
+                    }
                 }
             },
             {
@@ -9881,19 +15126,31 @@ var fullrate_data = {
                 "station2_code":22663,
                 "station2_name":"京成小岩",
                 "full_rate":{
-                    "7-8":187,
-                    "8-9":107
+                    "7-8":{
+                        "up":187,
+                        "down":46
+                    },
+                    "8-9":{
+                        "up":141,
+                        "down":169
+                    }
                 }
             },
             {
-                "code":2950210,
-                "station1_code":22544,
-                "station1_name":"江戸川",
-                "station2_code":22294,
-                "station2_name":"国府台",
+                "code":2950190,
+                "station1_code":22663,
+                "station1_name":"京成小岩",
+                "station2_code":22665,
+                "station2_name":"京成高砂",
                 "full_rate":{
-                    "7-8":128,
-                    "8-9":28
+                    "7-8":{
+                        "up":69,
+                        "down":104
+                    },
+                    "8-9":{
+                        "up":181,
+                        "down":23
+                    }
                 }
             },
             {
@@ -9903,8 +15160,14 @@ var fullrate_data = {
                 "station2_code":22294,
                 "station2_name":"国府台",
                 "full_rate":{
-                    "7-8":121,
-                    "8-9":119
+                    "7-8":{
+                        "up":70,
+                        "down":130
+                    },
+                    "8-9":{
+                        "up":54,
+                        "down":198
+                    }
                 }
             },
             {
@@ -9914,19 +15177,31 @@ var fullrate_data = {
                 "station2_code":22338,
                 "station2_name":"菅野",
                 "full_rate":{
-                    "7-8":106,
-                    "8-9":111
+                    "7-8":{
+                        "up":49,
+                        "down":6
+                    },
+                    "8-9":{
+                        "up":152,
+                        "down":82
+                    }
                 }
             },
             {
-                "code":2950240,
-                "station1_code":22289,
-                "station1_name":"京成八幡",
-                "station2_code":22338,
-                "station2_name":"菅野",
+                "code":2950210,
+                "station1_code":22544,
+                "station1_name":"江戸川",
+                "station2_code":22294,
+                "station2_name":"国府台",
                 "full_rate":{
-                    "7-8":157,
-                    "8-9":93
+                    "7-8":{
+                        "up":113,
+                        "down":47
+                    },
+                    "8-9":{
+                        "up":185,
+                        "down":123
+                    }
                 }
             },
             {
@@ -9936,19 +15211,14 @@ var fullrate_data = {
                 "station2_code":22289,
                 "station2_name":"京成八幡",
                 "full_rate":{
-                    "7-8":122,
-                    "8-9":91
-                }
-            },
-            {
-                "code":2950260,
-                "station1_code":22220,
-                "station1_name":"鬼越",
-                "station2_code":22283,
-                "station2_name":"京成中山",
-                "full_rate":{
-                    "7-8":174,
-                    "8-9":175
+                    "7-8":{
+                        "up":174,
+                        "down":18
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":36
+                    }
                 }
             },
             {
@@ -9958,8 +15228,48 @@ var fullrate_data = {
                 "station2_code":22412,
                 "station2_name":"東中山",
                 "full_rate":{
-                    "7-8":46,
-                    "8-9":167
+                    "7-8":{
+                        "up":90,
+                        "down":162
+                    },
+                    "8-9":{
+                        "up":135,
+                        "down":187
+                    }
+                }
+            },
+            {
+                "code":2950240,
+                "station1_code":22289,
+                "station1_name":"京成八幡",
+                "station2_code":22338,
+                "station2_name":"菅野",
+                "full_rate":{
+                    "7-8":{
+                        "up":122,
+                        "down":63
+                    },
+                    "8-9":{
+                        "up":51,
+                        "down":179
+                    }
+                }
+            },
+            {
+                "code":2950260,
+                "station1_code":22220,
+                "station1_name":"鬼越",
+                "station2_code":22283,
+                "station2_name":"京成中山",
+                "full_rate":{
+                    "7-8":{
+                        "up":75,
+                        "down":51
+                    },
+                    "8-9":{
+                        "up":71,
+                        "down":61
+                    }
                 }
             },
             {
@@ -9969,8 +15279,14 @@ var fullrate_data = {
                 "station2_code":22412,
                 "station2_name":"東中山",
                 "full_rate":{
-                    "7-8":14,
-                    "8-9":27
+                    "7-8":{
+                        "up":13,
+                        "down":175
+                    },
+                    "8-9":{
+                        "up":102,
+                        "down":39
+                    }
                 }
             },
             {
@@ -9980,8 +15296,14 @@ var fullrate_data = {
                 "station2_code":22285,
                 "station2_name":"京成西船",
                 "full_rate":{
-                    "7-8":129,
-                    "8-9":18
+                    "7-8":{
+                        "up":16,
+                        "down":17
+                    },
+                    "8-9":{
+                        "up":157,
+                        "down":140
+                    }
                 }
             },
             {
@@ -9991,8 +15313,14 @@ var fullrate_data = {
                 "station2_code":22286,
                 "station2_name":"京成船橋",
                 "full_rate":{
-                    "7-8":62,
-                    "8-9":137
+                    "7-8":{
+                        "up":137,
+                        "down":177
+                    },
+                    "8-9":{
+                        "up":166,
+                        "down":138
+                    }
                 }
             },
             {
@@ -10002,8 +15330,14 @@ var fullrate_data = {
                 "station2_code":22352,
                 "station2_name":"大神宮下",
                 "full_rate":{
-                    "7-8":66,
-                    "8-9":179
+                    "7-8":{
+                        "up":75,
+                        "down":81
+                    },
+                    "8-9":{
+                        "up":167,
+                        "down":122
+                    }
                 }
             },
             {
@@ -10013,8 +15347,14 @@ var fullrate_data = {
                 "station2_code":22428,
                 "station2_name":"船橋競馬場",
                 "full_rate":{
-                    "7-8":9,
-                    "8-9":106
+                    "7-8":{
+                        "up":199,
+                        "down":106
+                    },
+                    "8-9":{
+                        "up":156,
+                        "down":195
+                    }
                 }
             },
             {
@@ -10024,8 +15364,14 @@ var fullrate_data = {
                 "station2_code":22470,
                 "station2_name":"谷津",
                 "full_rate":{
-                    "7-8":91,
-                    "8-9":44
+                    "7-8":{
+                        "up":169,
+                        "down":179
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":176
+                    }
                 }
             },
             {
@@ -10035,8 +15381,14 @@ var fullrate_data = {
                 "station2_code":22470,
                 "station2_name":"谷津",
                 "full_rate":{
-                    "7-8":7,
-                    "8-9":171
+                    "7-8":{
+                        "up":110,
+                        "down":70
+                    },
+                    "8-9":{
+                        "up":30,
+                        "down":110
+                    }
                 }
             },
             {
@@ -10046,8 +15398,14 @@ var fullrate_data = {
                 "station2_code":22282,
                 "station2_name":"京成津田沼",
                 "full_rate":{
-                    "7-8":102,
-                    "8-9":24
+                    "7-8":{
+                        "up":31,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":48,
+                        "down":8
+                    }
                 }
             },
             {
@@ -10057,19 +15415,14 @@ var fullrate_data = {
                 "station2_code":22459,
                 "station2_name":"実籾",
                 "full_rate":{
-                    "7-8":172,
-                    "8-9":70
-                }
-            },
-            {
-                "code":2950380,
-                "station1_code":22278,
-                "station1_name":"京成大和田",
-                "station2_code":22469,
-                "station2_name":"八千代台",
-                "full_rate":{
-                    "7-8":165,
-                    "8-9":65
+                    "7-8":{
+                        "up":131,
+                        "down":77
+                    },
+                    "8-9":{
+                        "up":184,
+                        "down":54
+                    }
                 }
             },
             {
@@ -10079,8 +15432,31 @@ var fullrate_data = {
                 "station2_code":22469,
                 "station2_name":"八千代台",
                 "full_rate":{
-                    "7-8":5,
-                    "8-9":58
+                    "7-8":{
+                        "up":157,
+                        "down":133
+                    },
+                    "8-9":{
+                        "up":181,
+                        "down":181
+                    }
+                }
+            },
+            {
+                "code":2950380,
+                "station1_code":22278,
+                "station1_name":"京成大和田",
+                "station2_code":22469,
+                "station2_name":"八千代台",
+                "full_rate":{
+                    "7-8":{
+                        "up":26,
+                        "down":107
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":197
+                    }
                 }
             },
             {
@@ -10090,8 +15466,14 @@ var fullrate_data = {
                 "station2_code":22278,
                 "station2_name":"京成大和田",
                 "full_rate":{
-                    "7-8":16,
-                    "8-9":104
+                    "7-8":{
+                        "up":40,
+                        "down":2
+                    },
+                    "8-9":{
+                        "up":45,
+                        "down":199
+                    }
                 }
             },
             {
@@ -10101,8 +15483,14 @@ var fullrate_data = {
                 "station2_code":22315,
                 "station2_name":"志津",
                 "full_rate":{
-                    "7-8":13,
-                    "8-9":190
+                    "7-8":{
+                        "up":64,
+                        "down":31
+                    },
+                    "8-9":{
+                        "up":162,
+                        "down":61
+                    }
                 }
             },
             {
@@ -10112,8 +15500,14 @@ var fullrate_data = {
                 "station2_code":22474,
                 "station2_name":"ユーカリが丘",
                 "full_rate":{
-                    "7-8":66,
-                    "8-9":37
+                    "7-8":{
+                        "up":96,
+                        "down":102
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":9
+                    }
                 }
             },
             {
@@ -10123,8 +15517,14 @@ var fullrate_data = {
                 "station2_code":22474,
                 "station2_name":"ユーカリが丘",
                 "full_rate":{
-                    "7-8":130,
-                    "8-9":104
+                    "7-8":{
+                        "up":94,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":124,
+                        "down":192
+                    }
                 }
             },
             {
@@ -10134,8 +15534,14 @@ var fullrate_data = {
                 "station2_code":22279,
                 "station2_name":"京成佐倉",
                 "full_rate":{
-                    "7-8":95,
-                    "8-9":198
+                    "7-8":{
+                        "up":108,
+                        "down":38
+                    },
+                    "8-9":{
+                        "up":95,
+                        "down":64
+                    }
                 }
             },
             {
@@ -10145,19 +15551,14 @@ var fullrate_data = {
                 "station2_code":22279,
                 "station2_name":"京成佐倉",
                 "full_rate":{
-                    "7-8":12,
-                    "8-9":144
-                }
-            },
-            {
-                "code":2950460,
-                "station1_code":22280,
-                "station1_name":"京成酒々井",
-                "station2_code":22340,
-                "station2_name":"宗吾参道",
-                "full_rate":{
-                    "7-8":126,
-                    "8-9":35
+                    "7-8":{
+                        "up":24,
+                        "down":166
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":85
+                    }
                 }
             },
             {
@@ -10167,8 +15568,31 @@ var fullrate_data = {
                 "station2_code":22280,
                 "station2_name":"京成酒々井",
                 "full_rate":{
-                    "7-8":116,
-                    "8-9":55
+                    "7-8":{
+                        "up":170,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":79,
+                        "down":168
+                    }
+                }
+            },
+            {
+                "code":2950460,
+                "station1_code":22280,
+                "station1_name":"京成酒々井",
+                "station2_code":22340,
+                "station2_name":"宗吾参道",
+                "full_rate":{
+                    "7-8":{
+                        "up":158,
+                        "down":168
+                    },
+                    "8-9":{
+                        "up":151,
+                        "down":170
+                    }
                 }
             },
             {
@@ -10178,30 +15602,14 @@ var fullrate_data = {
                 "station2_code":22340,
                 "station2_name":"宗吾参道",
                 "full_rate":{
-                    "7-8":45,
-                    "8-9":43
-                }
-            },
-            {
-                "code":2950490,
-                "station1_code":22267,
-                "station1_name":"空港第２ビル(鉄道)",
-                "station2_code":22284,
-                "station2_name":"京成成田",
-                "full_rate":{
-                    "7-8":121,
-                    "8-9":176
-                }
-            },
-            {
-                "code":2950500,
-                "station1_code":22267,
-                "station1_name":"空港第２ビル(鉄道)",
-                "station2_code":22392,
-                "station2_name":"成田空港(鉄道)",
-                "full_rate":{
-                    "7-8":58,
-                    "8-9":117
+                    "7-8":{
+                        "up":105,
+                        "down":114
+                    },
+                    "8-9":{
+                        "up":124,
+                        "down":195
+                    }
                 }
             },
             {
@@ -10211,8 +15619,48 @@ var fullrate_data = {
                 "station2_code":22293,
                 "station2_name":"公津の杜",
                 "full_rate":{
-                    "7-8":21,
-                    "8-9":184
+                    "7-8":{
+                        "up":98,
+                        "down":144
+                    },
+                    "8-9":{
+                        "up":76,
+                        "down":112
+                    }
+                }
+            },
+            {
+                "code":2950490,
+                "station1_code":22267,
+                "station1_name":"空港第２ビル(鉄道)",
+                "station2_code":22284,
+                "station2_name":"京成成田",
+                "full_rate":{
+                    "7-8":{
+                        "up":155,
+                        "down":199
+                    },
+                    "8-9":{
+                        "up":84,
+                        "down":140
+                    }
+                }
+            },
+            {
+                "code":2950500,
+                "station1_code":22267,
+                "station1_name":"空港第２ビル(鉄道)",
+                "station2_code":22392,
+                "station2_name":"成田空港(鉄道)",
+                "full_rate":{
+                    "7-8":{
+                        "up":187,
+                        "down":113
+                    },
+                    "8-9":{
+                        "up":169,
+                        "down":155
+                    }
                 }
             }
         ]
@@ -10227,8 +15675,14 @@ var fullrate_data = {
                 "station2_code":22667,
                 "station2_name":"京成曳舟",
                 "full_rate":{
-                    "7-8":183,
-                    "8-9":187
+                    "7-8":{
+                        "up":154,
+                        "down":184
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":143
+                    }
                 }
             },
             {
@@ -10238,8 +15692,14 @@ var fullrate_data = {
                 "station2_code":23030,
                 "station2_name":"八広",
                 "full_rate":{
-                    "7-8":112,
-                    "8-9":5
+                    "7-8":{
+                        "up":3,
+                        "down":132
+                    },
+                    "8-9":{
+                        "up":28,
+                        "down":116
+                    }
                 }
             },
             {
@@ -10249,8 +15709,14 @@ var fullrate_data = {
                 "station2_code":23040,
                 "station2_name":"四ツ木",
                 "full_rate":{
-                    "7-8":87,
-                    "8-9":6
+                    "7-8":{
+                        "up":16,
+                        "down":24
+                    },
+                    "8-9":{
+                        "up":8,
+                        "down":25
+                    }
                 }
             },
             {
@@ -10260,8 +15726,14 @@ var fullrate_data = {
                 "station2_code":23040,
                 "station2_name":"四ツ木",
                 "full_rate":{
-                    "7-8":16,
-                    "8-9":136
+                    "7-8":{
+                        "up":48,
+                        "down":18
+                    },
+                    "8-9":{
+                        "up":131,
+                        "down":55
+                    }
                 }
             },
             {
@@ -10271,8 +15743,14 @@ var fullrate_data = {
                 "station2_code":22666,
                 "station2_name":"京成立石",
                 "full_rate":{
-                    "7-8":27,
-                    "8-9":199
+                    "7-8":{
+                        "up":49,
+                        "down":190
+                    },
+                    "8-9":{
+                        "up":84,
+                        "down":35
+                    }
                 }
             }
         ]
@@ -10287,8 +15765,14 @@ var fullrate_data = {
                 "station2_code":22714,
                 "station2_name":"柴又",
                 "full_rate":{
-                    "7-8":57,
-                    "8-9":132
+                    "7-8":{
+                        "up":10,
+                        "down":44
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":99
+                    }
                 }
             },
             {
@@ -10298,8 +15782,14 @@ var fullrate_data = {
                 "station2_code":22714,
                 "station2_name":"柴又",
                 "full_rate":{
-                    "7-8":131,
-                    "8-9":4
+                    "7-8":{
+                        "up":141,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":7,
+                        "down":112
+                    }
                 }
             }
         ]
@@ -10314,8 +15804,14 @@ var fullrate_data = {
                 "station2_code":22416,
                 "station2_name":"東松戸",
                 "full_rate":{
-                    "7-8":193,
-                    "8-9":75
+                    "7-8":{
+                        "up":22,
+                        "down":96
+                    },
+                    "8-9":{
+                        "up":147,
+                        "down":57
+                    }
                 }
             },
             {
@@ -10325,8 +15821,14 @@ var fullrate_data = {
                 "station2_code":22416,
                 "station2_name":"東松戸",
                 "full_rate":{
-                    "7-8":81,
-                    "8-9":40
+                    "7-8":{
+                        "up":154,
+                        "down":18
+                    },
+                    "8-9":{
+                        "up":119,
+                        "down":36
+                    }
                 }
             },
             {
@@ -10336,8 +15838,14 @@ var fullrate_data = {
                 "station2_code":22365,
                 "station2_name":"千葉ニュータウン中央",
                 "full_rate":{
-                    "7-8":104,
-                    "8-9":111
+                    "7-8":{
+                        "up":172,
+                        "down":150
+                    },
+                    "8-9":{
+                        "up":161,
+                        "down":51
+                    }
                 }
             },
             {
@@ -10347,8 +15855,14 @@ var fullrate_data = {
                 "station2_code":22365,
                 "station2_name":"千葉ニュータウン中央",
                 "full_rate":{
-                    "7-8":193,
-                    "8-9":33
+                    "7-8":{
+                        "up":131,
+                        "down":121
+                    },
+                    "8-9":{
+                        "up":174,
+                        "down":2
+                    }
                 }
             },
             {
@@ -10358,8 +15872,14 @@ var fullrate_data = {
                 "station2_code":29673,
                 "station2_name":"成田湯川",
                 "full_rate":{
-                    "7-8":124,
-                    "8-9":120
+                    "7-8":{
+                        "up":134,
+                        "down":143
+                    },
+                    "8-9":{
+                        "up":183,
+                        "down":136
+                    }
                 }
             },
             {
@@ -10369,8 +15889,14 @@ var fullrate_data = {
                 "station2_code":29673,
                 "station2_name":"成田湯川",
                 "full_rate":{
-                    "7-8":49,
-                    "8-9":149
+                    "7-8":{
+                        "up":36,
+                        "down":74
+                    },
+                    "8-9":{
+                        "up":20,
+                        "down":105
+                    }
                 }
             },
             {
@@ -10380,8 +15906,14 @@ var fullrate_data = {
                 "station2_code":22392,
                 "station2_name":"成田空港(鉄道)",
                 "full_rate":{
-                    "7-8":121,
-                    "8-9":170
+                    "7-8":{
+                        "up":65,
+                        "down":115
+                    },
+                    "8-9":{
+                        "up":71,
+                        "down":44
+                    }
                 }
             }
         ]
@@ -10396,8 +15928,14 @@ var fullrate_data = {
                 "station2_code":22741,
                 "station2_name":"新宿",
                 "full_rate":{
-                    "7-8":179,
-                    "8-9":106
+                    "7-8":{
+                        "up":177,
+                        "down":123
+                    },
+                    "8-9":{
+                        "up":127,
+                        "down":186
+                    }
                 }
             },
             {
@@ -10407,8 +15945,14 @@ var fullrate_data = {
                 "station2_code":22814,
                 "station2_name":"代田橋",
                 "full_rate":{
-                    "7-8":1,
-                    "8-9":170
+                    "7-8":{
+                        "up":112,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":19,
+                        "down":117
+                    }
                 }
             },
             {
@@ -10418,8 +15962,14 @@ var fullrate_data = {
                 "station2_code":23017,
                 "station2_name":"明大前",
                 "full_rate":{
-                    "7-8":38,
-                    "8-9":110
+                    "7-8":{
+                        "up":65,
+                        "down":176
+                    },
+                    "8-9":{
+                        "up":41,
+                        "down":196
+                    }
                 }
             },
             {
@@ -10429,8 +15979,14 @@ var fullrate_data = {
                 "station2_code":23017,
                 "station2_name":"明大前",
                 "full_rate":{
-                    "7-8":169,
-                    "8-9":190
+                    "7-8":{
+                        "up":9,
+                        "down":111
+                    },
+                    "8-9":{
+                        "up":183,
+                        "down":109
+                    }
                 }
             },
             {
@@ -10440,8 +15996,14 @@ var fullrate_data = {
                 "station2_code":22725,
                 "station2_name":"下高井戸",
                 "full_rate":{
-                    "7-8":93,
-                    "8-9":77
+                    "7-8":{
+                        "up":66,
+                        "down":102
+                    },
+                    "8-9":{
+                        "up":65,
+                        "down":186
+                    }
                 }
             },
             {
@@ -10451,8 +16013,14 @@ var fullrate_data = {
                 "station2_code":22696,
                 "station2_name":"桜上水",
                 "full_rate":{
-                    "7-8":50,
-                    "8-9":79
+                    "7-8":{
+                        "up":122,
+                        "down":147
+                    },
+                    "8-9":{
+                        "up":165,
+                        "down":164
+                    }
                 }
             },
             {
@@ -10462,8 +16030,14 @@ var fullrate_data = {
                 "station2_code":22906,
                 "station2_name":"八幡山",
                 "full_rate":{
-                    "7-8":71,
-                    "8-9":49
+                    "7-8":{
+                        "up":89,
+                        "down":151
+                    },
+                    "8-9":{
+                        "up":39,
+                        "down":152
+                    }
                 }
             },
             {
@@ -10473,8 +16047,14 @@ var fullrate_data = {
                 "station2_code":23050,
                 "station2_name":"芦花公園",
                 "full_rate":{
-                    "7-8":127,
-                    "8-9":151
+                    "7-8":{
+                        "up":102,
+                        "down":110
+                    },
+                    "8-9":{
+                        "up":28,
+                        "down":80
+                    }
                 }
             },
             {
@@ -10484,8 +16064,14 @@ var fullrate_data = {
                 "station2_code":23050,
                 "station2_name":"芦花公園",
                 "full_rate":{
-                    "7-8":42,
-                    "8-9":113
+                    "7-8":{
+                        "up":41,
+                        "down":142
+                    },
+                    "8-9":{
+                        "up":192,
+                        "down":105
+                    }
                 }
             },
             {
@@ -10495,8 +16081,14 @@ var fullrate_data = {
                 "station2_code":22817,
                 "station2_name":"千歳烏山",
                 "full_rate":{
-                    "7-8":129,
-                    "8-9":167
+                    "7-8":{
+                        "up":92,
+                        "down":170
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":9
+                    }
                 }
             },
             {
@@ -10506,8 +16098,14 @@ var fullrate_data = {
                 "station2_code":22823,
                 "station2_name":"つつじケ丘",
                 "full_rate":{
-                    "7-8":148,
-                    "8-9":165
+                    "7-8":{
+                        "up":86,
+                        "down":151
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":96
+                    }
                 }
             },
             {
@@ -10517,8 +16115,14 @@ var fullrate_data = {
                 "station2_code":22823,
                 "station2_name":"つつじケ丘",
                 "full_rate":{
-                    "7-8":36,
-                    "8-9":93
+                    "7-8":{
+                        "up":72,
+                        "down":58
+                    },
+                    "8-9":{
+                        "up":123,
+                        "down":98
+                    }
                 }
             },
             {
@@ -10528,8 +16132,14 @@ var fullrate_data = {
                 "station2_code":22713,
                 "station2_name":"柴崎",
                 "full_rate":{
-                    "7-8":184,
-                    "8-9":20
+                    "7-8":{
+                        "up":108,
+                        "down":161
+                    },
+                    "8-9":{
+                        "up":133,
+                        "down":43
+                    }
                 }
             },
             {
@@ -10539,8 +16149,14 @@ var fullrate_data = {
                 "station2_code":22960,
                 "station2_name":"布田",
                 "full_rate":{
-                    "7-8":95,
-                    "8-9":66
+                    "7-8":{
+                        "up":64,
+                        "down":48
+                    },
+                    "8-9":{
+                        "up":138,
+                        "down":58
+                    }
                 }
             },
             {
@@ -10550,8 +16166,14 @@ var fullrate_data = {
                 "station2_code":22960,
                 "station2_name":"布田",
                 "full_rate":{
-                    "7-8":126,
-                    "8-9":164
+                    "7-8":{
+                        "up":105,
+                        "down":57
+                    },
+                    "8-9":{
+                        "up":164,
+                        "down":11
+                    }
                 }
             },
             {
@@ -10561,8 +16183,14 @@ var fullrate_data = {
                 "station2_code":22879,
                 "station2_name":"西調布",
                 "full_rate":{
-                    "7-8":195,
-                    "8-9":89
+                    "7-8":{
+                        "up":164,
+                        "down":114
+                    },
+                    "8-9":{
+                        "up":190,
+                        "down":87
+                    }
                 }
             },
             {
@@ -10572,8 +16200,14 @@ var fullrate_data = {
                 "station2_code":22879,
                 "station2_name":"西調布",
                 "full_rate":{
-                    "7-8":49,
-                    "8-9":69
+                    "7-8":{
+                        "up":78,
+                        "down":85
+                    },
+                    "8-9":{
+                        "up":86,
+                        "down":63
+                    }
                 }
             },
             {
@@ -10583,8 +16217,14 @@ var fullrate_data = {
                 "station2_code":23012,
                 "station2_name":"武蔵野台",
                 "full_rate":{
-                    "7-8":20,
-                    "8-9":35
+                    "7-8":{
+                        "up":184,
+                        "down":67
+                    },
+                    "8-9":{
+                        "up":106,
+                        "down":24
+                    }
                 }
             },
             {
@@ -10594,8 +16234,14 @@ var fullrate_data = {
                 "station2_code":23012,
                 "station2_name":"武蔵野台",
                 "full_rate":{
-                    "7-8":4,
-                    "8-9":164
+                    "7-8":{
+                        "up":10,
+                        "down":6
+                    },
+                    "8-9":{
+                        "up":15,
+                        "down":45
+                    }
                 }
             },
             {
@@ -10605,8 +16251,14 @@ var fullrate_data = {
                 "station2_code":22941,
                 "station2_name":"東府中",
                 "full_rate":{
-                    "7-8":19,
-                    "8-9":73
+                    "7-8":{
+                        "up":105,
+                        "down":85
+                    },
+                    "8-9":{
+                        "up":188,
+                        "down":91
+                    }
                 }
             },
             {
@@ -10616,8 +16268,14 @@ var fullrate_data = {
                 "station2_code":22961,
                 "station2_name":"府中(東京都)",
                 "full_rate":{
-                    "7-8":20,
-                    "8-9":138
+                    "7-8":{
+                        "up":26,
+                        "down":82
+                    },
+                    "8-9":{
+                        "up":190,
+                        "down":131
+                    }
                 }
             },
             {
@@ -10627,8 +16285,14 @@ var fullrate_data = {
                 "station2_code":22966,
                 "station2_name":"分倍河原",
                 "full_rate":{
-                    "7-8":191,
-                    "8-9":79
+                    "7-8":{
+                        "up":94,
+                        "down":116
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":82
+                    }
                 }
             },
             {
@@ -10638,8 +16302,14 @@ var fullrate_data = {
                 "station2_code":22966,
                 "station2_name":"分倍河原",
                 "full_rate":{
-                    "7-8":105,
-                    "8-9":116
+                    "7-8":{
+                        "up":169,
+                        "down":40
+                    },
+                    "8-9":{
+                        "up":135,
+                        "down":50
+                    }
                 }
             },
             {
@@ -10649,8 +16319,14 @@ var fullrate_data = {
                 "station2_code":22848,
                 "station2_name":"中河原",
                 "full_rate":{
-                    "7-8":136,
-                    "8-9":175
+                    "7-8":{
+                        "up":32,
+                        "down":132
+                    },
+                    "8-9":{
+                        "up":37,
+                        "down":162
+                    }
                 }
             },
             {
@@ -10660,8 +16336,14 @@ var fullrate_data = {
                 "station2_code":23021,
                 "station2_name":"百草園",
                 "full_rate":{
-                    "7-8":71,
-                    "8-9":92
+                    "7-8":{
+                        "up":41,
+                        "down":0
+                    },
+                    "8-9":{
+                        "up":94,
+                        "down":32
+                    }
                 }
             },
             {
@@ -10671,19 +16353,14 @@ var fullrate_data = {
                 "station2_code":23021,
                 "station2_name":"百草園",
                 "full_rate":{
-                    "7-8":60,
-                    "8-9":140
-                }
-            },
-            {
-                "code":3020360,
-                "station1_code":22793,
-                "station1_name":"高幡不動",
-                "station2_code":22997,
-                "station2_name":"南平",
-                "full_rate":{
-                    "7-8":67,
-                    "8-9":138
+                    "7-8":{
+                        "up":82,
+                        "down":15
+                    },
+                    "8-9":{
+                        "up":85,
+                        "down":189
+                    }
                 }
             },
             {
@@ -10693,8 +16370,31 @@ var fullrate_data = {
                 "station2_code":22997,
                 "station2_name":"南平",
                 "full_rate":{
-                    "7-8":12,
-                    "8-9":35
+                    "7-8":{
+                        "up":58,
+                        "down":40
+                    },
+                    "8-9":{
+                        "up":59,
+                        "down":77
+                    }
+                }
+            },
+            {
+                "code":3020360,
+                "station1_code":22793,
+                "station1_name":"高幡不動",
+                "station2_code":22997,
+                "station2_name":"南平",
+                "full_rate":{
+                    "7-8":{
+                        "up":13,
+                        "down":46
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":138
+                    }
                 }
             },
             {
@@ -10704,8 +16404,14 @@ var fullrate_data = {
                 "station2_code":22953,
                 "station2_name":"平山城址公園",
                 "full_rate":{
-                    "7-8":97,
-                    "8-9":7
+                    "7-8":{
+                        "up":155,
+                        "down":147
+                    },
+                    "8-9":{
+                        "up":157,
+                        "down":136
+                    }
                 }
             },
             {
@@ -10715,8 +16421,14 @@ var fullrate_data = {
                 "station2_code":22857,
                 "station2_name":"長沼(東京都)",
                 "full_rate":{
-                    "7-8":28,
-                    "8-9":25
+                    "7-8":{
+                        "up":126,
+                        "down":180
+                    },
+                    "8-9":{
+                        "up":155,
+                        "down":109
+                    }
                 }
             },
             {
@@ -10726,8 +16438,14 @@ var fullrate_data = {
                 "station2_code":22657,
                 "station2_name":"京王八王子",
                 "full_rate":{
-                    "7-8":129,
-                    "8-9":93
+                    "7-8":{
+                        "up":186,
+                        "down":133
+                    },
+                    "8-9":{
+                        "up":60,
+                        "down":138
+                    }
                 }
             }
         ]
@@ -10742,8 +16460,14 @@ var fullrate_data = {
                 "station2_code":22907,
                 "station2_name":"初台",
                 "full_rate":{
-                    "7-8":110,
-                    "8-9":6
+                    "7-8":{
+                        "up":28,
+                        "down":68
+                    },
+                    "8-9":{
+                        "up":4,
+                        "down":155
+                    }
                 }
             },
             {
@@ -10753,8 +16477,14 @@ var fullrate_data = {
                 "station2_code":22907,
                 "station2_name":"初台",
                 "full_rate":{
-                    "7-8":185,
-                    "8-9":147
+                    "7-8":{
+                        "up":146,
+                        "down":142
+                    },
+                    "8-9":{
+                        "up":72,
+                        "down":149
+                    }
                 }
             },
             {
@@ -10764,8 +16494,14 @@ var fullrate_data = {
                 "station2_code":22903,
                 "station2_name":"幡ケ谷",
                 "full_rate":{
-                    "7-8":189,
-                    "8-9":89
+                    "7-8":{
+                        "up":145,
+                        "down":116
+                    },
+                    "8-9":{
+                        "up":2,
+                        "down":141
+                    }
                 }
             }
         ]
@@ -10780,8 +16516,14 @@ var fullrate_data = {
                 "station2_code":22816,
                 "station2_name":"調布",
                 "full_rate":{
-                    "7-8":131,
-                    "8-9":189
+                    "7-8":{
+                        "up":75,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":80,
+                        "down":144
+                    }
                 }
             },
             {
@@ -10791,8 +16533,14 @@ var fullrate_data = {
                 "station2_code":22654,
                 "station2_name":"京王多摩川",
                 "full_rate":{
-                    "7-8":83,
-                    "8-9":61
+                    "7-8":{
+                        "up":95,
+                        "down":118
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":14
+                    }
                 }
             },
             {
@@ -10802,8 +16550,14 @@ var fullrate_data = {
                 "station2_code":22659,
                 "station2_name":"京王よみうりランド",
                 "full_rate":{
-                    "7-8":165,
-                    "8-9":54
+                    "7-8":{
+                        "up":157,
+                        "down":143
+                    },
+                    "8-9":{
+                        "up":95,
+                        "down":139
+                    }
                 }
             },
             {
@@ -10813,8 +16567,14 @@ var fullrate_data = {
                 "station2_code":22659,
                 "station2_name":"京王よみうりランド",
                 "full_rate":{
-                    "7-8":99,
-                    "8-9":184
+                    "7-8":{
+                        "up":41,
+                        "down":155
+                    },
+                    "8-9":{
+                        "up":84,
+                        "down":58
+                    }
                 }
             },
             {
@@ -10824,8 +16584,14 @@ var fullrate_data = {
                 "station2_code":23372,
                 "station2_name":"若葉台",
                 "full_rate":{
-                    "7-8":193,
-                    "8-9":87
+                    "7-8":{
+                        "up":134,
+                        "down":94
+                    },
+                    "8-9":{
+                        "up":79,
+                        "down":154
+                    }
                 }
             },
             {
@@ -10835,8 +16601,14 @@ var fullrate_data = {
                 "station2_code":23372,
                 "station2_name":"若葉台",
                 "full_rate":{
-                    "7-8":40,
-                    "8-9":35
+                    "7-8":{
+                        "up":30,
+                        "down":125
+                    },
+                    "8-9":{
+                        "up":164,
+                        "down":147
+                    }
                 }
             },
             {
@@ -10846,8 +16618,14 @@ var fullrate_data = {
                 "station2_code":22656,
                 "station2_name":"京王永山",
                 "full_rate":{
-                    "7-8":103,
-                    "8-9":142
+                    "7-8":{
+                        "up":53,
+                        "down":177
+                    },
+                    "8-9":{
+                        "up":124,
+                        "down":151
+                    }
                 }
             },
             {
@@ -10857,8 +16635,14 @@ var fullrate_data = {
                 "station2_code":22658,
                 "station2_name":"京王堀之内",
                 "full_rate":{
-                    "7-8":26,
-                    "8-9":142
+                    "7-8":{
+                        "up":91,
+                        "down":13
+                    },
+                    "8-9":{
+                        "up":74,
+                        "down":52
+                    }
                 }
             },
             {
@@ -10868,8 +16652,14 @@ var fullrate_data = {
                 "station2_code":22992,
                 "station2_name":"南大沢",
                 "full_rate":{
-                    "7-8":121,
-                    "8-9":64
+                    "7-8":{
+                        "up":164,
+                        "down":61
+                    },
+                    "8-9":{
+                        "up":49,
+                        "down":54
+                    }
                 }
             },
             {
@@ -10879,8 +16669,14 @@ var fullrate_data = {
                 "station2_code":22992,
                 "station2_name":"南大沢",
                 "full_rate":{
-                    "7-8":67,
-                    "8-9":48
+                    "7-8":{
+                        "up":149,
+                        "down":46
+                    },
+                    "8-9":{
+                        "up":11,
+                        "down":24
+                    }
                 }
             },
             {
@@ -10890,8 +16686,14 @@ var fullrate_data = {
                 "station2_code":23281,
                 "station2_name":"橋本(神奈川県)",
                 "full_rate":{
-                    "7-8":10,
-                    "8-9":195
+                    "7-8":{
+                        "up":64,
+                        "down":95
+                    },
+                    "8-9":{
+                        "up":72,
+                        "down":26
+                    }
                 }
             }
         ]
@@ -10906,8 +16708,14 @@ var fullrate_data = {
                 "station2_code":22962,
                 "station2_name":"府中競馬正門前",
                 "full_rate":{
-                    "7-8":86,
-                    "8-9":135
+                    "7-8":{
+                        "up":91,
+                        "down":36
+                    },
+                    "8-9":{
+                        "up":155,
+                        "down":20
+                    }
                 }
             }
         ]
@@ -10922,8 +16730,14 @@ var fullrate_data = {
                 "station2_code":22808,
                 "station2_name":"多摩動物公園",
                 "full_rate":{
-                    "7-8":85,
-                    "8-9":67
+                    "7-8":{
+                        "up":93,
+                        "down":181
+                    },
+                    "8-9":{
+                        "up":101,
+                        "down":37
+                    }
                 }
             }
         ]
@@ -10932,14 +16746,37 @@ var fullrate_data = {
         "name":"京王高尾線",
         "sections":[
             {
+                "code":3070100,
+                "station1_code":22633,
+                "station1_name":"北野(東京都)",
+                "station2_code":22653,
+                "station2_name":"京王片倉",
+                "full_rate":{
+                    "7-8":{
+                        "up":56,
+                        "down":199
+                    },
+                    "8-9":{
+                        "up":176,
+                        "down":130
+                    }
+                }
+            },
+            {
                 "code":3070110,
                 "station1_code":22653,
                 "station1_name":"京王片倉",
                 "station2_code":23033,
                 "station2_name":"山田(東京都)",
                 "full_rate":{
-                    "7-8":45,
-                    "8-9":74
+                    "7-8":{
+                        "up":185,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":69,
+                        "down":89
+                    }
                 }
             },
             {
@@ -10949,19 +16786,14 @@ var fullrate_data = {
                 "station2_code":23033,
                 "station2_name":"山田(東京都)",
                 "full_rate":{
-                    "7-8":13,
-                    "8-9":82
-                }
-            },
-            {
-                "code":3070100,
-                "station1_code":22633,
-                "station1_name":"北野(東京都)",
-                "station2_code":22653,
-                "station2_name":"京王片倉",
-                "full_rate":{
-                    "7-8":30,
-                    "8-9":125
+                    "7-8":{
+                        "up":25,
+                        "down":114
+                    },
+                    "8-9":{
+                        "up":100,
+                        "down":1
+                    }
                 }
             },
             {
@@ -10971,19 +16803,14 @@ var fullrate_data = {
                 "station2_code":23020,
                 "station2_name":"めじろ台",
                 "full_rate":{
-                    "7-8":121,
-                    "8-9":28
-                }
-            },
-            {
-                "code":3070140,
-                "station1_code":22787,
-                "station1_name":"高尾(東京都)",
-                "station2_code":22900,
-                "station2_name":"狭間",
-                "full_rate":{
-                    "7-8":110,
-                    "8-9":186
+                    "7-8":{
+                        "up":187,
+                        "down":177
+                    },
+                    "8-9":{
+                        "up":70,
+                        "down":96
+                    }
                 }
             },
             {
@@ -10993,8 +16820,31 @@ var fullrate_data = {
                 "station2_code":22788,
                 "station2_name":"高尾山口",
                 "full_rate":{
-                    "7-8":126,
-                    "8-9":127
+                    "7-8":{
+                        "up":150,
+                        "down":68
+                    },
+                    "8-9":{
+                        "up":19,
+                        "down":160
+                    }
+                }
+            },
+            {
+                "code":3070140,
+                "station1_code":22787,
+                "station1_name":"高尾(東京都)",
+                "station2_code":22900,
+                "station2_name":"狭間",
+                "full_rate":{
+                    "7-8":{
+                        "up":86,
+                        "down":36
+                    },
+                    "8-9":{
+                        "up":103,
+                        "down":138
+                    }
                 }
             }
         ]
@@ -11009,8 +16859,14 @@ var fullrate_data = {
                 "station2_code":22745,
                 "station2_name":"神泉",
                 "full_rate":{
-                    "7-8":43,
-                    "8-9":134
+                    "7-8":{
+                        "up":102,
+                        "down":145
+                    },
+                    "8-9":{
+                        "up":157,
+                        "down":11
+                    }
                 }
             },
             {
@@ -11020,19 +16876,14 @@ var fullrate_data = {
                 "station2_code":22745,
                 "station2_name":"神泉",
                 "full_rate":{
-                    "7-8":141,
-                    "8-9":108
-                }
-            },
-            {
-                "code":3080120,
-                "station1_code":22512,
-                "station1_name":"池ノ上",
-                "station2_code":22685,
-                "station2_name":"駒場東大前",
-                "full_rate":{
-                    "7-8":137,
-                    "8-9":115
+                    "7-8":{
+                        "up":29,
+                        "down":117
+                    },
+                    "8-9":{
+                        "up":167,
+                        "down":173
+                    }
                 }
             },
             {
@@ -11042,8 +16893,31 @@ var fullrate_data = {
                 "station2_code":22723,
                 "station2_name":"下北沢",
                 "full_rate":{
-                    "7-8":111,
-                    "8-9":126
+                    "7-8":{
+                        "up":56,
+                        "down":40
+                    },
+                    "8-9":{
+                        "up":182,
+                        "down":179
+                    }
+                }
+            },
+            {
+                "code":3080120,
+                "station1_code":22512,
+                "station1_name":"池ノ上",
+                "station2_code":22685,
+                "station2_name":"駒場東大前",
+                "full_rate":{
+                    "7-8":{
+                        "up":143,
+                        "down":116
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":29
+                    }
                 }
             },
             {
@@ -11053,8 +16927,14 @@ var fullrate_data = {
                 "station2_code":22747,
                 "station2_name":"新代田",
                 "full_rate":{
-                    "7-8":12,
-                    "8-9":3
+                    "7-8":{
+                        "up":2,
+                        "down":39
+                    },
+                    "8-9":{
+                        "up":64,
+                        "down":71
+                    }
                 }
             },
             {
@@ -11064,8 +16944,14 @@ var fullrate_data = {
                 "station2_code":22942,
                 "station2_name":"東松原",
                 "full_rate":{
-                    "7-8":140,
-                    "8-9":93
+                    "7-8":{
+                        "up":107,
+                        "down":137
+                    },
+                    "8-9":{
+                        "up":97,
+                        "down":0
+                    }
                 }
             },
             {
@@ -11075,8 +16961,14 @@ var fullrate_data = {
                 "station2_code":23017,
                 "station2_name":"明大前",
                 "full_rate":{
-                    "7-8":43,
-                    "8-9":17
+                    "7-8":{
+                        "up":124,
+                        "down":8
+                    },
+                    "8-9":{
+                        "up":164,
+                        "down":86
+                    }
                 }
             },
             {
@@ -11086,8 +16978,14 @@ var fullrate_data = {
                 "station2_code":23017,
                 "station2_name":"明大前",
                 "full_rate":{
-                    "7-8":114,
-                    "8-9":57
+                    "7-8":{
+                        "up":31,
+                        "down":20
+                    },
+                    "8-9":{
+                        "up":172,
+                        "down":156
+                    }
                 }
             },
             {
@@ -11097,8 +16995,14 @@ var fullrate_data = {
                 "station2_code":22864,
                 "station2_name":"西永福",
                 "full_rate":{
-                    "7-8":133,
-                    "8-9":9
+                    "7-8":{
+                        "up":8,
+                        "down":79
+                    },
+                    "8-9":{
+                        "up":139,
+                        "down":129
+                    }
                 }
             },
             {
@@ -11108,8 +17012,14 @@ var fullrate_data = {
                 "station2_code":22912,
                 "station2_name":"浜田山",
                 "full_rate":{
-                    "7-8":164,
-                    "8-9":39
+                    "7-8":{
+                        "up":104,
+                        "down":31
+                    },
+                    "8-9":{
+                        "up":6,
+                        "down":18
+                    }
                 }
             },
             {
@@ -11119,8 +17029,14 @@ var fullrate_data = {
                 "station2_code":22912,
                 "station2_name":"浜田山",
                 "full_rate":{
-                    "7-8":51,
-                    "8-9":68
+                    "7-8":{
+                        "up":100,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":32,
+                        "down":108
+                    }
                 }
             },
             {
@@ -11130,8 +17046,14 @@ var fullrate_data = {
                 "station2_code":22956,
                 "station2_name":"富士見ケ丘",
                 "full_rate":{
-                    "7-8":9,
-                    "8-9":46
+                    "7-8":{
+                        "up":179,
+                        "down":114
+                    },
+                    "8-9":{
+                        "up":125,
+                        "down":184
+                    }
                 }
             },
             {
@@ -11141,8 +17063,14 @@ var fullrate_data = {
                 "station2_code":22956,
                 "station2_name":"富士見ケ丘",
                 "full_rate":{
-                    "7-8":29,
-                    "8-9":113
+                    "7-8":{
+                        "up":48,
+                        "down":174
+                    },
+                    "8-9":{
+                        "up":12,
+                        "down":140
+                    }
                 }
             },
             {
@@ -11152,19 +17080,14 @@ var fullrate_data = {
                 "station2_code":22987,
                 "station2_name":"三鷹台",
                 "full_rate":{
-                    "7-8":89,
-                    "8-9":73
-                }
-            },
-            {
-                "code":3080240,
-                "station1_code":22525,
-                "station1_name":"井の頭公園",
-                "station2_code":22987,
-                "station2_name":"三鷹台",
-                "full_rate":{
-                    "7-8":62,
-                    "8-9":6
+                    "7-8":{
+                        "up":54,
+                        "down":116
+                    },
+                    "8-9":{
+                        "up":122,
+                        "down":131
+                    }
                 }
             },
             {
@@ -11174,8 +17097,31 @@ var fullrate_data = {
                 "station2_code":22637,
                 "station2_name":"吉祥寺",
                 "full_rate":{
-                    "7-8":35,
-                    "8-9":25
+                    "7-8":{
+                        "up":149,
+                        "down":159
+                    },
+                    "8-9":{
+                        "up":13,
+                        "down":124
+                    }
+                }
+            },
+            {
+                "code":3080240,
+                "station1_code":22525,
+                "station1_name":"井の頭公園",
+                "station2_code":22987,
+                "station2_name":"三鷹台",
+                "full_rate":{
+                    "7-8":{
+                        "up":87,
+                        "down":31
+                    },
+                    "8-9":{
+                        "up":102,
+                        "down":190
+                    }
                 }
             }
         ]
@@ -11190,8 +17136,14 @@ var fullrate_data = {
                 "station2_code":22993,
                 "station2_name":"南新宿",
                 "full_rate":{
-                    "7-8":73,
-                    "8-9":69
+                    "7-8":{
+                        "up":57,
+                        "down":145
+                    },
+                    "8-9":{
+                        "up":43,
+                        "down":89
+                    }
                 }
             },
             {
@@ -11201,8 +17153,14 @@ var fullrate_data = {
                 "station2_code":22993,
                 "station2_name":"南新宿",
                 "full_rate":{
-                    "7-8":34,
-                    "8-9":188
+                    "7-8":{
+                        "up":159,
+                        "down":133
+                    },
+                    "8-9":{
+                        "up":33,
+                        "down":108
+                    }
                 }
             },
             {
@@ -11212,8 +17170,14 @@ var fullrate_data = {
                 "station2_code":23046,
                 "station2_name":"代々木八幡",
                 "full_rate":{
-                    "7-8":148,
-                    "8-9":17
+                    "7-8":{
+                        "up":57,
+                        "down":187
+                    },
+                    "8-9":{
+                        "up":161,
+                        "down":96
+                    }
                 }
             },
             {
@@ -11223,8 +17187,14 @@ var fullrate_data = {
                 "station2_code":23046,
                 "station2_name":"代々木八幡",
                 "full_rate":{
-                    "7-8":128,
-                    "8-9":16
+                    "7-8":{
+                        "up":30,
+                        "down":71
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":6
+                    }
                 }
             },
             {
@@ -11234,8 +17204,14 @@ var fullrate_data = {
                 "station2_code":23044,
                 "station2_name":"代々木上原",
                 "full_rate":{
-                    "7-8":93,
-                    "8-9":79
+                    "7-8":{
+                        "up":14,
+                        "down":41
+                    },
+                    "8-9":{
+                        "up":105,
+                        "down":139
+                    }
                 }
             },
             {
@@ -11245,19 +17221,14 @@ var fullrate_data = {
                 "station2_code":22929,
                 "station2_name":"東北沢",
                 "full_rate":{
-                    "7-8":2,
-                    "8-9":149
-                }
-            },
-            {
-                "code":3090160,
-                "station1_code":22723,
-                "station1_name":"下北沢",
-                "station2_code":22773,
-                "station2_name":"世田谷代田",
-                "full_rate":{
-                    "7-8":102,
-                    "8-9":70
+                    "7-8":{
+                        "up":31,
+                        "down":133
+                    },
+                    "8-9":{
+                        "up":7,
+                        "down":164
+                    }
                 }
             },
             {
@@ -11267,8 +17238,31 @@ var fullrate_data = {
                 "station2_code":22773,
                 "station2_name":"世田谷代田",
                 "full_rate":{
-                    "7-8":199,
-                    "8-9":42
+                    "7-8":{
+                        "up":48,
+                        "down":155
+                    },
+                    "8-9":{
+                        "up":37,
+                        "down":193
+                    }
+                }
+            },
+            {
+                "code":3090160,
+                "station1_code":22723,
+                "station1_name":"下北沢",
+                "station2_code":22773,
+                "station2_name":"世田谷代田",
+                "full_rate":{
+                    "7-8":{
+                        "up":172,
+                        "down":35
+                    },
+                    "8-9":{
+                        "up":4,
+                        "down":26
+                    }
                 }
             },
             {
@@ -11278,8 +17272,14 @@ var fullrate_data = {
                 "station2_code":22689,
                 "station2_name":"豪徳寺",
                 "full_rate":{
-                    "7-8":107,
-                    "8-9":33
+                    "7-8":{
+                        "up":168,
+                        "down":6
+                    },
+                    "8-9":{
+                        "up":188,
+                        "down":154
+                    }
                 }
             },
             {
@@ -11289,8 +17289,14 @@ var fullrate_data = {
                 "station2_code":22689,
                 "station2_name":"豪徳寺",
                 "full_rate":{
-                    "7-8":138,
-                    "8-9":28
+                    "7-8":{
+                        "up":166,
+                        "down":174
+                    },
+                    "8-9":{
+                        "up":67,
+                        "down":126
+                    }
                 }
             },
             {
@@ -11300,8 +17306,14 @@ var fullrate_data = {
                 "station2_code":22818,
                 "station2_name":"千歳船橋",
                 "full_rate":{
-                    "7-8":29,
-                    "8-9":192
+                    "7-8":{
+                        "up":197,
+                        "down":70
+                    },
+                    "8-9":{
+                        "up":92,
+                        "down":99
+                    }
                 }
             },
             {
@@ -11311,8 +17323,14 @@ var fullrate_data = {
                 "station2_code":22818,
                 "station2_name":"千歳船橋",
                 "full_rate":{
-                    "7-8":188,
-                    "8-9":179
+                    "7-8":{
+                        "up":109,
+                        "down":56
+                    },
+                    "8-9":{
+                        "up":7,
+                        "down":185
+                    }
                 }
             },
             {
@@ -11322,8 +17340,14 @@ var fullrate_data = {
                 "station2_code":22783,
                 "station2_name":"祖師ケ谷大蔵",
                 "full_rate":{
-                    "7-8":133,
-                    "8-9":177
+                    "7-8":{
+                        "up":58,
+                        "down":71
+                    },
+                    "8-9":{
+                        "up":144,
+                        "down":142
+                    }
                 }
             },
             {
@@ -11333,8 +17357,14 @@ var fullrate_data = {
                 "station2_code":22764,
                 "station2_name":"成城学園前",
                 "full_rate":{
-                    "7-8":184,
-                    "8-9":79
+                    "7-8":{
+                        "up":192,
+                        "down":154
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":12
+                    }
                 }
             },
             {
@@ -11344,8 +17374,14 @@ var fullrate_data = {
                 "station2_code":22682,
                 "station2_name":"狛江",
                 "full_rate":{
-                    "7-8":183,
-                    "8-9":135
+                    "7-8":{
+                        "up":107,
+                        "down":152
+                    },
+                    "8-9":{
+                        "up":9,
+                        "down":171
+                    }
                 }
             },
             {
@@ -11355,8 +17391,14 @@ var fullrate_data = {
                 "station2_code":22682,
                 "station2_name":"狛江",
                 "full_rate":{
-                    "7-8":84,
-                    "8-9":190
+                    "7-8":{
+                        "up":60,
+                        "down":106
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":138
+                    }
                 }
             },
             {
@@ -11366,8 +17408,14 @@ var fullrate_data = {
                 "station2_code":23275,
                 "station2_name":"登戸",
                 "full_rate":{
-                    "7-8":168,
-                    "8-9":190
+                    "7-8":{
+                        "up":81,
+                        "down":170
+                    },
+                    "8-9":{
+                        "up":83,
+                        "down":199
+                    }
                 }
             },
             {
@@ -11377,8 +17425,14 @@ var fullrate_data = {
                 "station2_code":23344,
                 "station2_name":"向ケ丘遊園",
                 "full_rate":{
-                    "7-8":9,
-                    "8-9":176
+                    "7-8":{
+                        "up":46,
+                        "down":91
+                    },
+                    "8-9":{
+                        "up":65,
+                        "down":148
+                    }
                 }
             },
             {
@@ -11388,19 +17442,14 @@ var fullrate_data = {
                 "station2_code":23344,
                 "station2_name":"向ケ丘遊園",
                 "full_rate":{
-                    "7-8":69,
-                    "8-9":135
-                }
-            },
-            {
-                "code":3090300,
-                "station1_code":23364,
-                "station1_name":"百合ケ丘",
-                "station2_code":23370,
-                "station2_name":"読売ランド前",
-                "full_rate":{
-                    "7-8":154,
-                    "8-9":15
+                    "7-8":{
+                        "up":171,
+                        "down":124
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":102
+                    }
                 }
             },
             {
@@ -11410,8 +17459,31 @@ var fullrate_data = {
                 "station2_code":23370,
                 "station2_name":"読売ランド前",
                 "full_rate":{
-                    "7-8":27,
-                    "8-9":81
+                    "7-8":{
+                        "up":123,
+                        "down":33
+                    },
+                    "8-9":{
+                        "up":107,
+                        "down":90
+                    }
+                }
+            },
+            {
+                "code":3090300,
+                "station1_code":23364,
+                "station1_name":"百合ケ丘",
+                "station2_code":23370,
+                "station2_name":"読売ランド前",
+                "full_rate":{
+                    "7-8":{
+                        "up":11,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":66,
+                        "down":44
+                    }
                 }
             },
             {
@@ -11421,19 +17493,14 @@ var fullrate_data = {
                 "station2_code":23364,
                 "station2_name":"百合ケ丘",
                 "full_rate":{
-                    "7-8":136,
-                    "8-9":61
-                }
-            },
-            {
-                "code":3090330,
-                "station1_code":23101,
-                "station1_name":"柿生",
-                "station2_code":22824,
-                "station2_name":"鶴川",
-                "full_rate":{
-                    "7-8":194,
-                    "8-9":12
+                    "7-8":{
+                        "up":84,
+                        "down":155
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":126
+                    }
                 }
             },
             {
@@ -11443,8 +17510,31 @@ var fullrate_data = {
                 "station2_code":23211,
                 "station2_name":"新百合ケ丘",
                 "full_rate":{
-                    "7-8":161,
-                    "8-9":196
+                    "7-8":{
+                        "up":31,
+                        "down":163
+                    },
+                    "8-9":{
+                        "up":113,
+                        "down":41
+                    }
+                }
+            },
+            {
+                "code":3090330,
+                "station1_code":23101,
+                "station1_name":"柿生",
+                "station2_code":22824,
+                "station2_name":"鶴川",
+                "full_rate":{
+                    "7-8":{
+                        "up":149,
+                        "down":181
+                    },
+                    "8-9":{
+                        "up":72,
+                        "down":73
+                    }
                 }
             },
             {
@@ -11454,8 +17544,14 @@ var fullrate_data = {
                 "station2_code":22824,
                 "station2_name":"鶴川",
                 "full_rate":{
-                    "7-8":96,
-                    "8-9":64
+                    "7-8":{
+                        "up":75,
+                        "down":93
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":136
+                    }
                 }
             },
             {
@@ -11465,30 +17561,14 @@ var fullrate_data = {
                 "station2_code":22976,
                 "station2_name":"町田",
                 "full_rate":{
-                    "7-8":64,
-                    "8-9":59
-                }
-            },
-            {
-                "code":3090360,
-                "station1_code":23172,
-                "station1_name":"相模大野",
-                "station2_code":22976,
-                "station2_name":"町田",
-                "full_rate":{
-                    "7-8":60,
-                    "8-9":146
-                }
-            },
-            {
-                "code":3090370,
-                "station1_code":23097,
-                "station1_name":"小田急相模原",
-                "station2_code":23172,
-                "station2_name":"相模大野",
-                "full_rate":{
-                    "7-8":35,
-                    "8-9":69
+                    "7-8":{
+                        "up":100,
+                        "down":129
+                    },
+                    "8-9":{
+                        "up":88,
+                        "down":24
+                    }
                 }
             },
             {
@@ -11498,8 +17578,48 @@ var fullrate_data = {
                 "station2_code":23223,
                 "station2_name":"相武台前",
                 "full_rate":{
-                    "7-8":157,
-                    "8-9":28
+                    "7-8":{
+                        "up":152,
+                        "down":154
+                    },
+                    "8-9":{
+                        "up":65,
+                        "down":20
+                    }
+                }
+            },
+            {
+                "code":3090360,
+                "station1_code":23172,
+                "station1_name":"相模大野",
+                "station2_code":22976,
+                "station2_name":"町田",
+                "full_rate":{
+                    "7-8":{
+                        "up":87,
+                        "down":26
+                    },
+                    "8-9":{
+                        "up":77,
+                        "down":133
+                    }
+                }
+            },
+            {
+                "code":3090370,
+                "station1_code":23097,
+                "station1_name":"小田急相模原",
+                "station2_code":23172,
+                "station2_name":"相模大野",
+                "full_rate":{
+                    "7-8":{
+                        "up":60,
+                        "down":7
+                    },
+                    "8-9":{
+                        "up":28,
+                        "down":118
+                    }
                 }
             },
             {
@@ -11509,19 +17629,14 @@ var fullrate_data = {
                 "station2_code":23223,
                 "station2_name":"相武台前",
                 "full_rate":{
-                    "7-8":171,
-                    "8-9":63
-                }
-            },
-            {
-                "code":3090420,
-                "station1_code":23060,
-                "station1_name":"厚木",
-                "station2_code":23318,
-                "station2_name":"本厚木",
-                "full_rate":{
-                    "7-8":142,
-                    "8-9":88
+                    "7-8":{
+                        "up":139,
+                        "down":24
+                    },
+                    "8-9":{
+                        "up":21,
+                        "down":69
+                    }
                 }
             },
             {
@@ -11531,8 +17646,31 @@ var fullrate_data = {
                 "station2_code":23318,
                 "station2_name":"本厚木",
                 "full_rate":{
-                    "7-8":127,
-                    "8-9":57
+                    "7-8":{
+                        "up":61,
+                        "down":175
+                    },
+                    "8-9":{
+                        "up":161,
+                        "down":0
+                    }
+                }
+            },
+            {
+                "code":3090420,
+                "station1_code":23060,
+                "station1_name":"厚木",
+                "station2_code":23318,
+                "station2_name":"本厚木",
+                "full_rate":{
+                    "7-8":{
+                        "up":174,
+                        "down":88
+                    },
+                    "8-9":{
+                        "up":199,
+                        "down":139
+                    }
                 }
             },
             {
@@ -11542,8 +17680,14 @@ var fullrate_data = {
                 "station2_code":23072,
                 "station2_name":"伊勢原",
                 "full_rate":{
-                    "7-8":69,
-                    "8-9":58
+                    "7-8":{
+                        "up":85,
+                        "down":7
+                    },
+                    "8-9":{
+                        "up":78,
+                        "down":170
+                    }
                 }
             },
             {
@@ -11553,19 +17697,14 @@ var fullrate_data = {
                 "station2_code":23243,
                 "station2_name":"鶴巻温泉",
                 "full_rate":{
-                    "7-8":70,
-                    "8-9":199
-                }
-            },
-            {
-                "code":3090460,
-                "station1_code":23243,
-                "station1_name":"鶴巻温泉",
-                "station2_code":23248,
-                "station2_name":"東海大学前",
-                "full_rate":{
-                    "7-8":29,
-                    "8-9":36
+                    "7-8":{
+                        "up":6,
+                        "down":55
+                    },
+                    "8-9":{
+                        "up":141,
+                        "down":90
+                    }
                 }
             },
             {
@@ -11575,8 +17714,31 @@ var fullrate_data = {
                 "station2_code":23283,
                 "station2_name":"秦野",
                 "full_rate":{
-                    "7-8":3,
-                    "8-9":91
+                    "7-8":{
+                        "up":134,
+                        "down":160
+                    },
+                    "8-9":{
+                        "up":162,
+                        "down":79
+                    }
+                }
+            },
+            {
+                "code":3090460,
+                "station1_code":23243,
+                "station1_name":"鶴巻温泉",
+                "station2_code":23248,
+                "station2_name":"東海大学前",
+                "full_rate":{
+                    "7-8":{
+                        "up":159,
+                        "down":70
+                    },
+                    "8-9":{
+                        "up":183,
+                        "down":181
+                    }
                 }
             },
             {
@@ -11586,8 +17748,14 @@ var fullrate_data = {
                 "station2_code":23283,
                 "station2_name":"秦野",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":108
+                    "7-8":{
+                        "up":166,
+                        "down":164
+                    },
+                    "8-9":{
+                        "up":91,
+                        "down":158
+                    }
                 }
             },
             {
@@ -11597,30 +17765,14 @@ var fullrate_data = {
                 "station2_code":23209,
                 "station2_name":"新松田",
                 "full_rate":{
-                    "7-8":182,
-                    "8-9":49
-                }
-            },
-            {
-                "code":3090510,
-                "station1_code":23099,
-                "station1_name":"開成",
-                "station2_code":23125,
-                "station2_name":"栢山",
-                "full_rate":{
-                    "7-8":146,
-                    "8-9":157
-                }
-            },
-            {
-                "code":3090530,
-                "station1_code":23253,
-                "station1_name":"富水",
-                "station2_code":23315,
-                "station2_name":"螢田",
-                "full_rate":{
-                    "7-8":10,
-                    "8-9":125
+                    "7-8":{
+                        "up":130,
+                        "down":65
+                    },
+                    "8-9":{
+                        "up":96,
+                        "down":11
+                    }
                 }
             },
             {
@@ -11630,8 +17782,14 @@ var fullrate_data = {
                 "station2_code":23209,
                 "station2_name":"新松田",
                 "full_rate":{
-                    "7-8":67,
-                    "8-9":6
+                    "7-8":{
+                        "up":177,
+                        "down":10
+                    },
+                    "8-9":{
+                        "up":43,
+                        "down":186
+                    }
                 }
             },
             {
@@ -11641,19 +17799,14 @@ var fullrate_data = {
                 "station2_code":23253,
                 "station2_name":"富水",
                 "full_rate":{
-                    "7-8":170,
-                    "8-9":127
-                }
-            },
-            {
-                "code":3090540,
-                "station1_code":23059,
-                "station1_name":"足柄(神奈川県)",
-                "station2_code":23315,
-                "station2_name":"螢田",
-                "full_rate":{
-                    "7-8":30,
-                    "8-9":55
+                    "7-8":{
+                        "up":28,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":43,
+                        "down":56
+                    }
                 }
             },
             {
@@ -11663,8 +17816,65 @@ var fullrate_data = {
                 "station2_code":23098,
                 "station2_name":"小田原",
                 "full_rate":{
-                    "7-8":0,
-                    "8-9":95
+                    "7-8":{
+                        "up":95,
+                        "down":195
+                    },
+                    "8-9":{
+                        "up":12,
+                        "down":62
+                    }
+                }
+            },
+            {
+                "code":3090510,
+                "station1_code":23099,
+                "station1_name":"開成",
+                "station2_code":23125,
+                "station2_name":"栢山",
+                "full_rate":{
+                    "7-8":{
+                        "up":155,
+                        "down":181
+                    },
+                    "8-9":{
+                        "up":109,
+                        "down":44
+                    }
+                }
+            },
+            {
+                "code":3090540,
+                "station1_code":23059,
+                "station1_name":"足柄(神奈川県)",
+                "station2_code":23315,
+                "station2_name":"螢田",
+                "full_rate":{
+                    "7-8":{
+                        "up":152,
+                        "down":2
+                    },
+                    "8-9":{
+                        "up":146,
+                        "down":184
+                    }
+                }
+            },
+            {
+                "code":3090530,
+                "station1_code":23253,
+                "station1_name":"富水",
+                "station2_code":23315,
+                "station2_name":"螢田",
+                "full_rate":{
+                    "7-8":{
+                        "up":50,
+                        "down":138
+                    },
+                    "8-9":{
+                        "up":48,
+                        "down":11
+                    }
                 }
             }
         ]
@@ -11679,8 +17889,14 @@ var fullrate_data = {
                 "station2_code":23211,
                 "station2_name":"新百合ケ丘",
                 "full_rate":{
-                    "7-8":40,
-                    "8-9":42
+                    "7-8":{
+                        "up":31,
+                        "down":22
+                    },
+                    "8-9":{
+                        "up":167,
+                        "down":11
+                    }
                 }
             },
             {
@@ -11690,8 +17906,14 @@ var fullrate_data = {
                 "station2_code":23182,
                 "station2_name":"五月台",
                 "full_rate":{
-                    "7-8":81,
-                    "8-9":186
+                    "7-8":{
+                        "up":72,
+                        "down":28
+                    },
+                    "8-9":{
+                        "up":163,
+                        "down":196
+                    }
                 }
             },
             {
@@ -11701,8 +17923,14 @@ var fullrate_data = {
                 "station2_code":23143,
                 "station2_name":"黒川(神奈川県)",
                 "full_rate":{
-                    "7-8":135,
-                    "8-9":61
+                    "7-8":{
+                        "up":135,
+                        "down":121
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":130
+                    }
                 }
             },
             {
@@ -11712,8 +17940,14 @@ var fullrate_data = {
                 "station2_code":29505,
                 "station2_name":"はるひ野",
                 "full_rate":{
-                    "7-8":172,
-                    "8-9":74
+                    "7-8":{
+                        "up":179,
+                        "down":138
+                    },
+                    "8-9":{
+                        "up":159,
+                        "down":104
+                    }
                 }
             },
             {
@@ -11723,8 +17957,14 @@ var fullrate_data = {
                 "station2_code":29505,
                 "station2_name":"はるひ野",
                 "full_rate":{
-                    "7-8":183,
-                    "8-9":198
+                    "7-8":{
+                        "up":34,
+                        "down":37
+                    },
+                    "8-9":{
+                        "up":173,
+                        "down":122
+                    }
                 }
             },
             {
@@ -11734,8 +17974,14 @@ var fullrate_data = {
                 "station2_code":22581,
                 "station2_name":"小田急永山",
                 "full_rate":{
-                    "7-8":177,
-                    "8-9":30
+                    "7-8":{
+                        "up":36,
+                        "down":140
+                    },
+                    "8-9":{
+                        "up":39,
+                        "down":106
+                    }
                 }
             },
             {
@@ -11745,8 +17991,14 @@ var fullrate_data = {
                 "station2_code":22615,
                 "station2_name":"唐木田",
                 "full_rate":{
-                    "7-8":177,
-                    "8-9":1
+                    "7-8":{
+                        "up":5,
+                        "down":110
+                    },
+                    "8-9":{
+                        "up":195,
+                        "down":120
+                    }
                 }
             }
         ]
@@ -11761,8 +18013,14 @@ var fullrate_data = {
                 "station2_code":22812,
                 "station2_name":"代官山",
                 "full_rate":{
-                    "7-8":199,
-                    "8-9":102
+                    "7-8":{
+                        "up":48,
+                        "down":167
+                    },
+                    "8-9":{
+                        "up":125,
+                        "down":97
+                    }
                 }
             },
             {
@@ -11772,19 +18030,14 @@ var fullrate_data = {
                 "station2_code":22855,
                 "station2_name":"中目黒",
                 "full_rate":{
-                    "7-8":2,
-                    "8-9":30
-                }
-            },
-            {
-                "code":3140120,
-                "station1_code":22855,
-                "station1_name":"中目黒",
-                "station2_code":23035,
-                "station2_name":"祐天寺",
-                "full_rate":{
-                    "7-8":19,
-                    "8-9":24
+                    "7-8":{
+                        "up":157,
+                        "down":180
+                    },
+                    "8-9":{
+                        "up":85,
+                        "down":53
+                    }
                 }
             },
             {
@@ -11794,8 +18047,31 @@ var fullrate_data = {
                 "station2_code":23035,
                 "station2_name":"祐天寺",
                 "full_rate":{
-                    "7-8":83,
-                    "8-9":68
+                    "7-8":{
+                        "up":133,
+                        "down":8
+                    },
+                    "8-9":{
+                        "up":147,
+                        "down":76
+                    }
+                }
+            },
+            {
+                "code":3140120,
+                "station1_code":22855,
+                "station1_name":"中目黒",
+                "station2_code":23035,
+                "station2_name":"祐天寺",
+                "full_rate":{
+                    "7-8":{
+                        "up":137,
+                        "down":191
+                    },
+                    "8-9":{
+                        "up":191,
+                        "down":139
+                    }
                 }
             },
             {
@@ -11805,8 +18081,14 @@ var fullrate_data = {
                 "station2_code":22843,
                 "station2_name":"都立大学",
                 "full_rate":{
-                    "7-8":135,
-                    "8-9":106
+                    "7-8":{
+                        "up":185,
+                        "down":192
+                    },
+                    "8-9":{
+                        "up":113,
+                        "down":176
+                    }
                 }
             },
             {
@@ -11816,8 +18098,14 @@ var fullrate_data = {
                 "station2_code":22843,
                 "station2_name":"都立大学",
                 "full_rate":{
-                    "7-8":83,
-                    "8-9":46
+                    "7-8":{
+                        "up":27,
+                        "down":80
+                    },
+                    "8-9":{
+                        "up":55,
+                        "down":6
+                    }
                 }
             },
             {
@@ -11827,63 +18115,14 @@ var fullrate_data = {
                 "station2_code":22826,
                 "station2_name":"田園調布",
                 "full_rate":{
-                    "7-8":171,
-                    "8-9":126
-                }
-            },
-            {
-                "code":3140170,
-                "station1_code":22803,
-                "station1_name":"多摩川",
-                "station2_code":22826,
-                "station2_name":"田園調布",
-                "full_rate":{
-                    "7-8":106,
-                    "8-9":158
-                }
-            },
-            {
-                "code":3140180,
-                "station1_code":23210,
-                "station1_name":"新丸子",
-                "station2_code":22803,
-                "station2_name":"多摩川",
-                "full_rate":{
-                    "7-8":171,
-                    "8-9":80
-                }
-            },
-            {
-                "code":3140190,
-                "station1_code":23210,
-                "station1_name":"新丸子",
-                "station2_code":23345,
-                "station2_name":"武蔵小杉",
-                "full_rate":{
-                    "7-8":149,
-                    "8-9":81
-                }
-            },
-            {
-                "code":3140200,
-                "station1_code":23345,
-                "station1_name":"武蔵小杉",
-                "station2_code":23353,
-                "station2_name":"元住吉",
-                "full_rate":{
-                    "7-8":23,
-                    "8-9":52
-                }
-            },
-            {
-                "code":3140210,
-                "station1_code":23297,
-                "station1_name":"日吉(神奈川県)",
-                "station2_code":23353,
-                "station2_name":"元住吉",
-                "full_rate":{
-                    "7-8":65,
-                    "8-9":148
+                    "7-8":{
+                        "up":29,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":81,
+                        "down":97
+                    }
                 }
             },
             {
@@ -11893,8 +18132,65 @@ var fullrate_data = {
                 "station2_code":23297,
                 "station2_name":"日吉(神奈川県)",
                 "full_rate":{
-                    "7-8":35,
-                    "8-9":131
+                    "7-8":{
+                        "up":1,
+                        "down":80
+                    },
+                    "8-9":{
+                        "up":101,
+                        "down":180
+                    }
+                }
+            },
+            {
+                "code":3140170,
+                "station1_code":22803,
+                "station1_name":"多摩川",
+                "station2_code":22826,
+                "station2_name":"田園調布",
+                "full_rate":{
+                    "7-8":{
+                        "up":151,
+                        "down":27
+                    },
+                    "8-9":{
+                        "up":133,
+                        "down":54
+                    }
+                }
+            },
+            {
+                "code":3140180,
+                "station1_code":23210,
+                "station1_name":"新丸子",
+                "station2_code":22803,
+                "station2_name":"多摩川",
+                "full_rate":{
+                    "7-8":{
+                        "up":75,
+                        "down":188
+                    },
+                    "8-9":{
+                        "up":188,
+                        "down":99
+                    }
+                }
+            },
+            {
+                "code":3140190,
+                "station1_code":23210,
+                "station1_name":"新丸子",
+                "station2_code":23345,
+                "station2_name":"武蔵小杉",
+                "full_rate":{
+                    "7-8":{
+                        "up":24,
+                        "down":197
+                    },
+                    "8-9":{
+                        "up":155,
+                        "down":34
+                    }
                 }
             },
             {
@@ -11904,8 +18200,31 @@ var fullrate_data = {
                 "station2_code":23240,
                 "station2_name":"綱島",
                 "full_rate":{
-                    "7-8":179,
-                    "8-9":9
+                    "7-8":{
+                        "up":190,
+                        "down":164
+                    },
+                    "8-9":{
+                        "up":123,
+                        "down":107
+                    }
+                }
+            },
+            {
+                "code":3140200,
+                "station1_code":23345,
+                "station1_name":"武蔵小杉",
+                "station2_code":23353,
+                "station2_name":"元住吉",
+                "full_rate":{
+                    "7-8":{
+                        "up":170,
+                        "down":107
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":86
+                    }
                 }
             },
             {
@@ -11915,8 +18234,31 @@ var fullrate_data = {
                 "station2_code":23130,
                 "station2_name":"菊名",
                 "full_rate":{
-                    "7-8":101,
-                    "8-9":153
+                    "7-8":{
+                        "up":26,
+                        "down":59
+                    },
+                    "8-9":{
+                        "up":13,
+                        "down":165
+                    }
+                }
+            },
+            {
+                "code":3140210,
+                "station1_code":23297,
+                "station1_name":"日吉(神奈川県)",
+                "station2_code":23353,
+                "station2_name":"元住吉",
+                "full_rate":{
+                    "7-8":{
+                        "up":81,
+                        "down":76
+                    },
+                    "8-9":{
+                        "up":178,
+                        "down":167
+                    }
                 }
             },
             {
@@ -11926,8 +18268,14 @@ var fullrate_data = {
                 "station2_code":23342,
                 "station2_name":"妙蓮寺",
                 "full_rate":{
-                    "7-8":13,
-                    "8-9":68
+                    "7-8":{
+                        "up":120,
+                        "down":57
+                    },
+                    "8-9":{
+                        "up":143,
+                        "down":64
+                    }
                 }
             },
             {
@@ -11937,19 +18285,14 @@ var fullrate_data = {
                 "station2_code":23342,
                 "station2_name":"妙蓮寺",
                 "full_rate":{
-                    "7-8":46,
-                    "8-9":143
-                }
-            },
-            {
-                "code":3140270,
-                "station1_code":23278,
-                "station1_name":"白楽",
-                "station2_code":23292,
-                "station2_name":"東白楽",
-                "full_rate":{
-                    "7-8":22,
-                    "8-9":15
+                    "7-8":{
+                        "up":86,
+                        "down":5
+                    },
+                    "8-9":{
+                        "up":59,
+                        "down":16
+                    }
                 }
             },
             {
@@ -11959,8 +18302,14 @@ var fullrate_data = {
                 "station2_code":23292,
                 "station2_name":"東白楽",
                 "full_rate":{
-                    "7-8":65,
-                    "8-9":122
+                    "7-8":{
+                        "up":164,
+                        "down":151
+                    },
+                    "8-9":{
+                        "up":194,
+                        "down":27
+                    }
                 }
             },
             {
@@ -11970,8 +18319,31 @@ var fullrate_data = {
                 "station2_code":23368,
                 "station2_name":"横浜",
                 "full_rate":{
-                    "7-8":151,
-                    "8-9":42
+                    "7-8":{
+                        "up":118,
+                        "down":51
+                    },
+                    "8-9":{
+                        "up":126,
+                        "down":51
+                    }
+                }
+            },
+            {
+                "code":3140270,
+                "station1_code":23278,
+                "station1_name":"白楽",
+                "station2_code":23292,
+                "station2_name":"東白楽",
+                "full_rate":{
+                    "7-8":{
+                        "up":184,
+                        "down":199
+                    },
+                    "8-9":{
+                        "up":81,
+                        "down":161
+                    }
                 }
             }
         ]
@@ -11980,69 +18352,20 @@ var fullrate_data = {
         "name":"東急目黒線",
         "sections":[
             {
-                "code":3150170,
-                "station1_code":22803,
-                "station1_name":"多摩川",
-                "station2_code":22826,
-                "station2_name":"田園調布",
-                "full_rate":{
-                    "7-8":87,
-                    "8-9":86
-                }
-            },
-            {
-                "code":3150180,
-                "station1_code":23210,
-                "station1_name":"新丸子",
-                "station2_code":22803,
-                "station2_name":"多摩川",
-                "full_rate":{
-                    "7-8":81,
-                    "8-9":120
-                }
-            },
-            {
-                "code":3150190,
-                "station1_code":23210,
-                "station1_name":"新丸子",
-                "station2_code":23345,
-                "station2_name":"武蔵小杉",
-                "full_rate":{
-                    "7-8":151,
-                    "8-9":184
-                }
-            },
-            {
                 "code":3150100,
                 "station1_code":22964,
                 "station1_name":"不動前",
                 "station2_code":23018,
                 "station2_name":"目黒",
                 "full_rate":{
-                    "7-8":163,
-                    "8-9":106
-                }
-            },
-            {
-                "code":3150200,
-                "station1_code":23345,
-                "station1_name":"武蔵小杉",
-                "station2_code":23353,
-                "station2_name":"元住吉",
-                "full_rate":{
-                    "7-8":187,
-                    "8-9":84
-                }
-            },
-            {
-                "code":3150110,
-                "station1_code":22964,
-                "station1_name":"不動前",
-                "station2_code":23007,
-                "station2_name":"武蔵小山",
-                "full_rate":{
-                    "7-8":189,
-                    "8-9":139
+                    "7-8":{
+                        "up":159,
+                        "down":132
+                    },
+                    "8-9":{
+                        "up":121,
+                        "down":137
+                    }
                 }
             },
             {
@@ -12052,8 +18375,14 @@ var fullrate_data = {
                 "station2_code":23007,
                 "station2_name":"武蔵小山",
                 "full_rate":{
-                    "7-8":122,
-                    "8-9":63
+                    "7-8":{
+                        "up":19,
+                        "down":149
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":148
+                    }
                 }
             },
             {
@@ -12063,19 +18392,14 @@ var fullrate_data = {
                 "station2_code":22873,
                 "station2_name":"西小山",
                 "full_rate":{
-                    "7-8":113,
-                    "8-9":71
-                }
-            },
-            {
-                "code":3150140,
-                "station1_code":22557,
-                "station1_name":"大岡山",
-                "station2_code":22779,
-                "station2_name":"洗足",
-                "full_rate":{
-                    "7-8":91,
-                    "8-9":149
+                    "7-8":{
+                        "up":148,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":48,
+                        "down":87
+                    }
                 }
             },
             {
@@ -12085,8 +18409,14 @@ var fullrate_data = {
                 "station2_code":22575,
                 "station2_name":"奥沢",
                 "full_rate":{
-                    "7-8":11,
-                    "8-9":61
+                    "7-8":{
+                        "up":10,
+                        "down":79
+                    },
+                    "8-9":{
+                        "up":166,
+                        "down":32
+                    }
                 }
             },
             {
@@ -12096,8 +18426,116 @@ var fullrate_data = {
                 "station2_code":22826,
                 "station2_name":"田園調布",
                 "full_rate":{
-                    "7-8":176,
-                    "8-9":105
+                    "7-8":{
+                        "up":160,
+                        "down":48
+                    },
+                    "8-9":{
+                        "up":21,
+                        "down":61
+                    }
+                }
+            },
+            {
+                "code":3150180,
+                "station1_code":23210,
+                "station1_name":"新丸子",
+                "station2_code":22803,
+                "station2_name":"多摩川",
+                "full_rate":{
+                    "7-8":{
+                        "up":5,
+                        "down":42
+                    },
+                    "8-9":{
+                        "up":91,
+                        "down":28
+                    }
+                }
+            },
+            {
+                "code":3150140,
+                "station1_code":22557,
+                "station1_name":"大岡山",
+                "station2_code":22779,
+                "station2_name":"洗足",
+                "full_rate":{
+                    "7-8":{
+                        "up":36,
+                        "down":66
+                    },
+                    "8-9":{
+                        "up":139,
+                        "down":57
+                    }
+                }
+            },
+            {
+                "code":3150110,
+                "station1_code":22964,
+                "station1_name":"不動前",
+                "station2_code":23007,
+                "station2_name":"武蔵小山",
+                "full_rate":{
+                    "7-8":{
+                        "up":174,
+                        "down":48
+                    },
+                    "8-9":{
+                        "up":190,
+                        "down":78
+                    }
+                }
+            },
+            {
+                "code":3150170,
+                "station1_code":22803,
+                "station1_name":"多摩川",
+                "station2_code":22826,
+                "station2_name":"田園調布",
+                "full_rate":{
+                    "7-8":{
+                        "up":169,
+                        "down":45
+                    },
+                    "8-9":{
+                        "up":94,
+                        "down":163
+                    }
+                }
+            },
+            {
+                "code":3150190,
+                "station1_code":23210,
+                "station1_name":"新丸子",
+                "station2_code":23345,
+                "station2_name":"武蔵小杉",
+                "full_rate":{
+                    "7-8":{
+                        "up":194,
+                        "down":54
+                    },
+                    "8-9":{
+                        "up":145,
+                        "down":124
+                    }
+                }
+            },
+            {
+                "code":3150200,
+                "station1_code":23345,
+                "station1_name":"武蔵小杉",
+                "station2_code":23353,
+                "station2_name":"元住吉",
+                "full_rate":{
+                    "7-8":{
+                        "up":45,
+                        "down":18
+                    },
+                    "8-9":{
+                        "up":114,
+                        "down":138
+                    }
                 }
             },
             {
@@ -12107,8 +18545,14 @@ var fullrate_data = {
                 "station2_code":23353,
                 "station2_name":"元住吉",
                 "full_rate":{
-                    "7-8":44,
-                    "8-9":123
+                    "7-8":{
+                        "up":5,
+                        "down":67
+                    },
+                    "8-9":{
+                        "up":35,
+                        "down":109
+                    }
                 }
             }
         ]
@@ -12117,80 +18561,20 @@ var fullrate_data = {
         "name":"東急田園都市線",
         "sections":[
             {
-                "code":3160110,
-                "station1_code":22511,
-                "station1_name":"池尻大橋",
-                "station2_code":22703,
-                "station2_name":"三軒茶屋",
-                "full_rate":{
-                    "7-8":14,
-                    "8-9":179
-                }
-            },
-            {
-                "code":3160100,
-                "station1_code":22511,
-                "station1_name":"池尻大橋",
-                "station2_code":22715,
-                "station2_name":"渋谷",
-                "full_rate":{
-                    "7-8":49,
-                    "8-9":62
-                }
-            },
-            {
-                "code":3160120,
-                "station1_code":22684,
-                "station1_name":"駒沢大学",
-                "station2_code":22703,
-                "station2_name":"三軒茶屋",
-                "full_rate":{
-                    "7-8":21,
-                    "8-9":163
-                }
-            },
-            {
-                "code":3160130,
-                "station1_code":22684,
-                "station1_name":"駒沢大学",
-                "station2_code":22695,
-                "station2_name":"桜新町",
-                "full_rate":{
-                    "7-8":163,
-                    "8-9":95
-                }
-            },
-            {
-                "code":3160150,
-                "station1_code":22958,
-                "station1_name":"二子玉川",
-                "station2_code":23039,
-                "station2_name":"用賀",
-                "full_rate":{
-                    "7-8":15,
-                    "8-9":184
-                }
-            },
-            {
-                "code":3160140,
-                "station1_code":22695,
-                "station1_name":"桜新町",
-                "station2_code":23039,
-                "station2_name":"用賀",
-                "full_rate":{
-                    "7-8":104,
-                    "8-9":56
-                }
-            },
-            {
                 "code":3160160,
                 "station1_code":23309,
                 "station1_name":"二子新地",
                 "station2_code":22958,
                 "station2_name":"二子玉川",
                 "full_rate":{
-                    "7-8":80,
-                    "8-9":44
+                    "7-8":{
+                        "up":138,
+                        "down":79
+                    },
+                    "8-9":{
+                        "up":90,
+                        "down":127
+                    }
                 }
             },
             {
@@ -12200,8 +18584,14 @@ var fullrate_data = {
                 "station2_code":23309,
                 "station2_name":"二子新地",
                 "full_rate":{
-                    "7-8":185,
-                    "8-9":13
+                    "7-8":{
+                        "up":59,
+                        "down":59
+                    },
+                    "8-9":{
+                        "up":83,
+                        "down":51
+                    }
                 }
             },
             {
@@ -12211,8 +18601,82 @@ var fullrate_data = {
                 "station2_code":23328,
                 "station2_name":"溝の口",
                 "full_rate":{
-                    "7-8":97,
-                    "8-9":143
+                    "7-8":{
+                        "up":120,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":198,
+                        "down":78
+                    }
+                }
+            },
+            {
+                "code":3160100,
+                "station1_code":22511,
+                "station1_name":"池尻大橋",
+                "station2_code":22715,
+                "station2_name":"渋谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":166,
+                        "down":41
+                    },
+                    "8-9":{
+                        "up":27,
+                        "down":64
+                    }
+                }
+            },
+            {
+                "code":3160120,
+                "station1_code":22684,
+                "station1_name":"駒沢大学",
+                "station2_code":22703,
+                "station2_name":"三軒茶屋",
+                "full_rate":{
+                    "7-8":{
+                        "up":155,
+                        "down":144
+                    },
+                    "8-9":{
+                        "up":121,
+                        "down":192
+                    }
+                }
+            },
+            {
+                "code":3160130,
+                "station1_code":22684,
+                "station1_name":"駒沢大学",
+                "station2_code":22695,
+                "station2_name":"桜新町",
+                "full_rate":{
+                    "7-8":{
+                        "up":199,
+                        "down":92
+                    },
+                    "8-9":{
+                        "up":137,
+                        "down":176
+                    }
+                }
+            },
+            {
+                "code":3160140,
+                "station1_code":22695,
+                "station1_name":"桜新町",
+                "station2_code":23039,
+                "station2_name":"用賀",
+                "full_rate":{
+                    "7-8":{
+                        "up":8,
+                        "down":149
+                    },
+                    "8-9":{
+                        "up":42,
+                        "down":111
+                    }
                 }
             },
             {
@@ -12222,30 +18686,48 @@ var fullrate_data = {
                 "station2_code":23328,
                 "station2_name":"溝の口",
                 "full_rate":{
-                    "7-8":67,
-                    "8-9":48
+                    "7-8":{
+                        "up":34,
+                        "down":147
+                    },
+                    "8-9":{
+                        "up":113,
+                        "down":135
+                    }
                 }
             },
             {
-                "code":3160200,
-                "station1_code":23106,
-                "station1_name":"梶が谷",
-                "station2_code":23338,
-                "station2_name":"宮崎台",
+                "code":3160110,
+                "station1_code":22511,
+                "station1_name":"池尻大橋",
+                "station2_code":22703,
+                "station2_name":"三軒茶屋",
                 "full_rate":{
-                    "7-8":11,
-                    "8-9":9
+                    "7-8":{
+                        "up":159,
+                        "down":81
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":134
+                    }
                 }
             },
             {
-                "code":3160210,
-                "station1_code":23338,
-                "station1_name":"宮崎台",
-                "station2_code":23340,
-                "station2_name":"宮前平",
+                "code":3160150,
+                "station1_code":22958,
+                "station1_name":"二子玉川",
+                "station2_code":23039,
+                "station2_name":"用賀",
                 "full_rate":{
-                    "7-8":136,
-                    "8-9":23
+                    "7-8":{
+                        "up":167,
+                        "down":65
+                    },
+                    "8-9":{
+                        "up":110,
+                        "down":181
+                    }
                 }
             },
             {
@@ -12255,8 +18737,31 @@ var fullrate_data = {
                 "station2_code":23340,
                 "station2_name":"宮前平",
                 "full_rate":{
-                    "7-8":138,
-                    "8-9":121
+                    "7-8":{
+                        "up":106,
+                        "down":51
+                    },
+                    "8-9":{
+                        "up":3,
+                        "down":53
+                    }
+                }
+            },
+            {
+                "code":3160210,
+                "station1_code":23338,
+                "station1_name":"宮崎台",
+                "station2_code":23340,
+                "station2_name":"宮前平",
+                "full_rate":{
+                    "7-8":{
+                        "up":138,
+                        "down":190
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":136
+                    }
                 }
             },
             {
@@ -12266,19 +18771,31 @@ var fullrate_data = {
                 "station2_code":23228,
                 "station2_name":"たまプラーザ",
                 "full_rate":{
-                    "7-8":98,
-                    "8-9":138
+                    "7-8":{
+                        "up":28,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":145,
+                        "down":122
+                    }
                 }
             },
             {
-                "code":3160240,
-                "station1_code":23058,
-                "station1_name":"あざみ野",
-                "station2_code":23228,
-                "station2_name":"たまプラーザ",
+                "code":3160200,
+                "station1_code":23106,
+                "station1_name":"梶が谷",
+                "station2_code":23338,
+                "station2_name":"宮崎台",
                 "full_rate":{
-                    "7-8":189,
-                    "8-9":125
+                    "7-8":{
+                        "up":73,
+                        "down":2
+                    },
+                    "8-9":{
+                        "up":191,
+                        "down":113
+                    }
                 }
             },
             {
@@ -12288,8 +18805,14 @@ var fullrate_data = {
                 "station2_code":23085,
                 "station2_name":"江田(神奈川県)",
                 "full_rate":{
-                    "7-8":30,
-                    "8-9":195
+                    "7-8":{
+                        "up":92,
+                        "down":114
+                    },
+                    "8-9":{
+                        "up":49,
+                        "down":31
+                    }
                 }
             },
             {
@@ -12299,19 +18822,14 @@ var fullrate_data = {
                 "station2_code":23085,
                 "station2_name":"江田(神奈川県)",
                 "full_rate":{
-                    "7-8":150,
-                    "8-9":134
-                }
-            },
-            {
-                "code":3160270,
-                "station1_code":23074,
-                "station1_name":"市が尾",
-                "station2_code":23303,
-                "station2_name":"藤が丘(神奈川県)",
-                "full_rate":{
-                    "7-8":148,
-                    "8-9":157
+                    "7-8":{
+                        "up":173,
+                        "down":142
+                    },
+                    "8-9":{
+                        "up":26,
+                        "down":57
+                    }
                 }
             },
             {
@@ -12321,8 +18839,48 @@ var fullrate_data = {
                 "station2_code":23303,
                 "station2_name":"藤が丘(神奈川県)",
                 "full_rate":{
-                    "7-8":27,
-                    "8-9":30
+                    "7-8":{
+                        "up":43,
+                        "down":79
+                    },
+                    "8-9":{
+                        "up":152,
+                        "down":163
+                    }
+                }
+            },
+            {
+                "code":3160270,
+                "station1_code":23074,
+                "station1_name":"市が尾",
+                "station2_code":23303,
+                "station2_name":"藤が丘(神奈川県)",
+                "full_rate":{
+                    "7-8":{
+                        "up":32,
+                        "down":120
+                    },
+                    "8-9":{
+                        "up":0,
+                        "down":126
+                    }
+                }
+            },
+            {
+                "code":3160240,
+                "station1_code":23058,
+                "station1_name":"あざみ野",
+                "station2_code":23228,
+                "station2_name":"たまプラーザ",
+                "full_rate":{
+                    "7-8":{
+                        "up":154,
+                        "down":6
+                    },
+                    "8-9":{
+                        "up":114,
+                        "down":104
+                    }
                 }
             },
             {
@@ -12332,41 +18890,14 @@ var fullrate_data = {
                 "station2_code":23227,
                 "station2_name":"田奈",
                 "full_rate":{
-                    "7-8":182,
-                    "8-9":101
-                }
-            },
-            {
-                "code":3160320,
-                "station1_code":22762,
-                "station1_name":"すずかけ台",
-                "station2_code":22822,
-                "station2_name":"つくし野",
-                "full_rate":{
-                    "7-8":25,
-                    "8-9":47
-                }
-            },
-            {
-                "code":3160330,
-                "station1_code":22762,
-                "station1_name":"すずかけ台",
-                "station2_code":22998,
-                "station2_name":"南町田",
-                "full_rate":{
-                    "7-8":75,
-                    "8-9":53
-                }
-            },
-            {
-                "code":3160340,
-                "station1_code":23236,
-                "station1_name":"つきみ野",
-                "station2_code":22998,
-                "station2_name":"南町田",
-                "full_rate":{
-                    "7-8":20,
-                    "8-9":179
+                    "7-8":{
+                        "up":86,
+                        "down":8
+                    },
+                    "8-9":{
+                        "up":27,
+                        "down":41
+                    }
                 }
             },
             {
@@ -12376,8 +18907,14 @@ var fullrate_data = {
                 "station2_code":23260,
                 "station2_name":"長津田",
                 "full_rate":{
-                    "7-8":66,
-                    "8-9":14
+                    "7-8":{
+                        "up":80,
+                        "down":190
+                    },
+                    "8-9":{
+                        "up":43,
+                        "down":63
+                    }
                 }
             },
             {
@@ -12387,8 +18924,65 @@ var fullrate_data = {
                 "station2_code":23260,
                 "station2_name":"長津田",
                 "full_rate":{
-                    "7-8":78,
-                    "8-9":198
+                    "7-8":{
+                        "up":144,
+                        "down":143
+                    },
+                    "8-9":{
+                        "up":31,
+                        "down":84
+                    }
+                }
+            },
+            {
+                "code":3160320,
+                "station1_code":22762,
+                "station1_name":"すずかけ台",
+                "station2_code":22822,
+                "station2_name":"つくし野",
+                "full_rate":{
+                    "7-8":{
+                        "up":54,
+                        "down":17
+                    },
+                    "8-9":{
+                        "up":14,
+                        "down":57
+                    }
+                }
+            },
+            {
+                "code":3160330,
+                "station1_code":22762,
+                "station1_name":"すずかけ台",
+                "station2_code":22998,
+                "station2_name":"南町田",
+                "full_rate":{
+                    "7-8":{
+                        "up":94,
+                        "down":166
+                    },
+                    "8-9":{
+                        "up":74,
+                        "down":133
+                    }
+                }
+            },
+            {
+                "code":3160340,
+                "station1_code":23236,
+                "station1_name":"つきみ野",
+                "station2_code":22998,
+                "station2_name":"南町田",
+                "full_rate":{
+                    "7-8":{
+                        "up":64,
+                        "down":57
+                    },
+                    "8-9":{
+                        "up":134,
+                        "down":108
+                    }
                 }
             },
             {
@@ -12398,8 +18992,14 @@ var fullrate_data = {
                 "station2_code":23236,
                 "station2_name":"つきみ野",
                 "full_rate":{
-                    "7-8":112,
-                    "8-9":4
+                    "7-8":{
+                        "up":188,
+                        "down":160
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":185
+                    }
                 }
             }
         ]
@@ -12408,25 +19008,37 @@ var fullrate_data = {
         "name":"東急大井町線",
         "sections":[
             {
-                "code":3170100,
-                "station1_code":22556,
-                "station1_name":"大井町",
-                "station2_code":22724,
-                "station2_name":"下神明",
-                "full_rate":{
-                    "7-8":16,
-                    "8-9":180
-                }
-            },
-            {
                 "code":3170110,
                 "station1_code":22724,
                 "station1_name":"下神明",
                 "station2_code":22834,
                 "station2_name":"戸越公園",
                 "full_rate":{
-                    "7-8":105,
-                    "8-9":125
+                    "7-8":{
+                        "up":173,
+                        "down":78
+                    },
+                    "8-9":{
+                        "up":165,
+                        "down":153
+                    }
+                }
+            },
+            {
+                "code":3170100,
+                "station1_code":22556,
+                "station1_name":"大井町",
+                "station2_code":22724,
+                "station2_name":"下神明",
+                "full_rate":{
+                    "7-8":{
+                        "up":119,
+                        "down":95
+                    },
+                    "8-9":{
+                        "up":142,
+                        "down":161
+                    }
                 }
             },
             {
@@ -12436,8 +19048,14 @@ var fullrate_data = {
                 "station2_code":22853,
                 "station2_name":"中延",
                 "full_rate":{
-                    "7-8":85,
-                    "8-9":56
+                    "7-8":{
+                        "up":166,
+                        "down":166
+                    },
+                    "8-9":{
+                        "up":89,
+                        "down":168
+                    }
                 }
             },
             {
@@ -12447,8 +19065,14 @@ var fullrate_data = {
                 "station2_code":22853,
                 "station2_name":"中延",
                 "full_rate":{
-                    "7-8":155,
-                    "8-9":9
+                    "7-8":{
+                        "up":50,
+                        "down":138
+                    },
+                    "8-9":{
+                        "up":86,
+                        "down":150
+                    }
                 }
             },
             {
@@ -12458,8 +19082,14 @@ var fullrate_data = {
                 "station2_code":22904,
                 "station2_name":"旗の台",
                 "full_rate":{
-                    "7-8":102,
-                    "8-9":21
+                    "7-8":{
+                        "up":183,
+                        "down":63
+                    },
+                    "8-9":{
+                        "up":101,
+                        "down":73
+                    }
                 }
             },
             {
@@ -12469,19 +19099,14 @@ var fullrate_data = {
                 "station2_code":22904,
                 "station2_name":"旗の台",
                 "full_rate":{
-                    "7-8":166,
-                    "8-9":68
-                }
-            },
-            {
-                "code":3170170,
-                "station1_code":22557,
-                "station1_name":"大岡山",
-                "station2_code":22990,
-                "station2_name":"緑が丘(東京都)",
-                "full_rate":{
-                    "7-8":130,
-                    "8-9":134
+                    "7-8":{
+                        "up":148,
+                        "down":73
+                    },
+                    "8-9":{
+                        "up":42,
+                        "down":71
+                    }
                 }
             },
             {
@@ -12491,30 +19116,31 @@ var fullrate_data = {
                 "station2_code":22631,
                 "station2_name":"北千束",
                 "full_rate":{
-                    "7-8":138,
-                    "8-9":34
+                    "7-8":{
+                        "up":166,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":78,
+                        "down":136
+                    }
                 }
             },
             {
-                "code":3170180,
-                "station1_code":22755,
-                "station1_name":"自由が丘",
+                "code":3170170,
+                "station1_code":22557,
+                "station1_name":"大岡山",
                 "station2_code":22990,
                 "station2_name":"緑が丘(東京都)",
                 "full_rate":{
-                    "7-8":59,
-                    "8-9":85
-                }
-            },
-            {
-                "code":3170190,
-                "station1_code":22647,
-                "station1_name":"九品仏",
-                "station2_code":22755,
-                "station2_name":"自由が丘",
-                "full_rate":{
-                    "7-8":175,
-                    "8-9":69
+                    "7-8":{
+                        "up":75,
+                        "down":107
+                    },
+                    "8-9":{
+                        "up":197,
+                        "down":59
+                    }
                 }
             },
             {
@@ -12524,8 +19150,31 @@ var fullrate_data = {
                 "station2_code":22647,
                 "station2_name":"九品仏",
                 "full_rate":{
-                    "7-8":26,
-                    "8-9":106
+                    "7-8":{
+                        "up":60,
+                        "down":31
+                    },
+                    "8-9":{
+                        "up":78,
+                        "down":99
+                    }
+                }
+            },
+            {
+                "code":3170180,
+                "station1_code":22755,
+                "station1_name":"自由が丘",
+                "station2_code":22990,
+                "station2_name":"緑が丘(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":138,
+                        "down":188
+                    },
+                    "8-9":{
+                        "up":54,
+                        "down":176
+                    }
                 }
             },
             {
@@ -12535,19 +19184,31 @@ var fullrate_data = {
                 "station2_code":22837,
                 "station2_name":"等々力",
                 "full_rate":{
-                    "7-8":156,
-                    "8-9":126
+                    "7-8":{
+                        "up":99,
+                        "down":178
+                    },
+                    "8-9":{
+                        "up":198,
+                        "down":162
+                    }
                 }
             },
             {
-                "code":3170220,
-                "station1_code":22608,
-                "station1_name":"上野毛",
-                "station2_code":22837,
-                "station2_name":"等々力",
+                "code":3170190,
+                "station1_code":22647,
+                "station1_name":"九品仏",
+                "station2_code":22755,
+                "station2_name":"自由が丘",
                 "full_rate":{
-                    "7-8":194,
-                    "8-9":52
+                    "7-8":{
+                        "up":103,
+                        "down":86
+                    },
+                    "8-9":{
+                        "up":35,
+                        "down":18
+                    }
                 }
             },
             {
@@ -12557,19 +19218,31 @@ var fullrate_data = {
                 "station2_code":22958,
                 "station2_name":"二子玉川",
                 "full_rate":{
-                    "7-8":81,
-                    "8-9":65
+                    "7-8":{
+                        "up":136,
+                        "down":112
+                    },
+                    "8-9":{
+                        "up":103,
+                        "down":60
+                    }
                 }
             },
             {
-                "code":3170240,
-                "station1_code":23309,
-                "station1_name":"二子新地",
-                "station2_code":22958,
-                "station2_name":"二子玉川",
+                "code":3170220,
+                "station1_code":22608,
+                "station1_name":"上野毛",
+                "station2_code":22837,
+                "station2_name":"等々力",
                 "full_rate":{
-                    "7-8":14,
-                    "8-9":32
+                    "7-8":{
+                        "up":135,
+                        "down":147
+                    },
+                    "8-9":{
+                        "up":69,
+                        "down":78
+                    }
                 }
             },
             {
@@ -12579,8 +19252,14 @@ var fullrate_data = {
                 "station2_code":23309,
                 "station2_name":"二子新地",
                 "full_rate":{
-                    "7-8":71,
-                    "8-9":8
+                    "7-8":{
+                        "up":42,
+                        "down":121
+                    },
+                    "8-9":{
+                        "up":55,
+                        "down":0
+                    }
                 }
             },
             {
@@ -12590,8 +19269,31 @@ var fullrate_data = {
                 "station2_code":23328,
                 "station2_name":"溝の口",
                 "full_rate":{
-                    "7-8":88,
-                    "8-9":68
+                    "7-8":{
+                        "up":103,
+                        "down":105
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":61
+                    }
+                }
+            },
+            {
+                "code":3170240,
+                "station1_code":23309,
+                "station1_name":"二子新地",
+                "station2_code":22958,
+                "station2_name":"二子玉川",
+                "full_rate":{
+                    "7-8":{
+                        "up":64,
+                        "down":125
+                    },
+                    "8-9":{
+                        "up":31,
+                        "down":148
+                    }
                 }
             }
         ]
@@ -12600,36 +19302,37 @@ var fullrate_data = {
         "name":"東急池上線",
         "sections":[
             {
-                "code":3180100,
-                "station1_code":22560,
-                "station1_name":"大崎広小路",
-                "station2_code":22691,
-                "station2_name":"五反田",
-                "full_rate":{
-                    "7-8":90,
-                    "8-9":126
-                }
-            },
-            {
                 "code":3180110,
                 "station1_code":22560,
                 "station1_name":"大崎広小路",
                 "station2_code":22833,
                 "station2_name":"戸越銀座",
                 "full_rate":{
-                    "7-8":134,
-                    "8-9":6
+                    "7-8":{
+                        "up":103,
+                        "down":194
+                    },
+                    "8-9":{
+                        "up":134,
+                        "down":36
+                    }
                 }
             },
             {
-                "code":3180120,
-                "station1_code":22546,
-                "station1_name":"荏原中延",
-                "station2_code":22833,
-                "station2_name":"戸越銀座",
+                "code":3180100,
+                "station1_code":22560,
+                "station1_name":"大崎広小路",
+                "station2_code":22691,
+                "station2_name":"五反田",
                 "full_rate":{
-                    "7-8":16,
-                    "8-9":115
+                    "7-8":{
+                        "up":11,
+                        "down":106
+                    },
+                    "8-9":{
+                        "up":136,
+                        "down":159
+                    }
                 }
             },
             {
@@ -12639,8 +19342,31 @@ var fullrate_data = {
                 "station2_code":22904,
                 "station2_name":"旗の台",
                 "full_rate":{
-                    "7-8":121,
-                    "8-9":63
+                    "7-8":{
+                        "up":28,
+                        "down":33
+                    },
+                    "8-9":{
+                        "up":155,
+                        "down":13
+                    }
+                }
+            },
+            {
+                "code":3180120,
+                "station1_code":22546,
+                "station1_name":"荏原中延",
+                "station2_code":22833,
+                "station2_name":"戸越銀座",
+                "full_rate":{
+                    "7-8":{
+                        "up":4,
+                        "down":153
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":161
+                    }
                 }
             },
             {
@@ -12650,19 +19376,14 @@ var fullrate_data = {
                 "station2_code":22904,
                 "station2_name":"旗の台",
                 "full_rate":{
-                    "7-8":147,
-                    "8-9":10
-                }
-            },
-            {
-                "code":3180160,
-                "station1_code":22514,
-                "station1_name":"石川台",
-                "station2_code":22780,
-                "station2_name":"洗足池",
-                "full_rate":{
-                    "7-8":78,
-                    "8-9":69
+                    "7-8":{
+                        "up":7,
+                        "down":18
+                    },
+                    "8-9":{
+                        "up":134,
+                        "down":192
+                    }
                 }
             },
             {
@@ -12672,19 +19393,31 @@ var fullrate_data = {
                 "station2_code":22858,
                 "station2_name":"長原(東京都)",
                 "full_rate":{
-                    "7-8":37,
-                    "8-9":121
+                    "7-8":{
+                        "up":90,
+                        "down":153
+                    },
+                    "8-9":{
+                        "up":58,
+                        "down":117
+                    }
                 }
             },
             {
-                "code":3180170,
+                "code":3180160,
                 "station1_code":22514,
                 "station1_name":"石川台",
-                "station2_code":23037,
-                "station2_name":"雪が谷大塚",
+                "station2_code":22780,
+                "station2_name":"洗足池",
                 "full_rate":{
-                    "7-8":180,
-                    "8-9":51
+                    "7-8":{
+                        "up":150,
+                        "down":133
+                    },
+                    "8-9":{
+                        "up":75,
+                        "down":129
+                    }
                 }
             },
             {
@@ -12694,8 +19427,31 @@ var fullrate_data = {
                 "station2_code":23037,
                 "station2_name":"雪が谷大塚",
                 "full_rate":{
-                    "7-8":112,
-                    "8-9":75
+                    "7-8":{
+                        "up":178,
+                        "down":187
+                    },
+                    "8-9":{
+                        "up":116,
+                        "down":60
+                    }
+                }
+            },
+            {
+                "code":3180170,
+                "station1_code":22514,
+                "station1_name":"石川台",
+                "station2_code":23037,
+                "station2_name":"雪が谷大塚",
+                "full_rate":{
+                    "7-8":{
+                        "up":158,
+                        "down":62
+                    },
+                    "8-9":{
+                        "up":56,
+                        "down":187
+                    }
                 }
             },
             {
@@ -12705,8 +19461,14 @@ var fullrate_data = {
                 "station2_code":22643,
                 "station2_name":"久が原",
                 "full_rate":{
-                    "7-8":108,
-                    "8-9":151
+                    "7-8":{
+                        "up":175,
+                        "down":17
+                    },
+                    "8-9":{
+                        "up":38,
+                        "down":127
+                    }
                 }
             },
             {
@@ -12716,8 +19478,14 @@ var fullrate_data = {
                 "station2_code":22819,
                 "station2_name":"千鳥町",
                 "full_rate":{
-                    "7-8":110,
-                    "8-9":148
+                    "7-8":{
+                        "up":78,
+                        "down":111
+                    },
+                    "8-9":{
+                        "up":169,
+                        "down":125
+                    }
                 }
             },
             {
@@ -12727,8 +19495,14 @@ var fullrate_data = {
                 "station2_code":22819,
                 "station2_name":"千鳥町",
                 "full_rate":{
-                    "7-8":164,
-                    "8-9":51
+                    "7-8":{
+                        "up":190,
+                        "down":8
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":59
+                    }
                 }
             },
             {
@@ -12738,8 +19512,14 @@ var fullrate_data = {
                 "station2_code":22901,
                 "station2_name":"蓮沼",
                 "full_rate":{
-                    "7-8":52,
-                    "8-9":25
+                    "7-8":{
+                        "up":30,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":148,
+                        "down":103
+                    }
                 }
             },
             {
@@ -12749,8 +19529,14 @@ var fullrate_data = {
                 "station2_code":22901,
                 "station2_name":"蓮沼",
                 "full_rate":{
-                    "7-8":44,
-                    "8-9":65
+                    "7-8":{
+                        "up":64,
+                        "down":8
+                    },
+                    "8-9":{
+                        "up":90,
+                        "down":139
+                    }
                 }
             }
         ]
@@ -12765,8 +19551,14 @@ var fullrate_data = {
                 "station2_code":22887,
                 "station2_name":"沼部",
                 "full_rate":{
-                    "7-8":131,
-                    "8-9":197
+                    "7-8":{
+                        "up":127,
+                        "down":106
+                    },
+                    "8-9":{
+                        "up":147,
+                        "down":45
+                    }
                 }
             },
             {
@@ -12776,8 +19568,14 @@ var fullrate_data = {
                 "station2_code":22887,
                 "station2_name":"沼部",
                 "full_rate":{
-                    "7-8":172,
-                    "8-9":19
+                    "7-8":{
+                        "up":124,
+                        "down":106
+                    },
+                    "8-9":{
+                        "up":7,
+                        "down":68
+                    }
                 }
             },
             {
@@ -12787,8 +19585,14 @@ var fullrate_data = {
                 "station2_code":22726,
                 "station2_name":"下丸子",
                 "full_rate":{
-                    "7-8":14,
-                    "8-9":194
+                    "7-8":{
+                        "up":106,
+                        "down":94
+                    },
+                    "8-9":{
+                        "up":110,
+                        "down":113
+                    }
                 }
             },
             {
@@ -12798,8 +19602,14 @@ var fullrate_data = {
                 "station2_code":23011,
                 "station2_name":"武蔵新田",
                 "full_rate":{
-                    "7-8":18,
-                    "8-9":117
+                    "7-8":{
+                        "up":2,
+                        "down":184
+                    },
+                    "8-9":{
+                        "up":24,
+                        "down":84
+                    }
                 }
             },
             {
@@ -12809,8 +19619,14 @@ var fullrate_data = {
                 "station2_code":23027,
                 "station2_name":"矢口渡",
                 "full_rate":{
-                    "7-8":78,
-                    "8-9":146
+                    "7-8":{
+                        "up":135,
+                        "down":188
+                    },
+                    "8-9":{
+                        "up":96,
+                        "down":19
+                    }
                 }
             },
             {
@@ -12820,8 +19636,14 @@ var fullrate_data = {
                 "station2_code":23027,
                 "station2_name":"矢口渡",
                 "full_rate":{
-                    "7-8":76,
-                    "8-9":192
+                    "7-8":{
+                        "up":163,
+                        "down":96
+                    },
+                    "8-9":{
+                        "up":33,
+                        "down":84
+                    }
                 }
             }
         ]
@@ -12836,8 +19658,14 @@ var fullrate_data = {
                 "station2_code":22875,
                 "station2_name":"西太子堂",
                 "full_rate":{
-                    "7-8":149,
-                    "8-9":133
+                    "7-8":{
+                        "up":151,
+                        "down":171
+                    },
+                    "8-9":{
+                        "up":126,
+                        "down":171
+                    }
                 }
             },
             {
@@ -12847,8 +19675,14 @@ var fullrate_data = {
                 "station2_code":23052,
                 "station2_name":"若林(東京都)",
                 "full_rate":{
-                    "7-8":50,
-                    "8-9":86
+                    "7-8":{
+                        "up":155,
+                        "down":42
+                    },
+                    "8-9":{
+                        "up":97,
+                        "down":43
+                    }
                 }
             },
             {
@@ -12858,8 +19692,14 @@ var fullrate_data = {
                 "station2_code":23052,
                 "station2_name":"若林(東京都)",
                 "full_rate":{
-                    "7-8":109,
-                    "8-9":11
+                    "7-8":{
+                        "up":20,
+                        "down":171
+                    },
+                    "8-9":{
+                        "up":32,
+                        "down":115
+                    }
                 }
             },
             {
@@ -12869,8 +19709,14 @@ var fullrate_data = {
                 "station2_code":22772,
                 "station2_name":"世田谷",
                 "full_rate":{
-                    "7-8":151,
-                    "8-9":141
+                    "7-8":{
+                        "up":167,
+                        "down":79
+                    },
+                    "8-9":{
+                        "up":21,
+                        "down":161
+                    }
                 }
             },
             {
@@ -12880,8 +19726,14 @@ var fullrate_data = {
                 "station2_code":22772,
                 "station2_name":"世田谷",
                 "full_rate":{
-                    "7-8":196,
-                    "8-9":18
+                    "7-8":{
+                        "up":68,
+                        "down":164
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":4
+                    }
                 }
             },
             {
@@ -12891,8 +19743,14 @@ var fullrate_data = {
                 "station2_code":23001,
                 "station2_name":"宮の坂",
                 "full_rate":{
-                    "7-8":158,
-                    "8-9":128
+                    "7-8":{
+                        "up":71,
+                        "down":143
+                    },
+                    "8-9":{
+                        "up":52,
+                        "down":91
+                    }
                 }
             },
             {
@@ -12902,8 +19760,14 @@ var fullrate_data = {
                 "station2_code":23032,
                 "station2_name":"山下(東京都)",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":110
+                    "7-8":{
+                        "up":114,
+                        "down":78
+                    },
+                    "8-9":{
+                        "up":109,
+                        "down":44
+                    }
                 }
             },
             {
@@ -12913,8 +19777,14 @@ var fullrate_data = {
                 "station2_code":23032,
                 "station2_name":"山下(東京都)",
                 "full_rate":{
-                    "7-8":82,
-                    "8-9":13
+                    "7-8":{
+                        "up":188,
+                        "down":183
+                    },
+                    "8-9":{
+                        "up":143,
+                        "down":178
+                    }
                 }
             },
             {
@@ -12924,8 +19794,14 @@ var fullrate_data = {
                 "station2_code":22981,
                 "station2_name":"松原(東京都)",
                 "full_rate":{
-                    "7-8":1,
-                    "8-9":67
+                    "7-8":{
+                        "up":79,
+                        "down":193
+                    },
+                    "8-9":{
+                        "up":5,
+                        "down":192
+                    }
                 }
             }
         ]
@@ -12940,8 +19816,14 @@ var fullrate_data = {
                 "station2_code":22775,
                 "station2_name":"泉岳寺",
                 "full_rate":{
-                    "7-8":47,
-                    "8-9":109
+                    "7-8":{
+                        "up":112,
+                        "down":98
+                    },
+                    "8-9":{
+                        "up":155,
+                        "down":181
+                    }
                 }
             },
             {
@@ -12951,19 +19833,14 @@ var fullrate_data = {
                 "station2_code":22752,
                 "station2_name":"新馬場",
                 "full_rate":{
-                    "7-8":196,
-                    "8-9":134
-                }
-            },
-            {
-                "code":3220110,
-                "station1_code":22629,
-                "station1_name":"北品川",
-                "station2_code":22709,
-                "station2_name":"品川",
-                "full_rate":{
-                    "7-8":124,
-                    "8-9":151
+                    "7-8":{
+                        "up":157,
+                        "down":190
+                    },
+                    "8-9":{
+                        "up":142,
+                        "down":127
+                    }
                 }
             },
             {
@@ -12973,8 +19850,31 @@ var fullrate_data = {
                 "station2_code":22752,
                 "station2_name":"新馬場",
                 "full_rate":{
-                    "7-8":35,
-                    "8-9":182
+                    "7-8":{
+                        "up":151,
+                        "down":78
+                    },
+                    "8-9":{
+                        "up":58,
+                        "down":68
+                    }
+                }
+            },
+            {
+                "code":3220110,
+                "station1_code":22629,
+                "station1_name":"北品川",
+                "station2_code":22709,
+                "station2_name":"品川",
+                "full_rate":{
+                    "7-8":{
+                        "up":93,
+                        "down":124
+                    },
+                    "8-9":{
+                        "up":97,
+                        "down":78
+                    }
                 }
             },
             {
@@ -12984,8 +19884,14 @@ var fullrate_data = {
                 "station2_code":22700,
                 "station2_name":"鮫洲",
                 "full_rate":{
-                    "7-8":43,
-                    "8-9":160
+                    "7-8":{
+                        "up":141,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":167,
+                        "down":156
+                    }
                 }
             },
             {
@@ -12995,8 +19901,14 @@ var fullrate_data = {
                 "station2_code":22798,
                 "station2_name":"立会川",
                 "full_rate":{
-                    "7-8":190,
-                    "8-9":42
+                    "7-8":{
+                        "up":52,
+                        "down":90
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":182
+                    }
                 }
             },
             {
@@ -13006,8 +19918,14 @@ var fullrate_data = {
                 "station2_code":22798,
                 "station2_name":"立会川",
                 "full_rate":{
-                    "7-8":187,
-                    "8-9":125
+                    "7-8":{
+                        "up":51,
+                        "down":54
+                    },
+                    "8-9":{
+                        "up":145,
+                        "down":94
+                    }
                 }
             },
             {
@@ -13017,8 +19935,14 @@ var fullrate_data = {
                 "station2_code":22967,
                 "station2_name":"平和島",
                 "full_rate":{
-                    "7-8":118,
-                    "8-9":28
+                    "7-8":{
+                        "up":193,
+                        "down":32
+                    },
+                    "8-9":{
+                        "up":79,
+                        "down":147
+                    }
                 }
             },
             {
@@ -13028,8 +19952,14 @@ var fullrate_data = {
                 "station2_code":22967,
                 "station2_name":"平和島",
                 "full_rate":{
-                    "7-8":177,
-                    "8-9":128
+                    "7-8":{
+                        "up":154,
+                        "down":124
+                    },
+                    "8-9":{
+                        "up":2,
+                        "down":177
+                    }
                 }
             },
             {
@@ -13039,8 +19969,14 @@ var fullrate_data = {
                 "station2_code":22568,
                 "station2_name":"大森町",
                 "full_rate":{
-                    "7-8":160,
-                    "8-9":132
+                    "7-8":{
+                        "up":131,
+                        "down":13
+                    },
+                    "8-9":{
+                        "up":15,
+                        "down":91
+                    }
                 }
             },
             {
@@ -13050,19 +19986,14 @@ var fullrate_data = {
                 "station2_code":22660,
                 "station2_name":"京急蒲田",
                 "full_rate":{
-                    "7-8":93,
-                    "8-9":2
-                }
-            },
-            {
-                "code":3220220,
-                "station1_code":22785,
-                "station1_name":"雑色",
-                "station2_code":23051,
-                "station2_name":"六郷土手",
-                "full_rate":{
-                    "7-8":96,
-                    "8-9":67
+                    "7-8":{
+                        "up":27,
+                        "down":121
+                    },
+                    "8-9":{
+                        "up":166,
+                        "down":194
+                    }
                 }
             },
             {
@@ -13072,8 +20003,14 @@ var fullrate_data = {
                 "station2_code":22785,
                 "station2_name":"雑色",
                 "full_rate":{
-                    "7-8":129,
-                    "8-9":139
+                    "7-8":{
+                        "up":108,
+                        "down":24
+                    },
+                    "8-9":{
+                        "up":107,
+                        "down":195
+                    }
                 }
             },
             {
@@ -13083,8 +20020,14 @@ var fullrate_data = {
                 "station2_code":23051,
                 "station2_name":"六郷土手",
                 "full_rate":{
-                    "7-8":122,
-                    "8-9":165
+                    "7-8":{
+                        "up":3,
+                        "down":66
+                    },
+                    "8-9":{
+                        "up":62,
+                        "down":37
+                    }
                 }
             },
             {
@@ -13094,8 +20037,31 @@ var fullrate_data = {
                 "station2_code":23277,
                 "station2_name":"八丁畷",
                 "full_rate":{
-                    "7-8":29,
-                    "8-9":136
+                    "7-8":{
+                        "up":93,
+                        "down":33
+                    },
+                    "8-9":{
+                        "up":78,
+                        "down":70
+                    }
+                }
+            },
+            {
+                "code":3220220,
+                "station1_code":22785,
+                "station1_name":"雑色",
+                "station2_code":23051,
+                "station2_name":"六郷土手",
+                "full_rate":{
+                    "7-8":{
+                        "up":6,
+                        "down":144
+                    },
+                    "8-9":{
+                        "up":142,
+                        "down":165
+                    }
                 }
             },
             {
@@ -13105,8 +20071,14 @@ var fullrate_data = {
                 "station2_code":23277,
                 "station2_name":"八丁畷",
                 "full_rate":{
-                    "7-8":129,
-                    "8-9":164
+                    "7-8":{
+                        "up":92,
+                        "down":173
+                    },
+                    "8-9":{
+                        "up":123,
+                        "down":199
+                    }
                 }
             },
             {
@@ -13116,41 +20088,14 @@ var fullrate_data = {
                 "station2_code":23245,
                 "station2_name":"鶴見市場",
                 "full_rate":{
-                    "7-8":24,
-                    "8-9":56
-                }
-            },
-            {
-                "code":3220280,
-                "station1_code":23102,
-                "station1_name":"花月園前",
-                "station2_code":23261,
-                "station2_name":"生麦",
-                "full_rate":{
-                    "7-8":124,
-                    "8-9":81
-                }
-            },
-            {
-                "code":3220290,
-                "station1_code":23149,
-                "station1_name":"京急新子安",
-                "station2_code":23261,
-                "station2_name":"生麦",
-                "full_rate":{
-                    "7-8":20,
-                    "8-9":72
-                }
-            },
-            {
-                "code":3220300,
-                "station1_code":23149,
-                "station1_name":"京急新子安",
-                "station2_code":23166,
-                "station2_name":"子安",
-                "full_rate":{
-                    "7-8":85,
-                    "8-9":61
+                    "7-8":{
+                        "up":69,
+                        "down":160
+                    },
+                    "8-9":{
+                        "up":80,
+                        "down":96
+                    }
                 }
             },
             {
@@ -13160,8 +20105,48 @@ var fullrate_data = {
                 "station2_code":23151,
                 "station2_name":"京急鶴見",
                 "full_rate":{
-                    "7-8":99,
-                    "8-9":150
+                    "7-8":{
+                        "up":54,
+                        "down":193
+                    },
+                    "8-9":{
+                        "up":152,
+                        "down":79
+                    }
+                }
+            },
+            {
+                "code":3220280,
+                "station1_code":23102,
+                "station1_name":"花月園前",
+                "station2_code":23261,
+                "station2_name":"生麦",
+                "full_rate":{
+                    "7-8":{
+                        "up":9,
+                        "down":198
+                    },
+                    "8-9":{
+                        "up":137,
+                        "down":118
+                    }
+                }
+            },
+            {
+                "code":3220290,
+                "station1_code":23149,
+                "station1_name":"京急新子安",
+                "station2_code":23261,
+                "station2_name":"生麦",
+                "full_rate":{
+                    "7-8":{
+                        "up":47,
+                        "down":37
+                    },
+                    "8-9":{
+                        "up":118,
+                        "down":11
+                    }
                 }
             },
             {
@@ -13171,8 +20156,31 @@ var fullrate_data = {
                 "station2_code":23166,
                 "station2_name":"子安",
                 "full_rate":{
-                    "7-8":72,
-                    "8-9":21
+                    "7-8":{
+                        "up":163,
+                        "down":41
+                    },
+                    "8-9":{
+                        "up":42,
+                        "down":155
+                    }
+                }
+            },
+            {
+                "code":3220300,
+                "station1_code":23149,
+                "station1_name":"京急新子安",
+                "station2_code":23166,
+                "station2_name":"子安",
+                "full_rate":{
+                    "7-8":{
+                        "up":180,
+                        "down":152
+                    },
+                    "8-9":{
+                        "up":37,
+                        "down":194
+                    }
                 }
             },
             {
@@ -13182,8 +20190,14 @@ var fullrate_data = {
                 "station2_code":23256,
                 "station2_name":"仲木戸",
                 "full_rate":{
-                    "7-8":35,
-                    "8-9":25
+                    "7-8":{
+                        "up":185,
+                        "down":6
+                    },
+                    "8-9":{
+                        "up":104,
+                        "down":62
+                    }
                 }
             },
             {
@@ -13193,8 +20207,14 @@ var fullrate_data = {
                 "station2_code":23256,
                 "station2_name":"仲木戸",
                 "full_rate":{
-                    "7-8":36,
-                    "8-9":68
+                    "7-8":{
+                        "up":147,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":20,
+                        "down":142
+                    }
                 }
             },
             {
@@ -13204,41 +20224,14 @@ var fullrate_data = {
                 "station2_code":23368,
                 "station2_name":"横浜",
                 "full_rate":{
-                    "7-8":96,
-                    "8-9":140
-                }
-            },
-            {
-                "code":3220360,
-                "station1_code":23252,
-                "station1_name":"戸部",
-                "station2_code":23296,
-                "station2_name":"日ノ出町",
-                "full_rate":{
-                    "7-8":42,
-                    "8-9":54
-                }
-            },
-            {
-                "code":3220370,
-                "station1_code":23159,
-                "station1_name":"黄金町",
-                "station2_code":23296,
-                "station2_name":"日ノ出町",
-                "full_rate":{
-                    "7-8":165,
-                    "8-9":74
-                }
-            },
-            {
-                "code":3220380,
-                "station1_code":23159,
-                "station1_name":"黄金町",
-                "station2_code":23334,
-                "station2_name":"南太田",
-                "full_rate":{
-                    "7-8":60,
-                    "8-9":164
+                    "7-8":{
+                        "up":65,
+                        "down":187
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":52
+                    }
                 }
             },
             {
@@ -13248,8 +20241,65 @@ var fullrate_data = {
                 "station2_code":23368,
                 "station2_name":"横浜",
                 "full_rate":{
-                    "7-8":18,
-                    "8-9":161
+                    "7-8":{
+                        "up":118,
+                        "down":80
+                    },
+                    "8-9":{
+                        "up":19,
+                        "down":120
+                    }
+                }
+            },
+            {
+                "code":3220360,
+                "station1_code":23252,
+                "station1_name":"戸部",
+                "station2_code":23296,
+                "station2_name":"日ノ出町",
+                "full_rate":{
+                    "7-8":{
+                        "up":5,
+                        "down":37
+                    },
+                    "8-9":{
+                        "up":33,
+                        "down":169
+                    }
+                }
+            },
+            {
+                "code":3220370,
+                "station1_code":23159,
+                "station1_name":"黄金町",
+                "station2_code":23296,
+                "station2_name":"日ノ出町",
+                "full_rate":{
+                    "7-8":{
+                        "up":139,
+                        "down":103
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":113
+                    }
+                }
+            },
+            {
+                "code":3220380,
+                "station1_code":23159,
+                "station1_name":"黄金町",
+                "station2_code":23334,
+                "station2_name":"南太田",
+                "full_rate":{
+                    "7-8":{
+                        "up":27,
+                        "down":48
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":182
+                    }
                 }
             },
             {
@@ -13259,8 +20309,14 @@ var fullrate_data = {
                 "station2_code":23334,
                 "station2_name":"南太田",
                 "full_rate":{
-                    "7-8":67,
-                    "8-9":46
+                    "7-8":{
+                        "up":48,
+                        "down":165
+                    },
+                    "8-9":{
+                        "up":94,
+                        "down":25
+                    }
                 }
             },
             {
@@ -13270,30 +20326,14 @@ var fullrate_data = {
                 "station2_code":23144,
                 "station2_name":"弘明寺(京急線)",
                 "full_rate":{
-                    "7-8":51,
-                    "8-9":78
-                }
-            },
-            {
-                "code":3220410,
-                "station1_code":23119,
-                "station1_name":"上大岡",
-                "station2_code":23144,
-                "station2_name":"弘明寺(京急線)",
-                "full_rate":{
-                    "7-8":131,
-                    "8-9":36
-                }
-            },
-            {
-                "code":3220420,
-                "station1_code":23119,
-                "station1_name":"上大岡",
-                "station2_code":23301,
-                "station2_name":"屏風浦",
-                "full_rate":{
-                    "7-8":66,
-                    "8-9":33
+                    "7-8":{
+                        "up":139,
+                        "down":46
+                    },
+                    "8-9":{
+                        "up":181,
+                        "down":160
+                    }
                 }
             },
             {
@@ -13303,8 +20343,31 @@ var fullrate_data = {
                 "station2_code":23215,
                 "station2_name":"杉田(神奈川県)",
                 "full_rate":{
-                    "7-8":178,
-                    "8-9":96
+                    "7-8":{
+                        "up":154,
+                        "down":66
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":188
+                    }
+                }
+            },
+            {
+                "code":3220410,
+                "station1_code":23119,
+                "station1_name":"上大岡",
+                "station2_code":23144,
+                "station2_name":"弘明寺(京急線)",
+                "full_rate":{
+                    "7-8":{
+                        "up":162,
+                        "down":146
+                    },
+                    "8-9":{
+                        "up":53,
+                        "down":84
+                    }
                 }
             },
             {
@@ -13314,19 +20377,31 @@ var fullrate_data = {
                 "station2_code":23272,
                 "station2_name":"能見台",
                 "full_rate":{
-                    "7-8":170,
-                    "8-9":116
+                    "7-8":{
+                        "up":183,
+                        "down":167
+                    },
+                    "8-9":{
+                        "up":72,
+                        "down":30
+                    }
                 }
             },
             {
-                "code":3220470,
-                "station1_code":23113,
-                "station1_name":"金沢八景(京急線)",
-                "station2_code":23115,
-                "station2_name":"金沢文庫",
+                "code":3220420,
+                "station1_code":23119,
+                "station1_name":"上大岡",
+                "station2_code":23301,
+                "station2_name":"屏風浦",
                 "full_rate":{
-                    "7-8":137,
-                    "8-9":129
+                    "7-8":{
+                        "up":77,
+                        "down":152
+                    },
+                    "8-9":{
+                        "up":34,
+                        "down":1
+                    }
                 }
             },
             {
@@ -13336,8 +20411,14 @@ var fullrate_data = {
                 "station2_code":23301,
                 "station2_name":"屏風浦",
                 "full_rate":{
-                    "7-8":35,
-                    "8-9":53
+                    "7-8":{
+                        "up":92,
+                        "down":54
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":56
+                    }
                 }
             },
             {
@@ -13347,8 +20428,31 @@ var fullrate_data = {
                 "station2_code":23272,
                 "station2_name":"能見台",
                 "full_rate":{
-                    "7-8":17,
-                    "8-9":190
+                    "7-8":{
+                        "up":1,
+                        "down":120
+                    },
+                    "8-9":{
+                        "up":144,
+                        "down":33
+                    }
+                }
+            },
+            {
+                "code":3220470,
+                "station1_code":23113,
+                "station1_name":"金沢八景(京急線)",
+                "station2_code":23115,
+                "station2_name":"金沢文庫",
+                "full_rate":{
+                    "7-8":{
+                        "up":58,
+                        "down":55
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":157
+                    }
                 }
             },
             {
@@ -13358,19 +20462,14 @@ var fullrate_data = {
                 "station2_code":23113,
                 "station2_name":"金沢八景(京急線)",
                 "full_rate":{
-                    "7-8":88,
-                    "8-9":92
-                }
-            },
-            {
-                "code":3220500,
-                "station1_code":23062,
-                "station1_name":"安針塚",
-                "station2_code":23150,
-                "station2_name":"京急田浦",
-                "full_rate":{
-                    "7-8":119,
-                    "8-9":68
+                    "7-8":{
+                        "up":73,
+                        "down":68
+                    },
+                    "8-9":{
+                        "up":151,
+                        "down":152
+                    }
                 }
             },
             {
@@ -13380,8 +20479,31 @@ var fullrate_data = {
                 "station2_code":23150,
                 "station2_name":"京急田浦",
                 "full_rate":{
-                    "7-8":64,
-                    "8-9":55
+                    "7-8":{
+                        "up":15,
+                        "down":112
+                    },
+                    "8-9":{
+                        "up":199,
+                        "down":11
+                    }
+                }
+            },
+            {
+                "code":3220500,
+                "station1_code":23062,
+                "station1_name":"安針塚",
+                "station2_code":23150,
+                "station2_name":"京急田浦",
+                "full_rate":{
+                    "7-8":{
+                        "up":103,
+                        "down":196
+                    },
+                    "8-9":{
+                        "up":128,
+                        "down":66
+                    }
                 }
             },
             {
@@ -13391,52 +20513,14 @@ var fullrate_data = {
                 "station2_code":23312,
                 "station2_name":"逸見",
                 "full_rate":{
-                    "7-8":72,
-                    "8-9":166
-                }
-            },
-            {
-                "code":3220530,
-                "station1_code":23196,
-                "station1_name":"汐入",
-                "station2_code":23367,
-                "station2_name":"横須賀中央",
-                "full_rate":{
-                    "7-8":161,
-                    "8-9":70
-                }
-            },
-            {
-                "code":3220540,
-                "station1_code":23154,
-                "station1_name":"県立大学",
-                "station2_code":23367,
-                "station2_name":"横須賀中央",
-                "full_rate":{
-                    "7-8":133,
-                    "8-9":89
-                }
-            },
-            {
-                "code":3220560,
-                "station1_code":23146,
-                "station1_name":"京急大津",
-                "station2_code":23317,
-                "station2_name":"堀ノ内",
-                "full_rate":{
-                    "7-8":74,
-                    "8-9":176
-                }
-            },
-            {
-                "code":3220570,
-                "station1_code":23146,
-                "station1_name":"京急大津",
-                "station2_code":23325,
-                "station2_name":"馬堀海岸",
-                "full_rate":{
-                    "7-8":94,
-                    "8-9":66
+                    "7-8":{
+                        "up":78,
+                        "down":113
+                    },
+                    "8-9":{
+                        "up":136,
+                        "down":122
+                    }
                 }
             },
             {
@@ -13446,19 +20530,48 @@ var fullrate_data = {
                 "station2_code":23312,
                 "station2_name":"逸見",
                 "full_rate":{
-                    "7-8":26,
-                    "8-9":157
+                    "7-8":{
+                        "up":18,
+                        "down":114
+                    },
+                    "8-9":{
+                        "up":127,
+                        "down":68
+                    }
                 }
             },
             {
-                "code":3220580,
-                "station1_code":23084,
-                "station1_name":"浦賀",
-                "station2_code":23325,
-                "station2_name":"馬堀海岸",
+                "code":3220530,
+                "station1_code":23196,
+                "station1_name":"汐入",
+                "station2_code":23367,
+                "station2_name":"横須賀中央",
                 "full_rate":{
-                    "7-8":197,
-                    "8-9":45
+                    "7-8":{
+                        "up":32,
+                        "down":180
+                    },
+                    "8-9":{
+                        "up":151,
+                        "down":47
+                    }
+                }
+            },
+            {
+                "code":3220540,
+                "station1_code":23154,
+                "station1_name":"県立大学",
+                "station2_code":23367,
+                "station2_name":"横須賀中央",
+                "full_rate":{
+                    "7-8":{
+                        "up":101,
+                        "down":68
+                    },
+                    "8-9":{
+                        "up":195,
+                        "down":5
+                    }
                 }
             },
             {
@@ -13468,8 +20581,65 @@ var fullrate_data = {
                 "station2_code":23317,
                 "station2_name":"堀ノ内",
                 "full_rate":{
-                    "7-8":93,
-                    "8-9":86
+                    "7-8":{
+                        "up":91,
+                        "down":74
+                    },
+                    "8-9":{
+                        "up":198,
+                        "down":156
+                    }
+                }
+            },
+            {
+                "code":3220560,
+                "station1_code":23146,
+                "station1_name":"京急大津",
+                "station2_code":23317,
+                "station2_name":"堀ノ内",
+                "full_rate":{
+                    "7-8":{
+                        "up":88,
+                        "down":124
+                    },
+                    "8-9":{
+                        "up":115,
+                        "down":13
+                    }
+                }
+            },
+            {
+                "code":3220570,
+                "station1_code":23146,
+                "station1_name":"京急大津",
+                "station2_code":23325,
+                "station2_name":"馬堀海岸",
+                "full_rate":{
+                    "7-8":{
+                        "up":16,
+                        "down":112
+                    },
+                    "8-9":{
+                        "up":116,
+                        "down":58
+                    }
+                }
+            },
+            {
+                "code":3220580,
+                "station1_code":23084,
+                "station1_name":"浦賀",
+                "station2_code":23325,
+                "station2_name":"馬堀海岸",
+                "full_rate":{
+                    "7-8":{
+                        "up":25,
+                        "down":177
+                    },
+                    "8-9":{
+                        "up":131,
+                        "down":154
+                    }
                 }
             }
         ]
@@ -13484,52 +20654,14 @@ var fullrate_data = {
                 "station2_code":22674,
                 "station2_name":"糀谷",
                 "full_rate":{
-                    "7-8":192,
-                    "8-9":92
-                }
-            },
-            {
-                "code":3230120,
-                "station1_code":22498,
-                "station1_name":"穴守稲荷",
-                "station2_code":22565,
-                "station2_name":"大鳥居",
-                "full_rate":{
-                    "7-8":116,
-                    "8-9":165
-                }
-            },
-            {
-                "code":3230130,
-                "station1_code":22498,
-                "station1_name":"穴守稲荷",
-                "station2_code":22910,
-                "station2_name":"天空橋",
-                "full_rate":{
-                    "7-8":48,
-                    "8-9":88
-                }
-            },
-            {
-                "code":3230140,
-                "station1_code":22910,
-                "station1_name":"天空橋",
-                "station2_code":29672,
-                "station2_name":"羽田空港国際線ターミナル(京急)",
-                "full_rate":{
-                    "7-8":47,
-                    "8-9":72
-                }
-            },
-            {
-                "code":3230150,
-                "station1_code":29672,
-                "station1_name":"羽田空港国際線ターミナル(京急)",
-                "station2_code":22911,
-                "station2_name":"羽田空港国内線ターミナル(京急)",
-                "full_rate":{
-                    "7-8":189,
-                    "8-9":113
+                    "7-8":{
+                        "up":161,
+                        "down":156
+                    },
+                    "8-9":{
+                        "up":91,
+                        "down":195
+                    }
                 }
             },
             {
@@ -13539,8 +20671,82 @@ var fullrate_data = {
                 "station2_code":22674,
                 "station2_name":"糀谷",
                 "full_rate":{
-                    "7-8":100,
-                    "8-9":153
+                    "7-8":{
+                        "up":127,
+                        "down":108
+                    },
+                    "8-9":{
+                        "up":127,
+                        "down":5
+                    }
+                }
+            },
+            {
+                "code":3230120,
+                "station1_code":22498,
+                "station1_name":"穴守稲荷",
+                "station2_code":22565,
+                "station2_name":"大鳥居",
+                "full_rate":{
+                    "7-8":{
+                        "up":123,
+                        "down":108
+                    },
+                    "8-9":{
+                        "up":77,
+                        "down":105
+                    }
+                }
+            },
+            {
+                "code":3230130,
+                "station1_code":22498,
+                "station1_name":"穴守稲荷",
+                "station2_code":22910,
+                "station2_name":"天空橋",
+                "full_rate":{
+                    "7-8":{
+                        "up":140,
+                        "down":45
+                    },
+                    "8-9":{
+                        "up":49,
+                        "down":143
+                    }
+                }
+            },
+            {
+                "code":3230140,
+                "station1_code":22910,
+                "station1_name":"天空橋",
+                "station2_code":29672,
+                "station2_name":"羽田空港国際線ターミナル(京急)",
+                "full_rate":{
+                    "7-8":{
+                        "up":142,
+                        "down":146
+                    },
+                    "8-9":{
+                        "up":198,
+                        "down":78
+                    }
+                }
+            },
+            {
+                "code":3230150,
+                "station1_code":29672,
+                "station1_name":"羽田空港国際線ターミナル(京急)",
+                "station2_code":22911,
+                "station2_name":"羽田空港国内線ターミナル(京急)",
+                "full_rate":{
+                    "7-8":{
+                        "up":5,
+                        "down":136
+                    },
+                    "8-9":{
+                        "up":83,
+                        "down":55
+                    }
                 }
             }
         ]
@@ -13555,8 +20761,14 @@ var fullrate_data = {
                 "station2_code":22811,
                 "station2_name":"田原町(東京都)",
                 "full_rate":{
-                    "7-8":8,
-                    "8-9":15
+                    "7-8":{
+                        "up":86,
+                        "down":174
+                    },
+                    "8-9":{
+                        "up":111,
+                        "down":77
+                    }
                 }
             },
             {
@@ -13566,30 +20778,14 @@ var fullrate_data = {
                 "station2_code":22811,
                 "station2_name":"田原町(東京都)",
                 "full_rate":{
-                    "7-8":26,
-                    "8-9":128
-                }
-            },
-            {
-                "code":3270120,
-                "station1_code":22524,
-                "station1_name":"稲荷町(東京都)",
-                "station2_code":22528,
-                "station2_name":"上野",
-                "full_rate":{
-                    "7-8":23,
-                    "8-9":167
-                }
-            },
-            {
-                "code":3270130,
-                "station1_code":22528,
-                "station1_name":"上野",
-                "station2_code":22529,
-                "station2_name":"上野広小路",
-                "full_rate":{
-                    "7-8":26,
-                    "8-9":165
+                    "7-8":{
+                        "up":156,
+                        "down":41
+                    },
+                    "8-9":{
+                        "up":70,
+                        "down":167
+                    }
                 }
             },
             {
@@ -13599,8 +20795,31 @@ var fullrate_data = {
                 "station2_code":22759,
                 "station2_name":"末広町(東京都)",
                 "full_rate":{
-                    "7-8":121,
-                    "8-9":136
+                    "7-8":{
+                        "up":90,
+                        "down":148
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":10
+                    }
+                }
+            },
+            {
+                "code":3270120,
+                "station1_code":22524,
+                "station1_name":"稲荷町(東京都)",
+                "station2_code":22528,
+                "station2_name":"上野",
+                "full_rate":{
+                    "7-8":{
+                        "up":123,
+                        "down":196
+                    },
+                    "8-9":{
+                        "up":145,
+                        "down":51
+                    }
                 }
             },
             {
@@ -13610,8 +20829,14 @@ var fullrate_data = {
                 "station2_code":22759,
                 "station2_name":"末広町(東京都)",
                 "full_rate":{
-                    "7-8":63,
-                    "8-9":102
+                    "7-8":{
+                        "up":73,
+                        "down":15
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":100
+                    }
                 }
             },
             {
@@ -13621,8 +20846,31 @@ var fullrate_data = {
                 "station2_code":22989,
                 "station2_name":"三越前",
                 "full_rate":{
-                    "7-8":148,
-                    "8-9":142
+                    "7-8":{
+                        "up":61,
+                        "down":81
+                    },
+                    "8-9":{
+                        "up":138,
+                        "down":127
+                    }
+                }
+            },
+            {
+                "code":3270130,
+                "station1_code":22528,
+                "station1_name":"上野",
+                "station2_code":22529,
+                "station2_name":"上野広小路",
+                "full_rate":{
+                    "7-8":{
+                        "up":165,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":4
+                    }
                 }
             },
             {
@@ -13632,8 +20880,14 @@ var fullrate_data = {
                 "station2_code":22989,
                 "station2_name":"三越前",
                 "full_rate":{
-                    "7-8":183,
-                    "8-9":101
+                    "7-8":{
+                        "up":8,
+                        "down":126
+                    },
+                    "8-9":{
+                        "up":175,
+                        "down":162
+                    }
                 }
             },
             {
@@ -13643,8 +20897,14 @@ var fullrate_data = {
                 "station2_code":22884,
                 "station2_name":"日本橋(東京都)",
                 "full_rate":{
-                    "7-8":18,
-                    "8-9":180
+                    "7-8":{
+                        "up":145,
+                        "down":85
+                    },
+                    "8-9":{
+                        "up":56,
+                        "down":26
+                    }
                 }
             },
             {
@@ -13654,8 +20914,14 @@ var fullrate_data = {
                 "station2_code":22641,
                 "station2_name":"銀座",
                 "full_rate":{
-                    "7-8":6,
-                    "8-9":43
+                    "7-8":{
+                        "up":4,
+                        "down":19
+                    },
+                    "8-9":{
+                        "up":172,
+                        "down":197
+                    }
                 }
             },
             {
@@ -13665,8 +20931,14 @@ var fullrate_data = {
                 "station2_code":22751,
                 "station2_name":"新橋",
                 "full_rate":{
-                    "7-8":149,
-                    "8-9":167
+                    "7-8":{
+                        "up":75,
+                        "down":20
+                    },
+                    "8-9":{
+                        "up":163,
+                        "down":43
+                    }
                 }
             },
             {
@@ -13676,8 +20948,14 @@ var fullrate_data = {
                 "station2_code":22841,
                 "station2_name":"虎ノ門",
                 "full_rate":{
-                    "7-8":145,
-                    "8-9":163
+                    "7-8":{
+                        "up":42,
+                        "down":12
+                    },
+                    "8-9":{
+                        "up":162,
+                        "down":80
+                    }
                 }
             },
             {
@@ -13687,8 +20965,14 @@ var fullrate_data = {
                 "station2_code":22841,
                 "station2_name":"虎ノ門",
                 "full_rate":{
-                    "7-8":146,
-                    "8-9":152
+                    "7-8":{
+                        "up":73,
+                        "down":37
+                    },
+                    "8-9":{
+                        "up":76,
+                        "down":113
+                    }
                 }
             },
             {
@@ -13698,8 +20982,14 @@ var fullrate_data = {
                 "station2_code":29194,
                 "station2_name":"溜池山王",
                 "full_rate":{
-                    "7-8":181,
-                    "8-9":96
+                    "7-8":{
+                        "up":110,
+                        "down":194
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":77
+                    }
                 }
             },
             {
@@ -13709,19 +20999,14 @@ var fullrate_data = {
                 "station2_code":22486,
                 "station2_name":"赤坂見附",
                 "full_rate":{
-                    "7-8":142,
-                    "8-9":103
-                }
-            },
-            {
-                "code":3270250,
-                "station1_code":22484,
-                "station1_name":"青山一丁目",
-                "station2_code":22618,
-                "station2_name":"外苑前",
-                "full_rate":{
-                    "7-8":68,
-                    "8-9":184
+                    "7-8":{
+                        "up":112,
+                        "down":8
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":141
+                    }
                 }
             },
             {
@@ -13731,8 +21016,31 @@ var fullrate_data = {
                 "station2_code":22618,
                 "station2_name":"外苑前",
                 "full_rate":{
-                    "7-8":163,
-                    "8-9":69
+                    "7-8":{
+                        "up":28,
+                        "down":196
+                    },
+                    "8-9":{
+                        "up":52,
+                        "down":49
+                    }
+                }
+            },
+            {
+                "code":3270250,
+                "station1_code":22484,
+                "station1_name":"青山一丁目",
+                "station2_code":22618,
+                "station2_name":"外苑前",
+                "full_rate":{
+                    "7-8":{
+                        "up":122,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":115,
+                        "down":34
+                    }
                 }
             },
             {
@@ -13742,8 +21050,14 @@ var fullrate_data = {
                 "station2_code":22715,
                 "station2_name":"渋谷",
                 "full_rate":{
-                    "7-8":27,
-                    "8-9":97
+                    "7-8":{
+                        "up":74,
+                        "down":0
+                    },
+                    "8-9":{
+                        "up":23,
+                        "down":188
+                    }
                 }
             }
         ]
@@ -13758,8 +21072,14 @@ var fullrate_data = {
                 "station2_code":22731,
                 "station2_name":"新大塚",
                 "full_rate":{
-                    "7-8":21,
-                    "8-9":87
+                    "7-8":{
+                        "up":41,
+                        "down":175
+                    },
+                    "8-9":{
+                        "up":12,
+                        "down":3
+                    }
                 }
             },
             {
@@ -13769,8 +21089,14 @@ var fullrate_data = {
                 "station2_code":22982,
                 "station2_name":"茗荷谷",
                 "full_rate":{
-                    "7-8":96,
-                    "8-9":156
+                    "7-8":{
+                        "up":45,
+                        "down":105
+                    },
+                    "8-9":{
+                        "up":132,
+                        "down":153
+                    }
                 }
             },
             {
@@ -13780,8 +21106,14 @@ var fullrate_data = {
                 "station2_code":22982,
                 "station2_name":"茗荷谷",
                 "full_rate":{
-                    "7-8":5,
-                    "8-9":188
+                    "7-8":{
+                        "up":124,
+                        "down":176
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":58
+                    }
                 }
             },
             {
@@ -13791,8 +21123,14 @@ var fullrate_data = {
                 "station2_code":22973,
                 "station2_name":"本郷三丁目",
                 "full_rate":{
-                    "7-8":120,
-                    "8-9":55
+                    "7-8":{
+                        "up":7,
+                        "down":43
+                    },
+                    "8-9":{
+                        "up":11,
+                        "down":34
+                    }
                 }
             },
             {
@@ -13802,8 +21140,14 @@ var fullrate_data = {
                 "station2_code":22973,
                 "station2_name":"本郷三丁目",
                 "full_rate":{
-                    "7-8":50,
-                    "8-9":96
+                    "7-8":{
+                        "up":60,
+                        "down":39
+                    },
+                    "8-9":{
+                        "up":185,
+                        "down":180
+                    }
                 }
             },
             {
@@ -13813,8 +21157,14 @@ var fullrate_data = {
                 "station2_code":22582,
                 "station2_name":"御茶ノ水",
                 "full_rate":{
-                    "7-8":180,
-                    "8-9":53
+                    "7-8":{
+                        "up":40,
+                        "down":80
+                    },
+                    "8-9":{
+                        "up":133,
+                        "down":20
+                    }
                 }
             },
             {
@@ -13824,41 +21174,14 @@ var fullrate_data = {
                 "station2_code":22564,
                 "station2_name":"大手町(東京都)",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":63
-                }
-            },
-            {
-                "code":3280170,
-                "station1_code":22564,
-                "station1_name":"大手町(東京都)",
-                "station2_code":22828,
-                "station2_name":"東京",
-                "full_rate":{
-                    "7-8":31,
-                    "8-9":192
-                }
-            },
-            {
-                "code":3280180,
-                "station1_code":22641,
-                "station1_name":"銀座",
-                "station2_code":22828,
-                "station2_name":"東京",
-                "full_rate":{
-                    "7-8":41,
-                    "8-9":116
-                }
-            },
-            {
-                "code":3280200,
-                "station1_code":22596,
-                "station1_name":"霞ケ関(東京都)",
-                "station2_code":22668,
-                "station2_name":"国会議事堂前",
-                "full_rate":{
-                    "7-8":158,
-                    "8-9":111
+                    "7-8":{
+                        "up":56,
+                        "down":152
+                    },
+                    "8-9":{
+                        "up":118,
+                        "down":109
+                    }
                 }
             },
             {
@@ -13868,19 +21191,65 @@ var fullrate_data = {
                 "station2_code":22641,
                 "station2_name":"銀座",
                 "full_rate":{
-                    "7-8":63,
-                    "8-9":135
+                    "7-8":{
+                        "up":118,
+                        "down":46
+                    },
+                    "8-9":{
+                        "up":54,
+                        "down":148
+                    }
                 }
             },
             {
-                "code":3280210,
-                "station1_code":22486,
-                "station1_name":"赤坂見附",
+                "code":3280180,
+                "station1_code":22641,
+                "station1_name":"銀座",
+                "station2_code":22828,
+                "station2_name":"東京",
+                "full_rate":{
+                    "7-8":{
+                        "up":196,
+                        "down":156
+                    },
+                    "8-9":{
+                        "up":171,
+                        "down":144
+                    }
+                }
+            },
+            {
+                "code":3280170,
+                "station1_code":22564,
+                "station1_name":"大手町(東京都)",
+                "station2_code":22828,
+                "station2_name":"東京",
+                "full_rate":{
+                    "7-8":{
+                        "up":6,
+                        "down":150
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":82
+                    }
+                }
+            },
+            {
+                "code":3280200,
+                "station1_code":22596,
+                "station1_name":"霞ケ関(東京都)",
                 "station2_code":22668,
                 "station2_name":"国会議事堂前",
                 "full_rate":{
-                    "7-8":135,
-                    "8-9":117
+                    "7-8":{
+                        "up":177,
+                        "down":6
+                    },
+                    "8-9":{
+                        "up":172,
+                        "down":175
+                    }
                 }
             },
             {
@@ -13890,19 +21259,31 @@ var fullrate_data = {
                 "station2_code":23041,
                 "station2_name":"四ツ谷",
                 "full_rate":{
-                    "7-8":182,
-                    "8-9":95
+                    "7-8":{
+                        "up":112,
+                        "down":54
+                    },
+                    "8-9":{
+                        "up":105,
+                        "down":46
+                    }
                 }
             },
             {
-                "code":3280240,
-                "station1_code":22742,
-                "station1_name":"新宿御苑前",
-                "station2_code":23042,
-                "station2_name":"四谷三丁目",
+                "code":3280210,
+                "station1_code":22486,
+                "station1_name":"赤坂見附",
+                "station2_code":22668,
+                "station2_name":"国会議事堂前",
                 "full_rate":{
-                    "7-8":54,
-                    "8-9":78
+                    "7-8":{
+                        "up":24,
+                        "down":150
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":150
+                    }
                 }
             },
             {
@@ -13912,8 +21293,31 @@ var fullrate_data = {
                 "station2_code":23042,
                 "station2_name":"四谷三丁目",
                 "full_rate":{
-                    "7-8":57,
-                    "8-9":101
+                    "7-8":{
+                        "up":55,
+                        "down":184
+                    },
+                    "8-9":{
+                        "up":129,
+                        "down":184
+                    }
+                }
+            },
+            {
+                "code":3280240,
+                "station1_code":22742,
+                "station1_name":"新宿御苑前",
+                "station2_code":23042,
+                "station2_name":"四谷三丁目",
+                "full_rate":{
+                    "7-8":{
+                        "up":132,
+                        "down":19
+                    },
+                    "8-9":{
+                        "up":115,
+                        "down":53
+                    }
                 }
             },
             {
@@ -13923,19 +21327,14 @@ var fullrate_data = {
                 "station2_code":22743,
                 "station2_name":"新宿三丁目",
                 "full_rate":{
-                    "7-8":99,
-                    "8-9":50
-                }
-            },
-            {
-                "code":3280280,
-                "station1_code":22850,
-                "station1_name":"中野坂上",
-                "station2_code":29085,
-                "station2_name":"西新宿",
-                "full_rate":{
-                    "7-8":83,
-                    "8-9":159
+                    "7-8":{
+                        "up":7,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":65,
+                        "down":105
+                    }
                 }
             },
             {
@@ -13945,8 +21344,14 @@ var fullrate_data = {
                 "station2_code":22743,
                 "station2_name":"新宿三丁目",
                 "full_rate":{
-                    "7-8":198,
-                    "8-9":154
+                    "7-8":{
+                        "up":44,
+                        "down":23
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":114
+                    }
                 }
             },
             {
@@ -13956,8 +21361,14 @@ var fullrate_data = {
                 "station2_code":29085,
                 "station2_name":"西新宿",
                 "full_rate":{
-                    "7-8":147,
-                    "8-9":156
+                    "7-8":{
+                        "up":75,
+                        "down":174
+                    },
+                    "8-9":{
+                        "up":11,
+                        "down":36
+                    }
                 }
             },
             {
@@ -13967,8 +21378,31 @@ var fullrate_data = {
                 "station2_code":22850,
                 "station2_name":"中野坂上",
                 "full_rate":{
-                    "7-8":41,
-                    "8-9":84
+                    "7-8":{
+                        "up":116,
+                        "down":40
+                    },
+                    "8-9":{
+                        "up":14,
+                        "down":180
+                    }
+                }
+            },
+            {
+                "code":3280280,
+                "station1_code":22850,
+                "station1_name":"中野坂上",
+                "station2_code":29085,
+                "station2_name":"西新宿",
+                "full_rate":{
+                    "7-8":{
+                        "up":39,
+                        "down":123
+                    },
+                    "8-9":{
+                        "up":150,
+                        "down":114
+                    }
                 }
             },
             {
@@ -13978,8 +21412,14 @@ var fullrate_data = {
                 "station2_code":22932,
                 "station2_name":"東高円寺",
                 "full_rate":{
-                    "7-8":162,
-                    "8-9":45
+                    "7-8":{
+                        "up":18,
+                        "down":6
+                    },
+                    "8-9":{
+                        "up":63,
+                        "down":4
+                    }
                 }
             },
             {
@@ -13989,19 +21429,14 @@ var fullrate_data = {
                 "station2_code":22932,
                 "station2_name":"東高円寺",
                 "full_rate":{
-                    "7-8":195,
-                    "8-9":102
-                }
-            },
-            {
-                "code":3280330,
-                "station1_code":22573,
-                "station1_name":"荻窪",
-                "station2_code":22991,
-                "station2_name":"南阿佐ケ谷",
-                "full_rate":{
-                    "7-8":55,
-                    "8-9":139
+                    "7-8":{
+                        "up":10,
+                        "down":120
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":174
+                    }
                 }
             },
             {
@@ -14011,8 +21446,31 @@ var fullrate_data = {
                 "station2_code":22991,
                 "station2_name":"南阿佐ケ谷",
                 "full_rate":{
-                    "7-8":140,
-                    "8-9":119
+                    "7-8":{
+                        "up":76,
+                        "down":0
+                    },
+                    "8-9":{
+                        "up":69,
+                        "down":91
+                    }
+                }
+            },
+            {
+                "code":3280330,
+                "station1_code":22573,
+                "station1_name":"荻窪",
+                "station2_code":22991,
+                "station2_name":"南阿佐ケ谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":157,
+                        "down":96
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":123
+                    }
                 }
             }
         ]
@@ -14027,8 +21485,14 @@ var fullrate_data = {
                 "station2_code":22851,
                 "station2_name":"中野新橋",
                 "full_rate":{
-                    "7-8":170,
-                    "8-9":183
+                    "7-8":{
+                        "up":35,
+                        "down":3
+                    },
+                    "8-9":{
+                        "up":29,
+                        "down":24
+                    }
                 }
             },
             {
@@ -14038,8 +21502,14 @@ var fullrate_data = {
                 "station2_code":22852,
                 "station2_name":"中野富士見町",
                 "full_rate":{
-                    "7-8":117,
-                    "8-9":188
+                    "7-8":{
+                        "up":145,
+                        "down":40
+                    },
+                    "8-9":{
+                        "up":121,
+                        "down":58
+                    }
                 }
             },
             {
@@ -14049,8 +21519,14 @@ var fullrate_data = {
                 "station2_code":22969,
                 "station2_name":"方南町",
                 "full_rate":{
-                    "7-8":23,
-                    "8-9":36
+                    "7-8":{
+                        "up":28,
+                        "down":148
+                    },
+                    "8-9":{
+                        "up":138,
+                        "down":111
+                    }
                 }
             }
         ]
@@ -14065,8 +21541,14 @@ var fullrate_data = {
                 "station2_code":22995,
                 "station2_name":"南千住",
                 "full_rate":{
-                    "7-8":32,
-                    "8-9":179
+                    "7-8":{
+                        "up":6,
+                        "down":147
+                    },
+                    "8-9":{
+                        "up":161,
+                        "down":108
+                    }
                 }
             },
             {
@@ -14076,8 +21558,14 @@ var fullrate_data = {
                 "station2_code":22999,
                 "station2_name":"三ノ輪",
                 "full_rate":{
-                    "7-8":41,
-                    "8-9":95
+                    "7-8":{
+                        "up":16,
+                        "down":44
+                    },
+                    "8-9":{
+                        "up":20,
+                        "down":89
+                    }
                 }
             },
             {
@@ -14087,30 +21575,14 @@ var fullrate_data = {
                 "station2_code":22999,
                 "station2_name":"三ノ輪",
                 "full_rate":{
-                    "7-8":63,
-                    "8-9":51
-                }
-            },
-            {
-                "code":3300140,
-                "station1_code":22528,
-                "station1_name":"上野",
-                "station2_code":22846,
-                "station2_name":"仲御徒町",
-                "full_rate":{
-                    "7-8":84,
-                    "8-9":38
-                }
-            },
-            {
-                "code":3300150,
-                "station1_code":22492,
-                "station1_name":"秋葉原",
-                "station2_code":22846,
-                "station2_name":"仲御徒町",
-                "full_rate":{
-                    "7-8":38,
-                    "8-9":161
+                    "7-8":{
+                        "up":116,
+                        "down":161
+                    },
+                    "8-9":{
+                        "up":142,
+                        "down":97
+                    }
                 }
             },
             {
@@ -14120,8 +21592,48 @@ var fullrate_data = {
                 "station2_code":22528,
                 "station2_name":"上野",
                 "full_rate":{
-                    "7-8":191,
-                    "8-9":58
+                    "7-8":{
+                        "up":187,
+                        "down":26
+                    },
+                    "8-9":{
+                        "up":134,
+                        "down":197
+                    }
+                }
+            },
+            {
+                "code":3300140,
+                "station1_code":22528,
+                "station1_name":"上野",
+                "station2_code":22846,
+                "station2_name":"仲御徒町",
+                "full_rate":{
+                    "7-8":{
+                        "up":175,
+                        "down":41
+                    },
+                    "8-9":{
+                        "up":8,
+                        "down":152
+                    }
+                }
+            },
+            {
+                "code":3300150,
+                "station1_code":22492,
+                "station1_name":"秋葉原",
+                "station2_code":22846,
+                "station2_name":"仲御徒町",
+                "full_rate":{
+                    "7-8":{
+                        "up":192,
+                        "down":125
+                    },
+                    "8-9":{
+                        "up":106,
+                        "down":143
+                    }
                 }
             },
             {
@@ -14131,8 +21643,14 @@ var fullrate_data = {
                 "station2_code":22681,
                 "station2_name":"小伝馬町",
                 "full_rate":{
-                    "7-8":20,
-                    "8-9":21
+                    "7-8":{
+                        "up":94,
+                        "down":135
+                    },
+                    "8-9":{
+                        "up":35,
+                        "down":22
+                    }
                 }
             },
             {
@@ -14142,8 +21660,14 @@ var fullrate_data = {
                 "station2_code":22885,
                 "station2_name":"人形町",
                 "full_rate":{
-                    "7-8":54,
-                    "8-9":104
+                    "7-8":{
+                        "up":113,
+                        "down":2
+                    },
+                    "8-9":{
+                        "up":25,
+                        "down":11
+                    }
                 }
             },
             {
@@ -14153,8 +21677,14 @@ var fullrate_data = {
                 "station2_code":22885,
                 "station2_name":"人形町",
                 "full_rate":{
-                    "7-8":61,
-                    "8-9":132
+                    "7-8":{
+                        "up":190,
+                        "down":1
+                    },
+                    "8-9":{
+                        "up":124,
+                        "down":139
+                    }
                 }
             },
             {
@@ -14164,8 +21694,14 @@ var fullrate_data = {
                 "station2_code":22894,
                 "station2_name":"八丁堀(東京都)",
                 "full_rate":{
-                    "7-8":137,
-                    "8-9":32
+                    "7-8":{
+                        "up":197,
+                        "down":83
+                    },
+                    "8-9":{
+                        "up":10,
+                        "down":173
+                    }
                 }
             },
             {
@@ -14175,19 +21711,14 @@ var fullrate_data = {
                 "station2_code":22894,
                 "station2_name":"八丁堀(東京都)",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":176
-                }
-            },
-            {
-                "code":3300210,
-                "station1_code":22821,
-                "station1_name":"築地",
-                "station2_code":22930,
-                "station2_name":"東銀座",
-                "full_rate":{
-                    "7-8":165,
-                    "8-9":30
+                    "7-8":{
+                        "up":140,
+                        "down":190
+                    },
+                    "8-9":{
+                        "up":164,
+                        "down":141
+                    }
                 }
             },
             {
@@ -14197,8 +21728,14 @@ var fullrate_data = {
                 "station2_code":22930,
                 "station2_name":"東銀座",
                 "full_rate":{
-                    "7-8":85,
-                    "8-9":121
+                    "7-8":{
+                        "up":80,
+                        "down":54
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":111
+                    }
                 }
             },
             {
@@ -14208,8 +21745,14 @@ var fullrate_data = {
                 "station2_code":22951,
                 "station2_name":"日比谷",
                 "full_rate":{
-                    "7-8":46,
-                    "8-9":190
+                    "7-8":{
+                        "up":150,
+                        "down":80
+                    },
+                    "8-9":{
+                        "up":35,
+                        "down":186
+                    }
                 }
             },
             {
@@ -14219,19 +21762,14 @@ var fullrate_data = {
                 "station2_code":22951,
                 "station2_name":"日比谷",
                 "full_rate":{
-                    "7-8":106,
-                    "8-9":72
-                }
-            },
-            {
-                "code":3300250,
-                "station1_code":22596,
-                "station1_name":"霞ケ関(東京都)",
-                "station2_code":22610,
-                "station2_name":"神谷町",
-                "full_rate":{
-                    "7-8":36,
-                    "8-9":179
+                    "7-8":{
+                        "up":171,
+                        "down":124
+                    },
+                    "8-9":{
+                        "up":127,
+                        "down":80
+                    }
                 }
             },
             {
@@ -14241,8 +21779,14 @@ var fullrate_data = {
                 "station2_code":23049,
                 "station2_name":"六本木",
                 "full_rate":{
-                    "7-8":105,
-                    "8-9":126
+                    "7-8":{
+                        "up":41,
+                        "down":189
+                    },
+                    "8-9":{
+                        "up":13,
+                        "down":80
+                    }
                 }
             },
             {
@@ -14252,19 +21796,31 @@ var fullrate_data = {
                 "station2_code":23049,
                 "station2_name":"六本木",
                 "full_rate":{
-                    "7-8":61,
-                    "8-9":92
+                    "7-8":{
+                        "up":195,
+                        "down":144
+                    },
+                    "8-9":{
+                        "up":46,
+                        "down":124
+                    }
                 }
             },
             {
-                "code":3300290,
-                "station1_code":22548,
-                "station1_name":"恵比寿",
-                "station2_code":22855,
-                "station2_name":"中目黒",
+                "code":3300250,
+                "station1_code":22596,
+                "station1_name":"霞ケ関(東京都)",
+                "station2_code":22610,
+                "station2_name":"神谷町",
                 "full_rate":{
-                    "7-8":60,
-                    "8-9":11
+                    "7-8":{
+                        "up":55,
+                        "down":98
+                    },
+                    "8-9":{
+                        "up":123,
+                        "down":88
+                    }
                 }
             },
             {
@@ -14274,8 +21830,48 @@ var fullrate_data = {
                 "station2_code":22954,
                 "station2_name":"広尾",
                 "full_rate":{
-                    "7-8":167,
-                    "8-9":61
+                    "7-8":{
+                        "up":140,
+                        "down":99
+                    },
+                    "8-9":{
+                        "up":88,
+                        "down":88
+                    }
+                }
+            },
+            {
+                "code":3300290,
+                "station1_code":22548,
+                "station1_name":"恵比寿",
+                "station2_code":22855,
+                "station2_name":"中目黒",
+                "full_rate":{
+                    "7-8":{
+                        "up":102,
+                        "down":171
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":176
+                    }
+                }
+            },
+            {
+                "code":3300210,
+                "station1_code":22821,
+                "station1_name":"築地",
+                "station2_code":22930,
+                "station2_name":"東銀座",
+                "full_rate":{
+                    "7-8":{
+                        "up":120,
+                        "down":170
+                    },
+                    "8-9":{
+                        "up":138,
+                        "down":36
+                    }
                 }
             }
         ]
@@ -14290,30 +21886,14 @@ var fullrate_data = {
                 "station2_code":22849,
                 "station2_name":"中野(東京都)",
                 "full_rate":{
-                    "7-8":34,
-                    "8-9":193
-                }
-            },
-            {
-                "code":3310130,
-                "station1_code":22591,
-                "station1_name":"神楽坂",
-                "station2_code":23053,
-                "station2_name":"早稲田(東京メトロ)",
-                "full_rate":{
-                    "7-8":40,
-                    "8-9":184
-                }
-            },
-            {
-                "code":3310140,
-                "station1_code":22507,
-                "station1_name":"飯田橋",
-                "station2_code":22591,
-                "station2_name":"神楽坂",
-                "full_rate":{
-                    "7-8":101,
-                    "8-9":16
+                    "7-8":{
+                        "up":142,
+                        "down":103
+                    },
+                    "8-9":{
+                        "up":13,
+                        "down":1
+                    }
                 }
             },
             {
@@ -14323,8 +21903,14 @@ var fullrate_data = {
                 "station2_code":22790,
                 "station2_name":"高田馬場",
                 "full_rate":{
-                    "7-8":80,
-                    "8-9":71
+                    "7-8":{
+                        "up":132,
+                        "down":157
+                    },
+                    "8-9":{
+                        "up":120,
+                        "down":13
+                    }
                 }
             },
             {
@@ -14334,19 +21920,31 @@ var fullrate_data = {
                 "station2_code":23053,
                 "station2_name":"早稲田(東京メトロ)",
                 "full_rate":{
-                    "7-8":64,
-                    "8-9":196
+                    "7-8":{
+                        "up":32,
+                        "down":165
+                    },
+                    "8-9":{
+                        "up":65,
+                        "down":195
+                    }
                 }
             },
             {
-                "code":3310150,
-                "station1_code":22507,
-                "station1_name":"飯田橋",
-                "station2_code":22645,
-                "station2_name":"九段下",
+                "code":3310130,
+                "station1_code":22591,
+                "station1_name":"神楽坂",
+                "station2_code":23053,
+                "station2_name":"早稲田(東京メトロ)",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":64
+                    "7-8":{
+                        "up":148,
+                        "down":84
+                    },
+                    "8-9":{
+                        "up":44,
+                        "down":72
+                    }
                 }
             },
             {
@@ -14356,8 +21954,48 @@ var fullrate_data = {
                 "station2_code":22797,
                 "station2_name":"竹橋",
                 "full_rate":{
-                    "7-8":55,
-                    "8-9":66
+                    "7-8":{
+                        "up":67,
+                        "down":35
+                    },
+                    "8-9":{
+                        "up":12,
+                        "down":165
+                    }
+                }
+            },
+            {
+                "code":3310140,
+                "station1_code":22507,
+                "station1_name":"飯田橋",
+                "station2_code":22591,
+                "station2_name":"神楽坂",
+                "full_rate":{
+                    "7-8":{
+                        "up":133,
+                        "down":156
+                    },
+                    "8-9":{
+                        "up":156,
+                        "down":198
+                    }
+                }
+            },
+            {
+                "code":3310150,
+                "station1_code":22507,
+                "station1_name":"飯田橋",
+                "station2_code":22645,
+                "station2_name":"九段下",
+                "full_rate":{
+                    "7-8":{
+                        "up":192,
+                        "down":8
+                    },
+                    "8-9":{
+                        "up":6,
+                        "down":114
+                    }
                 }
             },
             {
@@ -14367,8 +22005,14 @@ var fullrate_data = {
                 "station2_code":22797,
                 "station2_name":"竹橋",
                 "full_rate":{
-                    "7-8":122,
-                    "8-9":117
+                    "7-8":{
+                        "up":30,
+                        "down":89
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":6
+                    }
                 }
             },
             {
@@ -14378,8 +22022,14 @@ var fullrate_data = {
                 "station2_code":22884,
                 "station2_name":"日本橋(東京都)",
                 "full_rate":{
-                    "7-8":168,
-                    "8-9":97
+                    "7-8":{
+                        "up":103,
+                        "down":153
+                    },
+                    "8-9":{
+                        "up":179,
+                        "down":160
+                    }
                 }
             },
             {
@@ -14389,8 +22039,14 @@ var fullrate_data = {
                 "station2_code":22884,
                 "station2_name":"日本橋(東京都)",
                 "full_rate":{
-                    "7-8":41,
-                    "8-9":175
+                    "7-8":{
+                        "up":15,
+                        "down":193
+                    },
+                    "8-9":{
+                        "up":181,
+                        "down":106
+                    }
                 }
             },
             {
@@ -14400,8 +22056,14 @@ var fullrate_data = {
                 "station2_code":23024,
                 "station2_name":"門前仲町",
                 "full_rate":{
-                    "7-8":197,
-                    "8-9":166
+                    "7-8":{
+                        "up":10,
+                        "down":74
+                    },
+                    "8-9":{
+                        "up":22,
+                        "down":63
+                    }
                 }
             },
             {
@@ -14411,41 +22073,14 @@ var fullrate_data = {
                 "station2_code":23024,
                 "station2_name":"門前仲町",
                 "full_rate":{
-                    "7-8":70,
-                    "8-9":92
-                }
-            },
-            {
-                "code":3310220,
-                "station1_code":22638,
-                "station1_name":"木場(東京都)",
-                "station2_code":22830,
-                "station2_name":"東陽町",
-                "full_rate":{
-                    "7-8":12,
-                    "8-9":155
-                }
-            },
-            {
-                "code":3310230,
-                "station1_code":22830,
-                "station1_name":"東陽町",
-                "station2_code":22994,
-                "station2_name":"南砂町",
-                "full_rate":{
-                    "7-8":6,
-                    "8-9":143
-                }
-            },
-            {
-                "code":3310250,
-                "station1_code":22592,
-                "station1_name":"葛西",
-                "station2_code":22868,
-                "station2_name":"西葛西",
-                "full_rate":{
-                    "7-8":87,
-                    "8-9":19
+                    "7-8":{
+                        "up":187,
+                        "down":35
+                    },
+                    "8-9":{
+                        "up":115,
+                        "down":15
+                    }
                 }
             },
             {
@@ -14455,8 +22090,65 @@ var fullrate_data = {
                 "station2_code":22994,
                 "station2_name":"南砂町",
                 "full_rate":{
-                    "7-8":146,
-                    "8-9":108
+                    "7-8":{
+                        "up":110,
+                        "down":163
+                    },
+                    "8-9":{
+                        "up":74,
+                        "down":18
+                    }
+                }
+            },
+            {
+                "code":3310230,
+                "station1_code":22830,
+                "station1_name":"東陽町",
+                "station2_code":22994,
+                "station2_name":"南砂町",
+                "full_rate":{
+                    "7-8":{
+                        "up":63,
+                        "down":83
+                    },
+                    "8-9":{
+                        "up":3,
+                        "down":49
+                    }
+                }
+            },
+            {
+                "code":3310220,
+                "station1_code":22638,
+                "station1_name":"木場(東京都)",
+                "station2_code":22830,
+                "station2_name":"東陽町",
+                "full_rate":{
+                    "7-8":{
+                        "up":149,
+                        "down":45
+                    },
+                    "8-9":{
+                        "up":172,
+                        "down":119
+                    }
+                }
+            },
+            {
+                "code":3310250,
+                "station1_code":22592,
+                "station1_name":"葛西",
+                "station2_code":22868,
+                "station2_name":"西葛西",
+                "full_rate":{
+                    "7-8":{
+                        "up":147,
+                        "down":132
+                    },
+                    "8-9":{
+                        "up":47,
+                        "down":158
+                    }
                 }
             },
             {
@@ -14466,19 +22158,14 @@ var fullrate_data = {
                 "station2_code":22592,
                 "station2_name":"葛西",
                 "full_rate":{
-                    "7-8":191,
-                    "8-9":197
-                }
-            },
-            {
-                "code":3310270,
-                "station1_code":22206,
-                "station1_name":"浦安(千葉県)",
-                "station2_code":22453,
-                "station2_name":"南行徳",
-                "full_rate":{
-                    "7-8":138,
-                    "8-9":48
+                    "7-8":{
+                        "up":87,
+                        "down":92
+                    },
+                    "8-9":{
+                        "up":181,
+                        "down":175
+                    }
                 }
             },
             {
@@ -14488,8 +22175,31 @@ var fullrate_data = {
                 "station2_code":22453,
                 "station2_name":"南行徳",
                 "full_rate":{
-                    "7-8":14,
-                    "8-9":43
+                    "7-8":{
+                        "up":67,
+                        "down":68
+                    },
+                    "8-9":{
+                        "up":101,
+                        "down":140
+                    }
+                }
+            },
+            {
+                "code":3310270,
+                "station1_code":22206,
+                "station1_name":"浦安(千葉県)",
+                "station2_code":22453,
+                "station2_name":"南行徳",
+                "full_rate":{
+                    "7-8":{
+                        "up":37,
+                        "down":124
+                    },
+                    "8-9":{
+                        "up":189,
+                        "down":8
+                    }
                 }
             },
             {
@@ -14499,8 +22209,14 @@ var fullrate_data = {
                 "station2_code":29305,
                 "station2_name":"妙典",
                 "full_rate":{
-                    "7-8":58,
-                    "8-9":184
+                    "7-8":{
+                        "up":29,
+                        "down":110
+                    },
+                    "8-9":{
+                        "up":25,
+                        "down":166
+                    }
                 }
             },
             {
@@ -14510,8 +22226,14 @@ var fullrate_data = {
                 "station2_code":29305,
                 "station2_name":"妙典",
                 "full_rate":{
-                    "7-8":11,
-                    "8-9":126
+                    "7-8":{
+                        "up":87,
+                        "down":35
+                    },
+                    "8-9":{
+                        "up":24,
+                        "down":2
+                    }
                 }
             },
             {
@@ -14521,8 +22243,14 @@ var fullrate_data = {
                 "station2_code":22407,
                 "station2_name":"原木中山",
                 "full_rate":{
-                    "7-8":199,
-                    "8-9":31
+                    "7-8":{
+                        "up":66,
+                        "down":162
+                    },
+                    "8-9":{
+                        "up":161,
+                        "down":25
+                    }
                 }
             }
         ]
@@ -14537,8 +22265,14 @@ var fullrate_data = {
                 "station2_code":22978,
                 "station2_name":"町屋(東京メトロ)",
                 "full_rate":{
-                    "7-8":98,
-                    "8-9":66
+                    "7-8":{
+                        "up":74,
+                        "down":40
+                    },
+                    "8-9":{
+                        "up":60,
+                        "down":140
+                    }
                 }
             },
             {
@@ -14548,8 +22282,14 @@ var fullrate_data = {
                 "station2_code":22630,
                 "station2_name":"北千住",
                 "full_rate":{
-                    "7-8":47,
-                    "8-9":42
+                    "7-8":{
+                        "up":164,
+                        "down":100
+                    },
+                    "8-9":{
+                        "up":125,
+                        "down":55
+                    }
                 }
             },
             {
@@ -14559,8 +22299,14 @@ var fullrate_data = {
                 "station2_code":22978,
                 "station2_name":"町屋(東京メトロ)",
                 "full_rate":{
-                    "7-8":121,
-                    "8-9":56
+                    "7-8":{
+                        "up":131,
+                        "down":192
+                    },
+                    "8-9":{
+                        "up":186,
+                        "down":6
+                    }
                 }
             },
             {
@@ -14570,8 +22316,14 @@ var fullrate_data = {
                 "station2_code":22880,
                 "station2_name":"西日暮里",
                 "full_rate":{
-                    "7-8":8,
-                    "8-9":139
+                    "7-8":{
+                        "up":196,
+                        "down":137
+                    },
+                    "8-9":{
+                        "up":81,
+                        "down":56
+                    }
                 }
             },
             {
@@ -14581,8 +22333,14 @@ var fullrate_data = {
                 "station2_code":22888,
                 "station2_name":"根津",
                 "full_rate":{
-                    "7-8":122,
-                    "8-9":35
+                    "7-8":{
+                        "up":10,
+                        "down":92
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":6
+                    }
                 }
             },
             {
@@ -14592,19 +22350,14 @@ var fullrate_data = {
                 "station2_code":23038,
                 "station2_name":"湯島",
                 "full_rate":{
-                    "7-8":92,
-                    "8-9":159
-                }
-            },
-            {
-                "code":3320160,
-                "station1_code":22732,
-                "station1_name":"新御茶ノ水",
-                "station2_code":23038,
-                "station2_name":"湯島",
-                "full_rate":{
-                    "7-8":113,
-                    "8-9":8
+                    "7-8":{
+                        "up":11,
+                        "down":107
+                    },
+                    "8-9":{
+                        "up":111,
+                        "down":166
+                    }
                 }
             },
             {
@@ -14614,8 +22367,14 @@ var fullrate_data = {
                 "station2_code":22732,
                 "station2_name":"新御茶ノ水",
                 "full_rate":{
-                    "7-8":100,
-                    "8-9":181
+                    "7-8":{
+                        "up":96,
+                        "down":194
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":139
+                    }
                 }
             },
             {
@@ -14625,19 +22384,14 @@ var fullrate_data = {
                 "station2_code":22883,
                 "station2_name":"二重橋前",
                 "full_rate":{
-                    "7-8":120,
-                    "8-9":171
-                }
-            },
-            {
-                "code":3320190,
-                "station1_code":22883,
-                "station1_name":"二重橋前",
-                "station2_code":22951,
-                "station2_name":"日比谷",
-                "full_rate":{
-                    "7-8":116,
-                    "8-9":93
+                    "7-8":{
+                        "up":182,
+                        "down":124
+                    },
+                    "8-9":{
+                        "up":75,
+                        "down":88
+                    }
                 }
             },
             {
@@ -14647,8 +22401,14 @@ var fullrate_data = {
                 "station2_code":22951,
                 "station2_name":"日比谷",
                 "full_rate":{
-                    "7-8":67,
-                    "8-9":73
+                    "7-8":{
+                        "up":174,
+                        "down":135
+                    },
+                    "8-9":{
+                        "up":24,
+                        "down":186
+                    }
                 }
             },
             {
@@ -14658,8 +22418,48 @@ var fullrate_data = {
                 "station2_code":22668,
                 "station2_name":"国会議事堂前",
                 "full_rate":{
-                    "7-8":1,
-                    "8-9":26
+                    "7-8":{
+                        "up":36,
+                        "down":192
+                    },
+                    "8-9":{
+                        "up":60,
+                        "down":33
+                    }
+                }
+            },
+            {
+                "code":3320190,
+                "station1_code":22883,
+                "station1_name":"二重橋前",
+                "station2_code":22951,
+                "station2_name":"日比谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":32,
+                        "down":19
+                    },
+                    "8-9":{
+                        "up":148,
+                        "down":154
+                    }
+                }
+            },
+            {
+                "code":3320160,
+                "station1_code":22732,
+                "station1_name":"新御茶ノ水",
+                "station2_code":23038,
+                "station2_name":"湯島",
+                "full_rate":{
+                    "7-8":{
+                        "up":43,
+                        "down":84
+                    },
+                    "8-9":{
+                        "up":77,
+                        "down":88
+                    }
                 }
             },
             {
@@ -14669,8 +22469,14 @@ var fullrate_data = {
                 "station2_code":22668,
                 "station2_name":"国会議事堂前",
                 "full_rate":{
-                    "7-8":109,
-                    "8-9":36
+                    "7-8":{
+                        "up":166,
+                        "down":141
+                    },
+                    "8-9":{
+                        "up":103,
+                        "down":89
+                    }
                 }
             },
             {
@@ -14680,8 +22486,14 @@ var fullrate_data = {
                 "station2_code":22893,
                 "station2_name":"乃木坂",
                 "full_rate":{
-                    "7-8":152,
-                    "8-9":195
+                    "7-8":{
+                        "up":36,
+                        "down":168
+                    },
+                    "8-9":{
+                        "up":170,
+                        "down":168
+                    }
                 }
             },
             {
@@ -14691,8 +22503,14 @@ var fullrate_data = {
                 "station2_code":22893,
                 "station2_name":"乃木坂",
                 "full_rate":{
-                    "7-8":66,
-                    "8-9":53
+                    "7-8":{
+                        "up":102,
+                        "down":68
+                    },
+                    "8-9":{
+                        "up":40,
+                        "down":45
+                    }
                 }
             },
             {
@@ -14702,8 +22520,14 @@ var fullrate_data = {
                 "station2_code":23016,
                 "station2_name":"明治神宮前",
                 "full_rate":{
-                    "7-8":37,
-                    "8-9":55
+                    "7-8":{
+                        "up":181,
+                        "down":89
+                    },
+                    "8-9":{
+                        "up":133,
+                        "down":59
+                    }
                 }
             },
             {
@@ -14713,8 +22537,14 @@ var fullrate_data = {
                 "station2_code":23045,
                 "station2_name":"代々木公園",
                 "full_rate":{
-                    "7-8":72,
-                    "8-9":119
+                    "7-8":{
+                        "up":108,
+                        "down":173
+                    },
+                    "8-9":{
+                        "up":167,
+                        "down":199
+                    }
                 }
             },
             {
@@ -14724,8 +22554,14 @@ var fullrate_data = {
                 "station2_code":23045,
                 "station2_name":"代々木公園",
                 "full_rate":{
-                    "7-8":140,
-                    "8-9":24
+                    "7-8":{
+                        "up":45,
+                        "down":58
+                    },
+                    "8-9":{
+                        "up":186,
+                        "down":37
+                    }
                 }
             }
         ]
@@ -14740,8 +22576,14 @@ var fullrate_data = {
                 "station2_code":22627,
                 "station2_name":"北綾瀬",
                 "full_rate":{
-                    "7-8":172,
-                    "8-9":121
+                    "7-8":{
+                        "up":96,
+                        "down":51
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":16
+                    }
                 }
             }
         ]
@@ -14750,14 +22592,37 @@ var fullrate_data = {
         "name":"東京メトロ有楽町線",
         "sections":[
             {
+                "code":3340220,
+                "station1_code":22507,
+                "station1_name":"飯田橋",
+                "station2_code":22520,
+                "station2_name":"市ケ谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":75,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":58,
+                        "down":194
+                    }
+                }
+            },
+            {
                 "code":3340100,
                 "station1_code":22541,
                 "station1_name":"地下鉄成増",
                 "station2_code":22171,
                 "station2_name":"和光市",
                 "full_rate":{
-                    "7-8":78,
-                    "8-9":194
+                    "7-8":{
+                        "up":176,
+                        "down":167
+                    },
+                    "8-9":{
+                        "up":118,
+                        "down":15
+                    }
                 }
             },
             {
@@ -14767,8 +22632,14 @@ var fullrate_data = {
                 "station2_code":22541,
                 "station2_name":"地下鉄成増",
                 "full_rate":{
-                    "7-8":55,
-                    "8-9":145
+                    "7-8":{
+                        "up":136,
+                        "down":171
+                    },
+                    "8-9":{
+                        "up":191,
+                        "down":129
+                    }
                 }
             },
             {
@@ -14778,8 +22649,14 @@ var fullrate_data = {
                 "station2_code":22968,
                 "station2_name":"平和台(東京都)",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":128
+                    "7-8":{
+                        "up":27,
+                        "down":134
+                    },
+                    "8-9":{
+                        "up":104,
+                        "down":41
+                    }
                 }
             },
             {
@@ -14789,8 +22666,14 @@ var fullrate_data = {
                 "station2_code":22968,
                 "station2_name":"平和台(東京都)",
                 "full_rate":{
-                    "7-8":164,
-                    "8-9":77
+                    "7-8":{
+                        "up":110,
+                        "down":35
+                    },
+                    "8-9":{
+                        "up":180,
+                        "down":31
+                    }
                 }
             },
             {
@@ -14800,19 +22683,14 @@ var fullrate_data = {
                 "station2_code":22921,
                 "station2_name":"氷川台",
                 "full_rate":{
-                    "7-8":49,
-                    "8-9":145
-                }
-            },
-            {
-                "code":3340160,
-                "station1_code":22599,
-                "station1_name":"要町",
-                "station2_code":22774,
-                "station2_name":"千川",
-                "full_rate":{
-                    "7-8":181,
-                    "8-9":148
+                    "7-8":{
+                        "up":156,
+                        "down":72
+                    },
+                    "8-9":{
+                        "up":50,
+                        "down":193
+                    }
                 }
             },
             {
@@ -14822,8 +22700,31 @@ var fullrate_data = {
                 "station2_code":22774,
                 "station2_name":"千川",
                 "full_rate":{
-                    "7-8":78,
-                    "8-9":91
+                    "7-8":{
+                        "up":96,
+                        "down":100
+                    },
+                    "8-9":{
+                        "up":78,
+                        "down":167
+                    }
+                }
+            },
+            {
+                "code":3340160,
+                "station1_code":22599,
+                "station1_name":"要町",
+                "station2_code":22774,
+                "station2_name":"千川",
+                "full_rate":{
+                    "7-8":{
+                        "up":69,
+                        "down":142
+                    },
+                    "8-9":{
+                        "up":0,
+                        "down":35
+                    }
                 }
             },
             {
@@ -14833,8 +22734,14 @@ var fullrate_data = {
                 "station2_code":22599,
                 "station2_name":"要町",
                 "full_rate":{
-                    "7-8":44,
-                    "8-9":104
+                    "7-8":{
+                        "up":24,
+                        "down":101
+                    },
+                    "8-9":{
+                        "up":145,
+                        "down":154
+                    }
                 }
             },
             {
@@ -14844,8 +22751,14 @@ var fullrate_data = {
                 "station2_code":22924,
                 "station2_name":"東池袋",
                 "full_rate":{
-                    "7-8":64,
-                    "8-9":155
+                    "7-8":{
+                        "up":151,
+                        "down":20
+                    },
+                    "8-9":{
+                        "up":48,
+                        "down":185
+                    }
                 }
             },
             {
@@ -14855,19 +22768,14 @@ var fullrate_data = {
                 "station2_code":22924,
                 "station2_name":"東池袋",
                 "full_rate":{
-                    "7-8":13,
-                    "8-9":6
-                }
-            },
-            {
-                "code":3340200,
-                "station1_code":22545,
-                "station1_name":"江戸川橋",
-                "station2_code":22690,
-                "station2_name":"護国寺",
-                "full_rate":{
-                    "7-8":21,
-                    "8-9":173
+                    "7-8":{
+                        "up":77,
+                        "down":101
+                    },
+                    "8-9":{
+                        "up":156,
+                        "down":50
+                    }
                 }
             },
             {
@@ -14877,19 +22785,31 @@ var fullrate_data = {
                 "station2_code":22545,
                 "station2_name":"江戸川橋",
                 "full_rate":{
-                    "7-8":175,
-                    "8-9":119
+                    "7-8":{
+                        "up":7,
+                        "down":99
+                    },
+                    "8-9":{
+                        "up":45,
+                        "down":18
+                    }
                 }
             },
             {
-                "code":3340220,
-                "station1_code":22507,
-                "station1_name":"飯田橋",
-                "station2_code":22520,
-                "station2_name":"市ケ谷",
+                "code":3340200,
+                "station1_code":22545,
+                "station1_name":"江戸川橋",
+                "station2_code":22690,
+                "station2_name":"護国寺",
                 "full_rate":{
-                    "7-8":30,
-                    "8-9":65
+                    "7-8":{
+                        "up":87,
+                        "down":81
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":198
+                    }
                 }
             },
             {
@@ -14899,19 +22819,14 @@ var fullrate_data = {
                 "station2_code":22673,
                 "station2_name":"麹町",
                 "full_rate":{
-                    "7-8":41,
-                    "8-9":100
-                }
-            },
-            {
-                "code":3340250,
-                "station1_code":22698,
-                "station1_name":"桜田門",
-                "station2_code":22856,
-                "station2_name":"永田町",
-                "full_rate":{
-                    "7-8":135,
-                    "8-9":160
+                    "7-8":{
+                        "up":20,
+                        "down":5
+                    },
+                    "8-9":{
+                        "up":71,
+                        "down":192
+                    }
                 }
             },
             {
@@ -14921,8 +22836,31 @@ var fullrate_data = {
                 "station2_code":22856,
                 "station2_name":"永田町",
                 "full_rate":{
-                    "7-8":125,
-                    "8-9":160
+                    "7-8":{
+                        "up":18,
+                        "down":185
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":166
+                    }
+                }
+            },
+            {
+                "code":3340250,
+                "station1_code":22698,
+                "station1_name":"桜田門",
+                "station2_code":22856,
+                "station2_name":"永田町",
+                "full_rate":{
+                    "7-8":{
+                        "up":100,
+                        "down":15
+                    },
+                    "8-9":{
+                        "up":40,
+                        "down":165
+                    }
                 }
             },
             {
@@ -14932,8 +22870,14 @@ var fullrate_data = {
                 "station2_code":23036,
                 "station2_name":"有楽町",
                 "full_rate":{
-                    "7-8":32,
-                    "8-9":96
+                    "7-8":{
+                        "up":6,
+                        "down":112
+                    },
+                    "8-9":{
+                        "up":199,
+                        "down":127
+                    }
                 }
             },
             {
@@ -14943,8 +22887,14 @@ var fullrate_data = {
                 "station2_code":23036,
                 "station2_name":"有楽町",
                 "full_rate":{
-                    "7-8":156,
-                    "8-9":94
+                    "7-8":{
+                        "up":40,
+                        "down":183
+                    },
+                    "8-9":{
+                        "up":47,
+                        "down":24
+                    }
                 }
             },
             {
@@ -14954,8 +22904,14 @@ var fullrate_data = {
                 "station2_code":22748,
                 "station2_name":"新富町(東京都)",
                 "full_rate":{
-                    "7-8":21,
-                    "8-9":9
+                    "7-8":{
+                        "up":186,
+                        "down":175
+                    },
+                    "8-9":{
+                        "up":169,
+                        "down":27
+                    }
                 }
             },
             {
@@ -14965,8 +22921,14 @@ var fullrate_data = {
                 "station2_code":22820,
                 "station2_name":"月島",
                 "full_rate":{
-                    "7-8":108,
-                    "8-9":9
+                    "7-8":{
+                        "up":191,
+                        "down":12
+                    },
+                    "8-9":{
+                        "up":150,
+                        "down":12
+                    }
                 }
             },
             {
@@ -14976,8 +22938,14 @@ var fullrate_data = {
                 "station2_code":22839,
                 "station2_name":"豊洲",
                 "full_rate":{
-                    "7-8":164,
-                    "8-9":38
+                    "7-8":{
+                        "up":104,
+                        "down":40
+                    },
+                    "8-9":{
+                        "up":81,
+                        "down":2
+                    }
                 }
             },
             {
@@ -14987,8 +22955,14 @@ var fullrate_data = {
                 "station2_code":22839,
                 "station2_name":"豊洲",
                 "full_rate":{
-                    "7-8":181,
-                    "8-9":21
+                    "7-8":{
+                        "up":26,
+                        "down":134
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":91
+                    }
                 }
             },
             {
@@ -14998,8 +22972,14 @@ var fullrate_data = {
                 "station2_code":22800,
                 "station2_name":"辰巳",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":3
+                    "7-8":{
+                        "up":137,
+                        "down":26
+                    },
+                    "8-9":{
+                        "up":121,
+                        "down":51
+                    }
                 }
             }
         ]
@@ -15014,8 +22994,14 @@ var fullrate_data = {
                 "station2_code":22715,
                 "station2_name":"渋谷",
                 "full_rate":{
-                    "7-8":87,
-                    "8-9":3
+                    "7-8":{
+                        "up":132,
+                        "down":83
+                    },
+                    "8-9":{
+                        "up":124,
+                        "down":184
+                    }
                 }
             },
             {
@@ -15025,8 +23011,14 @@ var fullrate_data = {
                 "station2_code":22588,
                 "station2_name":"表参道",
                 "full_rate":{
-                    "7-8":11,
-                    "8-9":84
+                    "7-8":{
+                        "up":191,
+                        "down":135
+                    },
+                    "8-9":{
+                        "up":4,
+                        "down":36
+                    }
                 }
             },
             {
@@ -15036,8 +23028,14 @@ var fullrate_data = {
                 "station2_code":22856,
                 "station2_name":"永田町",
                 "full_rate":{
-                    "7-8":149,
-                    "8-9":12
+                    "7-8":{
+                        "up":56,
+                        "down":79
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":54
+                    }
                 }
             },
             {
@@ -15047,30 +23045,14 @@ var fullrate_data = {
                 "station2_code":22856,
                 "station2_name":"永田町",
                 "full_rate":{
-                    "7-8":140,
-                    "8-9":172
-                }
-            },
-            {
-                "code":3350140,
-                "station1_code":22917,
-                "station1_name":"半蔵門",
-                "station2_code":22645,
-                "station2_name":"九段下",
-                "full_rate":{
-                    "7-8":131,
-                    "8-9":9
-                }
-            },
-            {
-                "code":3350150,
-                "station1_code":22645,
-                "station1_name":"九段下",
-                "station2_code":22756,
-                "station2_name":"神保町",
-                "full_rate":{
-                    "7-8":125,
-                    "8-9":62
+                    "7-8":{
+                        "up":7,
+                        "down":97
+                    },
+                    "8-9":{
+                        "up":55,
+                        "down":90
+                    }
                 }
             },
             {
@@ -15080,30 +23062,48 @@ var fullrate_data = {
                 "station2_code":22756,
                 "station2_name":"神保町",
                 "full_rate":{
-                    "7-8":197,
-                    "8-9":98
+                    "7-8":{
+                        "up":98,
+                        "down":66
+                    },
+                    "8-9":{
+                        "up":40,
+                        "down":123
+                    }
                 }
             },
             {
-                "code":3350180,
-                "station1_code":22757,
-                "station1_name":"水天宮前",
-                "station2_code":22989,
-                "station2_name":"三越前",
+                "code":3350150,
+                "station1_code":22645,
+                "station1_name":"九段下",
+                "station2_code":22756,
+                "station2_name":"神保町",
                 "full_rate":{
-                    "7-8":142,
-                    "8-9":177
+                    "7-8":{
+                        "up":180,
+                        "down":121
+                    },
+                    "8-9":{
+                        "up":139,
+                        "down":184
+                    }
                 }
             },
             {
-                "code":3350190,
-                "station1_code":29338,
-                "station1_name":"清澄白河",
-                "station2_code":22757,
-                "station2_name":"水天宮前",
+                "code":3350140,
+                "station1_code":22917,
+                "station1_name":"半蔵門",
+                "station2_code":22645,
+                "station2_name":"九段下",
                 "full_rate":{
-                    "7-8":165,
-                    "8-9":140
+                    "7-8":{
+                        "up":85,
+                        "down":98
+                    },
+                    "8-9":{
+                        "up":76,
+                        "down":121
+                    }
                 }
             },
             {
@@ -15113,30 +23113,48 @@ var fullrate_data = {
                 "station2_code":22989,
                 "station2_name":"三越前",
                 "full_rate":{
-                    "7-8":145,
-                    "8-9":27
+                    "7-8":{
+                        "up":105,
+                        "down":184
+                    },
+                    "8-9":{
+                        "up":175,
+                        "down":23
+                    }
                 }
             },
             {
-                "code":3350200,
+                "code":3350180,
+                "station1_code":22757,
+                "station1_name":"水天宮前",
+                "station2_code":22989,
+                "station2_name":"三越前",
+                "full_rate":{
+                    "7-8":{
+                        "up":108,
+                        "down":134
+                    },
+                    "8-9":{
+                        "up":32,
+                        "down":126
+                    }
+                }
+            },
+            {
+                "code":3350190,
                 "station1_code":29338,
                 "station1_name":"清澄白河",
-                "station2_code":22763,
-                "station2_name":"住吉(東京都)",
+                "station2_code":22757,
+                "station2_name":"水天宮前",
                 "full_rate":{
-                    "7-8":167,
-                    "8-9":71
-                }
-            },
-            {
-                "code":3350210,
-                "station1_code":22640,
-                "station1_name":"錦糸町",
-                "station2_code":22763,
-                "station2_name":"住吉(東京都)",
-                "full_rate":{
-                    "7-8":136,
-                    "8-9":192
+                    "7-8":{
+                        "up":126,
+                        "down":99
+                    },
+                    "8-9":{
+                        "up":198,
+                        "down":105
+                    }
                 }
             },
             {
@@ -15146,8 +23164,48 @@ var fullrate_data = {
                 "station2_code":22640,
                 "station2_name":"錦糸町",
                 "full_rate":{
-                    "7-8":82,
-                    "8-9":10
+                    "7-8":{
+                        "up":5,
+                        "down":102
+                    },
+                    "8-9":{
+                        "up":188,
+                        "down":98
+                    }
+                }
+            },
+            {
+                "code":3350200,
+                "station1_code":29338,
+                "station1_name":"清澄白河",
+                "station2_code":22763,
+                "station2_name":"住吉(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":70,
+                        "down":61
+                    },
+                    "8-9":{
+                        "up":185,
+                        "down":76
+                    }
+                }
+            },
+            {
+                "code":3350210,
+                "station1_code":22640,
+                "station1_name":"錦糸町",
+                "station2_code":22763,
+                "station2_name":"住吉(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":188,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":170,
+                        "down":0
+                    }
                 }
             }
         ]
@@ -15162,8 +23220,14 @@ var fullrate_data = {
                 "station2_code":23018,
                 "station2_name":"目黒",
                 "full_rate":{
-                    "7-8":118,
-                    "8-9":138
+                    "7-8":{
+                        "up":190,
+                        "down":179
+                    },
+                    "8-9":{
+                        "up":184,
+                        "down":162
+                    }
                 }
             },
             {
@@ -15173,8 +23237,14 @@ var fullrate_data = {
                 "station2_code":29327,
                 "station2_name":"白金台",
                 "full_rate":{
-                    "7-8":43,
-                    "8-9":44
+                    "7-8":{
+                        "up":100,
+                        "down":85
+                    },
+                    "8-9":{
+                        "up":46,
+                        "down":136
+                    }
                 }
             },
             {
@@ -15184,8 +23254,14 @@ var fullrate_data = {
                 "station2_code":29326,
                 "station2_name":"白金高輪",
                 "full_rate":{
-                    "7-8":175,
-                    "8-9":20
+                    "7-8":{
+                        "up":110,
+                        "down":114
+                    },
+                    "8-9":{
+                        "up":133,
+                        "down":59
+                    }
                 }
             },
             {
@@ -15195,8 +23271,14 @@ var fullrate_data = {
                 "station2_code":29324,
                 "station2_name":"六本木一丁目",
                 "full_rate":{
-                    "7-8":176,
-                    "8-9":133
+                    "7-8":{
+                        "up":153,
+                        "down":101
+                    },
+                    "8-9":{
+                        "up":155,
+                        "down":177
+                    }
                 }
             },
             {
@@ -15206,8 +23288,14 @@ var fullrate_data = {
                 "station2_code":29324,
                 "station2_name":"六本木一丁目",
                 "full_rate":{
-                    "7-8":22,
-                    "8-9":133
+                    "7-8":{
+                        "up":25,
+                        "down":15
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":47
+                    }
                 }
             },
             {
@@ -15217,8 +23305,14 @@ var fullrate_data = {
                 "station2_code":22856,
                 "station2_name":"永田町",
                 "full_rate":{
-                    "7-8":84,
-                    "8-9":90
+                    "7-8":{
+                        "up":39,
+                        "down":74
+                    },
+                    "8-9":{
+                        "up":5,
+                        "down":62
+                    }
                 }
             },
             {
@@ -15228,8 +23322,14 @@ var fullrate_data = {
                 "station2_code":23041,
                 "station2_name":"四ツ谷",
                 "full_rate":{
-                    "7-8":75,
-                    "8-9":30
+                    "7-8":{
+                        "up":70,
+                        "down":155
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":178
+                    }
                 }
             },
             {
@@ -15239,8 +23339,14 @@ var fullrate_data = {
                 "station2_code":23041,
                 "station2_name":"四ツ谷",
                 "full_rate":{
-                    "7-8":157,
-                    "8-9":172
+                    "7-8":{
+                        "up":15,
+                        "down":71
+                    },
+                    "8-9":{
+                        "up":142,
+                        "down":135
+                    }
                 }
             },
             {
@@ -15250,8 +23356,14 @@ var fullrate_data = {
                 "station2_code":22520,
                 "station2_name":"市ケ谷",
                 "full_rate":{
-                    "7-8":129,
-                    "8-9":196
+                    "7-8":{
+                        "up":107,
+                        "down":69
+                    },
+                    "8-9":{
+                        "up":152,
+                        "down":91
+                    }
                 }
             },
             {
@@ -15261,8 +23373,14 @@ var fullrate_data = {
                 "station2_code":22675,
                 "station2_name":"後楽園",
                 "full_rate":{
-                    "7-8":153,
-                    "8-9":87
+                    "7-8":{
+                        "up":75,
+                        "down":92
+                    },
+                    "8-9":{
+                        "up":24,
+                        "down":186
+                    }
                 }
             },
             {
@@ -15272,8 +23390,14 @@ var fullrate_data = {
                 "station2_code":29075,
                 "station2_name":"東大前",
                 "full_rate":{
-                    "7-8":199,
-                    "8-9":60
+                    "7-8":{
+                        "up":79,
+                        "down":122
+                    },
+                    "8-9":{
+                        "up":101,
+                        "down":144
+                    }
                 }
             },
             {
@@ -15283,19 +23407,14 @@ var fullrate_data = {
                 "station2_code":29074,
                 "station2_name":"本駒込",
                 "full_rate":{
-                    "7-8":13,
-                    "8-9":137
-                }
-            },
-            {
-                "code":3360220,
-                "station1_code":22683,
-                "station1_name":"駒込",
-                "station2_code":29074,
-                "station2_name":"本駒込",
-                "full_rate":{
-                    "7-8":28,
-                    "8-9":80
+                    "7-8":{
+                        "up":14,
+                        "down":12
+                    },
+                    "8-9":{
+                        "up":196,
+                        "down":105
+                    }
                 }
             },
             {
@@ -15305,8 +23424,14 @@ var fullrate_data = {
                 "station2_code":22869,
                 "station2_name":"西ケ原",
                 "full_rate":{
-                    "7-8":97,
-                    "8-9":54
+                    "7-8":{
+                        "up":157,
+                        "down":136
+                    },
+                    "8-9":{
+                        "up":107,
+                        "down":25
+                    }
                 }
             },
             {
@@ -15316,8 +23441,14 @@ var fullrate_data = {
                 "station2_code":22869,
                 "station2_name":"西ケ原",
                 "full_rate":{
-                    "7-8":96,
-                    "8-9":122
+                    "7-8":{
+                        "up":51,
+                        "down":55
+                    },
+                    "8-9":{
+                        "up":164,
+                        "down":169
+                    }
                 }
             },
             {
@@ -15327,8 +23458,14 @@ var fullrate_data = {
                 "station2_code":22551,
                 "station2_name":"王子神谷",
                 "full_rate":{
-                    "7-8":74,
-                    "8-9":197
+                    "7-8":{
+                        "up":185,
+                        "down":3
+                    },
+                    "8-9":{
+                        "up":31,
+                        "down":28
+                    }
                 }
             },
             {
@@ -15338,8 +23475,14 @@ var fullrate_data = {
                 "station2_code":22718,
                 "station2_name":"志茂",
                 "full_rate":{
-                    "7-8":14,
-                    "8-9":161
+                    "7-8":{
+                        "up":129,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":38,
+                        "down":199
+                    }
                 }
             },
             {
@@ -15349,8 +23492,31 @@ var fullrate_data = {
                 "station2_code":22718,
                 "station2_name":"志茂",
                 "full_rate":{
-                    "7-8":123,
-                    "8-9":182
+                    "7-8":{
+                        "up":56,
+                        "down":147
+                    },
+                    "8-9":{
+                        "up":176,
+                        "down":63
+                    }
+                }
+            },
+            {
+                "code":3360220,
+                "station1_code":22683,
+                "station1_name":"駒込",
+                "station2_code":29074,
+                "station2_name":"本駒込",
+                "full_rate":{
+                    "7-8":{
+                        "up":147,
+                        "down":180
+                    },
+                    "8-9":{
+                        "up":17,
+                        "down":26
+                    }
                 }
             }
         ]
@@ -15365,8 +23531,14 @@ var fullrate_data = {
                 "station2_code":22171,
                 "station2_name":"和光市",
                 "full_rate":{
-                    "7-8":110,
-                    "8-9":11
+                    "7-8":{
+                        "up":131,
+                        "down":120
+                    },
+                    "8-9":{
+                        "up":150,
+                        "down":158
+                    }
                 }
             },
             {
@@ -15376,8 +23548,14 @@ var fullrate_data = {
                 "station2_code":22541,
                 "station2_name":"地下鉄成増",
                 "full_rate":{
-                    "7-8":74,
-                    "8-9":154
+                    "7-8":{
+                        "up":61,
+                        "down":80
+                    },
+                    "8-9":{
+                        "up":197,
+                        "down":61
+                    }
                 }
             },
             {
@@ -15387,8 +23565,14 @@ var fullrate_data = {
                 "station2_code":22968,
                 "station2_name":"平和台(東京都)",
                 "full_rate":{
-                    "7-8":89,
-                    "8-9":58
+                    "7-8":{
+                        "up":198,
+                        "down":138
+                    },
+                    "8-9":{
+                        "up":18,
+                        "down":78
+                    }
                 }
             },
             {
@@ -15398,8 +23582,14 @@ var fullrate_data = {
                 "station2_code":22968,
                 "station2_name":"平和台(東京都)",
                 "full_rate":{
-                    "7-8":66,
-                    "8-9":160
+                    "7-8":{
+                        "up":89,
+                        "down":43
+                    },
+                    "8-9":{
+                        "up":182,
+                        "down":69
+                    }
                 }
             },
             {
@@ -15409,8 +23599,14 @@ var fullrate_data = {
                 "station2_code":22921,
                 "station2_name":"氷川台",
                 "full_rate":{
-                    "7-8":61,
-                    "8-9":120
+                    "7-8":{
+                        "up":199,
+                        "down":30
+                    },
+                    "8-9":{
+                        "up":69,
+                        "down":72
+                    }
                 }
             },
             {
@@ -15420,19 +23616,14 @@ var fullrate_data = {
                 "station2_code":22774,
                 "station2_name":"千川",
                 "full_rate":{
-                    "7-8":18,
-                    "8-9":71
-                }
-            },
-            {
-                "code":3370160,
-                "station1_code":22599,
-                "station1_name":"要町",
-                "station2_code":22774,
-                "station2_name":"千川",
-                "full_rate":{
-                    "7-8":114,
-                    "8-9":69
+                    "7-8":{
+                        "up":90,
+                        "down":4
+                    },
+                    "8-9":{
+                        "up":118,
+                        "down":131
+                    }
                 }
             },
             {
@@ -15442,8 +23633,31 @@ var fullrate_data = {
                 "station2_code":22599,
                 "station2_name":"要町",
                 "full_rate":{
-                    "7-8":199,
-                    "8-9":107
+                    "7-8":{
+                        "up":148,
+                        "down":95
+                    },
+                    "8-9":{
+                        "up":172,
+                        "down":193
+                    }
+                }
+            },
+            {
+                "code":3370160,
+                "station1_code":22599,
+                "station1_name":"要町",
+                "station2_code":22774,
+                "station2_name":"千川",
+                "full_rate":{
+                    "7-8":{
+                        "up":183,
+                        "down":30
+                    },
+                    "8-9":{
+                        "up":175,
+                        "down":127
+                    }
                 }
             },
             {
@@ -15453,8 +23667,14 @@ var fullrate_data = {
                 "station2_code":29635,
                 "station2_name":"雑司が谷",
                 "full_rate":{
-                    "7-8":6,
-                    "8-9":130
+                    "7-8":{
+                        "up":18,
+                        "down":74
+                    },
+                    "8-9":{
+                        "up":29,
+                        "down":17
+                    }
                 }
             },
             {
@@ -15464,8 +23684,14 @@ var fullrate_data = {
                 "station2_code":29636,
                 "station2_name":"西早稲田",
                 "full_rate":{
-                    "7-8":46,
-                    "8-9":16
+                    "7-8":{
+                        "up":135,
+                        "down":23
+                    },
+                    "8-9":{
+                        "up":145,
+                        "down":128
+                    }
                 }
             },
             {
@@ -15475,41 +23701,14 @@ var fullrate_data = {
                 "station2_code":29331,
                 "station2_name":"東新宿",
                 "full_rate":{
-                    "7-8":28,
-                    "8-9":43
-                }
-            },
-            {
-                "code":3370220,
-                "station1_code":29637,
-                "station1_name":"北参道",
-                "station2_code":22743,
-                "station2_name":"新宿三丁目",
-                "full_rate":{
-                    "7-8":36,
-                    "8-9":48
-                }
-            },
-            {
-                "code":3370230,
-                "station1_code":29637,
-                "station1_name":"北参道",
-                "station2_code":23016,
-                "station2_name":"明治神宮前",
-                "full_rate":{
-                    "7-8":116,
-                    "8-9":105
-                }
-            },
-            {
-                "code":3370240,
-                "station1_code":22715,
-                "station1_name":"渋谷",
-                "station2_code":23016,
-                "station2_name":"明治神宮前",
-                "full_rate":{
-                    "7-8":13,
-                    "8-9":88
+                    "7-8":{
+                        "up":31,
+                        "down":47
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":46
+                    }
                 }
             },
             {
@@ -15519,8 +23718,65 @@ var fullrate_data = {
                 "station2_code":29331,
                 "station2_name":"東新宿",
                 "full_rate":{
-                    "7-8":78,
-                    "8-9":28
+                    "7-8":{
+                        "up":125,
+                        "down":196
+                    },
+                    "8-9":{
+                        "up":46,
+                        "down":183
+                    }
+                }
+            },
+            {
+                "code":3370220,
+                "station1_code":29637,
+                "station1_name":"北参道",
+                "station2_code":22743,
+                "station2_name":"新宿三丁目",
+                "full_rate":{
+                    "7-8":{
+                        "up":117,
+                        "down":32
+                    },
+                    "8-9":{
+                        "up":183,
+                        "down":62
+                    }
+                }
+            },
+            {
+                "code":3370230,
+                "station1_code":29637,
+                "station1_name":"北参道",
+                "station2_code":23016,
+                "station2_name":"明治神宮前",
+                "full_rate":{
+                    "7-8":{
+                        "up":44,
+                        "down":194
+                    },
+                    "8-9":{
+                        "up":97,
+                        "down":89
+                    }
+                }
+            },
+            {
+                "code":3370240,
+                "station1_code":22715,
+                "station1_name":"渋谷",
+                "station2_code":23016,
+                "station2_name":"明治神宮前",
+                "full_rate":{
+                    "7-8":{
+                        "up":64,
+                        "down":10
+                    },
+                    "8-9":{
+                        "up":51,
+                        "down":97
+                    }
                 }
             }
         ]
@@ -15535,8 +23791,14 @@ var fullrate_data = {
                 "station2_code":22975,
                 "station2_name":"馬込",
                 "full_rate":{
-                    "7-8":0,
-                    "8-9":169
+                    "7-8":{
+                        "up":96,
+                        "down":111
+                    },
+                    "8-9":{
+                        "up":32,
+                        "down":165
+                    }
                 }
             },
             {
@@ -15546,8 +23808,14 @@ var fullrate_data = {
                 "station2_code":22975,
                 "station2_name":"馬込",
                 "full_rate":{
-                    "7-8":7,
-                    "8-9":136
+                    "7-8":{
+                        "up":102,
+                        "down":57
+                    },
+                    "8-9":{
+                        "up":157,
+                        "down":30
+                    }
                 }
             },
             {
@@ -15557,8 +23825,14 @@ var fullrate_data = {
                 "station2_code":22853,
                 "station2_name":"中延",
                 "full_rate":{
-                    "7-8":109,
-                    "8-9":169
+                    "7-8":{
+                        "up":66,
+                        "down":14
+                    },
+                    "8-9":{
+                        "up":70,
+                        "down":10
+                    }
                 }
             },
             {
@@ -15568,162 +23842,14 @@ var fullrate_data = {
                 "station2_code":22832,
                 "station2_name":"戸越",
                 "full_rate":{
-                    "7-8":176,
-                    "8-9":132
-                }
-            },
-            {
-                "code":3380150,
-                "station1_code":22775,
-                "station1_name":"泉岳寺",
-                "station2_code":22791,
-                "station2_name":"高輪台",
-                "full_rate":{
-                    "7-8":4,
-                    "8-9":87
-                }
-            },
-            {
-                "code":3380160,
-                "station1_code":22775,
-                "station1_name":"泉岳寺",
-                "station2_code":22985,
-                "station2_name":"三田(東京都)",
-                "full_rate":{
-                    "7-8":176,
-                    "8-9":144
-                }
-            },
-            {
-                "code":3380170,
-                "station1_code":22815,
-                "station1_name":"大門(東京都)",
-                "station2_code":22985,
-                "station2_name":"三田(東京都)",
-                "full_rate":{
-                    "7-8":194,
-                    "8-9":144
-                }
-            },
-            {
-                "code":3380180,
-                "station1_code":22751,
-                "station1_name":"新橋",
-                "station2_code":22815,
-                "station2_name":"大門(東京都)",
-                "full_rate":{
-                    "7-8":116,
-                    "8-9":13
-                }
-            },
-            {
-                "code":3380190,
-                "station1_code":22751,
-                "station1_name":"新橋",
-                "station2_code":22930,
-                "station2_name":"東銀座",
-                "full_rate":{
-                    "7-8":61,
-                    "8-9":78
-                }
-            },
-            {
-                "code":3380200,
-                "station1_code":22794,
-                "station1_name":"宝町(東京都)",
-                "station2_code":22930,
-                "station2_name":"東銀座",
-                "full_rate":{
-                    "7-8":182,
-                    "8-9":125
-                }
-            },
-            {
-                "code":3380210,
-                "station1_code":22794,
-                "station1_name":"宝町(東京都)",
-                "station2_code":22884,
-                "station2_name":"日本橋(東京都)",
-                "full_rate":{
-                    "7-8":40,
-                    "8-9":93
-                }
-            },
-            {
-                "code":3380220,
-                "station1_code":22884,
-                "station1_name":"日本橋(東京都)",
-                "station2_code":22885,
-                "station2_name":"人形町",
-                "full_rate":{
-                    "7-8":17,
-                    "8-9":90
-                }
-            },
-            {
-                "code":3380230,
-                "station1_code":22885,
-                "station1_name":"人形町",
-                "station2_code":22938,
-                "station2_name":"東日本橋",
-                "full_rate":{
-                    "7-8":7,
-                    "8-9":179
-                }
-            },
-            {
-                "code":3380240,
-                "station1_code":22496,
-                "station1_name":"浅草橋",
-                "station2_code":22938,
-                "station2_name":"東日本橋",
-                "full_rate":{
-                    "7-8":45,
-                    "8-9":41
-                }
-            },
-            {
-                "code":3380250,
-                "station1_code":22496,
-                "station1_name":"浅草橋",
-                "station2_code":22651,
-                "station2_name":"蔵前",
-                "full_rate":{
-                    "7-8":60,
-                    "8-9":6
-                }
-            },
-            {
-                "code":3380260,
-                "station1_code":22495,
-                "station1_name":"浅草",
-                "station2_code":22651,
-                "station2_name":"蔵前",
-                "full_rate":{
-                    "7-8":5,
-                    "8-9":10
-                }
-            },
-            {
-                "code":3380270,
-                "station1_code":22495,
-                "station1_name":"浅草",
-                "station2_code":22974,
-                "station2_name":"本所吾妻橋",
-                "full_rate":{
-                    "7-8":143,
-                    "8-9":132
-                }
-            },
-            {
-                "code":3380280,
-                "station1_code":22578,
-                "station1_name":"押上",
-                "station2_code":22974,
-                "station2_name":"本所吾妻橋",
-                "full_rate":{
-                    "7-8":101,
-                    "8-9":152
+                    "7-8":{
+                        "up":151,
+                        "down":99
+                    },
+                    "8-9":{
+                        "up":126,
+                        "down":83
+                    }
                 }
             },
             {
@@ -15733,8 +23859,252 @@ var fullrate_data = {
                 "station2_code":22791,
                 "station2_name":"高輪台",
                 "full_rate":{
-                    "7-8":83,
-                    "8-9":164
+                    "7-8":{
+                        "up":159,
+                        "down":51
+                    },
+                    "8-9":{
+                        "up":25,
+                        "down":9
+                    }
+                }
+            },
+            {
+                "code":3380150,
+                "station1_code":22775,
+                "station1_name":"泉岳寺",
+                "station2_code":22791,
+                "station2_name":"高輪台",
+                "full_rate":{
+                    "7-8":{
+                        "up":156,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":19,
+                        "down":184
+                    }
+                }
+            },
+            {
+                "code":3380160,
+                "station1_code":22775,
+                "station1_name":"泉岳寺",
+                "station2_code":22985,
+                "station2_name":"三田(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":43,
+                        "down":96
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":66
+                    }
+                }
+            },
+            {
+                "code":3380170,
+                "station1_code":22815,
+                "station1_name":"大門(東京都)",
+                "station2_code":22985,
+                "station2_name":"三田(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":65,
+                        "down":138
+                    },
+                    "8-9":{
+                        "up":194,
+                        "down":122
+                    }
+                }
+            },
+            {
+                "code":3380180,
+                "station1_code":22751,
+                "station1_name":"新橋",
+                "station2_code":22815,
+                "station2_name":"大門(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":193,
+                        "down":130
+                    },
+                    "8-9":{
+                        "up":141,
+                        "down":157
+                    }
+                }
+            },
+            {
+                "code":3380190,
+                "station1_code":22751,
+                "station1_name":"新橋",
+                "station2_code":22930,
+                "station2_name":"東銀座",
+                "full_rate":{
+                    "7-8":{
+                        "up":62,
+                        "down":139
+                    },
+                    "8-9":{
+                        "up":57,
+                        "down":181
+                    }
+                }
+            },
+            {
+                "code":3380200,
+                "station1_code":22794,
+                "station1_name":"宝町(東京都)",
+                "station2_code":22930,
+                "station2_name":"東銀座",
+                "full_rate":{
+                    "7-8":{
+                        "up":119,
+                        "down":130
+                    },
+                    "8-9":{
+                        "up":96,
+                        "down":39
+                    }
+                }
+            },
+            {
+                "code":3380210,
+                "station1_code":22794,
+                "station1_name":"宝町(東京都)",
+                "station2_code":22884,
+                "station2_name":"日本橋(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":94,
+                        "down":149
+                    },
+                    "8-9":{
+                        "up":141,
+                        "down":22
+                    }
+                }
+            },
+            {
+                "code":3380220,
+                "station1_code":22884,
+                "station1_name":"日本橋(東京都)",
+                "station2_code":22885,
+                "station2_name":"人形町",
+                "full_rate":{
+                    "7-8":{
+                        "up":44,
+                        "down":47
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":109
+                    }
+                }
+            },
+            {
+                "code":3380230,
+                "station1_code":22885,
+                "station1_name":"人形町",
+                "station2_code":22938,
+                "station2_name":"東日本橋",
+                "full_rate":{
+                    "7-8":{
+                        "up":51,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":130,
+                        "down":42
+                    }
+                }
+            },
+            {
+                "code":3380240,
+                "station1_code":22496,
+                "station1_name":"浅草橋",
+                "station2_code":22938,
+                "station2_name":"東日本橋",
+                "full_rate":{
+                    "7-8":{
+                        "up":77,
+                        "down":81
+                    },
+                    "8-9":{
+                        "up":187,
+                        "down":197
+                    }
+                }
+            },
+            {
+                "code":3380250,
+                "station1_code":22496,
+                "station1_name":"浅草橋",
+                "station2_code":22651,
+                "station2_name":"蔵前",
+                "full_rate":{
+                    "7-8":{
+                        "up":55,
+                        "down":140
+                    },
+                    "8-9":{
+                        "up":125,
+                        "down":45
+                    }
+                }
+            },
+            {
+                "code":3380260,
+                "station1_code":22495,
+                "station1_name":"浅草",
+                "station2_code":22651,
+                "station2_name":"蔵前",
+                "full_rate":{
+                    "7-8":{
+                        "up":116,
+                        "down":175
+                    },
+                    "8-9":{
+                        "up":119,
+                        "down":152
+                    }
+                }
+            },
+            {
+                "code":3380270,
+                "station1_code":22495,
+                "station1_name":"浅草",
+                "station2_code":22974,
+                "station2_name":"本所吾妻橋",
+                "full_rate":{
+                    "7-8":{
+                        "up":4,
+                        "down":56
+                    },
+                    "8-9":{
+                        "up":86,
+                        "down":112
+                    }
+                }
+            },
+            {
+                "code":3380280,
+                "station1_code":22578,
+                "station1_name":"押上",
+                "station2_code":22974,
+                "station2_name":"本所吾妻橋",
+                "full_rate":{
+                    "7-8":{
+                        "up":134,
+                        "down":170
+                    },
+                    "8-9":{
+                        "up":54,
+                        "down":177
+                    }
                 }
             }
         ]
@@ -15749,8 +24119,14 @@ var fullrate_data = {
                 "station2_code":23018,
                 "station2_name":"目黒",
                 "full_rate":{
-                    "7-8":135,
-                    "8-9":177
+                    "7-8":{
+                        "up":189,
+                        "down":65
+                    },
+                    "8-9":{
+                        "up":101,
+                        "down":181
+                    }
                 }
             },
             {
@@ -15760,8 +24136,14 @@ var fullrate_data = {
                 "station2_code":29327,
                 "station2_name":"白金台",
                 "full_rate":{
-                    "7-8":115,
-                    "8-9":1
+                    "7-8":{
+                        "up":47,
+                        "down":110
+                    },
+                    "8-9":{
+                        "up":131,
+                        "down":196
+                    }
                 }
             },
             {
@@ -15771,8 +24153,14 @@ var fullrate_data = {
                 "station2_code":22985,
                 "station2_name":"三田(東京都)",
                 "full_rate":{
-                    "7-8":139,
-                    "8-9":60
+                    "7-8":{
+                        "up":67,
+                        "down":97
+                    },
+                    "8-9":{
+                        "up":111,
+                        "down":81
+                    }
                 }
             },
             {
@@ -15782,19 +24170,14 @@ var fullrate_data = {
                 "station2_code":22985,
                 "station2_name":"三田(東京都)",
                 "full_rate":{
-                    "7-8":13,
-                    "8-9":75
-                }
-            },
-            {
-                "code":3390140,
-                "station1_code":22584,
-                "station1_name":"御成門",
-                "station2_code":22712,
-                "station2_name":"芝公園",
-                "full_rate":{
-                    "7-8":94,
-                    "8-9":49
+                    "7-8":{
+                        "up":125,
+                        "down":77
+                    },
+                    "8-9":{
+                        "up":124,
+                        "down":157
+                    }
                 }
             },
             {
@@ -15804,8 +24187,31 @@ var fullrate_data = {
                 "station2_code":22584,
                 "station2_name":"御成門",
                 "full_rate":{
-                    "7-8":165,
-                    "8-9":173
+                    "7-8":{
+                        "up":0,
+                        "down":49
+                    },
+                    "8-9":{
+                        "up":158,
+                        "down":167
+                    }
+                }
+            },
+            {
+                "code":3390140,
+                "station1_code":22584,
+                "station1_name":"御成門",
+                "station2_code":22712,
+                "station2_name":"芝公園",
+                "full_rate":{
+                    "7-8":{
+                        "up":26,
+                        "down":93
+                    },
+                    "8-9":{
+                        "up":13,
+                        "down":123
+                    }
                 }
             },
             {
@@ -15815,8 +24221,14 @@ var fullrate_data = {
                 "station2_code":22951,
                 "station2_name":"日比谷",
                 "full_rate":{
-                    "7-8":56,
-                    "8-9":155
+                    "7-8":{
+                        "up":159,
+                        "down":116
+                    },
+                    "8-9":{
+                        "up":105,
+                        "down":80
+                    }
                 }
             },
             {
@@ -15826,8 +24238,14 @@ var fullrate_data = {
                 "station2_code":22951,
                 "station2_name":"日比谷",
                 "full_rate":{
-                    "7-8":162,
-                    "8-9":148
+                    "7-8":{
+                        "up":63,
+                        "down":195
+                    },
+                    "8-9":{
+                        "up":103,
+                        "down":96
+                    }
                 }
             },
             {
@@ -15837,8 +24255,14 @@ var fullrate_data = {
                 "station2_code":22756,
                 "station2_name":"神保町",
                 "full_rate":{
-                    "7-8":152,
-                    "8-9":109
+                    "7-8":{
+                        "up":98,
+                        "down":61
+                    },
+                    "8-9":{
+                        "up":158,
+                        "down":192
+                    }
                 }
             },
             {
@@ -15848,19 +24272,14 @@ var fullrate_data = {
                 "station2_code":22758,
                 "station2_name":"水道橋",
                 "full_rate":{
-                    "7-8":146,
-                    "8-9":175
-                }
-            },
-            {
-                "code":3390210,
-                "station1_code":22595,
-                "station1_name":"春日(東京都)",
-                "station2_code":22897,
-                "station2_name":"白山(東京都)",
-                "full_rate":{
-                    "7-8":37,
-                    "8-9":113
+                    "7-8":{
+                        "up":8,
+                        "down":35
+                    },
+                    "8-9":{
+                        "up":171,
+                        "down":39
+                    }
                 }
             },
             {
@@ -15870,8 +24289,14 @@ var fullrate_data = {
                 "station2_code":22758,
                 "station2_name":"水道橋",
                 "full_rate":{
-                    "7-8":43,
-                    "8-9":122
+                    "7-8":{
+                        "up":12,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":24,
+                        "down":98
+                    }
                 }
             },
             {
@@ -15881,8 +24306,31 @@ var fullrate_data = {
                 "station2_code":22897,
                 "station2_name":"白山(東京都)",
                 "full_rate":{
-                    "7-8":82,
-                    "8-9":150
+                    "7-8":{
+                        "up":97,
+                        "down":33
+                    },
+                    "8-9":{
+                        "up":137,
+                        "down":52
+                    }
+                }
+            },
+            {
+                "code":3390210,
+                "station1_code":22595,
+                "station1_name":"春日(東京都)",
+                "station2_code":22897,
+                "station2_name":"白山(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":148,
+                        "down":182
+                    },
+                    "8-9":{
+                        "up":132,
+                        "down":100
+                    }
                 }
             },
             {
@@ -15892,8 +24340,14 @@ var fullrate_data = {
                 "station2_code":22777,
                 "station2_name":"千石",
                 "full_rate":{
-                    "7-8":78,
-                    "8-9":153
+                    "7-8":{
+                        "up":153,
+                        "down":80
+                    },
+                    "8-9":{
+                        "up":32,
+                        "down":163
+                    }
                 }
             },
             {
@@ -15903,8 +24357,14 @@ var fullrate_data = {
                 "station2_code":22874,
                 "station2_name":"西巣鴨",
                 "full_rate":{
-                    "7-8":74,
-                    "8-9":43
+                    "7-8":{
+                        "up":31,
+                        "down":75
+                    },
+                    "8-9":{
+                        "up":141,
+                        "down":158
+                    }
                 }
             },
             {
@@ -15914,8 +24374,14 @@ var fullrate_data = {
                 "station2_code":22874,
                 "station2_name":"西巣鴨",
                 "full_rate":{
-                    "7-8":74,
-                    "8-9":29
+                    "7-8":{
+                        "up":159,
+                        "down":29
+                    },
+                    "8-9":{
+                        "up":100,
+                        "down":86
+                    }
                 }
             },
             {
@@ -15925,19 +24391,14 @@ var fullrate_data = {
                 "station2_code":22729,
                 "station2_name":"新板橋",
                 "full_rate":{
-                    "7-8":68,
-                    "8-9":42
-                }
-            },
-            {
-                "code":3390270,
-                "station1_code":22518,
-                "station1_name":"板橋区役所前",
-                "station2_code":22519,
-                "station2_name":"板橋本町",
-                "full_rate":{
-                    "7-8":29,
-                    "8-9":188
+                    "7-8":{
+                        "up":46,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":8,
+                        "down":5
+                    }
                 }
             },
             {
@@ -15947,8 +24408,14 @@ var fullrate_data = {
                 "station2_code":23022,
                 "station2_name":"本蓮沼",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":50
+                    "7-8":{
+                        "up":24,
+                        "down":62
+                    },
+                    "8-9":{
+                        "up":123,
+                        "down":50
+                    }
                 }
             },
             {
@@ -15958,8 +24425,14 @@ var fullrate_data = {
                 "station2_code":23022,
                 "station2_name":"本蓮沼",
                 "full_rate":{
-                    "7-8":153,
-                    "8-9":6
+                    "7-8":{
+                        "up":109,
+                        "down":101
+                    },
+                    "8-9":{
+                        "up":65,
+                        "down":2
+                    }
                 }
             },
             {
@@ -15969,8 +24442,31 @@ var fullrate_data = {
                 "station2_code":22717,
                 "station2_name":"志村三丁目",
                 "full_rate":{
-                    "7-8":18,
-                    "8-9":169
+                    "7-8":{
+                        "up":163,
+                        "down":75
+                    },
+                    "8-9":{
+                        "up":14,
+                        "down":22
+                    }
+                }
+            },
+            {
+                "code":3390270,
+                "station1_code":22518,
+                "station1_name":"板橋区役所前",
+                "station2_code":22519,
+                "station2_name":"板橋本町",
+                "full_rate":{
+                    "7-8":{
+                        "up":85,
+                        "down":57
+                    },
+                    "8-9":{
+                        "up":117,
+                        "down":78
+                    }
                 }
             },
             {
@@ -15980,8 +24476,14 @@ var fullrate_data = {
                 "station2_code":22902,
                 "station2_name":"蓮根",
                 "full_rate":{
-                    "7-8":38,
-                    "8-9":65
+                    "7-8":{
+                        "up":1,
+                        "down":79
+                    },
+                    "8-9":{
+                        "up":34,
+                        "down":7
+                    }
                 }
             },
             {
@@ -15991,8 +24493,14 @@ var fullrate_data = {
                 "station2_code":22902,
                 "station2_name":"蓮根",
                 "full_rate":{
-                    "7-8":79,
-                    "8-9":17
+                    "7-8":{
+                        "up":196,
+                        "down":158
+                    },
+                    "8-9":{
+                        "up":35,
+                        "down":197
+                    }
                 }
             },
             {
@@ -16002,8 +24510,14 @@ var fullrate_data = {
                 "station2_code":22878,
                 "station2_name":"西台",
                 "full_rate":{
-                    "7-8":8,
-                    "8-9":35
+                    "7-8":{
+                        "up":111,
+                        "down":32
+                    },
+                    "8-9":{
+                        "up":98,
+                        "down":105
+                    }
                 }
             },
             {
@@ -16013,8 +24527,14 @@ var fullrate_data = {
                 "station2_code":22789,
                 "station2_name":"高島平",
                 "full_rate":{
-                    "7-8":195,
-                    "8-9":120
+                    "7-8":{
+                        "up":59,
+                        "down":32
+                    },
+                    "8-9":{
+                        "up":66,
+                        "down":23
+                    }
                 }
             },
             {
@@ -16024,8 +24544,14 @@ var fullrate_data = {
                 "station2_code":22876,
                 "station2_name":"西高島平",
                 "full_rate":{
-                    "7-8":134,
-                    "8-9":65
+                    "7-8":{
+                        "up":54,
+                        "down":159
+                    },
+                    "8-9":{
+                        "up":198,
+                        "down":168
+                    }
                 }
             }
         ]
@@ -16034,25 +24560,20 @@ var fullrate_data = {
         "name":"都営地下鉄新宿線",
         "sections":[
             {
-                "code":3400140,
-                "station1_code":22645,
-                "station1_name":"九段下",
-                "station2_code":22756,
-                "station2_name":"神保町",
-                "full_rate":{
-                    "7-8":12,
-                    "8-9":61
-                }
-            },
-            {
                 "code":3400100,
                 "station1_code":22741,
                 "station1_name":"新宿",
                 "station2_code":22743,
                 "station2_name":"新宿三丁目",
                 "full_rate":{
-                    "7-8":77,
-                    "8-9":117
+                    "7-8":{
+                        "up":1,
+                        "down":175
+                    },
+                    "8-9":{
+                        "up":141,
+                        "down":103
+                    }
                 }
             },
             {
@@ -16062,8 +24583,14 @@ var fullrate_data = {
                 "station2_code":22743,
                 "station2_name":"新宿三丁目",
                 "full_rate":{
-                    "7-8":138,
-                    "8-9":162
+                    "7-8":{
+                        "up":179,
+                        "down":10
+                    },
+                    "8-9":{
+                        "up":140,
+                        "down":57
+                    }
                 }
             },
             {
@@ -16073,8 +24600,31 @@ var fullrate_data = {
                 "station2_code":22520,
                 "station2_name":"市ケ谷",
                 "full_rate":{
-                    "7-8":19,
-                    "8-9":42
+                    "7-8":{
+                        "up":105,
+                        "down":186
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":54
+                    }
+                }
+            },
+            {
+                "code":3400140,
+                "station1_code":22645,
+                "station1_name":"九段下",
+                "station2_code":22756,
+                "station2_name":"神保町",
+                "full_rate":{
+                    "7-8":{
+                        "up":22,
+                        "down":72
+                    },
+                    "8-9":{
+                        "up":62,
+                        "down":199
+                    }
                 }
             },
             {
@@ -16084,8 +24634,14 @@ var fullrate_data = {
                 "station2_code":22645,
                 "station2_name":"九段下",
                 "full_rate":{
-                    "7-8":105,
-                    "8-9":148
+                    "7-8":{
+                        "up":53,
+                        "down":24
+                    },
+                    "8-9":{
+                        "up":15,
+                        "down":129
+                    }
                 }
             },
             {
@@ -16095,19 +24651,14 @@ var fullrate_data = {
                 "station2_code":22756,
                 "station2_name":"神保町",
                 "full_rate":{
-                    "7-8":55,
-                    "8-9":198
-                }
-            },
-            {
-                "code":3400170,
-                "station1_code":22527,
-                "station1_name":"岩本町",
-                "station2_code":22919,
-                "station2_name":"馬喰横山",
-                "full_rate":{
-                    "7-8":152,
-                    "8-9":123
+                    "7-8":{
+                        "up":137,
+                        "down":158
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":2
+                    }
                 }
             },
             {
@@ -16117,8 +24668,31 @@ var fullrate_data = {
                 "station2_code":22572,
                 "station2_name":"小川町(東京都)",
                 "full_rate":{
-                    "7-8":98,
-                    "8-9":45
+                    "7-8":{
+                        "up":83,
+                        "down":166
+                    },
+                    "8-9":{
+                        "up":189,
+                        "down":131
+                    }
+                }
+            },
+            {
+                "code":3400170,
+                "station1_code":22527,
+                "station1_name":"岩本町",
+                "station2_code":22919,
+                "station2_name":"馬喰横山",
+                "full_rate":{
+                    "7-8":{
+                        "up":92,
+                        "down":99
+                    },
+                    "8-9":{
+                        "up":42,
+                        "down":172
+                    }
                 }
             },
             {
@@ -16128,19 +24702,14 @@ var fullrate_data = {
                 "station2_code":22919,
                 "station2_name":"馬喰横山",
                 "full_rate":{
-                    "7-8":73,
-                    "8-9":13
-                }
-            },
-            {
-                "code":3400190,
-                "station1_code":22913,
-                "station1_name":"浜町",
-                "station2_code":23023,
-                "station2_name":"森下(東京都)",
-                "full_rate":{
-                    "7-8":138,
-                    "8-9":104
+                    "7-8":{
+                        "up":136,
+                        "down":39
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":67
+                    }
                 }
             },
             {
@@ -16150,8 +24719,31 @@ var fullrate_data = {
                 "station2_code":23023,
                 "station2_name":"森下(東京都)",
                 "full_rate":{
-                    "7-8":137,
-                    "8-9":174
+                    "7-8":{
+                        "up":87,
+                        "down":63
+                    },
+                    "8-9":{
+                        "up":78,
+                        "down":93
+                    }
+                }
+            },
+            {
+                "code":3400190,
+                "station1_code":22913,
+                "station1_name":"浜町",
+                "station2_code":23023,
+                "station2_name":"森下(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":35,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":21,
+                        "down":197
+                    }
                 }
             },
             {
@@ -16161,8 +24753,14 @@ var fullrate_data = {
                 "station2_code":22763,
                 "station2_name":"住吉(東京都)",
                 "full_rate":{
-                    "7-8":142,
-                    "8-9":51
+                    "7-8":{
+                        "up":45,
+                        "down":114
+                    },
+                    "8-9":{
+                        "up":128,
+                        "down":154
+                    }
                 }
             },
             {
@@ -16172,8 +24770,14 @@ var fullrate_data = {
                 "station2_code":22866,
                 "station2_name":"西大島",
                 "full_rate":{
-                    "7-8":49,
-                    "8-9":20
+                    "7-8":{
+                        "up":187,
+                        "down":85
+                    },
+                    "8-9":{
+                        "up":21,
+                        "down":111
+                    }
                 }
             },
             {
@@ -16183,8 +24787,14 @@ var fullrate_data = {
                 "station2_code":22866,
                 "station2_name":"西大島",
                 "full_rate":{
-                    "7-8":101,
-                    "8-9":185
+                    "7-8":{
+                        "up":58,
+                        "down":88
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":142
+                    }
                 }
             },
             {
@@ -16194,19 +24804,14 @@ var fullrate_data = {
                 "station2_code":22927,
                 "station2_name":"東大島",
                 "full_rate":{
-                    "7-8":146,
-                    "8-9":126
-                }
-            },
-            {
-                "code":3400250,
-                "station1_code":22927,
-                "station1_name":"東大島",
-                "station2_code":22965,
-                "station2_name":"船堀",
-                "full_rate":{
-                    "7-8":118,
-                    "8-9":173
+                    "7-8":{
+                        "up":172,
+                        "down":165
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":185
+                    }
                 }
             },
             {
@@ -16216,8 +24821,31 @@ var fullrate_data = {
                 "station2_code":22965,
                 "station2_name":"船堀",
                 "full_rate":{
-                    "7-8":86,
-                    "8-9":36
+                    "7-8":{
+                        "up":98,
+                        "down":37
+                    },
+                    "8-9":{
+                        "up":18,
+                        "down":84
+                    }
+                }
+            },
+            {
+                "code":3400250,
+                "station1_code":22927,
+                "station1_name":"東大島",
+                "station2_code":22965,
+                "station2_name":"船堀",
+                "full_rate":{
+                    "7-8":{
+                        "up":75,
+                        "down":53
+                    },
+                    "8-9":{
+                        "up":85,
+                        "down":107
+                    }
                 }
             },
             {
@@ -16227,8 +24855,14 @@ var fullrate_data = {
                 "station2_code":22984,
                 "station2_name":"瑞江",
                 "full_rate":{
-                    "7-8":104,
-                    "8-9":97
+                    "7-8":{
+                        "up":129,
+                        "down":104
+                    },
+                    "8-9":{
+                        "up":165,
+                        "down":119
+                    }
                 }
             },
             {
@@ -16238,8 +24872,14 @@ var fullrate_data = {
                 "station2_code":22984,
                 "station2_name":"瑞江",
                 "full_rate":{
-                    "7-8":177,
-                    "8-9":79
+                    "7-8":{
+                        "up":188,
+                        "down":175
+                    },
+                    "8-9":{
+                        "up":134,
+                        "down":60
+                    }
                 }
             },
             {
@@ -16249,8 +24889,14 @@ var fullrate_data = {
                 "station2_code":22464,
                 "station2_name":"本八幡(都営線)",
                 "full_rate":{
-                    "7-8":97,
-                    "8-9":102
+                    "7-8":{
+                        "up":136,
+                        "down":166
+                    },
+                    "8-9":{
+                        "up":109,
+                        "down":64
+                    }
                 }
             }
         ]
@@ -16265,8 +24911,14 @@ var fullrate_data = {
                 "station2_code":23000,
                 "station2_name":"三ノ輪橋",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":195
+                    "7-8":{
+                        "up":14,
+                        "down":134
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":83
+                    }
                 }
             },
             {
@@ -16276,8 +24928,14 @@ var fullrate_data = {
                 "station2_code":22501,
                 "station2_name":"荒川区役所前",
                 "full_rate":{
-                    "7-8":11,
-                    "8-9":149
+                    "7-8":{
+                        "up":190,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":94
+                    }
                 }
             },
             {
@@ -16287,8 +24945,14 @@ var fullrate_data = {
                 "station2_code":22504,
                 "station2_name":"荒川二丁目",
                 "full_rate":{
-                    "7-8":129,
-                    "8-9":180
+                    "7-8":{
+                        "up":51,
+                        "down":132
+                    },
+                    "8-9":{
+                        "up":32,
+                        "down":122
+                    }
                 }
             },
             {
@@ -16298,8 +24962,14 @@ var fullrate_data = {
                 "station2_code":22504,
                 "station2_name":"荒川二丁目",
                 "full_rate":{
-                    "7-8":130,
-                    "8-9":117
+                    "7-8":{
+                        "up":172,
+                        "down":44
+                    },
+                    "8-9":{
+                        "up":191,
+                        "down":93
+                    }
                 }
             },
             {
@@ -16309,19 +24979,14 @@ var fullrate_data = {
                 "station2_code":22979,
                 "station2_name":"町屋駅前",
                 "full_rate":{
-                    "7-8":140,
-                    "8-9":34
-                }
-            },
-            {
-                "code":3420150,
-                "station1_code":22979,
-                "station1_name":"町屋駅前",
-                "station2_code":22980,
-                "station2_name":"町屋二丁目",
-                "full_rate":{
-                    "7-8":87,
-                    "8-9":9
+                    "7-8":{
+                        "up":55,
+                        "down":114
+                    },
+                    "8-9":{
+                        "up":143,
+                        "down":52
+                    }
                 }
             },
             {
@@ -16331,19 +24996,14 @@ var fullrate_data = {
                 "station2_code":22980,
                 "station2_name":"町屋二丁目",
                 "full_rate":{
-                    "7-8":68,
-                    "8-9":2
-                }
-            },
-            {
-                "code":3420170,
-                "station1_code":22649,
-                "station1_name":"熊野前",
-                "station2_code":22928,
-                "station2_name":"東尾久三丁目",
-                "full_rate":{
-                    "7-8":53,
-                    "8-9":5
+                    "7-8":{
+                        "up":194,
+                        "down":6
+                    },
+                    "8-9":{
+                        "up":8,
+                        "down":111
+                    }
                 }
             },
             {
@@ -16353,30 +25013,48 @@ var fullrate_data = {
                 "station2_code":23003,
                 "station2_name":"宮ノ前",
                 "full_rate":{
-                    "7-8":157,
-                    "8-9":165
+                    "7-8":{
+                        "up":82,
+                        "down":54
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":63
+                    }
                 }
             },
             {
-                "code":3420190,
-                "station1_code":22579,
-                "station1_name":"小台",
-                "station2_code":23003,
-                "station2_name":"宮ノ前",
+                "code":3420170,
+                "station1_code":22649,
+                "station1_name":"熊野前",
+                "station2_code":22928,
+                "station2_name":"東尾久三丁目",
                 "full_rate":{
-                    "7-8":54,
-                    "8-9":105
+                    "7-8":{
+                        "up":26,
+                        "down":159
+                    },
+                    "8-9":{
+                        "up":82,
+                        "down":166
+                    }
                 }
             },
             {
-                "code":3420200,
-                "station1_code":22505,
-                "station1_name":"荒川遊園地前",
-                "station2_code":22579,
-                "station2_name":"小台",
+                "code":3420150,
+                "station1_code":22979,
+                "station1_name":"町屋駅前",
+                "station2_code":22980,
+                "station2_name":"町屋二丁目",
                 "full_rate":{
-                    "7-8":192,
-                    "8-9":61
+                    "7-8":{
+                        "up":158,
+                        "down":29
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":172
+                    }
                 }
             },
             {
@@ -16386,8 +25064,14 @@ var fullrate_data = {
                 "station2_code":22505,
                 "station2_name":"荒川遊園地前",
                 "full_rate":{
-                    "7-8":25,
-                    "8-9":193
+                    "7-8":{
+                        "up":91,
+                        "down":2
+                    },
+                    "8-9":{
+                        "up":46,
+                        "down":99
+                    }
                 }
             },
             {
@@ -16397,85 +25081,48 @@ var fullrate_data = {
                 "station2_code":22594,
                 "station2_name":"梶原",
                 "full_rate":{
-                    "7-8":107,
-                    "8-9":192
+                    "7-8":{
+                        "up":122,
+                        "down":185
+                    },
+                    "8-9":{
+                        "up":119,
+                        "down":150
+                    }
                 }
             },
             {
-                "code":3420240,
-                "station1_code":22550,
-                "station1_name":"王子駅前",
-                "station2_code":22693,
-                "station2_name":"栄町(東京都)",
+                "code":3420190,
+                "station1_code":22579,
+                "station1_name":"小台",
+                "station2_code":23003,
+                "station2_name":"宮ノ前",
                 "full_rate":{
-                    "7-8":34,
-                    "8-9":136
+                    "7-8":{
+                        "up":141,
+                        "down":147
+                    },
+                    "8-9":{
+                        "up":159,
+                        "down":68
+                    }
                 }
             },
             {
-                "code":3420250,
-                "station1_code":22497,
-                "station1_name":"飛鳥山",
-                "station2_code":22550,
-                "station2_name":"王子駅前",
+                "code":3420200,
+                "station1_code":22505,
+                "station1_name":"荒川遊園地前",
+                "station2_code":22579,
+                "station2_name":"小台",
                 "full_rate":{
-                    "7-8":147,
-                    "8-9":93
-                }
-            },
-            {
-                "code":3420260,
-                "station1_code":22497,
-                "station1_name":"飛鳥山",
-                "station2_code":22795,
-                "station2_name":"滝野川一丁目",
-                "full_rate":{
-                    "7-8":22,
-                    "8-9":125
-                }
-            },
-            {
-                "code":3420270,
-                "station1_code":22795,
-                "station1_name":"滝野川一丁目",
-                "station2_code":22870,
-                "station2_name":"西ケ原四丁目",
-                "full_rate":{
-                    "7-8":0,
-                    "8-9":114
-                }
-            },
-            {
-                "code":3420280,
-                "station1_code":22736,
-                "station1_name":"新庚申塚",
-                "station2_code":22870,
-                "station2_name":"西ケ原四丁目",
-                "full_rate":{
-                    "7-8":25,
-                    "8-9":39
-                }
-            },
-            {
-                "code":3420290,
-                "station1_code":22672,
-                "station1_name":"庚申塚",
-                "station2_code":22736,
-                "station2_name":"新庚申塚",
-                "full_rate":{
-                    "7-8":154,
-                    "8-9":33
-                }
-            },
-            {
-                "code":3420300,
-                "station1_code":22672,
-                "station1_name":"庚申塚",
-                "station2_code":22761,
-                "station2_name":"巣鴨新田",
-                "full_rate":{
-                    "7-8":38,
-                    "8-9":153
+                    "7-8":{
+                        "up":196,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":83,
+                        "down":49
+                    }
                 }
             },
             {
@@ -16485,8 +25132,133 @@ var fullrate_data = {
                 "station2_code":22693,
                 "station2_name":"栄町(東京都)",
                 "full_rate":{
-                    "7-8":57,
-                    "8-9":128
+                    "7-8":{
+                        "up":70,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":33,
+                        "down":29
+                    }
+                }
+            },
+            {
+                "code":3420240,
+                "station1_code":22550,
+                "station1_name":"王子駅前",
+                "station2_code":22693,
+                "station2_name":"栄町(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":20,
+                        "down":117
+                    },
+                    "8-9":{
+                        "up":86,
+                        "down":192
+                    }
+                }
+            },
+            {
+                "code":3420250,
+                "station1_code":22497,
+                "station1_name":"飛鳥山",
+                "station2_code":22550,
+                "station2_name":"王子駅前",
+                "full_rate":{
+                    "7-8":{
+                        "up":183,
+                        "down":113
+                    },
+                    "8-9":{
+                        "up":179,
+                        "down":40
+                    }
+                }
+            },
+            {
+                "code":3420260,
+                "station1_code":22497,
+                "station1_name":"飛鳥山",
+                "station2_code":22795,
+                "station2_name":"滝野川一丁目",
+                "full_rate":{
+                    "7-8":{
+                        "up":28,
+                        "down":162
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":168
+                    }
+                }
+            },
+            {
+                "code":3420270,
+                "station1_code":22795,
+                "station1_name":"滝野川一丁目",
+                "station2_code":22870,
+                "station2_name":"西ケ原四丁目",
+                "full_rate":{
+                    "7-8":{
+                        "up":118,
+                        "down":45
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":45
+                    }
+                }
+            },
+            {
+                "code":3420280,
+                "station1_code":22736,
+                "station1_name":"新庚申塚",
+                "station2_code":22870,
+                "station2_name":"西ケ原四丁目",
+                "full_rate":{
+                    "7-8":{
+                        "up":108,
+                        "down":161
+                    },
+                    "8-9":{
+                        "up":78,
+                        "down":164
+                    }
+                }
+            },
+            {
+                "code":3420290,
+                "station1_code":22672,
+                "station1_name":"庚申塚",
+                "station2_code":22736,
+                "station2_name":"新庚申塚",
+                "full_rate":{
+                    "7-8":{
+                        "up":170,
+                        "down":191
+                    },
+                    "8-9":{
+                        "up":96,
+                        "down":81
+                    }
+                }
+            },
+            {
+                "code":3420300,
+                "station1_code":22672,
+                "station1_name":"庚申塚",
+                "station2_code":22761,
+                "station2_name":"巣鴨新田",
+                "full_rate":{
+                    "7-8":{
+                        "up":3,
+                        "down":61
+                    },
+                    "8-9":{
+                        "up":10,
+                        "down":43
+                    }
                 }
             },
             {
@@ -16496,8 +25268,14 @@ var fullrate_data = {
                 "station2_code":22761,
                 "station2_name":"巣鴨新田",
                 "full_rate":{
-                    "7-8":135,
-                    "8-9":120
+                    "7-8":{
+                        "up":50,
+                        "down":28
+                    },
+                    "8-9":{
+                        "up":13,
+                        "down":103
+                    }
                 }
             },
             {
@@ -16507,8 +25285,14 @@ var fullrate_data = {
                 "station2_code":23004,
                 "station2_name":"向原(東京都)",
                 "full_rate":{
-                    "7-8":113,
-                    "8-9":140
+                    "7-8":{
+                        "up":90,
+                        "down":10
+                    },
+                    "8-9":{
+                        "up":73,
+                        "down":84
+                    }
                 }
             },
             {
@@ -16518,8 +25302,14 @@ var fullrate_data = {
                 "station2_code":23004,
                 "station2_name":"向原(東京都)",
                 "full_rate":{
-                    "7-8":165,
-                    "8-9":69
+                    "7-8":{
+                        "up":17,
+                        "down":78
+                    },
+                    "8-9":{
+                        "up":171,
+                        "down":25
+                    }
                 }
             },
             {
@@ -16529,8 +25319,14 @@ var fullrate_data = {
                 "station2_code":22925,
                 "station2_name":"東池袋四丁目",
                 "full_rate":{
-                    "7-8":127,
-                    "8-9":89
+                    "7-8":{
+                        "up":88,
+                        "down":85
+                    },
+                    "8-9":{
+                        "up":88,
+                        "down":61
+                    }
                 }
             },
             {
@@ -16540,8 +25336,14 @@ var fullrate_data = {
                 "station2_code":22784,
                 "station2_name":"都電雑司ケ谷",
                 "full_rate":{
-                    "7-8":26,
-                    "8-9":129
+                    "7-8":{
+                        "up":196,
+                        "down":191
+                    },
+                    "8-9":{
+                        "up":42,
+                        "down":56
+                    }
                 }
             },
             {
@@ -16551,8 +25353,14 @@ var fullrate_data = {
                 "station2_code":22625,
                 "station2_name":"鬼子母神前",
                 "full_rate":{
-                    "7-8":144,
-                    "8-9":197
+                    "7-8":{
+                        "up":87,
+                        "down":107
+                    },
+                    "8-9":{
+                        "up":115,
+                        "down":172
+                    }
                 }
             },
             {
@@ -16562,8 +25370,14 @@ var fullrate_data = {
                 "station2_code":22620,
                 "station2_name":"学習院下",
                 "full_rate":{
-                    "7-8":53,
-                    "8-9":57
+                    "7-8":{
+                        "up":176,
+                        "down":30
+                    },
+                    "8-9":{
+                        "up":139,
+                        "down":5
+                    }
                 }
             },
             {
@@ -16573,8 +25387,14 @@ var fullrate_data = {
                 "station2_code":23054,
                 "station2_name":"早稲田(都電荒川線)",
                 "full_rate":{
-                    "7-8":82,
-                    "8-9":179
+                    "7-8":{
+                        "up":89,
+                        "down":71
+                    },
+                    "8-9":{
+                        "up":25,
+                        "down":34
+                    }
                 }
             }
         ]
@@ -16589,8 +25409,14 @@ var fullrate_data = {
                 "station2_code":29616,
                 "station2_name":"日暮里(舎人ライナー)",
                 "full_rate":{
-                    "7-8":104,
-                    "8-9":28
+                    "7-8":{
+                        "up":188,
+                        "down":67
+                    },
+                    "8-9":{
+                        "up":79,
+                        "down":9
+                    }
                 }
             },
             {
@@ -16600,8 +25426,14 @@ var fullrate_data = {
                 "station2_code":29617,
                 "station2_name":"西日暮里(舎人ライナー)",
                 "full_rate":{
-                    "7-8":112,
-                    "8-9":186
+                    "7-8":{
+                        "up":151,
+                        "down":30
+                    },
+                    "8-9":{
+                        "up":91,
+                        "down":154
+                    }
                 }
             },
             {
@@ -16611,8 +25443,14 @@ var fullrate_data = {
                 "station2_code":29619,
                 "station2_name":"熊野前(舎人ライナー)",
                 "full_rate":{
-                    "7-8":29,
-                    "8-9":115
+                    "7-8":{
+                        "up":87,
+                        "down":187
+                    },
+                    "8-9":{
+                        "up":199,
+                        "down":114
+                    }
                 }
             },
             {
@@ -16622,8 +25460,14 @@ var fullrate_data = {
                 "station2_code":29619,
                 "station2_name":"熊野前(舎人ライナー)",
                 "full_rate":{
-                    "7-8":77,
-                    "8-9":92
+                    "7-8":{
+                        "up":35,
+                        "down":26
+                    },
+                    "8-9":{
+                        "up":124,
+                        "down":35
+                    }
                 }
             },
             {
@@ -16633,8 +25477,14 @@ var fullrate_data = {
                 "station2_code":29621,
                 "station2_name":"扇大橋",
                 "full_rate":{
-                    "7-8":195,
-                    "8-9":152
+                    "7-8":{
+                        "up":168,
+                        "down":79
+                    },
+                    "8-9":{
+                        "up":81,
+                        "down":164
+                    }
                 }
             },
             {
@@ -16644,8 +25494,14 @@ var fullrate_data = {
                 "station2_code":29622,
                 "station2_name":"高野(東京都)",
                 "full_rate":{
-                    "7-8":149,
-                    "8-9":197
+                    "7-8":{
+                        "up":195,
+                        "down":97
+                    },
+                    "8-9":{
+                        "up":55,
+                        "down":99
+                    }
                 }
             },
             {
@@ -16655,8 +25511,14 @@ var fullrate_data = {
                 "station2_code":29622,
                 "station2_name":"高野(東京都)",
                 "full_rate":{
-                    "7-8":116,
-                    "8-9":49
+                    "7-8":{
+                        "up":162,
+                        "down":46
+                    },
+                    "8-9":{
+                        "up":83,
+                        "down":191
+                    }
                 }
             },
             {
@@ -16666,8 +25528,14 @@ var fullrate_data = {
                 "station2_code":29624,
                 "station2_name":"西新井大師西",
                 "full_rate":{
-                    "7-8":190,
-                    "8-9":141
+                    "7-8":{
+                        "up":77,
+                        "down":184
+                    },
+                    "8-9":{
+                        "up":175,
+                        "down":198
+                    }
                 }
             },
             {
@@ -16677,8 +25545,14 @@ var fullrate_data = {
                 "station2_code":29625,
                 "station2_name":"谷在家",
                 "full_rate":{
-                    "7-8":5,
-                    "8-9":79
+                    "7-8":{
+                        "up":23,
+                        "down":164
+                    },
+                    "8-9":{
+                        "up":35,
+                        "down":135
+                    }
                 }
             },
             {
@@ -16688,8 +25562,14 @@ var fullrate_data = {
                 "station2_code":29625,
                 "station2_name":"谷在家",
                 "full_rate":{
-                    "7-8":150,
-                    "8-9":167
+                    "7-8":{
+                        "up":30,
+                        "down":117
+                    },
+                    "8-9":{
+                        "up":151,
+                        "down":157
+                    }
                 }
             },
             {
@@ -16699,8 +25579,14 @@ var fullrate_data = {
                 "station2_code":29626,
                 "station2_name":"舎人公園",
                 "full_rate":{
-                    "7-8":31,
-                    "8-9":193
+                    "7-8":{
+                        "up":190,
+                        "down":197
+                    },
+                    "8-9":{
+                        "up":128,
+                        "down":181
+                    }
                 }
             },
             {
@@ -16710,8 +25596,14 @@ var fullrate_data = {
                 "station2_code":29628,
                 "station2_name":"見沼代親水公園",
                 "full_rate":{
-                    "7-8":104,
-                    "8-9":170
+                    "7-8":{
+                        "up":197,
+                        "down":12
+                    },
+                    "8-9":{
+                        "up":49,
+                        "down":64
+                    }
                 }
             }
         ]
@@ -16726,19 +25618,14 @@ var fullrate_data = {
                 "station2_code":22740,
                 "station2_name":"新柴又",
                 "full_rate":{
-                    "7-8":125,
-                    "8-9":140
-                }
-            },
-            {
-                "code":4800110,
-                "station1_code":22740,
-                "station1_name":"新柴又",
-                "station2_code":23026,
-                "station2_name":"矢切",
-                "full_rate":{
-                    "7-8":64,
-                    "8-9":144
+                    "7-8":{
+                        "up":195,
+                        "down":191
+                    },
+                    "8-9":{
+                        "up":145,
+                        "down":131
+                    }
                 }
             },
             {
@@ -16748,8 +25635,31 @@ var fullrate_data = {
                 "station2_code":23026,
                 "station2_name":"矢切",
                 "full_rate":{
-                    "7-8":26,
-                    "8-9":48
+                    "7-8":{
+                        "up":45,
+                        "down":71
+                    },
+                    "8-9":{
+                        "up":178,
+                        "down":112
+                    }
+                }
+            },
+            {
+                "code":4800110,
+                "station1_code":22740,
+                "station1_name":"新柴又",
+                "station2_code":23026,
+                "station2_name":"矢切",
+                "full_rate":{
+                    "7-8":{
+                        "up":23,
+                        "down":174
+                    },
+                    "8-9":{
+                        "up":110,
+                        "down":158
+                    }
                 }
             },
             {
@@ -16759,8 +25669,14 @@ var fullrate_data = {
                 "station2_code":22259,
                 "station2_name":"北国分",
                 "full_rate":{
-                    "7-8":37,
-                    "8-9":190
+                    "7-8":{
+                        "up":154,
+                        "down":157
+                    },
+                    "8-9":{
+                        "up":170,
+                        "down":114
+                    }
                 }
             },
             {
@@ -16770,8 +25686,14 @@ var fullrate_data = {
                 "station2_code":22416,
                 "station2_name":"東松戸",
                 "full_rate":{
-                    "7-8":33,
-                    "8-9":128
+                    "7-8":{
+                        "up":78,
+                        "down":138
+                    },
+                    "8-9":{
+                        "up":111,
+                        "down":154
+                    }
                 }
             },
             {
@@ -16781,8 +25703,14 @@ var fullrate_data = {
                 "station2_code":22446,
                 "station2_name":"松飛台",
                 "full_rate":{
-                    "7-8":17,
-                    "8-9":33
+                    "7-8":{
+                        "up":86,
+                        "down":67
+                    },
+                    "8-9":{
+                        "up":163,
+                        "down":94
+                    }
                 }
             },
             {
@@ -16792,8 +25720,14 @@ var fullrate_data = {
                 "station2_code":22446,
                 "station2_name":"松飛台",
                 "full_rate":{
-                    "7-8":5,
-                    "8-9":0
+                    "7-8":{
+                        "up":78,
+                        "down":144
+                    },
+                    "8-9":{
+                        "up":15,
+                        "down":54
+                    }
                 }
             },
             {
@@ -16803,8 +25737,14 @@ var fullrate_data = {
                 "station2_code":22326,
                 "station2_name":"新鎌ケ谷",
                 "full_rate":{
-                    "7-8":139,
-                    "8-9":157
+                    "7-8":{
+                        "up":120,
+                        "down":57
+                    },
+                    "8-9":{
+                        "up":171,
+                        "down":41
+                    }
                 }
             },
             {
@@ -16814,8 +25754,14 @@ var fullrate_data = {
                 "station2_code":22397,
                 "station2_name":"西白井",
                 "full_rate":{
-                    "7-8":182,
-                    "8-9":65
+                    "7-8":{
+                        "up":80,
+                        "down":198
+                    },
+                    "8-9":{
+                        "up":131,
+                        "down":195
+                    }
                 }
             },
             {
@@ -16825,8 +25771,14 @@ var fullrate_data = {
                 "station2_code":22397,
                 "station2_name":"西白井",
                 "full_rate":{
-                    "7-8":24,
-                    "8-9":5
+                    "7-8":{
+                        "up":110,
+                        "down":178
+                    },
+                    "8-9":{
+                        "up":157,
+                        "down":40
+                    }
                 }
             },
             {
@@ -16836,8 +25788,14 @@ var fullrate_data = {
                 "station2_code":22323,
                 "station2_name":"白井",
                 "full_rate":{
-                    "7-8":28,
-                    "8-9":159
+                    "7-8":{
+                        "up":193,
+                        "down":75
+                    },
+                    "8-9":{
+                        "up":110,
+                        "down":0
+                    }
                 }
             },
             {
@@ -16847,8 +25805,14 @@ var fullrate_data = {
                 "station2_code":22365,
                 "station2_name":"千葉ニュータウン中央",
                 "full_rate":{
-                    "7-8":75,
-                    "8-9":101
+                    "7-8":{
+                        "up":2,
+                        "down":111
+                    },
+                    "8-9":{
+                        "up":126,
+                        "down":49
+                    }
                 }
             },
             {
@@ -16858,8 +25822,14 @@ var fullrate_data = {
                 "station2_code":22365,
                 "station2_name":"千葉ニュータウン中央",
                 "full_rate":{
-                    "7-8":77,
-                    "8-9":68
+                    "7-8":{
+                        "up":149,
+                        "down":56
+                    },
+                    "8-9":{
+                        "up":12,
+                        "down":73
+                    }
                 }
             },
             {
@@ -16869,8 +25839,14 @@ var fullrate_data = {
                 "station2_code":29322,
                 "station2_name":"印旛日本医大",
                 "full_rate":{
-                    "7-8":114,
-                    "8-9":125
+                    "7-8":{
+                        "up":97,
+                        "down":148
+                    },
+                    "8-9":{
+                        "up":19,
+                        "down":115
+                    }
                 }
             }
         ]
@@ -16885,8 +25861,14 @@ var fullrate_data = {
                 "station2_code":22914,
                 "station2_name":"浜松町",
                 "full_rate":{
-                    "7-8":58,
-                    "8-9":199
+                    "7-8":{
+                        "up":21,
+                        "down":15
+                    },
+                    "8-9":{
+                        "up":143,
+                        "down":182
+                    }
                 }
             },
             {
@@ -16896,8 +25878,14 @@ var fullrate_data = {
                 "station2_code":22825,
                 "station2_name":"天王洲アイル",
                 "full_rate":{
-                    "7-8":100,
-                    "8-9":173
+                    "7-8":{
+                        "up":54,
+                        "down":118
+                    },
+                    "8-9":{
+                        "up":152,
+                        "down":146
+                    }
                 }
             },
             {
@@ -16907,8 +25895,14 @@ var fullrate_data = {
                 "station2_code":23047,
                 "station2_name":"流通センター",
                 "full_rate":{
-                    "7-8":90,
-                    "8-9":46
+                    "7-8":{
+                        "up":5,
+                        "down":18
+                    },
+                    "8-9":{
+                        "up":137,
+                        "down":102
+                    }
                 }
             },
             {
@@ -16918,8 +25912,14 @@ var fullrate_data = {
                 "station2_code":23047,
                 "station2_name":"流通センター",
                 "full_rate":{
-                    "7-8":31,
-                    "8-9":92
+                    "7-8":{
+                        "up":35,
+                        "down":36
+                    },
+                    "8-9":{
+                        "up":150,
+                        "down":50
+                    }
                 }
             },
             {
@@ -16929,8 +25929,14 @@ var fullrate_data = {
                 "station2_code":22766,
                 "station2_name":"整備場",
                 "full_rate":{
-                    "7-8":63,
-                    "8-9":136
+                    "7-8":{
+                        "up":129,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":198
+                    }
                 }
             },
             {
@@ -16940,19 +25946,14 @@ var fullrate_data = {
                 "station2_code":22910,
                 "station2_name":"天空橋",
                 "full_rate":{
-                    "7-8":111,
-                    "8-9":158
-                }
-            },
-            {
-                "code":4880160,
-                "station1_code":22910,
-                "station1_name":"天空橋",
-                "station2_code":29671,
-                "station2_name":"羽田空港国際線ビル(東京モノレール)",
-                "full_rate":{
-                    "7-8":168,
-                    "8-9":66
+                    "7-8":{
+                        "up":81,
+                        "down":64
+                    },
+                    "8-9":{
+                        "up":70,
+                        "down":133
+                    }
                 }
             },
             {
@@ -16962,8 +25963,14 @@ var fullrate_data = {
                 "station2_code":29671,
                 "station2_name":"羽田空港国際線ビル(東京モノレール)",
                 "full_rate":{
-                    "7-8":98,
-                    "8-9":147
+                    "7-8":{
+                        "up":73,
+                        "down":168
+                    },
+                    "8-9":{
+                        "up":109,
+                        "down":32
+                    }
                 }
             },
             {
@@ -16973,8 +25980,14 @@ var fullrate_data = {
                 "station2_code":29509,
                 "station2_name":"羽田空港第１ビル(東京モノレール・ＪＡＬ利用)",
                 "full_rate":{
-                    "7-8":146,
-                    "8-9":68
+                    "7-8":{
+                        "up":158,
+                        "down":123
+                    },
+                    "8-9":{
+                        "up":133,
+                        "down":115
+                    }
                 }
             },
             {
@@ -16984,8 +25997,31 @@ var fullrate_data = {
                 "station2_code":29510,
                 "station2_name":"羽田空港第２ビル(東京モノレール・ＡＮＡ利用)",
                 "full_rate":{
-                    "7-8":163,
-                    "8-9":33
+                    "7-8":{
+                        "up":51,
+                        "down":66
+                    },
+                    "8-9":{
+                        "up":19,
+                        "down":27
+                    }
+                }
+            },
+            {
+                "code":4880160,
+                "station1_code":22910,
+                "station1_name":"天空橋",
+                "station2_code":29671,
+                "station2_name":"羽田空港国際線ビル(東京モノレール)",
+                "full_rate":{
+                    "7-8":{
+                        "up":153,
+                        "down":89
+                    },
+                    "8-9":{
+                        "up":149,
+                        "down":20
+                    }
                 }
             }
         ]
@@ -17000,8 +26036,14 @@ var fullrate_data = {
                 "station2_code":22751,
                 "station2_name":"新橋",
                 "full_rate":{
-                    "7-8":45,
-                    "8-9":32
+                    "7-8":{
+                        "up":118,
+                        "down":122
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":76
+                    }
                 }
             },
             {
@@ -17011,8 +26053,14 @@ var fullrate_data = {
                 "station2_code":29051,
                 "station2_name":"竹芝",
                 "full_rate":{
-                    "7-8":58,
-                    "8-9":16
+                    "7-8":{
+                        "up":180,
+                        "down":4
+                    },
+                    "8-9":{
+                        "up":112,
+                        "down":100
+                    }
                 }
             },
             {
@@ -17022,8 +26070,14 @@ var fullrate_data = {
                 "station2_code":29052,
                 "station2_name":"日の出(東京都)",
                 "full_rate":{
-                    "7-8":136,
-                    "8-9":124
+                    "7-8":{
+                        "up":182,
+                        "down":112
+                    },
+                    "8-9":{
+                        "up":74,
+                        "down":153
+                    }
                 }
             },
             {
@@ -17033,8 +26087,14 @@ var fullrate_data = {
                 "station2_code":29052,
                 "station2_name":"日の出(東京都)",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":56
+                    "7-8":{
+                        "up":148,
+                        "down":137
+                    },
+                    "8-9":{
+                        "up":33,
+                        "down":114
+                    }
                 }
             },
             {
@@ -17044,41 +26104,14 @@ var fullrate_data = {
                 "station2_code":29053,
                 "station2_name":"芝浦ふ頭",
                 "full_rate":{
-                    "7-8":195,
-                    "8-9":83
-                }
-            },
-            {
-                "code":6670150,
-                "station1_code":29054,
-                "station1_name":"お台場海浜公園",
-                "station2_code":29055,
-                "station2_name":"台場",
-                "full_rate":{
-                    "7-8":20,
-                    "8-9":16
-                }
-            },
-            {
-                "code":6670170,
-                "station1_code":29057,
-                "station1_name":"テレコムセンター",
-                "station2_code":29056,
-                "station2_name":"船の科学館",
-                "full_rate":{
-                    "7-8":86,
-                    "8-9":98
-                }
-            },
-            {
-                "code":6670160,
-                "station1_code":29055,
-                "station1_name":"台場",
-                "station2_code":29056,
-                "station2_name":"船の科学館",
-                "full_rate":{
-                    "7-8":155,
-                    "8-9":12
+                    "7-8":{
+                        "up":10,
+                        "down":119
+                    },
+                    "8-9":{
+                        "up":36,
+                        "down":115
+                    }
                 }
             },
             {
@@ -17088,19 +26121,14 @@ var fullrate_data = {
                 "station2_code":29057,
                 "station2_name":"テレコムセンター",
                 "full_rate":{
-                    "7-8":59,
-                    "8-9":143
-                }
-            },
-            {
-                "code":6670200,
-                "station1_code":29060,
-                "station1_name":"有明(東京都)",
-                "station2_code":29059,
-                "station2_name":"国際展示場正門",
-                "full_rate":{
-                    "7-8":179,
-                    "8-9":148
+                    "7-8":{
+                        "up":5,
+                        "down":180
+                    },
+                    "8-9":{
+                        "up":90,
+                        "down":113
+                    }
                 }
             },
             {
@@ -17110,8 +26138,65 @@ var fullrate_data = {
                 "station2_code":29059,
                 "station2_name":"国際展示場正門",
                 "full_rate":{
-                    "7-8":38,
-                    "8-9":25
+                    "7-8":{
+                        "up":63,
+                        "down":72
+                    },
+                    "8-9":{
+                        "up":127,
+                        "down":139
+                    }
+                }
+            },
+            {
+                "code":6670160,
+                "station1_code":29055,
+                "station1_name":"台場",
+                "station2_code":29056,
+                "station2_name":"船の科学館",
+                "full_rate":{
+                    "7-8":{
+                        "up":149,
+                        "down":135
+                    },
+                    "8-9":{
+                        "up":80,
+                        "down":158
+                    }
+                }
+            },
+            {
+                "code":6670170,
+                "station1_code":29057,
+                "station1_name":"テレコムセンター",
+                "station2_code":29056,
+                "station2_name":"船の科学館",
+                "full_rate":{
+                    "7-8":{
+                        "up":141,
+                        "down":32
+                    },
+                    "8-9":{
+                        "up":24,
+                        "down":106
+                    }
+                }
+            },
+            {
+                "code":6670200,
+                "station1_code":29060,
+                "station1_name":"有明(東京都)",
+                "station2_code":29059,
+                "station2_name":"国際展示場正門",
+                "full_rate":{
+                    "7-8":{
+                        "up":6,
+                        "down":141
+                    },
+                    "8-9":{
+                        "up":195,
+                        "down":151
+                    }
                 }
             },
             {
@@ -17121,19 +26206,14 @@ var fullrate_data = {
                 "station2_code":29554,
                 "station2_name":"有明テニスの森",
                 "full_rate":{
-                    "7-8":53,
-                    "8-9":146
-                }
-            },
-            {
-                "code":6670220,
-                "station1_code":29554,
-                "station1_name":"有明テニスの森",
-                "station2_code":29555,
-                "station2_name":"市場前",
-                "full_rate":{
-                    "7-8":2,
-                    "8-9":112
+                    "7-8":{
+                        "up":183,
+                        "down":111
+                    },
+                    "8-9":{
+                        "up":81,
+                        "down":153
+                    }
                 }
             },
             {
@@ -17143,8 +26223,14 @@ var fullrate_data = {
                 "station2_code":29556,
                 "station2_name":"新豊洲",
                 "full_rate":{
-                    "7-8":174,
-                    "8-9":164
+                    "7-8":{
+                        "up":107,
+                        "down":98
+                    },
+                    "8-9":{
+                        "up":25,
+                        "down":140
+                    }
                 }
             },
             {
@@ -17154,8 +26240,48 @@ var fullrate_data = {
                 "station2_code":22839,
                 "station2_name":"豊洲",
                 "full_rate":{
-                    "7-8":142,
-                    "8-9":17
+                    "7-8":{
+                        "up":73,
+                        "down":130
+                    },
+                    "8-9":{
+                        "up":20,
+                        "down":22
+                    }
+                }
+            },
+            {
+                "code":6670220,
+                "station1_code":29554,
+                "station1_name":"有明テニスの森",
+                "station2_code":29555,
+                "station2_name":"市場前",
+                "full_rate":{
+                    "7-8":{
+                        "up":158,
+                        "down":19
+                    },
+                    "8-9":{
+                        "up":25,
+                        "down":92
+                    }
+                }
+            },
+            {
+                "code":6670150,
+                "station1_code":29054,
+                "station1_name":"お台場海浜公園",
+                "station2_code":29055,
+                "station2_name":"台場",
+                "full_rate":{
+                    "7-8":{
+                        "up":100,
+                        "down":36
+                    },
+                    "8-9":{
+                        "up":116,
+                        "down":23
+                    }
                 }
             }
         ]
@@ -17170,30 +26296,14 @@ var fullrate_data = {
                 "station2_code":22733,
                 "station2_name":"新木場",
                 "full_rate":{
-                    "7-8":122,
-                    "8-9":25
-                }
-            },
-            {
-                "code":6680110,
-                "station1_code":29072,
-                "station1_name":"国際展示場",
-                "station2_code":29071,
-                "station2_name":"東雲(東京都)",
-                "full_rate":{
-                    "7-8":76,
-                    "8-9":139
-                }
-            },
-            {
-                "code":6680120,
-                "station1_code":29072,
-                "station1_name":"国際展示場",
-                "station2_code":29073,
-                "station2_name":"東京テレポート",
-                "full_rate":{
-                    "7-8":11,
-                    "8-9":92
+                    "7-8":{
+                        "up":34,
+                        "down":111
+                    },
+                    "8-9":{
+                        "up":162,
+                        "down":93
+                    }
                 }
             },
             {
@@ -17203,8 +26313,31 @@ var fullrate_data = {
                 "station2_code":22825,
                 "station2_name":"天王洲アイル",
                 "full_rate":{
-                    "7-8":125,
-                    "8-9":0
+                    "7-8":{
+                        "up":38,
+                        "down":27
+                    },
+                    "8-9":{
+                        "up":20,
+                        "down":77
+                    }
+                }
+            },
+            {
+                "code":6680110,
+                "station1_code":29072,
+                "station1_name":"国際展示場",
+                "station2_code":29071,
+                "station2_name":"東雲(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":150,
+                        "down":122
+                    },
+                    "8-9":{
+                        "up":62,
+                        "down":12
+                    }
                 }
             },
             {
@@ -17214,8 +26347,31 @@ var fullrate_data = {
                 "station2_code":29073,
                 "station2_name":"東京テレポート",
                 "full_rate":{
-                    "7-8":7,
-                    "8-9":135
+                    "7-8":{
+                        "up":149,
+                        "down":127
+                    },
+                    "8-9":{
+                        "up":146,
+                        "down":57
+                    }
+                }
+            },
+            {
+                "code":6680120,
+                "station1_code":29072,
+                "station1_name":"国際展示場",
+                "station2_code":29073,
+                "station2_name":"東京テレポート",
+                "full_rate":{
+                    "7-8":{
+                        "up":196,
+                        "down":182
+                    },
+                    "8-9":{
+                        "up":4,
+                        "down":81
+                    }
                 }
             },
             {
@@ -17225,8 +26381,14 @@ var fullrate_data = {
                 "station2_code":29439,
                 "station2_name":"品川シーサイド",
                 "full_rate":{
-                    "7-8":90,
-                    "8-9":24
+                    "7-8":{
+                        "up":92,
+                        "down":140
+                    },
+                    "8-9":{
+                        "up":67,
+                        "down":141
+                    }
                 }
             },
             {
@@ -17236,8 +26398,14 @@ var fullrate_data = {
                 "station2_code":22559,
                 "station2_name":"大崎",
                 "full_rate":{
-                    "7-8":129,
-                    "8-9":149
+                    "7-8":{
+                        "up":134,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":180,
+                        "down":127
+                    }
                 }
             }
         ]
@@ -17252,8 +26420,14 @@ var fullrate_data = {
                 "station2_code":29233,
                 "station2_name":"桜街道",
                 "full_rate":{
-                    "7-8":67,
-                    "8-9":15
+                    "7-8":{
+                        "up":22,
+                        "down":80
+                    },
+                    "8-9":{
+                        "up":38,
+                        "down":70
+                    }
                 }
             },
             {
@@ -17263,8 +26437,14 @@ var fullrate_data = {
                 "station2_code":22805,
                 "station2_name":"玉川上水",
                 "full_rate":{
-                    "7-8":194,
-                    "8-9":34
+                    "7-8":{
+                        "up":44,
+                        "down":198
+                    },
+                    "8-9":{
+                        "up":0,
+                        "down":143
+                    }
                 }
             },
             {
@@ -17274,19 +26454,14 @@ var fullrate_data = {
                 "station2_code":22805,
                 "station2_name":"玉川上水",
                 "full_rate":{
-                    "7-8":156,
-                    "8-9":126
-                }
-            },
-            {
-                "code":6730140,
-                "station1_code":29235,
-                "station1_name":"泉体育館",
-                "station2_code":29236,
-                "station2_name":"立飛",
-                "full_rate":{
-                    "7-8":183,
-                    "8-9":1
+                    "7-8":{
+                        "up":177,
+                        "down":159
+                    },
+                    "8-9":{
+                        "up":36,
+                        "down":24
+                    }
                 }
             },
             {
@@ -17296,8 +26471,31 @@ var fullrate_data = {
                 "station2_code":29234,
                 "station2_name":"砂川七番",
                 "full_rate":{
-                    "7-8":104,
-                    "8-9":111
+                    "7-8":{
+                        "up":166,
+                        "down":131
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":19
+                    }
+                }
+            },
+            {
+                "code":6730140,
+                "station1_code":29235,
+                "station1_name":"泉体育館",
+                "station2_code":29236,
+                "station2_name":"立飛",
+                "full_rate":{
+                    "7-8":{
+                        "up":51,
+                        "down":35
+                    },
+                    "8-9":{
+                        "up":36,
+                        "down":126
+                    }
                 }
             },
             {
@@ -17307,8 +26505,14 @@ var fullrate_data = {
                 "station2_code":29236,
                 "station2_name":"立飛",
                 "full_rate":{
-                    "7-8":75,
-                    "8-9":37
+                    "7-8":{
+                        "up":110,
+                        "down":32
+                    },
+                    "8-9":{
+                        "up":49,
+                        "down":184
+                    }
                 }
             },
             {
@@ -17318,8 +26522,14 @@ var fullrate_data = {
                 "station2_code":29238,
                 "station2_name":"立川北",
                 "full_rate":{
-                    "7-8":186,
-                    "8-9":101
+                    "7-8":{
+                        "up":90,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":138,
+                        "down":141
+                    }
                 }
             },
             {
@@ -17329,19 +26539,14 @@ var fullrate_data = {
                 "station2_code":29302,
                 "station2_name":"立川南",
                 "full_rate":{
-                    "7-8":67,
-                    "8-9":140
-                }
-            },
-            {
-                "code":6730200,
-                "station1_code":29300,
-                "station1_name":"甲州街道",
-                "station2_code":29299,
-                "station2_name":"万願寺",
-                "full_rate":{
-                    "7-8":7,
-                    "8-9":110
+                    "7-8":{
+                        "up":194,
+                        "down":136
+                    },
+                    "8-9":{
+                        "up":151,
+                        "down":1
+                    }
                 }
             },
             {
@@ -17351,8 +26556,14 @@ var fullrate_data = {
                 "station2_code":29302,
                 "station2_name":"立川南",
                 "full_rate":{
-                    "7-8":58,
-                    "8-9":136
+                    "7-8":{
+                        "up":23,
+                        "down":191
+                    },
+                    "8-9":{
+                        "up":28,
+                        "down":56
+                    }
                 }
             },
             {
@@ -17362,8 +26573,31 @@ var fullrate_data = {
                 "station2_code":29301,
                 "station2_name":"柴崎体育館",
                 "full_rate":{
-                    "7-8":154,
-                    "8-9":180
+                    "7-8":{
+                        "up":47,
+                        "down":166
+                    },
+                    "8-9":{
+                        "up":169,
+                        "down":89
+                    }
+                }
+            },
+            {
+                "code":6730200,
+                "station1_code":29300,
+                "station1_name":"甲州街道",
+                "station2_code":29299,
+                "station2_name":"万願寺",
+                "full_rate":{
+                    "7-8":{
+                        "up":169,
+                        "down":60
+                    },
+                    "8-9":{
+                        "up":107,
+                        "down":34
+                    }
                 }
             },
             {
@@ -17373,8 +26607,14 @@ var fullrate_data = {
                 "station2_code":29299,
                 "station2_name":"万願寺",
                 "full_rate":{
-                    "7-8":86,
-                    "8-9":56
+                    "7-8":{
+                        "up":114,
+                        "down":91
+                    },
+                    "8-9":{
+                        "up":144,
+                        "down":64
+                    }
                 }
             },
             {
@@ -17384,8 +26624,14 @@ var fullrate_data = {
                 "station2_code":29298,
                 "station2_name":"程久保",
                 "full_rate":{
-                    "7-8":135,
-                    "8-9":40
+                    "7-8":{
+                        "up":83,
+                        "down":132
+                    },
+                    "8-9":{
+                        "up":61,
+                        "down":76
+                    }
                 }
             },
             {
@@ -17395,8 +26641,14 @@ var fullrate_data = {
                 "station2_code":29298,
                 "station2_name":"程久保",
                 "full_rate":{
-                    "7-8":91,
-                    "8-9":81
+                    "7-8":{
+                        "up":113,
+                        "down":111
+                    },
+                    "8-9":{
+                        "up":108,
+                        "down":127
+                    }
                 }
             },
             {
@@ -17406,8 +26658,14 @@ var fullrate_data = {
                 "station2_code":29297,
                 "station2_name":"中央大学・明星大学",
                 "full_rate":{
-                    "7-8":166,
-                    "8-9":84
+                    "7-8":{
+                        "up":160,
+                        "down":144
+                    },
+                    "8-9":{
+                        "up":68,
+                        "down":56
+                    }
                 }
             },
             {
@@ -17417,8 +26675,14 @@ var fullrate_data = {
                 "station2_code":29297,
                 "station2_name":"中央大学・明星大学",
                 "full_rate":{
-                    "7-8":0,
-                    "8-9":142
+                    "7-8":{
+                        "up":136,
+                        "down":110
+                    },
+                    "8-9":{
+                        "up":50,
+                        "down":26
+                    }
                 }
             },
             {
@@ -17428,8 +26692,14 @@ var fullrate_data = {
                 "station2_code":29295,
                 "station2_name":"松が谷",
                 "full_rate":{
-                    "7-8":116,
-                    "8-9":26
+                    "7-8":{
+                        "up":40,
+                        "down":167
+                    },
+                    "8-9":{
+                        "up":117,
+                        "down":90
+                    }
                 }
             },
             {
@@ -17439,8 +26709,14 @@ var fullrate_data = {
                 "station2_code":29295,
                 "station2_name":"松が谷",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":128
+                    "7-8":{
+                        "up":51,
+                        "down":79
+                    },
+                    "8-9":{
+                        "up":171,
+                        "down":190
+                    }
                 }
             }
         ]
@@ -17455,19 +26731,14 @@ var fullrate_data = {
                 "station2_code":29351,
                 "station2_name":"南鳩ケ谷",
                 "full_rate":{
-                    "7-8":119,
-                    "8-9":100
-                }
-            },
-            {
-                "code":6760100,
-                "station1_code":22488,
-                "station1_name":"赤羽岩淵",
-                "station2_code":29350,
-                "station2_name":"川口元郷",
-                "full_rate":{
-                    "7-8":196,
-                    "8-9":67
+                    "7-8":{
+                        "up":86,
+                        "down":152
+                    },
+                    "8-9":{
+                        "up":22,
+                        "down":124
+                    }
                 }
             },
             {
@@ -17477,8 +26748,31 @@ var fullrate_data = {
                 "station2_code":29351,
                 "station2_name":"南鳩ケ谷",
                 "full_rate":{
-                    "7-8":161,
-                    "8-9":32
+                    "7-8":{
+                        "up":192,
+                        "down":50
+                    },
+                    "8-9":{
+                        "up":54,
+                        "down":59
+                    }
+                }
+            },
+            {
+                "code":6760100,
+                "station1_code":22488,
+                "station1_name":"赤羽岩淵",
+                "station2_code":29350,
+                "station2_name":"川口元郷",
+                "full_rate":{
+                    "7-8":{
+                        "up":154,
+                        "down":86
+                    },
+                    "8-9":{
+                        "up":164,
+                        "down":1
+                    }
                 }
             },
             {
@@ -17488,8 +26782,14 @@ var fullrate_data = {
                 "station2_code":29352,
                 "station2_name":"鳩ケ谷",
                 "full_rate":{
-                    "7-8":180,
-                    "8-9":163
+                    "7-8":{
+                        "up":155,
+                        "down":146
+                    },
+                    "8-9":{
+                        "up":130,
+                        "down":80
+                    }
                 }
             },
             {
@@ -17499,8 +26799,14 @@ var fullrate_data = {
                 "station2_code":29354,
                 "station2_name":"戸塚安行",
                 "full_rate":{
-                    "7-8":121,
-                    "8-9":177
+                    "7-8":{
+                        "up":171,
+                        "down":97
+                    },
+                    "8-9":{
+                        "up":36,
+                        "down":2
+                    }
                 }
             },
             {
@@ -17510,8 +26816,14 @@ var fullrate_data = {
                 "station2_code":22111,
                 "station2_name":"東川口",
                 "full_rate":{
-                    "7-8":97,
-                    "8-9":42
+                    "7-8":{
+                        "up":163,
+                        "down":192
+                    },
+                    "8-9":{
+                        "up":92,
+                        "down":110
+                    }
                 }
             },
             {
@@ -17521,8 +26833,14 @@ var fullrate_data = {
                 "station2_code":22111,
                 "station2_name":"東川口",
                 "full_rate":{
-                    "7-8":113,
-                    "8-9":3
+                    "7-8":{
+                        "up":108,
+                        "down":91
+                    },
+                    "8-9":{
+                        "up":115,
+                        "down":85
+                    }
                 }
             }
         ]
@@ -17537,8 +26855,14 @@ var fullrate_data = {
                 "station2_code":29336,
                 "station2_name":"新御徒町",
                 "full_rate":{
-                    "7-8":121,
-                    "8-9":22
+                    "7-8":{
+                        "up":98,
+                        "down":41
+                    },
+                    "8-9":{
+                        "up":189,
+                        "down":146
+                    }
                 }
             },
             {
@@ -17548,8 +26872,14 @@ var fullrate_data = {
                 "station2_code":29336,
                 "station2_name":"新御徒町",
                 "full_rate":{
-                    "7-8":144,
-                    "8-9":197
+                    "7-8":{
+                        "up":107,
+                        "down":47
+                    },
+                    "8-9":{
+                        "up":152,
+                        "down":77
+                    }
                 }
             },
             {
@@ -17559,8 +26889,14 @@ var fullrate_data = {
                 "station2_code":22995,
                 "station2_name":"南千住",
                 "full_rate":{
-                    "7-8":192,
-                    "8-9":7
+                    "7-8":{
+                        "up":78,
+                        "down":111
+                    },
+                    "8-9":{
+                        "up":40,
+                        "down":21
+                    }
                 }
             },
             {
@@ -17570,8 +26906,14 @@ var fullrate_data = {
                 "station2_code":22995,
                 "station2_name":"南千住",
                 "full_rate":{
-                    "7-8":151,
-                    "8-9":169
+                    "7-8":{
+                        "up":98,
+                        "down":134
+                    },
+                    "8-9":{
+                        "up":68,
+                        "down":139
+                    }
                 }
             },
             {
@@ -17581,8 +26923,14 @@ var fullrate_data = {
                 "station2_code":22630,
                 "station2_name":"北千住",
                 "full_rate":{
-                    "7-8":21,
-                    "8-9":88
+                    "7-8":{
+                        "up":163,
+                        "down":124
+                    },
+                    "8-9":{
+                        "up":154,
+                        "down":175
+                    }
                 }
             },
             {
@@ -17592,19 +26940,14 @@ var fullrate_data = {
                 "station2_code":29399,
                 "station2_name":"六町",
                 "full_rate":{
-                    "7-8":19,
-                    "8-9":62
-                }
-            },
-            {
-                "code":6920160,
-                "station1_code":29400,
-                "station1_name":"八潮",
-                "station2_code":29399,
-                "station2_name":"六町",
-                "full_rate":{
-                    "7-8":4,
-                    "8-9":70
+                    "7-8":{
+                        "up":49,
+                        "down":172
+                    },
+                    "8-9":{
+                        "up":30,
+                        "down":150
+                    }
                 }
             },
             {
@@ -17614,8 +26957,31 @@ var fullrate_data = {
                 "station2_code":29400,
                 "station2_name":"八潮",
                 "full_rate":{
-                    "7-8":3,
-                    "8-9":160
+                    "7-8":{
+                        "up":76,
+                        "down":113
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":193
+                    }
+                }
+            },
+            {
+                "code":6920160,
+                "station1_code":29400,
+                "station1_name":"八潮",
+                "station2_code":29399,
+                "station2_name":"六町",
+                "full_rate":{
+                    "7-8":{
+                        "up":157,
+                        "down":100
+                    },
+                    "8-9":{
+                        "up":69,
+                        "down":56
+                    }
                 }
             },
             {
@@ -17625,52 +26991,14 @@ var fullrate_data = {
                 "station2_code":22455,
                 "station2_name":"南流山",
                 "full_rate":{
-                    "7-8":94,
-                    "8-9":166
-                }
-            },
-            {
-                "code":6920200,
-                "station1_code":29403,
-                "station1_name":"流山おおたかの森",
-                "station2_code":29402,
-                "station2_name":"流山セントラルパーク",
-                "full_rate":{
-                    "7-8":172,
-                    "8-9":63
-                }
-            },
-            {
-                "code":6920220,
-                "station1_code":29405,
-                "station1_name":"柏たなか",
-                "station2_code":29404,
-                "station2_name":"柏の葉キャンパス",
-                "full_rate":{
-                    "7-8":160,
-                    "8-9":17
-                }
-            },
-            {
-                "code":6920210,
-                "station1_code":29404,
-                "station1_name":"柏の葉キャンパス",
-                "station2_code":29403,
-                "station2_name":"流山おおたかの森",
-                "full_rate":{
-                    "7-8":54,
-                    "8-9":187
-                }
-            },
-            {
-                "code":6920250,
-                "station1_code":29407,
-                "station1_name":"みどりの",
-                "station2_code":29406,
-                "station2_name":"みらい平",
-                "full_rate":{
-                    "7-8":21,
-                    "8-9":158
+                    "7-8":{
+                        "up":41,
+                        "down":171
+                    },
+                    "8-9":{
+                        "up":143,
+                        "down":19
+                    }
                 }
             },
             {
@@ -17680,52 +27008,65 @@ var fullrate_data = {
                 "station2_code":22455,
                 "station2_name":"南流山",
                 "full_rate":{
-                    "7-8":77,
-                    "8-9":151
+                    "7-8":{
+                        "up":181,
+                        "down":2
+                    },
+                    "8-9":{
+                        "up":183,
+                        "down":133
+                    }
                 }
             },
             {
-                "code":6920240,
-                "station1_code":29406,
-                "station1_name":"みらい平",
-                "station2_code":21718,
-                "station2_name":"守谷",
+                "code":6920200,
+                "station1_code":29403,
+                "station1_name":"流山おおたかの森",
+                "station2_code":29402,
+                "station2_name":"流山セントラルパーク",
                 "full_rate":{
-                    "7-8":120,
-                    "8-9":62
+                    "7-8":{
+                        "up":131,
+                        "down":154
+                    },
+                    "8-9":{
+                        "up":86,
+                        "down":153
+                    }
                 }
             },
             {
-                "code":6920260,
-                "station1_code":29408,
-                "station1_name":"万博記念公園(茨城県)",
-                "station2_code":29407,
-                "station2_name":"みどりの",
+                "code":6920210,
+                "station1_code":29404,
+                "station1_name":"柏の葉キャンパス",
+                "station2_code":29403,
+                "station2_name":"流山おおたかの森",
                 "full_rate":{
-                    "7-8":174,
-                    "8-9":169
+                    "7-8":{
+                        "up":105,
+                        "down":10
+                    },
+                    "8-9":{
+                        "up":196,
+                        "down":152
+                    }
                 }
             },
             {
-                "code":6920270,
-                "station1_code":29409,
-                "station1_name":"研究学園",
-                "station2_code":29408,
-                "station2_name":"万博記念公園(茨城県)",
+                "code":6920220,
+                "station1_code":29405,
+                "station1_name":"柏たなか",
+                "station2_code":29404,
+                "station2_name":"柏の葉キャンパス",
                 "full_rate":{
-                    "7-8":74,
-                    "8-9":177
-                }
-            },
-            {
-                "code":6920280,
-                "station1_code":29409,
-                "station1_name":"研究学園",
-                "station2_code":29410,
-                "station2_name":"つくば",
-                "full_rate":{
-                    "7-8":158,
-                    "8-9":138
+                    "7-8":{
+                        "up":29,
+                        "down":137
+                    },
+                    "8-9":{
+                        "up":104,
+                        "down":129
+                    }
                 }
             },
             {
@@ -17735,8 +27076,99 @@ var fullrate_data = {
                 "station2_code":21718,
                 "station2_name":"守谷",
                 "full_rate":{
-                    "7-8":76,
-                    "8-9":151
+                    "7-8":{
+                        "up":25,
+                        "down":55
+                    },
+                    "8-9":{
+                        "up":94,
+                        "down":104
+                    }
+                }
+            },
+            {
+                "code":6920240,
+                "station1_code":29406,
+                "station1_name":"みらい平",
+                "station2_code":21718,
+                "station2_name":"守谷",
+                "full_rate":{
+                    "7-8":{
+                        "up":5,
+                        "down":103
+                    },
+                    "8-9":{
+                        "up":117,
+                        "down":112
+                    }
+                }
+            },
+            {
+                "code":6920260,
+                "station1_code":29408,
+                "station1_name":"万博記念公園(茨城県)",
+                "station2_code":29407,
+                "station2_name":"みどりの",
+                "full_rate":{
+                    "7-8":{
+                        "up":63,
+                        "down":181
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":81
+                    }
+                }
+            },
+            {
+                "code":6920250,
+                "station1_code":29407,
+                "station1_name":"みどりの",
+                "station2_code":29406,
+                "station2_name":"みらい平",
+                "full_rate":{
+                    "7-8":{
+                        "up":3,
+                        "down":52
+                    },
+                    "8-9":{
+                        "up":101,
+                        "down":92
+                    }
+                }
+            },
+            {
+                "code":6920270,
+                "station1_code":29409,
+                "station1_name":"研究学園",
+                "station2_code":29408,
+                "station2_name":"万博記念公園(茨城県)",
+                "full_rate":{
+                    "7-8":{
+                        "up":70,
+                        "down":91
+                    },
+                    "8-9":{
+                        "up":42,
+                        "down":99
+                    }
+                }
+            },
+            {
+                "code":6920280,
+                "station1_code":29409,
+                "station1_name":"研究学園",
+                "station2_code":29410,
+                "station2_name":"つくば",
+                "full_rate":{
+                    "7-8":{
+                        "up":3,
+                        "down":101
+                    },
+                    "8-9":{
+                        "up":60,
+                        "down":176
+                    }
                 }
             }
         ]
@@ -17751,8 +27183,14 @@ var fullrate_data = {
                 "station2_code":23036,
                 "station2_name":"有楽町",
                 "full_rate":{
-                    "7-8":133,
-                    "8-9":136
+                    "7-8":{
+                        "up":131,
+                        "down":17
+                    },
+                    "8-9":{
+                        "up":9,
+                        "down":127
+                    }
                 }
             }
         ]
@@ -17767,8 +27205,14 @@ var fullrate_data = {
                 "station2_code":29213,
                 "station2_name":"都庁前",
                 "full_rate":{
-                    "7-8":193,
-                    "8-9":151
+                    "7-8":{
+                        "up":182,
+                        "down":162
+                    },
+                    "8-9":{
+                        "up":56,
+                        "down":118
+                    }
                 }
             },
             {
@@ -17778,8 +27222,14 @@ var fullrate_data = {
                 "station2_code":29331,
                 "station2_name":"東新宿",
                 "full_rate":{
-                    "7-8":90,
-                    "8-9":129
+                    "7-8":{
+                        "up":175,
+                        "down":125
+                    },
+                    "8-9":{
+                        "up":193,
+                        "down":64
+                    }
                 }
             },
             {
@@ -17789,8 +27239,14 @@ var fullrate_data = {
                 "station2_code":29332,
                 "station2_name":"若松河田",
                 "full_rate":{
-                    "7-8":12,
-                    "8-9":159
+                    "7-8":{
+                        "up":132,
+                        "down":68
+                    },
+                    "8-9":{
+                        "up":148,
+                        "down":141
+                    }
                 }
             },
             {
@@ -17800,8 +27256,14 @@ var fullrate_data = {
                 "station2_code":29332,
                 "station2_name":"若松河田",
                 "full_rate":{
-                    "7-8":118,
-                    "8-9":24
+                    "7-8":{
+                        "up":42,
+                        "down":5
+                    },
+                    "8-9":{
+                        "up":166,
+                        "down":163
+                    }
                 }
             },
             {
@@ -17811,19 +27273,14 @@ var fullrate_data = {
                 "station2_code":29333,
                 "station2_name":"牛込柳町",
                 "full_rate":{
-                    "7-8":65,
-                    "8-9":193
-                }
-            },
-            {
-                "code":7570150,
-                "station1_code":22507,
-                "station1_name":"飯田橋",
-                "station2_code":22595,
-                "station2_name":"春日(東京都)",
-                "full_rate":{
-                    "7-8":76,
-                    "8-9":179
+                    "7-8":{
+                        "up":110,
+                        "down":89
+                    },
+                    "8-9":{
+                        "up":152,
+                        "down":176
+                    }
                 }
             },
             {
@@ -17833,8 +27290,31 @@ var fullrate_data = {
                 "station2_code":29334,
                 "station2_name":"牛込神楽坂",
                 "full_rate":{
-                    "7-8":27,
-                    "8-9":41
+                    "7-8":{
+                        "up":181,
+                        "down":8
+                    },
+                    "8-9":{
+                        "up":37,
+                        "down":46
+                    }
+                }
+            },
+            {
+                "code":7570150,
+                "station1_code":22507,
+                "station1_name":"飯田橋",
+                "station2_code":22595,
+                "station2_name":"春日(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":7,
+                        "down":121
+                    },
+                    "8-9":{
+                        "up":99,
+                        "down":20
+                    }
                 }
             },
             {
@@ -17844,8 +27324,14 @@ var fullrate_data = {
                 "station2_code":22973,
                 "station2_name":"本郷三丁目",
                 "full_rate":{
-                    "7-8":76,
-                    "8-9":124
+                    "7-8":{
+                        "up":67,
+                        "down":94
+                    },
+                    "8-9":{
+                        "up":33,
+                        "down":161
+                    }
                 }
             },
             {
@@ -17855,8 +27341,14 @@ var fullrate_data = {
                 "station2_code":22973,
                 "station2_name":"本郷三丁目",
                 "full_rate":{
-                    "7-8":172,
-                    "8-9":91
+                    "7-8":{
+                        "up":129,
+                        "down":110
+                    },
+                    "8-9":{
+                        "up":102,
+                        "down":30
+                    }
                 }
             },
             {
@@ -17866,8 +27358,14 @@ var fullrate_data = {
                 "station2_code":29336,
                 "station2_name":"新御徒町",
                 "full_rate":{
-                    "7-8":67,
-                    "8-9":121
+                    "7-8":{
+                        "up":161,
+                        "down":70
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":176
+                    }
                 }
             },
             {
@@ -17877,8 +27375,14 @@ var fullrate_data = {
                 "station2_code":29336,
                 "station2_name":"新御徒町",
                 "full_rate":{
-                    "7-8":158,
-                    "8-9":198
+                    "7-8":{
+                        "up":137,
+                        "down":12
+                    },
+                    "8-9":{
+                        "up":5,
+                        "down":112
+                    }
                 }
             },
             {
@@ -17888,8 +27392,14 @@ var fullrate_data = {
                 "station2_code":23023,
                 "station2_name":"森下(東京都)",
                 "full_rate":{
-                    "7-8":91,
-                    "8-9":38
+                    "7-8":{
+                        "up":139,
+                        "down":184
+                    },
+                    "8-9":{
+                        "up":30,
+                        "down":122
+                    }
                 }
             },
             {
@@ -17899,8 +27409,14 @@ var fullrate_data = {
                 "station2_code":23024,
                 "station2_name":"門前仲町",
                 "full_rate":{
-                    "7-8":195,
-                    "8-9":63
+                    "7-8":{
+                        "up":117,
+                        "down":167
+                    },
+                    "8-9":{
+                        "up":93,
+                        "down":180
+                    }
                 }
             },
             {
@@ -17910,8 +27426,14 @@ var fullrate_data = {
                 "station2_code":23024,
                 "station2_name":"門前仲町",
                 "full_rate":{
-                    "7-8":87,
-                    "8-9":80
+                    "7-8":{
+                        "up":15,
+                        "down":174
+                    },
+                    "8-9":{
+                        "up":176,
+                        "down":36
+                    }
                 }
             },
             {
@@ -17921,8 +27443,14 @@ var fullrate_data = {
                 "station2_code":22820,
                 "station2_name":"月島",
                 "full_rate":{
-                    "7-8":193,
-                    "8-9":23
+                    "7-8":{
+                        "up":9,
+                        "down":65
+                    },
+                    "8-9":{
+                        "up":140,
+                        "down":148
+                    }
                 }
             },
             {
@@ -17932,8 +27460,14 @@ var fullrate_data = {
                 "station2_code":29340,
                 "station2_name":"築地市場",
                 "full_rate":{
-                    "7-8":122,
-                    "8-9":92
+                    "7-8":{
+                        "up":13,
+                        "down":6
+                    },
+                    "8-9":{
+                        "up":147,
+                        "down":31
+                    }
                 }
             },
             {
@@ -17943,19 +27477,14 @@ var fullrate_data = {
                 "station2_code":29340,
                 "station2_name":"築地市場",
                 "full_rate":{
-                    "7-8":35,
-                    "8-9":36
-                }
-            },
-            {
-                "code":7570290,
-                "station1_code":29341,
-                "station1_name":"赤羽橋",
-                "station2_code":22815,
-                "station2_name":"大門(東京都)",
-                "full_rate":{
-                    "7-8":65,
-                    "8-9":56
+                    "7-8":{
+                        "up":39,
+                        "down":164
+                    },
+                    "8-9":{
+                        "up":7,
+                        "down":105
+                    }
                 }
             },
             {
@@ -17965,8 +27494,31 @@ var fullrate_data = {
                 "station2_code":22815,
                 "station2_name":"大門(東京都)",
                 "full_rate":{
-                    "7-8":20,
-                    "8-9":66
+                    "7-8":{
+                        "up":179,
+                        "down":130
+                    },
+                    "8-9":{
+                        "up":94,
+                        "down":186
+                    }
+                }
+            },
+            {
+                "code":7570290,
+                "station1_code":29341,
+                "station1_name":"赤羽橋",
+                "station2_code":22815,
+                "station2_name":"大門(東京都)",
+                "full_rate":{
+                    "7-8":{
+                        "up":70,
+                        "down":37
+                    },
+                    "8-9":{
+                        "up":72,
+                        "down":75
+                    }
                 }
             },
             {
@@ -17976,8 +27528,14 @@ var fullrate_data = {
                 "station2_code":29325,
                 "station2_name":"麻布十番",
                 "full_rate":{
-                    "7-8":53,
-                    "8-9":163
+                    "7-8":{
+                        "up":65,
+                        "down":152
+                    },
+                    "8-9":{
+                        "up":194,
+                        "down":23
+                    }
                 }
             },
             {
@@ -17987,8 +27545,14 @@ var fullrate_data = {
                 "station2_code":23049,
                 "station2_name":"六本木",
                 "full_rate":{
-                    "7-8":135,
-                    "8-9":58
+                    "7-8":{
+                        "up":50,
+                        "down":22
+                    },
+                    "8-9":{
+                        "up":144,
+                        "down":112
+                    }
                 }
             },
             {
@@ -17998,8 +27562,14 @@ var fullrate_data = {
                 "station2_code":23049,
                 "station2_name":"六本木",
                 "full_rate":{
-                    "7-8":60,
-                    "8-9":58
+                    "7-8":{
+                        "up":23,
+                        "down":20
+                    },
+                    "8-9":{
+                        "up":101,
+                        "down":55
+                    }
                 }
             },
             {
@@ -18009,8 +27579,14 @@ var fullrate_data = {
                 "station2_code":29321,
                 "station2_name":"国立競技場",
                 "full_rate":{
-                    "7-8":5,
-                    "8-9":87
+                    "7-8":{
+                        "up":170,
+                        "down":55
+                    },
+                    "8-9":{
+                        "up":177,
+                        "down":176
+                    }
                 }
             },
             {
@@ -18020,30 +27596,14 @@ var fullrate_data = {
                 "station2_code":23043,
                 "station2_name":"代々木",
                 "full_rate":{
-                    "7-8":165,
-                    "8-9":43
-                }
-            },
-            {
-                "code":7570360,
-                "station1_code":22741,
-                "station1_name":"新宿",
-                "station2_code":29213,
-                "station2_name":"都庁前",
-                "full_rate":{
-                    "7-8":84,
-                    "8-9":60
-                }
-            },
-            {
-                "code":7570370,
-                "station1_code":29213,
-                "station1_name":"都庁前",
-                "station2_code":29214,
-                "station2_name":"西新宿五丁目",
-                "full_rate":{
-                    "7-8":30,
-                    "8-9":193
+                    "7-8":{
+                        "up":134,
+                        "down":123
+                    },
+                    "8-9":{
+                        "up":56,
+                        "down":154
+                    }
                 }
             },
             {
@@ -18053,19 +27613,31 @@ var fullrate_data = {
                 "station2_code":23043,
                 "station2_name":"代々木",
                 "full_rate":{
-                    "7-8":71,
-                    "8-9":136
+                    "7-8":{
+                        "up":153,
+                        "down":41
+                    },
+                    "8-9":{
+                        "up":47,
+                        "down":62
+                    }
                 }
             },
             {
-                "code":7570390,
-                "station1_code":22850,
-                "station1_name":"中野坂上",
-                "station2_code":22936,
-                "station2_name":"東中野",
+                "code":7570360,
+                "station1_code":22741,
+                "station1_name":"新宿",
+                "station2_code":29213,
+                "station2_name":"都庁前",
                 "full_rate":{
-                    "7-8":116,
-                    "8-9":14
+                    "7-8":{
+                        "up":72,
+                        "down":133
+                    },
+                    "8-9":{
+                        "up":97,
+                        "down":70
+                    }
                 }
             },
             {
@@ -18075,8 +27647,31 @@ var fullrate_data = {
                 "station2_code":29214,
                 "station2_name":"西新宿五丁目",
                 "full_rate":{
-                    "7-8":22,
-                    "8-9":109
+                    "7-8":{
+                        "up":128,
+                        "down":168
+                    },
+                    "8-9":{
+                        "up":76,
+                        "down":140
+                    }
+                }
+            },
+            {
+                "code":7570390,
+                "station1_code":22850,
+                "station1_name":"中野坂上",
+                "station2_code":22936,
+                "station2_name":"東中野",
+                "full_rate":{
+                    "7-8":{
+                        "up":141,
+                        "down":68
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":47
+                    }
                 }
             },
             {
@@ -18086,8 +27681,31 @@ var fullrate_data = {
                 "station2_code":22936,
                 "station2_name":"東中野",
                 "full_rate":{
-                    "7-8":82,
-                    "8-9":197
+                    "7-8":{
+                        "up":162,
+                        "down":145
+                    },
+                    "8-9":{
+                        "up":21,
+                        "down":146
+                    }
+                }
+            },
+            {
+                "code":7570370,
+                "station1_code":29213,
+                "station1_name":"都庁前",
+                "station2_code":29214,
+                "station2_name":"西新宿五丁目",
+                "full_rate":{
+                    "7-8":{
+                        "up":197,
+                        "down":94
+                    },
+                    "8-9":{
+                        "up":65,
+                        "down":88
+                    }
                 }
             },
             {
@@ -18097,8 +27715,14 @@ var fullrate_data = {
                 "station2_code":22844,
                 "station2_name":"中井",
                 "full_rate":{
-                    "7-8":173,
-                    "8-9":194
+                    "7-8":{
+                        "up":191,
+                        "down":121
+                    },
+                    "8-9":{
+                        "up":119,
+                        "down":92
+                    }
                 }
             },
             {
@@ -18108,8 +27732,14 @@ var fullrate_data = {
                 "station2_code":29216,
                 "station2_name":"新江古田",
                 "full_rate":{
-                    "7-8":93,
-                    "8-9":176
+                    "7-8":{
+                        "up":45,
+                        "down":149
+                    },
+                    "8-9":{
+                        "up":166,
+                        "down":84
+                    }
                 }
             },
             {
@@ -18119,30 +27749,14 @@ var fullrate_data = {
                 "station2_code":22889,
                 "station2_name":"練馬",
                 "full_rate":{
-                    "7-8":133,
-                    "8-9":10
-                }
-            },
-            {
-                "code":7570460,
-                "station1_code":22890,
-                "station1_name":"練馬春日町",
-                "station2_code":22920,
-                "station2_name":"光が丘",
-                "full_rate":{
-                    "7-8":41,
-                    "8-9":176
-                }
-            },
-            {
-                "code":7570450,
-                "station1_code":22836,
-                "station1_name":"豊島園(都営線)",
-                "station2_code":22890,
-                "station2_name":"練馬春日町",
-                "full_rate":{
-                    "7-8":16,
-                    "8-9":166
+                    "7-8":{
+                        "up":119,
+                        "down":126
+                    },
+                    "8-9":{
+                        "up":99,
+                        "down":168
+                    }
                 }
             },
             {
@@ -18152,8 +27766,48 @@ var fullrate_data = {
                 "station2_code":22889,
                 "station2_name":"練馬",
                 "full_rate":{
-                    "7-8":44,
-                    "8-9":17
+                    "7-8":{
+                        "up":195,
+                        "down":62
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":82
+                    }
+                }
+            },
+            {
+                "code":7570450,
+                "station1_code":22836,
+                "station1_name":"豊島園(都営線)",
+                "station2_code":22890,
+                "station2_name":"練馬春日町",
+                "full_rate":{
+                    "7-8":{
+                        "up":103,
+                        "down":16
+                    },
+                    "8-9":{
+                        "up":32,
+                        "down":191
+                    }
+                }
+            },
+            {
+                "code":7570460,
+                "station1_code":22890,
+                "station1_name":"練馬春日町",
+                "station2_code":22920,
+                "station2_name":"光が丘",
+                "full_rate":{
+                    "7-8":{
+                        "up":102,
+                        "down":73
+                    },
+                    "8-9":{
+                        "up":153,
+                        "down":19
+                    }
                 }
             }
         ]
@@ -18168,8 +27822,14 @@ var fullrate_data = {
                 "station2_code":29737,
                 "station2_name":"高尾山",
                 "full_rate":{
-                    "7-8":84,
-                    "8-9":59
+                    "7-8":{
+                        "up":42,
+                        "down":193
+                    },
+                    "8-9":{
+                        "up":1,
+                        "down":32
+                    }
                 }
             }
         ]
@@ -18184,8 +27844,14 @@ var fullrate_data = {
                 "station2_code":29739,
                 "station2_name":"御岳山",
                 "full_rate":{
-                    "7-8":24,
-                    "8-9":79
+                    "7-8":{
+                        "up":12,
+                        "down":128
+                    },
+                    "8-9":{
+                        "up":74,
+                        "down":54
+                    }
                 }
             }
         ]
@@ -18200,8 +27866,14 @@ var fullrate_data = {
                 "station2_code":22828,
                 "station2_name":"東京",
                 "full_rate":{
-                    "7-8":15,
-                    "8-9":89
+                    "7-8":{
+                        "up":115,
+                        "down":33
+                    },
+                    "8-9":{
+                        "up":79,
+                        "down":165
+                    }
                 }
             }
         ]
