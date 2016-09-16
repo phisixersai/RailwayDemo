@@ -3,7 +3,7 @@ var selectedSections = [];
 var code2indexMap = {};
 function init() {
 	rosen = new Rosen('map', {
-		apiKey: "4wnydu6huaentetjfypvvqah",
+		apiKey: "************",
 		centerStation: 22917,
         consoleViewControl: true,
 		zoom: 16,   //
